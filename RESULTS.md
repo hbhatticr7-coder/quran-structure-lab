@@ -598,3 +598,50 @@ The miss on sura 12 matters for how much weight the null carries. A detector tha
 - One resolution (twelve equal blocks). A detector that allows unequal sections would have more power but far more freedom, and would need a much stricter check against false alarms.
 - Biblical chapters are later divisions, not compositional units.
 - Wording only.
+
+---
+
+# Results, batch 13: a second length-ordered collection, the Mishnah (2026-11-14)
+
+Specified in `PREREGISTRATION_batch13.md`, which was committed to the public repository (commit 6096135) before any similarity between tractates was computed and before this batch's code was written. Run once. Numbers are in `results/batch13.json`.
+
+The Mishnah has 63 tractates in six orders. Within each order the tractates run from the most chapters to the fewest, with exceptions: 22 of the 308 within-order pairs (7.1%) stand the wrong way round. The mushaf's figure is 6.7%.
+
+## The measure works
+
+Tractates in the same order are far more alike than tractates in different orders (+0.27, p = 0.0001), and the three Bavot, originally one tractate, score 0.95 to 0.99 with each other.
+
+## Results
+
+| Test | Mishnah | Strict sort | Random exceptions | p |
+|---|---|---|---|---|
+| M1. Similarity of adjacent tractates, length in chapters | 0.822 | 0.761 | 0.740 | 0.0001 |
+| M2. Length in words | 0.822 | 0.753 | 0.749 | 0.0003 |
+| M3. True exceptions only (tied tractates left as they are) | 0.822 | 0.761 | 0.758 | 0.0004 |
+| M4. Without Avot, the three Bavot as one | 0.813 | 0.745 | 0.730 | 0.0002 |
+
+In M1 none of the 7,363 random orders did as well as the Mishnah.
+
+I predicted M1 would pass and that M3 might fail for lack of exceptions. M3 passed.
+
+## Reading under the pre-stated rule
+
+M1 and M3 pass. Exceptions that raise resemblance are found in a second length-ordered collection. The pattern in the mushaf is what careful human arrangement looks like, and it is not distinctive.
+
+The two collections are close in size of effect as well as in kind:
+
+| | Share of pairs out of order | Actual | Random exceptions | Gap in null standard deviations |
+|---|---|---|---|---|
+| Mushaf (batch 11, vocabulary) | 6.7% | 0.623 | 0.554 | 3.9 |
+| Mishnah (M1) | 7.1% | 0.822 | 0.740 | 4.2 |
+
+## What this does to batch 11
+
+Batch 11 stands: the mushaf's order is deliberate and not a bare sort by length. What changes is how much that says. The Mishnah was arranged by its editors, and it shows the same thing to the same degree. So the arrangement finding is evidence of deliberate arrangement and gives no ground for saying the arrangement is beyond what people do.
+
+## Limits
+
+- One comparison collection, in a different genre.
+- The Mishnah measure uses word forms without lemmas, so it is cruder than the Quran measure. A cruder measure would be expected to weaken the result, and it is strong anyway.
+- The Mishnah is built in six thematic orders; the mushaf has no such divisions. The tests respect that (only within-order pairs are used), but the two arrangements are not built the same way.
+- Printed chapter counts differ slightly from older ones in a few tractates.

@@ -90,6 +90,12 @@ Batch 12 (outline-free census of ring and parallel structure; the detectors are 
 node scripts/19_batch12_shape_census.mjs
 ```
 
+Batch 13 (the Mishnah as a second length-ordered collection):
+
+```bash
+node scripts/21_batch13_mishnah.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

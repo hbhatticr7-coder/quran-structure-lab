@@ -1,0 +1,66 @@
+{
+  "preregistrationSha256": "b738a60b72a177db5e8373cb48ec5ad03f0c7bc2fb35c9a6b398dee461154daf",
+  "tractates": 63,
+  "words": 191451,
+  "V_validation": {
+    "sameOrderMinusCrossOrder": 0.2651,
+    "p": 0.0001,
+    "threeBavotSimilarity": [
+      0.9918,
+      0.9508,
+      0.9918
+    ]
+  },
+  "M1_chapters": {
+    "units": 63,
+    "adjacentPairs": 57,
+    "disorderPairs": 22,
+    "disorderShare": 0.0714,
+    "noiseSigma": 0.2002,
+    "nullOrdersKept": 7363,
+    "actual": 0.822,
+    "strictSort": 0.761,
+    "nullMean": 0.7395,
+    "nullSd": 0.0194,
+    "p": 0.000136
+  },
+  "M2_words": {
+    "units": 63,
+    "adjacentPairs": 57,
+    "disorderPairs": 48,
+    "disorderShare": 0.1558,
+    "noiseSigma": 0.3282,
+    "nullOrdersKept": 9093,
+    "actual": 0.822,
+    "strictSort": 0.7527,
+    "nullMean": 0.7489,
+    "nullSd": 0.0201,
+    "p": 0.00033
+  },
+  "M3_trueExceptionsOnly": {
+    "units": 63,
+    "adjacentPairs": 57,
+    "disorderPairs": 22,
+    "disorderShare": 0.0714,
+    "noiseSigma": 0.1988,
+    "nullOrdersKept": 7493,
+    "actual": 0.822,
+    "strictSort": 0.761,
+    "nullMean": 0.7575,
+    "nullSd": 0.0193,
+    "p": 0.0004
+  },
+  "M4_withoutAvot_bavotMerged": {
+    "units": 60,
+    "adjacentPairs": 54,
+    "disorderPairs": 17,
+    "disorderShare": 0.0599,
+    "noiseSigma": 0.1872,
+    "nullOrdersKept": 5250,
+    "actual": 0.8132,
+    "strictSort": 0.7454,
+    "nullMean": 0.7298,
+    "nullSd": 0.0193,
+    "p": 0.00019
+  }
+}

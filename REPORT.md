@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what twelve pre-registered batches of tests found
+# Structure in the Quran's arrangement: what thirteen pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -6,7 +6,9 @@
 
 The order of suras in the mushaf is more than a sort by length. Neighbouring suras share vocabulary and rhyme beyond what their lengths and revelation dates predict, and the places where the mushaf breaks the longest-first rule are the places that produce this. None of 15,541 random orders that break the rule equally often did as well.
 
-Twelve batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
+
+Thirteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -19,6 +21,7 @@ Passed a pre-registered test and survived the checks set for it.
 | Mushaf neighbours share vocabulary beyond length and date | +5.4 percentile points, p = 0.0004; holds under a second chronology (batch 2) |
 | Mushaf neighbours share rhyme beyond length and date | +7.1 points, p = 0.0004; survives removal of its five strongest pairs (batch 6) |
 | The exceptions to the length rule raise neighbour resemblance | Vocabulary 0.623 against 0.554 for random exceptions, p = 0.00006; rhyme p = 0.0002; holds with all lettered suras removed (batch 11) |
+| The Mishnah's exceptions to its length rule do the same | Adjacent tractates 0.822 against 0.740 for random exceptions, p = 0.0001; holds for true exceptions alone (batch 13) |
 | Sura 12 is a ring in its wording | Farrin's mirror pairing is the best of 945; the Genesis telling shows none under its published outline, p = 0.62 (batches 1, 3) |
 | Suras with opening letters form one class | Alike in rhyme (+13.1 points, p = 0.0001) and in vocabulary (+5.0), whichever letters they carry (batches 7, 8) |
 | The opening letters keep one internal order | 0.11% of random arrangements are as consistent (batch 8) |
@@ -70,23 +73,22 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 
 ## Limits
 
-- **No outside timestamp.** The test plans are internal. Until the project is committed somewhere public, "written before running" rests on the files alone.
+- **Outside timestamps start late.** Batches 1 to 12 were committed publicly only after they had run. Batch 13 is the first whose plan was committed before its results.
 - **One text.** Each new test on the same text is less blind than the last. Later batches built on measures developed in earlier ones.
 - **Shared wording only.** The measures cannot see a thematic parallel that uses different words, so a null result does not refute a claim made on thematic grounds.
 - **Chronology is uncertain.** Both revelation orders are traditional lists, and many suras mix periods.
-- **The arrangement result has no comparison text yet.** Other collections ordered by length (the Mishnah's tractates, Paul's letters) have not been tested, so it is not known whether exceptions that raise resemblance are unusual.
+- **The arrangement pattern is not distinctive.** One comparison collection, the Mishnah, shows it equally. Its similarity measure is cruder (word forms, no lemmas) and its genre is different, so a second comparison with lemma-level data would firm this up.
 - **Structure is not authorship.** These tests show that the arrangement and some compositions are deliberate. They do not show who was responsible, and careful human arrangement would produce the same patterns.
 
 ## Next
 
-1. Commit the project publicly to fix the record.
-2. Test a second length-ordered collection for the same pattern.
-3. Build a ring detector that allows sections of unequal length; the equal-block one missed sura 12.
+1. Test a third length-ordered collection with lemma-level data, to check the Mishnah comparison like for like.
+2. Build a ring detector that allows sections of unequal length; the equal-block one missed sura 12.
 
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the twelve test plans.
+- `PREREGISTRATION*.md`: the thirteen test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
 - `claims/registry.json`: the claims tested and their sources.
 - `README.md`: how to re-run everything.
