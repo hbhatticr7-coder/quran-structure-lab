@@ -1,0 +1,92 @@
+{
+  "preregistrationSha256": "cddab9fa3adc64cacc77938a0565f48813b90d5c516d992ad8dc7648837b0dc6",
+  "seed": 20261115,
+  "perms": 10000,
+  "primary": {
+    "test": "PRIMARY: ADJ | chron(Egyptian), type, len, mvl, sura effects",
+    "beta": 0.0544,
+    "t": 3.4848,
+    "p": 0.0004
+  },
+  "secondary": {
+    "S1": {
+      "test": "S1: ADJ, adding mushaf-distance gradient",
+      "beta": 0.0177,
+      "t": 0.9871,
+      "p": 0.162
+    },
+    "S2": {
+      "test": "S2: ADJ with Noldeke chronology",
+      "beta": 0.0456,
+      "t": 2.9341,
+      "p": 0.0022
+    },
+    "S3": {
+      "test": "S3: ADJ, raw cosine response",
+      "beta": 0.0043,
+      "t": 2.0958,
+      "p": 0.0205
+    },
+    "S4": [
+      {
+        "test": "S4: distance 1",
+        "beta": 0.0571,
+        "t": 3.6091,
+        "p": 0.0002
+      },
+      {
+        "test": "S4: distance 2",
+        "beta": 0.0082,
+        "t": 0.5166,
+        "p": 0.29
+      },
+      {
+        "test": "S4: distance 3",
+        "beta": 0.0207,
+        "t": 1.3051,
+        "p": 0.0956
+      },
+      {
+        "test": "S4: distance 4-5",
+        "beta": 0.0134,
+        "t": 1.1476,
+        "p": 0.132
+      },
+      {
+        "test": "S4: distance 6-10",
+        "beta": 0.0003,
+        "t": 0.0386,
+        "p": 0.482
+      }
+    ],
+    "S5": [
+      {
+        "test": "S5: Farrin's 53 pairs",
+        "beta": 0.0976,
+        "t": 4.3299,
+        "p": 0.0001
+      },
+      {
+        "test": "S5: the 60 other adjacent pairs",
+        "beta": 0.0165,
+        "t": 0.7819,
+        "p": 0.22
+      }
+    ],
+    "S6": {
+      "test": "S6: revelation-order neighbours (Egyptian) | mushaf gradient, type, len, mvl, sura effects",
+      "beta": 0.0338,
+      "t": 2.1595,
+      "p": 0.0181
+    }
+  },
+  "descriptive": {
+    "chanceLevel": 0.5,
+    "meanS_mushafNeighbours": 0.6234,
+    "meanS_revelationOrderNeighbours": 0.6059,
+    "mushafNeighbours_medianRevelationRankGap": 16,
+    "meanS_mushafNeighbours_revealedCloseTogether": 0.644,
+    "meanS_mushafNeighbours_revealedFarApart": 0.6065,
+    "meanS_allPairs": 0.5
+  }
+}

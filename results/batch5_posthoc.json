@@ -1,0 +1,16 @@
+{
+  "note": "Post hoc. Added after seeing batch 5 results; no confirmatory weight.",
+  "allFrames": 169,
+  "framesWithoutProperNameVariants": 104,
+  "local": {
+    "informativeFrames": 64,
+    "positive": 42,
+    "negative": 22,
+    "meanExcessPerInformativeFrame": 0.3807,
+    "bootstrap95": [
+      0.1713,
+      0.6015
+    ],
+    "p": 0.00005
+  }
+}

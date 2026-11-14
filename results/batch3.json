@@ -1,0 +1,254 @@
+{
+  "preregistrationSha256": "28064b13891aecc529189c936b92d6f156fea07a72ff1eb7de01f0610efbd8b1",
+  "G0_validation": {
+    "similarity_12_10_20__20_1_18": 0.2625,
+    "comparisonWindows": 1425,
+    "medianWindowSimilarity": 0.125,
+    "maxWindowSimilarity": 0.3297,
+    "percentile": 0.9761,
+    "passed": true
+  },
+  "G1_rendsburg_primary": {
+    "id": "rendsburg-ring-genesis-joseph",
+    "sectionSizes": {
+      "A": 352,
+      "B": 295,
+      "C": 243,
+      "D": 817,
+      "E": 692,
+      "F": 297,
+      "F'": 283,
+      "E'": 484,
+      "D'": 192,
+      "C'": 295,
+      "B'": 245,
+      "A'": 319
+    },
+    "pairings": 10395,
+    "claimedScore": 1.2243,
+    "nullMean": 1.2621,
+    "nullSd": 0.1036,
+    "z": -0.3651,
+    "exactP": 0.621,
+    "rankAmongPairings": "6460 of 10395",
+    "pairs": [
+      {
+        "pair": "A / A'",
+        "similarity": 0.1518,
+        "partnerRank": "9 of 11",
+        "closestPartner": "E"
+      },
+      {
+        "pair": "B / B'",
+        "similarity": 0.1039,
+        "partnerRank": "10 of 11",
+        "closestPartner": "E'"
+      },
+      {
+        "pair": "C / C'",
+        "similarity": 0.1758,
+        "partnerRank": "8 of 11",
+        "closestPartner": "D"
+      },
+      {
+        "pair": "D / D'",
+        "similarity": 0.2195,
+        "partnerRank": "7 of 11",
+        "closestPartner": "C"
+      },
+      {
+        "pair": "E / E'",
+        "similarity": 0.2687,
+        "partnerRank": "5 of 11",
+        "closestPartner": "F"
+      },
+      {
+        "pair": "F / F'",
+        "similarity": 0.3045,
+        "partnerRank": "2 of 11",
+        "closestPartner": "E"
+      }
+    ]
+  },
+  "G1_secondary_idfOverJosephStoryOnly": {
+    "id": "rendsburg-ring-genesis-joseph",
+    "sectionSizes": {
+      "A": 352,
+      "B": 295,
+      "C": 243,
+      "D": 817,
+      "E": 692,
+      "F": 297,
+      "F'": 283,
+      "E'": 484,
+      "D'": 192,
+      "C'": 295,
+      "B'": 245,
+      "A'": 319
+    },
+    "pairings": 10395,
+    "claimedScore": 1.1987,
+    "nullMean": 1.255,
+    "nullSd": 0.1003,
+    "z": -0.5609,
+    "exactP": 0.701,
+    "rankAmongPairings": "7282 of 10395",
+    "pairs": [
+      {
+        "pair": "A / A'",
+        "similarity": 0.1456,
+        "partnerRank": "9 of 11",
+        "closestPartner": "E"
+      },
+      {
+        "pair": "B / B'",
+        "similarity": 0.1097,
+        "partnerRank": "11 of 11",
+        "closestPartner": "E'"
+      },
+      {
+        "pair": "C / C'",
+        "similarity": 0.1792,
+        "partnerRank": "8 of 11",
+        "closestPartner": "D"
+      },
+      {
+        "pair": "D / D'",
+        "similarity": 0.2039,
+        "partnerRank": "8 of 11",
+        "closestPartner": "C"
+      },
+      {
+        "pair": "E / E'",
+        "similarity": 0.2614,
+        "partnerRank": "6 of 11",
+        "closestPartner": "F"
+      },
+      {
+        "pair": "F / F'",
+        "similarity": 0.2988,
+        "partnerRank": "2 of 11",
+        "closestPartner": "E"
+      }
+    ]
+  },
+  "G2_quranicPlanAppliedToGenesis": {
+    "id": "genesis-plot-aligned",
+    "sectionSizes": {
+      "a": 65,
+      "b": 229,
+      "c": 80,
+      "c'": 236,
+      "b'": 1272,
+      "a'": 292
+    },
+    "pairings": 15,
+    "claimedScore": 0.5856,
+    "nullMean": 0.5469,
+    "nullSd": 0.0722,
+    "z": 0.5365,
+    "exactP": 0.333,
+    "rankAmongPairings": "5 of 15",
+    "pairs": [
+      {
+        "pair": "a / a'",
+        "similarity": 0.0753,
+        "partnerRank": "3 of 5",
+        "closestPartner": "b'"
+      },
+      {
+        "pair": "b / b'",
+        "similarity": 0.3054,
+        "partnerRank": "1 of 5",
+        "closestPartner": "b'"
+      },
+      {
+        "pair": "c / c'",
+        "similarity": 0.2049,
+        "partnerRank": "1 of 5",
+        "closestPartner": "c'"
+      }
+    ]
+  },
+  "G2_secondary_withGenealogy": {
+    "id": "genesis-plot-aligned",
+    "sectionSizes": {
+      "a": 65,
+      "b": 229,
+      "c": 80,
+      "c'": 236,
+      "b'": 1272,
+      "a'": 484
+    },
+    "pairings": 15,
+    "claimedScore": 0.5698,
+    "nullMean": 0.5128,
+    "nullSd": 0.0753,
+    "z": 0.757,
+    "exactP": 0.333,
+    "rankAmongPairings": "5 of 15",
+    "pairs": [
+      {
+        "pair": "a / a'",
+        "similarity": 0.0595,
+        "partnerRank": "4 of 5",
+        "closestPartner": "b'"
+      },
+      {
+        "pair": "b / b'",
+        "similarity": 0.3054,
+        "partnerRank": "1 of 5",
+        "closestPartner": "b'"
+      },
+      {
+        "pair": "c / c'",
+        "similarity": 0.2049,
+        "partnerRank": "1 of 5",
+        "closestPartner": "c'"
+      }
+    ]
+  },
+  "G3_yusufSameSixSectionDesign": {
+    "id": "yusuf-reduced",
+    "sectionSizes": {
+      "a": 40,
+      "b": 102,
+      "c": 35,
+      "c'": 33,
+      "b'": 394,
+      "a'": 54
+    },
+    "pairings": 15,
+    "claimedScore": 0.681,
+    "nullMean": 0.3456,
+    "nullSd": 0.1318,
+    "z": 2.5456,
+    "exactP": 0.0667,
+    "rankAmongPairings": "1 of 15",
+    "pairs": [
+      {
+        "pair": "a / a'",
+        "similarity": 0.3642,
+        "partnerRank": "1 of 5",
+        "closestPartner": "a'"
+      },
+      {
+        "pair": "b / b'",
+        "similarity": 0.2222,
+        "partnerRank": "1 of 5",
+        "closestPartner": "b'"
+      },
+      {
+        "pair": "c / c'",
+        "similarity": 0.0946,
+        "partnerRank": "2 of 5",
+        "closestPartner": "a'"
+      }
+    ]
+  },
+  "reference_yusufFull_fromBatch1": {
+    "rankAmongPairings": "1 of 945",
+    "exactP": 0.00106,
+    "z": 4.6411
+  }
+}

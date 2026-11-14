@@ -1,0 +1,41 @@
+{
+  "note": "Post hoc. Added after seeing batch 7 results; no confirmatory weight.",
+  "L2_subsets": {
+    "all29": {
+      "suras": 29,
+      "observed": 7.9269,
+      "positiveOwnScore": 19,
+      "p": 0.00405
+    },
+    "withoutSura50": {
+      "suras": 28,
+      "observed": 4.8525,
+      "positiveOwnScore": 18,
+      "p": 0.0484
+    },
+    "withoutSingleLetterSuras_38_50_68": {
+      "suras": 26,
+      "observed": 2.1389,
+      "positiveOwnScore": 16,
+      "p": 0.156
+    },
+    "onlyALM_ALR_HM": {
+      "suras": 18,
+      "observed": 1.9437,
+      "positiveOwnScore": 11,
+      "p": 0.215
+    },
+    "onlyTheOtherEleven": {
+      "suras": 11,
+      "observed": 5.9832,
+      "positiveOwnScore": 8,
+      "p": 0.0359
+    }
+  },
+  "L1_letteredAsAClass": {
+    "test": "vocabulary, both suras lettered (any letters)",
+    "beta": 0.0503,
+    "t": 4.5526,
+    "p": 0.0002
+  }
+}

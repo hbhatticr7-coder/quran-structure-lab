@@ -1,0 +1,140 @@
+{
+  "preregistrationSha256": "15c95c2a56ef96755b7a89837ff873156c7e5f0707812e433d1f88c25923dc85",
+  "M1_scriptureVocabulary": {
+    "primary": {
+      "suras": 111,
+      "letteredSuras": 29,
+      "pooledRatePer1000_lettered": 17.2696,
+      "pooledRatePer1000_unlettered": 16.4331,
+      "adjustedDifferencePer1000": -0.3105,
+      "t": -0.159,
+      "p": 0.564
+    },
+    "secondary": {
+      "meccanOnly": {
+        "suras": 84,
+        "letteredSuras": 26,
+        "pooledRatePer1000_lettered": 14.873,
+        "pooledRatePer1000_unlettered": 18.5543,
+        "adjustedDifferencePer1000": -3.9405,
+        "t": -1.7792,
+        "p": 0.959
+      },
+      "narrowLexicon": {
+        "suras": 111,
+        "letteredSuras": 29,
+        "pooledRatePer1000_lettered": 10.5082,
+        "pooledRatePer1000_unlettered": 9.0898,
+        "adjustedDifferencePer1000": 1.0093,
+        "t": 0.6482,
+        "p": 0.26
+      },
+      "openingVersesKept": {
+        "suras": 114,
+        "letteredSuras": 29,
+        "pooledRatePer1000_lettered": 19.2291,
+        "pooledRatePer1000_unlettered": 16.8805,
+        "adjustedDifferencePer1000": 1.4694,
+        "t": 0.7449,
+        "p": 0.23
+      },
+      "noldekeOrder": {
+        "suras": 111,
+        "letteredSuras": 29,
+        "pooledRatePer1000_lettered": 17.2696,
+        "pooledRatePer1000_unlettered": 16.4331,
+        "adjustedDifferencePer1000": -1.0205,
+        "t": -0.5412,
+        "p": 0.704
+      }
+    }
+  },
+  "M2_arabic": {
+    "blind": false,
+    "occurrencesBySura": [
+      12,
+      13,
+      16,
+      20,
+      26,
+      39,
+      41,
+      41,
+      42,
+      43,
+      46
+    ],
+    "inLetteredSuras": "9 of 11",
+    "shareOfTextInLetteredSuras": 0.4697,
+    "expectedInLettered": 5.1665,
+    "p": 0.0205
+  },
+  "M3_order": {
+    "letterPairsWithAnObservedOrder": 28,
+    "candidates": {
+      "articulation, throat to lips (Sibawayh)": {
+        "pairsAgreeing": "21 of 28",
+        "share": 0.75,
+        "pTwoSided": 0.0612,
+        "pairsDisagreeing": [
+          "م<ص",
+          "م<ر",
+          "ك<ه",
+          "ك<ع",
+          "ي<ع",
+          "ط<ه",
+          "س<ق"
+        ]
+      },
+      "modern alphabetical": {
+        "pairsAgreeing": "14 of 28",
+        "share": 0.5,
+        "pTwoSided": 1,
+        "pairsDisagreeing": [
+          "ل<ص",
+          "م<ص",
+          "ل<ر",
+          "م<ر",
+          "ك<ع",
+          "ك<ص",
+          "ه<ع",
+          "ه<ص",
+          "ي<ع",
+          "ي<ص",
+          "ع<ص",
+          "ط<س",
+          "ي<س",
+          "ع<س"
+        ]
+      },
+      "abjad": {
+        "pairsAgreeing": "23 of 28",
+        "share": 0.8214,
+        "pTwoSided": 0.0104,
+        "pairsDisagreeing": [
+          "ك<ه",
+          "ك<ي",
+          "ط<ه",
+          "س<م",
+          "ع<س"
+        ]
+      },
+      "frequency in the Quran, most frequent first": {
+        "pairsAgreeing": "19 of 28",
+        "share": 0.6786,
+        "pTwoSided": 0.21,
+        "pairsDisagreeing": [
+          "ك<ه",
+          "ك<ي",
+          "ه<ي",
+          "ط<ه",
+          "ط<س",
+          "ط<م",
+          "س<م",
+          "ح<م",
+          "س<ق"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Extracted text of copyrighted books, kept locally for claim transcription only
+sources/
+# Third-party data: fetched by scripts/00_fetch_external.sh, not redistributed here
+data/external/
+# Translation not used by any analysis
+data/en.sahih.txt
+# Run logs
+results/*_stdout.txt
+results/*_stderr.txt
+results/*_progress.txt

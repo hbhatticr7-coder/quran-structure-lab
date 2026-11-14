@@ -1,0 +1,75 @@
+{
+  "sims": 300,
+  "shareDetectedAtP05": {
+    "no structure (12 unrelated blocks)": {
+      "align": 0.043,
+      "alignWithGuard": 0.043,
+      "strict": 0.057,
+      "bothSameCentre": 0.023,
+      "parallel": 0.06
+    },
+    "ring, centre in the middle": {
+      "align": 1,
+      "alignWithGuard": 1,
+      "strict": 1,
+      "bothSameCentre": 1,
+      "parallel": 0
+    },
+    "ring, weak (mirror blocks share half their topic)": {
+      "align": 0.727,
+      "alignWithGuard": 0.727,
+      "strict": 0.71,
+      "bothSameCentre": 0.673,
+      "parallel": 0.027
+    },
+    "ring, centre off the middle": {
+      "align": 1,
+      "alignWithGuard": 1,
+      "strict": 1,
+      "bothSameCentre": 1,
+      "parallel": 0.003
+    },
+    "two halves on different subjects": {
+      "align": 0,
+      "alignWithGuard": 0,
+      "strict": 0,
+      "bothSameCentre": 0,
+      "parallel": 0.013
+    },
+    "one long section then a short one (9 + 3)": {
+      "align": 0.19,
+      "alignWithGuard": 0.17,
+      "strict": 0.073,
+      "bothSameCentre": 0.073,
+      "parallel": 0.013
+    },
+    "three sections of four blocks": {
+      "align": 0,
+      "alignWithGuard": 0,
+      "strict": 0.013,
+      "bothSameCentre": 0,
+      "parallel": 0
+    },
+    "gradual drift of subject": {
+      "align": 0.037,
+      "alignWithGuard": 0.03,
+      "strict": 0.053,
+      "bothSameCentre": 0.017,
+      "parallel": 0.017
+    },
+    "frame only (first and last block match)": {
+      "align": 0.017,
+      "alignWithGuard": 0.017,
+      "strict": 0.017,
+      "bothSameCentre": 0.01,
+      "parallel": 0.003
+    },
+    "parallel (A B C D E F A B C D E F)": {
+      "align": 0,
+      "alignWithGuard": 0,
+      "strict": 0,
+      "bothSameCentre": 0,
+      "parallel": 1
+    }
+  }
+}

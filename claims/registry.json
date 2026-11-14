@@ -1,0 +1,111 @@
+{
+  "note": "Machine-testable structural claims about the Quran. Each claim records its source, exactly what is asserted, and whether this project had already looked at the relevant data before the test was specified (blind = no).",
+  "claims": [
+    {
+      "id": "farrin-pairs",
+      "source": "Raymond Farrin, Structure and Qur'anic Interpretation (2014), Appendix B 'Chapter Pairs'. Farrin credits Islahi, Mir and Cuypers for all but 43-44, 45-46, 47-48, 63-64.",
+      "assertion": "The Quran's suras are arranged as 53 adjacent pairs that correspond to each other, with 8 unpaired suras.",
+      "type": "sura-pairs",
+      "pairs": [[2,3],[4,5],[6,7],[8,9],[10,11],[12,13],[14,15],[16,17],[18,19],[20,21],[22,23],[25,26],[27,28],[29,30],[31,32],[34,35],[36,37],[38,39],[40,41],[43,44],[45,46],[47,48],[50,51],[52,53],[54,55],[58,59],[61,62],[63,64],[65,66],[67,68],[69,70],[71,72],[73,74],[75,76],[77,78],[79,80],[81,82],[83,84],[85,86],[87,88],[89,90],[91,92],[93,94],[95,96],[97,98],[99,100],[101,102],[103,104],[105,106],[107,108],[109,110],[111,112],[113,114]],
+      "singles": [1, 24, 33, 42, 49, 56, 57, 60],
+      "blind": true,
+      "blindNote": "Earlier sessions looked at 5-gram links for a handful of pairs (18-19, 17-18, 10-18). The pair list as a whole was never tested, and never with this measure or null."
+    },
+    {
+      "id": "farrin-groups",
+      "source": "Farrin (2014), chapter 5 and Appendix C. Nineteen groups of consecutive suras; suras 1 and 113-114 stand outside.",
+      "assertion": "Suras 2-112 fall into 19 coherent groups of consecutive suras.",
+      "type": "sura-groups",
+      "groups": [[2,5],[6,9],[10,15],[16,21],[22,24],[25,32],[33,39],[40,46],[47,49],[50,56],[57,66],[67,72],[73,80],[81,88],[89,92],[93,98],[99,104],[105,108],[109,112]],
+      "blind": false,
+      "blindNote": "Session 5 (May 2026) compared same-group vs cross-group 5-gram density and saw a ~5x aggregate ratio concentrated in a few groups. The test here uses a different measure and a boundary-placement null that was not run before, but the data are not unseen."
+    },
+    {
+      "id": "farrin-ring-2",
+      "source": "Farrin (2014), chapter 2.",
+      "assertion": "Sura 2 is a ring: A B C D C' B' A' with D (142-152) at the centre.",
+      "type": "ring",
+      "sura": 2,
+      "sections": [["A",1,39],["B",40,112],["C",113,141],["D",142,152],["C'",153,177],["B'",178,242],["A'",243,286]],
+      "mirrorPairs": [["A","A'"],["B","B'"],["C","C'"]],
+      "centre": "D",
+      "blind": true
+    },
+    {
+      "id": "farrin-ring-3",
+      "source": "Farrin (2014), chapter 3 and Appendix A.",
+      "assertion": "Sura 3 is a ring: A B C D C' B' A' with D (100-109) at the centre.",
+      "type": "ring",
+      "sura": 3,
+      "sections": [["A",1,30],["B",31,63],["C",64,99],["D",100,109],["C'",110,117],["B'",118,179],["A'",180,200]],
+      "mirrorPairs": [["A","A'"],["B","B'"],["C","C'"]],
+      "centre": "D",
+      "blind": true
+    },
+    {
+      "id": "farrin-ring-12",
+      "source": "Farrin (2014), chapter 4.",
+      "assertion": "Sura 12 is a ring: Prologue, a b c d e d' c' b' a', Epilogue, with e (36-49) at the centre.",
+      "type": "ring",
+      "sura": 12,
+      "sections": [["Prologue",1,3],["a",4,7],["b",8,19],["c",20,22],["d",23,35],["e",36,49],["d'",50,53],["c'",54,57],["b'",58,98],["a'",99,101],["Epilogue",102,111]],
+      "mirrorPairs": [["Prologue","Epilogue"],["a","a'"],["b","b'"],["c","c'"],["d","d'"]],
+      "centre": "e",
+      "blind": false,
+      "blindNote": "Chat 4 (May 2026) tested this ring with a rare-lemma density metric against hand-picked controls (3 of 5 pairs beat controls). The measure and null here are different."
+    },
+    {
+      "id": "kahf-ring-prior",
+      "source": "This project's May 2026 sessions (not Farrin): Cave <-> Dhul-Qarnayn, Gardens <-> Khidr, opening frame <-> closing frame.",
+      "assertion": "Sura 18's four narratives and its frame are arranged as a ring.",
+      "type": "ring",
+      "sura": 18,
+      "sections": [["FrameOpen",1,8],["Cave",9,26],["Gardens",32,44],["Khidr",60,82],["DhulQarnayn",83,98],["FrameClose",99,110]],
+      "mirrorPairs": [["FrameOpen","FrameClose"],["Cave","DhulQarnayn"],["Gardens","Khidr"]],
+      "centre": null,
+      "blind": false,
+      "blindNote": "Five sessions examined this sura in detail. This is a re-test under a formal null, not a confirmatory test."
+    },
+    {
+      "id": "rendsburg-ring-genesis-joseph",
+      "source": "Gary A. Rendsburg, 'Chiasmus in the Book of Genesis' (BYU Studies 59 supplement, 2020), Figure 3; first proposed in The Redaction of Genesis (1986). Outline transcribed from the 2020 paper.",
+      "assertion": "The Joseph story in Genesis 37-50 is a chiasm of twelve units A B C D E F F' E' D' C' B' A', with the focal point at 45:1-4.",
+      "type": "ring",
+      "corpus": "genesis",
+      "sections": [["A","37:1-37:36"],["B","38:1-38:30"],["C","39:1-39:23"],["D","40:1-41:57"],["E","42:1-43:34"],["F","44:1-44:34"],["F'","45:1-45:28"],["E'","46:1-47:12"],["D'","47:13-47:27"],["C'","47:28-48:22"],["B'","49:1-49:28"],["A'","49:29-50:26"]],
+      "mirrorPairs": [["A","A'"],["B","B'"],["C","C'"],["D","D'"],["E","E'"],["F","F'"]],
+      "centre": null,
+      "blind": true
+    },
+    {
+      "id": "genesis-plot-aligned",
+      "source": "This project. Genesis episodes matched by plot content to Farrin's sections of sura 12. Farrin's d' (the vindication scene, 12:50-53) has no Genesis counterpart, so d is left unpaired and e is the centre.",
+      "assertion": "If the Genesis telling carried the same mirror plan as sura 12, its episodes a/a', b/b', c/c' would pair up in wording.",
+      "type": "ring",
+      "corpus": "genesis",
+      "sections": [["a","37:5-37:11"],["b","37:12-37:35"],["c","37:36-37:36,39:1-39:6"],["c'","41:37-41:57"],["b'","42:1-45:28"],["a'","46:1-46:7,46:28-47:12"]],
+      "mirrorPairs": [["a","a'"],["b","b'"],["c","c'"]],
+      "centre": null,
+      "blind": true,
+      "note": "Episode content: a = Joseph's dreams; b = the brothers' plot, the pit, the sale, deceiving Jacob; c = Joseph bought and settled in the Egyptian's house; c' = Joseph raised to authority over the land; b' = the brothers' journeys, Benjamin, the cup, recognition; a' = Jacob comes to Egypt and is reunited with Joseph (genealogy 46:8-27 left out)."
+    },
+    {
+      "id": "yusuf-reduced",
+      "source": "Farrin's sura 12 outline restricted to the six sections used in genesis-plot-aligned, so the two tellings are tested under the same design.",
+      "assertion": "Reference design for comparison with genesis-plot-aligned.",
+      "type": "ring",
+      "sura": 12,
+      "sections": [["a",4,7],["b",8,19],["c",20,22],["c'",54,57],["b'",58,98],["a'",99,101]],
+      "mirrorPairs": [["a","a'"],["b","b'"],["c","c'"]],
+      "centre": null,
+      "blind": false,
+      "blindNote": "Batch 1 already showed these pairs' similarities. Reference only."
+    }
+  ],
+  "notYetEncoded": [
+    "Farrin's System A / System A' concentric arrangement of the 19 groups (the diagrams are images in the PDF and need manual transcription).",
+    "Farrin's ring outlines for suras 1, 13, 50-56 (three-part A B A' structures; a matching null has no power with one mirror pair).",
+    "Farrin's specific cross-sura correspondences inside each pair (verse-level).",
+    "Cuypers (The Banquet; The Composition of the Qur'an), Robinson (Discovering the Qur'an), Mir/Islahi (seven sura groups), Dayeh (Hawamim), Bannister (formulaic density)."
+  ]
+}

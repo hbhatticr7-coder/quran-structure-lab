@@ -1,0 +1,388 @@
+{
+  "preregistrationSha256": "9f86135fd8852b1bfbac3004b98ade82a9dd8d125333b757c5d5d991ae7e7868",
+  "draws": 100000,
+  "quran_rootLevel_batch4Reproduced": {
+    "local": {
+      "frames": 65,
+      "informativeFrames": 56,
+      "positive": 37,
+      "negative": 19,
+      "meanExcessPerInformativeFrame": 0.3392,
+      "p": 0.00055
+    },
+    "doc": {
+      "frames": 65,
+      "informativeFrames": 63,
+      "positive": 35,
+      "negative": 28,
+      "meanExcessPerInformativeFrame": 0.1929,
+      "p": 0.0196
+    },
+    "strict": {
+      "frames": 65,
+      "informativeFrames": 60,
+      "positive": 29,
+      "negative": 31,
+      "meanExcessPerInformativeFrame": 0.1194,
+      "p": 0.116
+    }
+  },
+  "quran_lemmaLevel": {
+    "local": {
+      "frames": 59,
+      "informativeFrames": 37,
+      "positive": 22,
+      "negative": 15,
+      "meanExcessPerInformativeFrame": 0.2499,
+      "bootstrap95": [
+        -0.066,
+        0.563
+      ],
+      "p": 0.0513
+    },
+    "doc": {
+      "frames": 59,
+      "informativeFrames": 51,
+      "positive": 29,
+      "negative": 22,
+      "meanExcessPerInformativeFrame": 0.1549,
+      "bootstrap95": [
+        -0.0852,
+        0.4039
+      ],
+      "p": 0.0956
+    },
+    "strict": {
+      "frames": 59,
+      "informativeFrames": 49,
+      "positive": 27,
+      "negative": 22,
+      "meanExcessPerInformativeFrame": 0.1013,
+      "bootstrap95": [
+        -0.1365,
+        0.3606
+      ],
+      "p": 0.208
+    }
+  },
+  "gospels": {
+    "local": {
+      "frames": 40,
+      "informativeFrames": 28,
+      "positive": 19,
+      "negative": 9,
+      "meanExcessPerInformativeFrame": 0.3502,
+      "bootstrap95": [
+        0.095,
+        0.5964
+      ],
+      "p": 0.0102
+    },
+    "doc": {
+      "frames": 40,
+      "informativeFrames": 36,
+      "positive": 24,
+      "negative": 12,
+      "meanExcessPerInformativeFrame": 0.2458,
+      "bootstrap95": [
+        0.0445,
+        0.4452
+      ],
+      "p": 0.00813
+    },
+    "strict": {
+      "frames": 40,
+      "informativeFrames": 35,
+      "positive": 22,
+      "negative": 13,
+      "meanExcessPerInformativeFrame": 0.1699,
+      "bootstrap95": [
+        -0.0137,
+        0.3506
+      ],
+      "p": 0.0303
+    }
+  },
+  "samuelKingsChronicles": {
+    "local": {
+      "frames": 169,
+      "informativeFrames": 120,
+      "positive": 85,
+      "negative": 35,
+      "meanExcessPerInformativeFrame": 0.9813,
+      "bootstrap95": [
+        0.5039,
+        1.6833
+      ],
+      "p": 0.00001
+    },
+    "doc": {
+      "frames": 169,
+      "informativeFrames": 161,
+      "positive": 104,
+      "negative": 57,
+      "meanExcessPerInformativeFrame": 0.5652,
+      "bootstrap95": [
+        0.3549,
+        0.8224
+      ],
+      "p": 0.00001
+    },
+    "strict": {
+      "frames": 169,
+      "informativeFrames": 159,
+      "positive": 98,
+      "negative": 61,
+      "meanExcessPerInformativeFrame": 0.3809,
+      "bootstrap95": [
+        0.2424,
+        0.5296
+      ],
+      "p": 0.00001
+    }
+  },
+  "localExcessDifference_bootstrap95": {
+    "quranMinusGospels": [
+      -0.5011,
+      0.2927
+    ],
+    "quranMinusSamuelKingsChronicles": [
+      -1.5098,
+      -0.136
+    ]
+  },
+  "topLocalExamples": {
+    "gospels": [
+      {
+        "excess": 1.7777,
+        "frame": "λέγω ὁράω _ ζύμη Φαρισαῖος",
+        "occurrences": [
+          "Mt 16:6 προσέχω",
+          "Mk 8:15 βλέπω"
+        ]
+      },
+      {
+        "excess": 1.5223,
+        "frame": "ἐγείρω αἴρω _ ὑπάγω οἶκος",
+        "occurrences": [
+          "Mt 9:6 κλίνη",
+          "Mk 2:11 κράβαττος"
+        ]
+      },
+      {
+        "excess": 1.354,
+        "frame": "μικρός βασιλεία _ μέγας εἰμί",
+        "occurrences": [
+          "Mt 11:11 οὐρανός",
+          "Lk 7:28 θεός"
+        ]
+      },
+      {
+        "excess": 1.0986,
+        "frame": "ἐμπαίζω ἐκδύω _ ἐνδύω ἱμάτιον",
+        "occurrences": [
+          "Mt 27:31 χλαμύς",
+          "Mk 15:20 πορφύρα"
+        ]
+      },
+      {
+        "excess": 1.0224,
+        "frame": "Νῶε εἰμί _ υἱός ἄνθρωπος",
+        "occurrences": [
+          "Mt 24:37 παρουσία",
+          "Lk 17:26 ἡμέρα"
+        ]
+      },
+      {
+        "excess": 0.973,
+        "frame": "Ἰησοῦς λέγω _ πίστις σῴζω",
+        "occurrences": [
+          "Mk 10:52 ὑπάγω",
+          "Lk 18:42 ἀναβλέπω"
+        ]
+      },
+      {
+        "excess": 0.8047,
+        "frame": "ἄνθρωπος ἐκπορεύομαι _ κοινόω ἄνθρωπος",
+        "occurrences": [
+          "Mt 15:11 στόμα",
+          "Mk 7:15 εἰμί"
+        ]
+      },
+      {
+        "excess": 0.5824,
+        "frame": "ἀποκρίνομαι λέγω _ βασιλεία θεός",
+        "occurrences": [
+          "Mk 12:34 εἰμί",
+          "Lk 17:20 ἔρχομαι"
+        ]
+      }
+    ],
+    "samuelKingsChronicles": [
+      {
+        "excess": 35.3434,
+        "frame": "3499 a 1697 _ 3605 6213 a",
+        "occurrences": [
+          "1Kgs 11:41 8010",
+          "1Kgs 14:29 7346",
+          "1Kgs 15:7 38",
+          "1Kgs 15:31 5070",
+          "1Kgs 16:14 425",
+          "1Kgs 22:39 256",
+          "2Kgs 8:23 3141",
+          "2Kgs 10:34 3058",
+          "2Kgs 12:20 3101",
+          "2Kgs 13:8 3059",
+          "2Kgs 13:12 3101",
+          "2Kgs 14:28 3379",
+          "2Kgs 15:6 5838",
+          "2Kgs 15:21 4505",
+          "2Kgs 15:26 6494",
+          "2Kgs 15:31 6492",
+          "2Kgs 21:17 4519",
+          "2Kgs 23:28 2977",
+          "2Kgs 24:5 3079"
+        ]
+      },
+      {
+        "excess": 10.0812,
+        "frame": "4428 3478 _ 4428 3063",
+        "occurrences": [
+          "1Kgs 22:10 3092",
+          "1Kgs 22:29 3092",
+          "2Kgs 8:16 3092",
+          "2Kgs 9:21 274",
+          "2Kgs 14:9 558",
+          "2Chr 18:3 3092",
+          "2Chr 18:9 3092",
+          "2Chr 18:28 3092",
+          "2Chr 25:18 558"
+        ]
+      },
+      {
+        "excess": 5.981,
+        "frame": "3499 a 1697 _ 6213 a 1369",
+        "occurrences": [
+          "1Kgs 16:5 1201",
+          "1Kgs 16:27 6018",
+          "2Kgs 14:15 3060"
+        ]
+      },
+      {
+        "excess": 3.9492,
+        "frame": "4428 1004 b _ 3605 376",
+        "occurrences": [
+          "2Sam 19:42 3383",
+          "2Kgs 23:2 3068",
+          "2Chr 34:30 3068"
+        ]
+      },
+      {
+        "excess": 3.2786,
+        "frame": "6240 8141 _ 4427 a 2572",
+        "occurrences": [
+          "2Kgs 15:2 1961",
+          "2Kgs 21:1 4519",
+          "2Chr 26:3 5818",
+          "2Chr 33:1 4519"
+        ]
+      },
+      {
+        "excess": 3.1732,
+        "frame": "1121 a 3478 _ 3068 430",
+        "occurrences": [
+          "1Sam 10:18 559",
+          "2Chr 13:12 3898 a",
+          "2Chr 30:6 7725"
+        ]
+      },
+      {
+        "excess": 3.0879,
+        "frame": "6440 3068 _ 2296 646",
+        "occurrences": [
+          "1Sam 2:18 5288",
+          "2Sam 6:14 1732"
+        ]
+      },
+      {
+        "excess": 2.7915,
+        "frame": "1121 a 3478 _ 3967 505",
+        "occurrences": [
+          "1Sam 11:8 7969",
+          "1Kgs 20:29 758",
+          "2Chr 28:8 251"
+        ]
+      }
+    ],
+    "quranLemmaLevel": [
+      {
+        "excess": 1.9892,
+        "frame": "قالَ اتَّخَذَ _ وَلَد سُبْحان",
+        "occurrences": [
+          "2:116 اللَّه",
+          "10:68 اللَّه",
+          "21:26 رَحْمٰن"
+        ]
+      },
+      {
+        "excess": 1.7483,
+        "frame": "دُنْيا آخِر _ سَبِيل اللَّه",
+        "occurrences": [
+          "4:74 قاتَلَ",
+          "14:3 صَدَّ"
+        ]
+      },
+      {
+        "excess": 1.7061,
+        "frame": "يَضُرَّ شَىْء _ كُلّ شَىْء",
+        "occurrences": [
+          "9:39 اللَّه",
+          "11:57 رَبّ"
+        ]
+      },
+      {
+        "excess": 1.6094,
+        "frame": "بَعْد جاءَ _ بَغْي بَيْن",
+        "occurrences": [
+          "2:213 بَيِّنَة",
+          "3:19 عِلْم",
+          "42:14 عِلْم",
+          "45:17 عِلْم"
+        ]
+      },
+      {
+        "excess": 1.3966,
+        "frame": "بَدا سَيِّئَة _ حاقَ كانَ",
+        "occurrences": [
+          "39:48 كَسَبَ",
+          "45:33 عَمِلَ"
+        ]
+      },
+      {
+        "excess": 1.2973,
+        "frame": "يَوْم قِيامَة _ عَذاب أَلِيم",
+        "occurrences": [
+          "2:174 زَكَّى",
+          "3:77 زَكَّى",
+          "5:36 تَقَبَّلَ"
+        ]
+      },
+      {
+        "excess": 1.1989,
+        "frame": "تابَ بَعْد _ رَبّ بَعْد",
+        "occurrences": [
+          "7:153 آمَنَ",
+          "16:119 أَصْلَحَ"
+        ]
+      },
+      {
+        "excess": 1.0986,
+        "frame": "قالَ مَلَأ _ ساحِر عَلِيم",
+        "occurrences": [
+          "7:109 قَوْم",
+          "26:34 حَوْل"
+        ]
+      }
+    ]
+  }
+}

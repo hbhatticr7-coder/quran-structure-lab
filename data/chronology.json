@@ -1,0 +1,812 @@
+{
+ "sources": [
+  "tanzil.net quran-data.xml",
+  "en.wikipedia.org List_of_chapters_in_the_Quran (wikitext)"
+ ],
+ "report": {
+  "wikipediaRowsParsed": 114,
+  "egyptianIsPermutation": true,
+  "noldekeIsPermutation": true,
+  "tanzilVsWikipediaMismatches": []
+ },
+ "suras": [
+  {
+   "sura": 1,
+   "ayas": 7,
+   "type": "Meccan",
+   "egyptian": 5,
+   "noldeke": 48
+  },
+  {
+   "sura": 2,
+   "ayas": 286,
+   "type": "Medinan",
+   "egyptian": 87,
+   "noldeke": 91
+  },
+  {
+   "sura": 3,
+   "ayas": 200,
+   "type": "Medinan",
+   "egyptian": 89,
+   "noldeke": 97
+  },
+  {
+   "sura": 4,
+   "ayas": 176,
+   "type": "Medinan",
+   "egyptian": 92,
+   "noldeke": 100
+  },
+  {
+   "sura": 5,
+   "ayas": 120,
+   "type": "Medinan",
+   "egyptian": 112,
+   "noldeke": 114
+  },
+  {
+   "sura": 6,
+   "ayas": 165,
+   "type": "Meccan",
+   "egyptian": 55,
+   "noldeke": 89
+  },
+  {
+   "sura": 7,
+   "ayas": 206,
+   "type": "Meccan",
+   "egyptian": 39,
+   "noldeke": 87
+  },
+  {
+   "sura": 8,
+   "ayas": 75,
+   "type": "Medinan",
+   "egyptian": 88,
+   "noldeke": 95
+  },
+  {
+   "sura": 9,
+   "ayas": 129,
+   "type": "Medinan",
+   "egyptian": 113,
+   "noldeke": 113
+  },
+  {
+   "sura": 10,
+   "ayas": 109,
+   "type": "Meccan",
+   "egyptian": 51,
+   "noldeke": 84
+  },
+  {
+   "sura": 11,
+   "ayas": 123,
+   "type": "Meccan",
+   "egyptian": 52,
+   "noldeke": 75
+  },
+  {
+   "sura": 12,
+   "ayas": 111,
+   "type": "Meccan",
+   "egyptian": 53,
+   "noldeke": 77
+  },
+  {
+   "sura": 13,
+   "ayas": 43,
+   "type": "Medinan",
+   "egyptian": 96,
+   "noldeke": 90
+  },
+  {
+   "sura": 14,
+   "ayas": 52,
+   "type": "Meccan",
+   "egyptian": 72,
+   "noldeke": 76
+  },
+  {
+   "sura": 15,
+   "ayas": 99,
+   "type": "Meccan",
+   "egyptian": 54,
+   "noldeke": 57
+  },
+  {
+   "sura": 16,
+   "ayas": 128,
+   "type": "Meccan",
+   "egyptian": 70,
+   "noldeke": 73
+  },
+  {
+   "sura": 17,
+   "ayas": 111,
+   "type": "Meccan",
+   "egyptian": 50,
+   "noldeke": 67
+  },
+  {
+   "sura": 18,
+   "ayas": 110,
+   "type": "Meccan",
+   "egyptian": 69,
+   "noldeke": 69
+  },
+  {
+   "sura": 19,
+   "ayas": 98,
+   "type": "Meccan",
+   "egyptian": 44,
+   "noldeke": 58
+  },
+  {
+   "sura": 20,
+   "ayas": 135,
+   "type": "Meccan",
+   "egyptian": 45,
+   "noldeke": 55
+  },
+  {
+   "sura": 21,
+   "ayas": 112,
+   "type": "Meccan",
+   "egyptian": 73,
+   "noldeke": 65
+  },
+  {
+   "sura": 22,
+   "ayas": 78,
+   "type": "Medinan",
+   "egyptian": 103,
+   "noldeke": 107
+  },
+  {
+   "sura": 23,
+   "ayas": 118,
+   "type": "Meccan",
+   "egyptian": 74,
+   "noldeke": 64
+  },
+  {
+   "sura": 24,
+   "ayas": 64,
+   "type": "Medinan",
+   "egyptian": 102,
+   "noldeke": 105
+  },
+  {
+   "sura": 25,
+   "ayas": 77,
+   "type": "Meccan",
+   "egyptian": 42,
+   "noldeke": 66
+  },
+  {
+   "sura": 26,
+   "ayas": 227,
+   "type": "Meccan",
+   "egyptian": 47,
+   "noldeke": 56
+  },
+  {
+   "sura": 27,
+   "ayas": 93,
+   "type": "Meccan",
+   "egyptian": 48,
+   "noldeke": 68
+  },
+  {
+   "sura": 28,
+   "ayas": 88,
+   "type": "Meccan",
+   "egyptian": 49,
+   "noldeke": 79
+  },
+  {
+   "sura": 29,
+   "ayas": 69,
+   "type": "Meccan",
+   "egyptian": 85,
+   "noldeke": 81
+  },
+  {
+   "sura": 30,
+   "ayas": 60,
+   "type": "Meccan",
+   "egyptian": 84,
+   "noldeke": 74
+  },
+  {
+   "sura": 31,
+   "ayas": 34,
+   "type": "Meccan",
+   "egyptian": 57,
+   "noldeke": 82
+  },
+  {
+   "sura": 32,
+   "ayas": 30,
+   "type": "Meccan",
+   "egyptian": 75,
+   "noldeke": 70
+  },
+  {
+   "sura": 33,
+   "ayas": 73,
+   "type": "Medinan",
+   "egyptian": 90,
+   "noldeke": 103
+  },
+  {
+   "sura": 34,
+   "ayas": 54,
+   "type": "Meccan",
+   "egyptian": 58,
+   "noldeke": 85
+  },
+  {
+   "sura": 35,
+   "ayas": 45,
+   "type": "Meccan",
+   "egyptian": 43,
+   "noldeke": 86
+  },
+  {
+   "sura": 36,
+   "ayas": 83,
+   "type": "Meccan",
+   "egyptian": 41,
+   "noldeke": 60
+  },
+  {
+   "sura": 37,
+   "ayas": 182,
+   "type": "Meccan",
+   "egyptian": 56,
+   "noldeke": 50
+  },
+  {
+   "sura": 38,
+   "ayas": 88,
+   "type": "Meccan",
+   "egyptian": 38,
+   "noldeke": 59
+  },
+  {
+   "sura": 39,
+   "ayas": 75,
+   "type": "Meccan",
+   "egyptian": 59,
+   "noldeke": 80
+  },
+  {
+   "sura": 40,
+   "ayas": 85,
+   "type": "Meccan",
+   "egyptian": 60,
+   "noldeke": 78
+  },
+  {
+   "sura": 41,
+   "ayas": 54,
+   "type": "Meccan",
+   "egyptian": 61,
+   "noldeke": 71
+  },
+  {
+   "sura": 42,
+   "ayas": 53,
+   "type": "Meccan",
+   "egyptian": 62,
+   "noldeke": 83
+  },
+  {
+   "sura": 43,
+   "ayas": 89,
+   "type": "Meccan",
+   "egyptian": 63,
+   "noldeke": 61
+  },
+  {
+   "sura": 44,
+   "ayas": 59,
+   "type": "Meccan",
+   "egyptian": 64,
+   "noldeke": 53
+  },
+  {
+   "sura": 45,
+   "ayas": 37,
+   "type": "Meccan",
+   "egyptian": 65,
+   "noldeke": 72
+  },
+  {
+   "sura": 46,
+   "ayas": 35,
+   "type": "Meccan",
+   "egyptian": 66,
+   "noldeke": 88
+  },
+  {
+   "sura": 47,
+   "ayas": 38,
+   "type": "Medinan",
+   "egyptian": 95,
+   "noldeke": 96
+  },
+  {
+   "sura": 48,
+   "ayas": 29,
+   "type": "Medinan",
+   "egyptian": 111,
+   "noldeke": 108
+  },
+  {
+   "sura": 49,
+   "ayas": 18,
+   "type": "Medinan",
+   "egyptian": 106,
+   "noldeke": 112
+  },
+  {
+   "sura": 50,
+   "ayas": 45,
+   "type": "Meccan",
+   "egyptian": 34,
+   "noldeke": 54
+  },
+  {
+   "sura": 51,
+   "ayas": 60,
+   "type": "Meccan",
+   "egyptian": 67,
+   "noldeke": 39
+  },
+  {
+   "sura": 52,
+   "ayas": 49,
+   "type": "Meccan",
+   "egyptian": 76,
+   "noldeke": 40
+  },
+  {
+   "sura": 53,
+   "ayas": 62,
+   "type": "Meccan",
+   "egyptian": 23,
+   "noldeke": 28
+  },
+  {
+   "sura": 54,
+   "ayas": 55,
+   "type": "Meccan",
+   "egyptian": 37,
+   "noldeke": 49
+  },
+  {
+   "sura": 55,
+   "ayas": 78,
+   "type": "Medinan",
+   "egyptian": 97,
+   "noldeke": 43
+  },
+  {
+   "sura": 56,
+   "ayas": 96,
+   "type": "Meccan",
+   "egyptian": 46,
+   "noldeke": 41
+  },
+  {
+   "sura": 57,
+   "ayas": 29,
+   "type": "Medinan",
+   "egyptian": 94,
+   "noldeke": 99
+  },
+  {
+   "sura": 58,
+   "ayas": 22,
+   "type": "Medinan",
+   "egyptian": 105,
+   "noldeke": 106
+  },
+  {
+   "sura": 59,
+   "ayas": 24,
+   "type": "Medinan",
+   "egyptian": 101,
+   "noldeke": 102
+  },
+  {
+   "sura": 60,
+   "ayas": 13,
+   "type": "Medinan",
+   "egyptian": 91,
+   "noldeke": 110
+  },
+  {
+   "sura": 61,
+   "ayas": 14,
+   "type": "Medinan",
+   "egyptian": 109,
+   "noldeke": 98
+  },
+  {
+   "sura": 62,
+   "ayas": 11,
+   "type": "Medinan",
+   "egyptian": 110,
+   "noldeke": 94
+  },
+  {
+   "sura": 63,
+   "ayas": 11,
+   "type": "Medinan",
+   "egyptian": 104,
+   "noldeke": 104
+  },
+  {
+   "sura": 64,
+   "ayas": 18,
+   "type": "Medinan",
+   "egyptian": 108,
+   "noldeke": 93
+  },
+  {
+   "sura": 65,
+   "ayas": 12,
+   "type": "Medinan",
+   "egyptian": 99,
+   "noldeke": 101
+  },
+  {
+   "sura": 66,
+   "ayas": 12,
+   "type": "Medinan",
+   "egyptian": 107,
+   "noldeke": 109
+  },
+  {
+   "sura": 67,
+   "ayas": 30,
+   "type": "Meccan",
+   "egyptian": 77,
+   "noldeke": 63
+  },
+  {
+   "sura": 68,
+   "ayas": 52,
+   "type": "Meccan",
+   "egyptian": 2,
+   "noldeke": 18
+  },
+  {
+   "sura": 69,
+   "ayas": 52,
+   "type": "Meccan",
+   "egyptian": 78,
+   "noldeke": 38
+  },
+  {
+   "sura": 70,
+   "ayas": 44,
+   "type": "Meccan",
+   "egyptian": 79,
+   "noldeke": 42
+  },
+  {
+   "sura": 71,
+   "ayas": 28,
+   "type": "Meccan",
+   "egyptian": 71,
+   "noldeke": 51
+  },
+  {
+   "sura": 72,
+   "ayas": 28,
+   "type": "Meccan",
+   "egyptian": 40,
+   "noldeke": 62
+  },
+  {
+   "sura": 73,
+   "ayas": 20,
+   "type": "Meccan",
+   "egyptian": 3,
+   "noldeke": 23
+  },
+  {
+   "sura": 74,
+   "ayas": 56,
+   "type": "Meccan",
+   "egyptian": 4,
+   "noldeke": 2
+  },
+  {
+   "sura": 75,
+   "ayas": 40,
+   "type": "Meccan",
+   "egyptian": 31,
+   "noldeke": 36
+  },
+  {
+   "sura": 76,
+   "ayas": 31,
+   "type": "Medinan",
+   "egyptian": 98,
+   "noldeke": 52
+  },
+  {
+   "sura": 77,
+   "ayas": 50,
+   "type": "Meccan",
+   "egyptian": 33,
+   "noldeke": 32
+  },
+  {
+   "sura": 78,
+   "ayas": 40,
+   "type": "Meccan",
+   "egyptian": 80,
+   "noldeke": 33
+  },
+  {
+   "sura": 79,
+   "ayas": 46,
+   "type": "Meccan",
+   "egyptian": 81,
+   "noldeke": 31
+  },
+  {
+   "sura": 80,
+   "ayas": 42,
+   "type": "Meccan",
+   "egyptian": 24,
+   "noldeke": 17
+  },
+  {
+   "sura": 81,
+   "ayas": 29,
+   "type": "Meccan",
+   "egyptian": 7,
+   "noldeke": 27
+  },
+  {
+   "sura": 82,
+   "ayas": 19,
+   "type": "Meccan",
+   "egyptian": 82,
+   "noldeke": 26
+  },
+  {
+   "sura": 83,
+   "ayas": 36,
+   "type": "Meccan",
+   "egyptian": 86,
+   "noldeke": 37
+  },
+  {
+   "sura": 84,
+   "ayas": 25,
+   "type": "Meccan",
+   "egyptian": 83,
+   "noldeke": 29
+  },
+  {
+   "sura": 85,
+   "ayas": 22,
+   "type": "Meccan",
+   "egyptian": 27,
+   "noldeke": 22
+  },
+  {
+   "sura": 86,
+   "ayas": 17,
+   "type": "Meccan",
+   "egyptian": 36,
+   "noldeke": 15
+  },
+  {
+   "sura": 87,
+   "ayas": 19,
+   "type": "Meccan",
+   "egyptian": 8,
+   "noldeke": 19
+  },
+  {
+   "sura": 88,
+   "ayas": 26,
+   "type": "Meccan",
+   "egyptian": 68,
+   "noldeke": 34
+  },
+  {
+   "sura": 89,
+   "ayas": 30,
+   "type": "Meccan",
+   "egyptian": 10,
+   "noldeke": 35
+  },
+  {
+   "sura": 90,
+   "ayas": 20,
+   "type": "Meccan",
+   "egyptian": 35,
+   "noldeke": 11
+  },
+  {
+   "sura": 91,
+   "ayas": 15,
+   "type": "Meccan",
+   "egyptian": 26,
+   "noldeke": 16
+  },
+  {
+   "sura": 92,
+   "ayas": 21,
+   "type": "Meccan",
+   "egyptian": 9,
+   "noldeke": 10
+  },
+  {
+   "sura": 93,
+   "ayas": 11,
+   "type": "Meccan",
+   "egyptian": 11,
+   "noldeke": 13
+  },
+  {
+   "sura": 94,
+   "ayas": 8,
+   "type": "Meccan",
+   "egyptian": 12,
+   "noldeke": 12
+  },
+  {
+   "sura": 95,
+   "ayas": 8,
+   "type": "Meccan",
+   "egyptian": 28,
+   "noldeke": 20
+  },
+  {
+   "sura": 96,
+   "ayas": 19,
+   "type": "Meccan",
+   "egyptian": 1,
+   "noldeke": 1
+  },
+  {
+   "sura": 97,
+   "ayas": 5,
+   "type": "Meccan",
+   "egyptian": 25,
+   "noldeke": 14
+  },
+  {
+   "sura": 98,
+   "ayas": 8,
+   "type": "Medinan",
+   "egyptian": 100,
+   "noldeke": 92
+  },
+  {
+   "sura": 99,
+   "ayas": 8,
+   "type": "Medinan",
+   "egyptian": 93,
+   "noldeke": 25
+  },
+  {
+   "sura": 100,
+   "ayas": 11,
+   "type": "Meccan",
+   "egyptian": 14,
+   "noldeke": 30
+  },
+  {
+   "sura": 101,
+   "ayas": 11,
+   "type": "Meccan",
+   "egyptian": 30,
+   "noldeke": 24
+  },
+  {
+   "sura": 102,
+   "ayas": 8,
+   "type": "Meccan",
+   "egyptian": 16,
+   "noldeke": 8
+  },
+  {
+   "sura": 103,
+   "ayas": 3,
+   "type": "Meccan",
+   "egyptian": 13,
+   "noldeke": 21
+  },
+  {
+   "sura": 104,
+   "ayas": 9,
+   "type": "Meccan",
+   "egyptian": 32,
+   "noldeke": 6
+  },
+  {
+   "sura": 105,
+   "ayas": 5,
+   "type": "Meccan",
+   "egyptian": 19,
+   "noldeke": 9
+  },
+  {
+   "sura": 106,
+   "ayas": 4,
+   "type": "Meccan",
+   "egyptian": 29,
+   "noldeke": 4
+  },
+  {
+   "sura": 107,
+   "ayas": 7,
+   "type": "Meccan",
+   "egyptian": 17,
+   "noldeke": 7
+  },
+  {
+   "sura": 108,
+   "ayas": 3,
+   "type": "Meccan",
+   "egyptian": 15,
+   "noldeke": 5
+  },
+  {
+   "sura": 109,
+   "ayas": 6,
+   "type": "Meccan",
+   "egyptian": 18,
+   "noldeke": 45
+  },
+  {
+   "sura": 110,
+   "ayas": 3,
+   "type": "Medinan",
+   "egyptian": 114,
+   "noldeke": 111
+  },
+  {
+   "sura": 111,
+   "ayas": 5,
+   "type": "Meccan",
+   "egyptian": 6,
+   "noldeke": 3
+  },
+  {
+   "sura": 112,
+   "ayas": 4,
+   "type": "Meccan",
+   "egyptian": 22,
+   "noldeke": 44
+  },
+  {
+   "sura": 113,
+   "ayas": 5,
+   "type": "Meccan",
+   "egyptian": 20,
+   "noldeke": 46
+  },
+  {
+   "sura": 114,
+   "ayas": 6,
+   "type": "Meccan",
+   "egyptian": 21,
+   "noldeke": 47
+  }
+ ]
+}

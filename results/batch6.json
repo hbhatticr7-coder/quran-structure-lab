@@ -1,0 +1,158 @@
+{
+  "preregistrationSha256": "b17f79e78619467271fb6caebc61c5a9be411776df55532cb57ac7dfe7f7cf06",
+  "R1_rhymeAdjacency": {
+    "primary": {
+      "test": "R1 PRIMARY: rhyme, mushaf neighbours",
+      "beta": 0.0705,
+      "t": 3.3526,
+      "p": 0.0004
+    },
+    "secondary": {
+      "farrinPairs": {
+        "test": "rhyme, Farrin's 53 pairs",
+        "beta": 0.0812,
+        "t": 2.6743,
+        "p": 0.0039
+      },
+      "otherAdjacent": {
+        "test": "rhyme, the 60 other adjacent pairs",
+        "beta": 0.0612,
+        "t": 2.1457,
+        "p": 0.0179
+      },
+      "farrinMinusOther": {
+        "test": "rhyme, Farrin's pairs minus other adjacent",
+        "beta": 0.02,
+        "t": 0.4867,
+        "p": 0.316
+      },
+      "noldeke": {
+        "test": "rhyme, mushaf neighbours, Noldeke chronology",
+        "beta": 0.0681,
+        "t": 3.2347,
+        "p": 0.0006
+      },
+      "withoutTop5": {
+        "removed": [
+          "112-113",
+          "111-112",
+          "13-14",
+          "91-92",
+          "98-99"
+        ],
+        "test": "rhyme, mushaf neighbours without top five pairs",
+        "beta": 0.0491,
+        "t": 2.2899,
+        "p": 0.0105
+      },
+      "batch2CrossCheck": {
+        "test": "vocabulary, mushaf neighbours, rhyme similarity controlled",
+        "beta": 0.0478,
+        "t": 3.0832,
+        "p": 0.0012
+      }
+    },
+    "descriptive": {
+      "chanceLevel": 0.5,
+      "meanRhymePercentile_mushafNeighbours": 0.6293,
+      "meanRhymePercentile_farrinPairs": 0.6385,
+      "meanRhymePercentile_otherAdjacent": 0.6212,
+      "adjacentPairsAboveExpectation": "68 of 113"
+    }
+  },
+  "R2_rhymeShifts": {
+    "primary": {
+      "suras": 39,
+      "shiftBoundaries": 114,
+      "continuationBoundaries": 1843,
+      "meanDiscontinuityAtShifts": 0.9584,
+      "meanDiscontinuityAtContinuations": 0.9355,
+      "meanWithinSuraDifference": 0.0211,
+      "surasWhereShiftsAreHigher": "29 of 39",
+      "p": 0.0141
+    },
+    "secondary": {
+      "window2": {
+        "suras": 39,
+        "shiftBoundaries": 114,
+        "continuationBoundaries": 1843,
+        "meanDiscontinuityAtShifts": 0.9623,
+        "meanDiscontinuityAtContinuations": 0.9459,
+        "meanWithinSuraDifference": 0.0272,
+        "surasWhereShiftsAreHigher": "28 of 39",
+        "p": 0.003
+      },
+      "window5": {
+        "suras": 39,
+        "shiftBoundaries": 114,
+        "continuationBoundaries": 1843,
+        "meanDiscontinuityAtShifts": 0.9455,
+        "meanDiscontinuityAtContinuations": 0.92,
+        "meanWithinSuraDifference": 0.0176,
+        "surasWhereShiftsAreHigher": "30 of 39",
+        "p": 0.00865
+      },
+      "shortVerseSuras": {
+        "suras": 19,
+        "shiftBoundaries": 54,
+        "continuationBoundaries": 322,
+        "meanDiscontinuityAtShifts": 0.9784,
+        "meanDiscontinuityAtContinuations": 0.9606,
+        "meanWithinSuraDifference": 0.0292,
+        "surasWhereShiftsAreHigher": "15 of 19",
+        "p": 0.0485
+      },
+      "longVerseSuras": {
+        "suras": 20,
+        "shiftBoundaries": 60,
+        "continuationBoundaries": 1521,
+        "meanDiscontinuityAtShifts": 0.9404,
+        "meanDiscontinuityAtContinuations": 0.9302,
+        "meanWithinSuraDifference": 0.0133,
+        "surasWhereShiftsAreHigher": "14 of 20",
+        "p": 0.0945
+      }
+    },
+    "surasUsed": [
+      2,
+      3,
+      4,
+      8,
+      13,
+      14,
+      19,
+      20,
+      24,
+      35,
+      37,
+      38,
+      39,
+      40,
+      52,
+      53,
+      56,
+      59,
+      69,
+      70,
+      71,
+      74,
+      75,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      88,
+      89,
+      90,
+      93,
+      94,
+      96,
+      100,
+      101,
+      102
+    ]
+  }
+}

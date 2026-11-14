@@ -1,0 +1,198 @@
+{
+  "preregistrationSha256": "e6e607b63fc348b7ebe96d0170346607fdaf04c511c4de7493764deb530e6667",
+  "main": {
+    "suras": 113,
+    "disorderPairs": 423,
+    "shareOfAllPairs": 0.0668,
+    "adjacentPairsWhereShorterComesFirst": 49,
+    "noise": {
+      "kind": "ln",
+      "sigma": 0.3261,
+      "generated": 20000,
+      "keptWithin10Percent": 15541
+    },
+    "vocabulary": {
+      "mushaf": 0.623,
+      "strictLongestFirst": 0.5986,
+      "nullMean": 0.5543,
+      "nullSd": 0.0175,
+      "p": 0.0000643
+    },
+    "rhyme": {
+      "mushaf": 0.628,
+      "strictLongestFirst": 0.5851,
+      "nullMean": 0.5569,
+      "nullSd": 0.0188,
+      "p": 0.000193
+    },
+    "vocabularyBeyondPeriodAndLength": {
+      "mushaf": 0.0505,
+      "strictLongestFirst": 0.0373,
+      "nullMean": 0.0033,
+      "nullSd": 0.0166,
+      "p": 0.00347
+    },
+    "adjacentSameLetterPairs": {
+      "mushaf": 13,
+      "strictLongestFirst": 1,
+      "nullMean": 1.7919,
+      "nullSd": 1.2067,
+      "p": 0.0000643
+    },
+    "meanRevelationRankGap_lowerIsCloser": {
+      "mushaf": 23.9464,
+      "strictLongestFirst": 27.5714,
+      "nullMean": 30.7297,
+      "nullSd": 1.8764,
+      "p": 0.000129
+    }
+  },
+  "check_rankNoise": {
+    "suras": 113,
+    "disorderPairs": 423,
+    "shareOfAllPairs": 0.0668,
+    "adjacentPairsWhereShorterComesFirst": 49,
+    "noise": {
+      "kind": "rank",
+      "sigma": 7.5985,
+      "generated": 20000,
+      "keptWithin10Percent": 15816
+    },
+    "vocabulary": {
+      "mushaf": 0.623,
+      "strictLongestFirst": 0.5986,
+      "nullMean": 0.5536,
+      "nullSd": 0.0178,
+      "p": 0.000126
+    },
+    "rhyme": {
+      "mushaf": 0.628,
+      "strictLongestFirst": 0.5851,
+      "nullMean": 0.5555,
+      "nullSd": 0.0189,
+      "p": 0.000126
+    },
+    "vocabularyBeyondPeriodAndLength": {
+      "mushaf": 0.0505,
+      "strictLongestFirst": 0.0373,
+      "nullMean": 0.004,
+      "nullSd": 0.0169,
+      "p": 0.00443
+    },
+    "adjacentSameLetterPairs": {
+      "mushaf": 13,
+      "strictLongestFirst": 1,
+      "nullMean": 1.7079,
+      "nullSd": 1.18,
+      "p": 0.0000632
+    },
+    "meanRevelationRankGap_lowerIsCloser": {
+      "mushaf": 23.9464,
+      "strictLongestFirst": 27.5714,
+      "nullMean": 31.0515,
+      "nullSd": 1.9981,
+      "p": 0.000253
+    }
+  },
+  "unletteredSurasOnly": {
+    "suras": 84,
+    "disorderPairs": 217,
+    "shareOfAllPairs": 0.0622,
+    "adjacentPairsWhereShorterComesFirst": 38,
+    "noise": {
+      "kind": "ln",
+      "sigma": 0.3106,
+      "generated": 20000,
+      "keptWithin10Percent": 13306
+    },
+    "vocabulary": {
+      "mushaf": 0.5551,
+      "strictLongestFirst": 0.5175,
+      "nullMean": 0.4817,
+      "nullSd": 0.0226,
+      "p": 0.000902
+    },
+    "rhyme": {
+      "mushaf": 0.589,
+      "strictLongestFirst": 0.5624,
+      "nullMean": 0.5283,
+      "nullSd": 0.0229,
+      "p": 0.00323
+    },
+    "vocabularyBeyondPeriodAndLength": {
+      "mushaf": 0.0527,
+      "strictLongestFirst": 0.0267,
+      "nullMean": -0.0007,
+      "nullSd": 0.0214,
+      "p": 0.00767
+    },
+    "adjacentSameLetterPairs": {
+      "mushaf": 0,
+      "strictLongestFirst": 0,
+      "nullMean": 0,
+      "nullSd": 0,
+      "p": 1
+    },
+    "meanRevelationRankGap_lowerIsCloser": {
+      "mushaf": 26.0361,
+      "strictLongestFirst": 29.4096,
+      "nullMean": 32.2024,
+      "nullSd": 2.2658,
+      "p": 0.00331
+    }
+  },
+  "letteredSurasOnly": {
+    "suras": 29,
+    "disorderPairs": 75,
+    "shareOfAllPairs": 0.1847,
+    "adjacentPairsWhereShorterComesFirst": 10,
+    "noise": {
+      "kind": "ln",
+      "sigma": 0.4611,
+      "generated": 20000,
+      "keptWithin10Percent": 8291
+    },
+    "vocabulary": {
+      "mushaf": 0.8232,
+      "strictLongestFirst": 0.821,
+      "nullMean": 0.7904,
+      "nullSd": 0.0183,
+      "p": 0.0371
+    },
+    "rhyme": {
+      "mushaf": 0.7311,
+      "strictLongestFirst": 0.6692,
+      "nullMean": 0.6773,
+      "nullSd": 0.0243,
+      "p": 0.0235
+    },
+    "vocabularyBeyondPeriodAndLength": {
+      "mushaf": 0.0561,
+      "strictLongestFirst": 0.052,
+      "nullMean": 0.0365,
+      "nullSd": 0.0166,
+      "p": 0.119
+    },
+    "adjacentSameLetterPairs": {
+      "mushaf": 13,
+      "strictLongestFirst": 3,
+      "nullMean": 3.6067,
+      "nullSd": 1.5892,
+      "p": 0.000121
+    },
+    "meanRevelationRankGap_lowerIsCloser": {
+      "mushaf": 13.4643,
+      "strictLongestFirst": 18.6786,
+      "nullMean": 21.1468,
+      "nullSd": 2.2304,
+      "p": 0.000603
+    }
+  },
+  "optimisation": {
+    "note": "Best adjacent vocabulary similarity found by search without exceeding the mushaf's disorder. A lower bound on the true optimum.",
+    "nullMean": 0.5543,
+    "mushaf": 0.623,
+    "bestFound": 0.7436,
+    "mushafShareOfTheWayFromNullToBest": 0.3628
+  }
+}

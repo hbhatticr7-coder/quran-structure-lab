@@ -1,0 +1,838 @@
+{
+  "preregistrationSha256": "f0cc1da745590f9d4db632183dddbcf6d5b580c8a5d34faa523191612792f331",
+  "seed": 20261114,
+  "draws": 100000,
+  "bonferroniThreshold": 0.0167,
+  "T1_pairs": {
+    "primary": {
+      "measure": "M2 vocabulary",
+      "observedMean": 0.0903,
+      "nullMean": 0.0837,
+      "nullSd": 0.0036,
+      "z": 1.8719,
+      "p": 0.0411,
+      "meanAdvantageOverOffPhaseNeighbours": 0.0112,
+      "pairsBeatingNeighbours": "31 of 53"
+    },
+    "secondary": [
+      {
+        "measure": "M1 formulas n=3",
+        "observedMean": 1.1321,
+        "nullMean": 0.5892,
+        "nullSd": 0.2141,
+        "z": 2.536,
+        "p": 0.0688,
+        "meanAdvantageOverOffPhaseNeighbours": 0.6038,
+        "pairsBeatingNeighbours": "8 of 53"
+      },
+      {
+        "measure": "M1 formulas n=5",
+        "observedMean": 0.4151,
+        "nullMean": 0.1908,
+        "nullSd": 0.0825,
+        "z": 2.7193,
+        "p": 0.0523,
+        "meanAdvantageOverOffPhaseNeighbours": 0.2453,
+        "pairsBeatingNeighbours": "5 of 53"
+      }
+    ]
+  },
+  "T2_groups": {
+    "primary": {
+      "measure": "M2 vocabulary",
+      "distances": [
+        1,
+        2,
+        3
+      ],
+      "observed": 0.0051,
+      "nullMean": 0.0047,
+      "nullSd": 0.0095,
+      "z": 0.0504,
+      "p": 0.492,
+      "perGroup": [
+        {
+          "group": "2-5",
+          "within": 0.3332,
+          "acrossItsBoundaries": 0.2237,
+          "difference": 0.1095
+        },
+        {
+          "group": "6-9",
+          "within": 0.1904,
+          "acrossItsBoundaries": 0.1999,
+          "difference": -0.0095
+        },
+        {
+          "group": "10-15",
+          "within": 0.141,
+          "acrossItsBoundaries": 0.1584,
+          "difference": -0.0173
+        },
+        {
+          "group": "16-21",
+          "within": 0.1375,
+          "acrossItsBoundaries": 0.1355,
+          "difference": 0.002
+        },
+        {
+          "group": "22-24",
+          "within": 0.1134,
+          "acrossItsBoundaries": 0.1224,
+          "difference": -0.009
+        },
+        {
+          "group": "25-32",
+          "within": 0.1561,
+          "acrossItsBoundaries": 0.1096,
+          "difference": 0.0466
+        },
+        {
+          "group": "33-39",
+          "within": 0.1109,
+          "acrossItsBoundaries": 0.1326,
+          "difference": -0.0216
+        },
+        {
+          "group": "40-46",
+          "within": 0.1294,
+          "acrossItsBoundaries": 0.1151,
+          "difference": 0.0144
+        },
+        {
+          "group": "47-49",
+          "within": 0.098,
+          "acrossItsBoundaries": 0.0567,
+          "difference": 0.0413
+        },
+        {
+          "group": "50-56",
+          "within": 0.046,
+          "acrossItsBoundaries": 0.0357,
+          "difference": 0.0103
+        },
+        {
+          "group": "57-66",
+          "within": 0.0862,
+          "acrossItsBoundaries": 0.0335,
+          "difference": 0.0527
+        },
+        {
+          "group": "67-72",
+          "within": 0.0321,
+          "acrossItsBoundaries": 0.0371,
+          "difference": -0.005
+        },
+        {
+          "group": "73-80",
+          "within": 0.033,
+          "acrossItsBoundaries": 0.0351,
+          "difference": -0.002
+        },
+        {
+          "group": "81-88",
+          "within": 0.0189,
+          "acrossItsBoundaries": 0.0231,
+          "difference": -0.0042
+        },
+        {
+          "group": "89-92",
+          "within": 0.0263,
+          "acrossItsBoundaries": 0.0171,
+          "difference": 0.0092
+        },
+        {
+          "group": "93-98",
+          "within": 0.004,
+          "acrossItsBoundaries": 0.0153,
+          "difference": -0.0113
+        },
+        {
+          "group": "99-104",
+          "within": 0.0047,
+          "acrossItsBoundaries": 0.0041,
+          "difference": 0.0006
+        },
+        {
+          "group": "105-108",
+          "within": 0.0004,
+          "acrossItsBoundaries": 0.0063,
+          "difference": -0.0059
+        },
+        {
+          "group": "109-112",
+          "within": 0.0082,
+          "acrossItsBoundaries": 0.0119,
+          "difference": -0.0037
+        }
+      ]
+    },
+    "secondary": [
+      {
+        "measure": "M2 vocabulary",
+        "distances": [
+          2,
+          3
+        ],
+        "observed": 0.0022,
+        "nullMean": 0.0036,
+        "nullSd": 0.0104,
+        "z": -0.1295,
+        "p": 0.563,
+        "perGroup": [
+          {
+            "group": "2-5",
+            "within": 0.3332,
+            "acrossItsBoundaries": 0.2237,
+            "difference": 0.1095
+          },
+          {
+            "group": "6-9",
+            "within": 0.1904,
+            "acrossItsBoundaries": 0.1999,
+            "difference": -0.0095
+          },
+          {
+            "group": "10-15",
+            "within": 0.141,
+            "acrossItsBoundaries": 0.1584,
+            "difference": -0.0173
+          },
+          {
+            "group": "16-21",
+            "within": 0.1375,
+            "acrossItsBoundaries": 0.1355,
+            "difference": 0.002
+          },
+          {
+            "group": "22-24",
+            "within": 0.1134,
+            "acrossItsBoundaries": 0.1224,
+            "difference": -0.009
+          },
+          {
+            "group": "25-32",
+            "within": 0.1561,
+            "acrossItsBoundaries": 0.1096,
+            "difference": 0.0466
+          },
+          {
+            "group": "33-39",
+            "within": 0.1109,
+            "acrossItsBoundaries": 0.1326,
+            "difference": -0.0216
+          },
+          {
+            "group": "40-46",
+            "within": 0.1294,
+            "acrossItsBoundaries": 0.1151,
+            "difference": 0.0144
+          },
+          {
+            "group": "47-49",
+            "within": 0.098,
+            "acrossItsBoundaries": 0.0567,
+            "difference": 0.0413
+          },
+          {
+            "group": "50-56",
+            "within": 0.046,
+            "acrossItsBoundaries": 0.0357,
+            "difference": 0.0103
+          },
+          {
+            "group": "57-66",
+            "within": 0.0862,
+            "acrossItsBoundaries": 0.0335,
+            "difference": 0.0527
+          },
+          {
+            "group": "67-72",
+            "within": 0.0321,
+            "acrossItsBoundaries": 0.0371,
+            "difference": -0.005
+          },
+          {
+            "group": "73-80",
+            "within": 0.033,
+            "acrossItsBoundaries": 0.0351,
+            "difference": -0.002
+          },
+          {
+            "group": "81-88",
+            "within": 0.0189,
+            "acrossItsBoundaries": 0.0231,
+            "difference": -0.0042
+          },
+          {
+            "group": "89-92",
+            "within": 0.0263,
+            "acrossItsBoundaries": 0.0171,
+            "difference": 0.0092
+          },
+          {
+            "group": "93-98",
+            "within": 0.004,
+            "acrossItsBoundaries": 0.0153,
+            "difference": -0.0113
+          },
+          {
+            "group": "99-104",
+            "within": 0.0047,
+            "acrossItsBoundaries": 0.0041,
+            "difference": 0.0006
+          },
+          {
+            "group": "105-108",
+            "within": 0.0004,
+            "acrossItsBoundaries": 0.0063,
+            "difference": -0.0059
+          },
+          {
+            "group": "109-112",
+            "within": 0.0082,
+            "acrossItsBoundaries": 0.0119,
+            "difference": -0.0037
+          }
+        ]
+      },
+      {
+        "measure": "M1 formulas n=3",
+        "distances": [
+          1,
+          2,
+          3
+        ],
+        "observed": 0.3568,
+        "nullMean": 0.3807,
+        "nullSd": 0.2112,
+        "z": -0.1134,
+        "p": 0.722,
+        "perGroup": [
+          {
+            "group": "2-5",
+            "within": 16.3333,
+            "acrossItsBoundaries": 2.5,
+            "difference": 13.8333
+          },
+          {
+            "group": "6-9",
+            "within": 2.6667,
+            "acrossItsBoundaries": 2.25,
+            "difference": 0.4167
+          },
+          {
+            "group": "10-15",
+            "within": 0.6667,
+            "acrossItsBoundaries": 1.4167,
+            "difference": -0.75
+          },
+          {
+            "group": "16-21",
+            "within": 1.3333,
+            "acrossItsBoundaries": 0.6667,
+            "difference": 0.6667
+          },
+          {
+            "group": "22-24",
+            "within": 0.6667,
+            "acrossItsBoundaries": 0.4167,
+            "difference": 0.25
+          },
+          {
+            "group": "25-32",
+            "within": 0.8333,
+            "acrossItsBoundaries": 0.25,
+            "difference": 0.5833
+          },
+          {
+            "group": "33-39",
+            "within": 0.2,
+            "acrossItsBoundaries": 0.6667,
+            "difference": -0.4667
+          },
+          {
+            "group": "40-46",
+            "within": 0.2667,
+            "acrossItsBoundaries": 0.5833,
+            "difference": -0.3167
+          },
+          {
+            "group": "47-49",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "50-56",
+            "within": 0.2667,
+            "acrossItsBoundaries": 0,
+            "difference": 0.2667
+          },
+          {
+            "group": "57-66",
+            "within": 0.0833,
+            "acrossItsBoundaries": 0.0833,
+            "difference": 0
+          },
+          {
+            "group": "67-72",
+            "within": 0.0833,
+            "acrossItsBoundaries": 0.0833,
+            "difference": 0
+          },
+          {
+            "group": "73-80",
+            "within": 0.0556,
+            "acrossItsBoundaries": 0,
+            "difference": 0.0556
+          },
+          {
+            "group": "81-88",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "89-92",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "93-98",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "99-104",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "105-108",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "109-112",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          }
+        ]
+      },
+      {
+        "measure": "M1 formulas n=5",
+        "distances": [
+          1,
+          2,
+          3
+        ],
+        "observed": 0.1824,
+        "nullMean": 0.1142,
+        "nullSd": 0.0766,
+        "z": 0.8902,
+        "p": 0.153,
+        "perGroup": [
+          {
+            "group": "2-5",
+            "within": 5.3333,
+            "acrossItsBoundaries": 0.1667,
+            "difference": 5.1667
+          },
+          {
+            "group": "6-9",
+            "within": 0.3333,
+            "acrossItsBoundaries": 0.4167,
+            "difference": -0.0833
+          },
+          {
+            "group": "10-15",
+            "within": 0.1667,
+            "acrossItsBoundaries": 0.3333,
+            "difference": -0.1667
+          },
+          {
+            "group": "16-21",
+            "within": 0.4167,
+            "acrossItsBoundaries": 0,
+            "difference": 0.4167
+          },
+          {
+            "group": "22-24",
+            "within": 0.3333,
+            "acrossItsBoundaries": 0,
+            "difference": 0.3333
+          },
+          {
+            "group": "25-32",
+            "within": 0.6111,
+            "acrossItsBoundaries": 0.0833,
+            "difference": 0.5278
+          },
+          {
+            "group": "33-39",
+            "within": 0,
+            "acrossItsBoundaries": 0.25,
+            "difference": -0.25
+          },
+          {
+            "group": "40-46",
+            "within": 0,
+            "acrossItsBoundaries": 0.1667,
+            "difference": -0.1667
+          },
+          {
+            "group": "47-49",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "50-56",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "57-66",
+            "within": 0.0417,
+            "acrossItsBoundaries": 0,
+            "difference": 0.0417
+          },
+          {
+            "group": "67-72",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "73-80",
+            "within": 0.0556,
+            "acrossItsBoundaries": 0,
+            "difference": 0.0556
+          },
+          {
+            "group": "81-88",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "89-92",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "93-98",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "99-104",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "105-108",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          },
+          {
+            "group": "109-112",
+            "within": 0,
+            "acrossItsBoundaries": 0,
+            "difference": 0
+          }
+        ]
+      }
+    ]
+  },
+  "T4_rings": {
+    "primary": {
+      "combinedZsum": 5.6295,
+      "combinations": 212625,
+      "exactP": 0.00148
+    },
+    "perSura": [
+      {
+        "id": "farrin-ring-2",
+        "sura": 2,
+        "blind": true,
+        "pairings": 15,
+        "claimedScore": 0.8095,
+        "nullMean": 0.773,
+        "nullSd": 0.0396,
+        "z": 0.9198,
+        "exactP": 0.267,
+        "rankAmongPairings": "4 of 15",
+        "pairSims": [
+          {
+            "pair": "A / A'",
+            "similarity": 0.2556,
+            "partnerRank": "3 of 5"
+          },
+          {
+            "pair": "B / B'",
+            "similarity": 0.309,
+            "partnerRank": "2 of 5"
+          },
+          {
+            "pair": "C / C'",
+            "similarity": 0.2448,
+            "partnerRank": "2 of 5"
+          }
+        ]
+      },
+      {
+        "id": "farrin-ring-3",
+        "sura": 3,
+        "blind": true,
+        "pairings": 15,
+        "claimedScore": 0.696,
+        "nullMean": 0.6936,
+        "nullSd": 0.0353,
+        "z": 0.0686,
+        "exactP": 0.467,
+        "rankAmongPairings": "7 of 15",
+        "pairSims": [
+          {
+            "pair": "A / A'",
+            "similarity": 0.2913,
+            "partnerRank": "2 of 5"
+          },
+          {
+            "pair": "B / B'",
+            "similarity": 0.2175,
+            "partnerRank": "3 of 5"
+          },
+          {
+            "pair": "C / C'",
+            "similarity": 0.1872,
+            "partnerRank": "5 of 5"
+          }
+        ]
+      },
+      {
+        "id": "farrin-ring-12",
+        "sura": 12,
+        "blind": false,
+        "pairings": 945,
+        "claimedScore": 1.1194,
+        "nullMean": 0.4452,
+        "nullSd": 0.1453,
+        "z": 4.6411,
+        "exactP": 0.00106,
+        "rankAmongPairings": "1 of 945",
+        "pairSims": [
+          {
+            "pair": "Prologue / Epilogue",
+            "similarity": 0.1678,
+            "partnerRank": "1 of 9"
+          },
+          {
+            "pair": "a / a'",
+            "similarity": 0.3642,
+            "partnerRank": "1 of 9"
+          },
+          {
+            "pair": "b / b'",
+            "similarity": 0.2222,
+            "partnerRank": "1 of 9"
+          },
+          {
+            "pair": "c / c'",
+            "similarity": 0.0946,
+            "partnerRank": "2 of 9"
+          },
+          {
+            "pair": "d / d'",
+            "similarity": 0.2706,
+            "partnerRank": "1 of 9"
+          }
+        ]
+      }
+    ],
+    "kahfRetestNotBlind": {
+      "id": "kahf-ring-prior",
+      "sura": 18,
+      "blind": false,
+      "pairings": 15,
+      "claimedScore": 0.2882,
+      "nullMean": 0.2808,
+      "nullSd": 0.042,
+      "z": 0.1754,
+      "exactP": 0.467,
+      "rankAmongPairings": "7 of 15",
+      "pairSims": [
+        {
+          "pair": "FrameOpen / FrameClose",
+          "similarity": 0.0937,
+          "partnerRank": "1 of 5"
+        },
+        {
+          "pair": "Cave / DhulQarnayn",
+          "similarity": 0.1216,
+          "partnerRank": "1 of 5"
+        },
+        {
+          "pair": "Gardens / Khidr",
+          "similarity": 0.0729,
+          "partnerRank": "5 of 5"
+        }
+      ]
+    }
+  },
+  "T3_network_exploratory": {
+    "bridgedVersePairs": 337,
+    "withinGroupTotal": {
+      "observed": 67,
+      "expectedBySize": 36.1317,
+      "expectedByRewiring": 31.8173,
+      "pRewiring": 0.00005
+    },
+    "perGroup": [
+      {
+        "group": "2-5",
+        "observed": 32,
+        "expectedBySize": 17.8892,
+        "expectedByRewiring": 11.8651,
+        "pRewiring": 0.00005
+      },
+      {
+        "group": "6-9",
+        "observed": 2,
+        "expectedBySize": 6.0484,
+        "expectedByRewiring": 4.0365,
+        "pRewiring": 0.93
+      },
+      {
+        "group": "10-15",
+        "observed": 3,
+        "expectedBySize": 2.9693,
+        "expectedByRewiring": 3.0608,
+        "pRewiring": 0.606
+      },
+      {
+        "group": "16-21",
+        "observed": 6,
+        "expectedBySize": 2.9769,
+        "expectedByRewiring": 2.4221,
+        "pRewiring": 0.0261
+      },
+      {
+        "group": "22-24",
+        "observed": 1,
+        "expectedBySize": 0.5061,
+        "expectedByRewiring": 0.3648,
+        "pRewiring": 0.312
+      },
+      {
+        "group": "25-32",
+        "observed": 14,
+        "expectedBySize": 2.076,
+        "expectedByRewiring": 5.3979,
+        "pRewiring": 0.0002
+      },
+      {
+        "group": "33-39",
+        "observed": 0,
+        "expectedBySize": 1.5347,
+        "expectedByRewiring": 2.1451,
+        "pRewiring": 1
+      },
+      {
+        "group": "40-46",
+        "observed": 5,
+        "expectedBySize": 1.0817,
+        "expectedByRewiring": 1.6412,
+        "pRewiring": 0.0162
+      },
+      {
+        "group": "47-49",
+        "observed": 0,
+        "expectedBySize": 0.1274,
+        "expectedByRewiring": 0.0998,
+        "pRewiring": 1
+      },
+      {
+        "group": "50-56",
+        "observed": 0,
+        "expectedBySize": 0.0246,
+        "expectedByRewiring": 0.0304,
+        "pRewiring": 1
+      },
+      {
+        "group": "57-66",
+        "observed": 3,
+        "expectedBySize": 0.8559,
+        "expectedByRewiring": 0.7137,
+        "pRewiring": 0.0287
+      },
+      {
+        "group": "67-72",
+        "observed": 0,
+        "expectedBySize": 0.0292,
+        "expectedByRewiring": 0.0188,
+        "pRewiring": 1
+      },
+      {
+        "group": "73-80",
+        "observed": 1,
+        "expectedBySize": 0.012,
+        "expectedByRewiring": 0.0195,
+        "pRewiring": 0.0195
+      },
+      {
+        "group": "81-88",
+        "observed": 0,
+        "expectedBySize": 0.0002,
+        "expectedByRewiring": 0.0014,
+        "pRewiring": 1
+      },
+      {
+        "group": "89-92",
+        "observed": 0,
+        "expectedBySize": 0.0001,
+        "expectedByRewiring": 0,
+        "pRewiring": 1
+      },
+      {
+        "group": "93-98",
+        "observed": 0,
+        "expectedBySize": 0.0002,
+        "expectedByRewiring": 0,
+        "pRewiring": 1
+      },
+      {
+        "group": "99-104",
+        "observed": 0,
+        "expectedBySize": 0,
+        "expectedByRewiring": 0,
+        "pRewiring": 1
+      },
+      {
+        "group": "105-108",
+        "observed": 0,
+        "expectedBySize": 0,
+        "expectedByRewiring": 0,
+        "pRewiring": 1
+      },
+      {
+        "group": "109-112",
+        "observed": 0,
+        "expectedBySize": 0,
+        "expectedByRewiring": 0,
+        "pRewiring": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,2390 @@
+{
+ "note": "Descriptive. No test attached.",
+ "displacedByTenOrMorePlaces": {
+  "suras": 20,
+  "withGain": 10,
+  "withLoss": 10,
+  "meanGain": 0.031
+ },
+ "displacedByFewerThanTen": {
+  "suras": 93,
+  "withGain": 48,
+  "withLoss": 43,
+  "meanGain": 0.028
+ },
+ "mostDisplaced": [
+  {
+   "sura": 15,
+   "words": 655,
+   "letters": "الر",
+   "mushafPosition": 14,
+   "lengthRank": 40,
+   "displacement": -26,
+   "mushafNeighbours": [
+    14,
+    16
+   ],
+   "strictSortNeighbours": [
+    36,
+    46
+   ],
+   "similarityToMushafNeighbours": 0.638,
+   "similarityToStrictSortNeighbours": 0.741,
+   "gain": -0.103
+  },
+  {
+   "sura": 13,
+   "words": 853,
+   "letters": "المر",
+   "mushafPosition": 12,
+   "lengthRank": 32,
+   "displacement": -20,
+   "mushafNeighbours": [
+    12,
+    14
+   ],
+   "strictSortNeighbours": [
+    42,
+    14
+   ],
+   "similarityToMushafNeighbours": 0.819,
+   "similarityToStrictSortNeighbours": 0.911,
+   "gain": -0.092
+  },
+  {
+   "sura": 14,
+   "words": 830,
+   "letters": "الر",
+   "mushafPosition": 13,
+   "lengthRank": 33,
+   "displacement": -20,
+   "mushafNeighbours": [
+    13,
+    15
+   ],
+   "strictSortNeighbours": [
+    13,
+    43
+   ],
+   "similarityToMushafNeighbours": 0.725,
+   "similarityToStrictSortNeighbours": 0.795,
+   "gain": -0.069
+  },
+  {
+   "sura": 32,
+   "words": 372,
+   "letters": "الم",
+   "mushafPosition": 31,
+   "lengthRank": 51,
+   "displacement": -20,
+   "mushafNeighbours": [
+    31,
+    33
+   ],
+   "strictSortNeighbours": [
+    50,
+    51
+   ],
+   "similarityToMushafNeighbours": 0.507,
+   "similarityToStrictSortNeighbours": 0.679,
+   "gain": -0.172
+  },
+  {
+   "sura": 40,
+   "words": 1219,
+   "letters": "حم",
+   "mushafPosition": 39,
+   "lengthRank": 21,
+   "displacement": 18,
+   "mushafNeighbours": [
+    39,
+    41
+   ],
+   "strictSortNeighbours": [
+    8,
+    39
+   ],
+   "similarityToMushafNeighbours": 0.906,
+   "similarityToStrictSortNeighbours": 0.913,
+   "gain": -0.007
+  },
+  {
+   "sura": 39,
+   "words": 1172,
+   "letters": "",
+   "mushafPosition": 38,
+   "lengthRank": 22,
+   "displacement": 16,
+   "mushafNeighbours": [
+    38,
+    40
+   ],
+   "strictSortNeighbours": [
+    40,
+    21
+   ],
+   "similarityToMushafNeighbours": 0.895,
+   "similarityToStrictSortNeighbours": 0.859,
+   "gain": 0.036
+  },
+  {
+   "sura": 62,
+   "words": 175,
+   "letters": "",
+   "mushafPosition": 61,
+   "lengthRank": 76,
+   "displacement": -15,
+   "mushafNeighbours": [
+    61,
+    63
+   ],
+   "strictSortNeighbours": [
+    79,
+    78
+   ],
+   "similarityToMushafNeighbours": 0.717,
+   "similarityToStrictSortNeighbours": 0.304,
+   "gain": 0.413
+  },
+  {
+   "sura": 31,
+   "words": 546,
+   "letters": "الم",
+   "mushafPosition": 30,
+   "lengthRank": 44,
+   "displacement": -14,
+   "mushafNeighbours": [
+    30,
+    32
+   ],
+   "strictSortNeighbours": [
+    48,
+    47
+   ],
+   "similarityToMushafNeighbours": 0.665,
+   "similarityToStrictSortNeighbours": 0.556,
+   "gain": 0.109
+  },
+  {
+   "sura": 33,
+   "words": 1287,
+   "letters": "",
+   "mushafPosition": 32,
+   "lengthRank": 18,
+   "displacement": 14,
+   "mushafNeighbours": [
+    32,
+    34
+   ],
+   "strictSortNeighbours": [
+    24,
+    22
+   ],
+   "similarityToMushafNeighbours": 0.549,
+   "similarityToStrictSortNeighbours": 0.853,
+   "gain": -0.304
+  },
+  {
+   "sura": 44,
+   "words": 346,
+   "letters": "حم",
+   "mushafPosition": 43,
+   "lengthRank": 57,
+   "displacement": -14,
+   "mushafNeighbours": [
+    43,
+    45
+   ],
+   "strictSortNeighbours": [
+    49,
+    54
+   ],
+   "similarityToMushafNeighbours": 0.786,
+   "similarityToStrictSortNeighbours": 0.661,
+   "gain": 0.125
+  },
+  {
+   "sura": 57,
+   "words": 574,
+   "letters": "",
+   "mushafPosition": 56,
+   "lengthRank": 42,
+   "displacement": 14,
+   "mushafNeighbours": [
+    56,
+    58
+   ],
+   "strictSortNeighbours": [
+    46,
+    48
+   ],
+   "similarityToMushafNeighbours": 0.533,
+   "similarityToStrictSortNeighbours": 0.739,
+   "gain": -0.205
+  },
+  {
+   "sura": 8,
+   "words": 1233,
+   "letters": "",
+   "mushafPosition": 7,
+   "lengthRank": 20,
+   "displacement": -13,
+   "mushafNeighbours": [
+    7,
+    9
+   ],
+   "strictSortNeighbours": [
+    22,
+    40
+   ],
+   "similarityToMushafNeighbours": 0.844,
+   "similarityToStrictSortNeighbours": 0.877,
+   "gain": -0.033
+  }
+ ],
+ "all": [
+  {
+   "sura": 2,
+   "words": 6116,
+   "letters": "الم",
+   "mushafPosition": 1,
+   "lengthRank": 1,
+   "displacement": 0,
+   "mushafNeighbours": [
+    3
+   ],
+   "strictSortNeighbours": [
+    4
+   ],
+   "similarityToMushafNeighbours": 1,
+   "similarityToStrictSortNeighbours": 0.996,
+   "gain": 0.004
+  },
+  {
+   "sura": 3,
+   "words": 3481,
+   "letters": "الم",
+   "mushafPosition": 2,
+   "lengthRank": 3,
+   "displacement": -1,
+   "mushafNeighbours": [
+    2,
+    4
+   ],
+   "strictSortNeighbours": [
+    4,
+    7
+   ],
+   "similarityToMushafNeighbours": 0.993,
+   "similarityToStrictSortNeighbours": 0.967,
+   "gain": 0.027
+  },
+  {
+   "sura": 4,
+   "words": 3747,
+   "letters": "",
+   "mushafPosition": 3,
+   "lengthRank": 2,
+   "displacement": 1,
+   "mushafNeighbours": [
+    3,
+    5
+   ],
+   "strictSortNeighbours": [
+    2,
+    3
+   ],
+   "similarityToMushafNeighbours": 0.984,
+   "similarityToStrictSortNeighbours": 0.991,
+   "gain": -0.007
+  },
+  {
+   "sura": 5,
+   "words": 2804,
+   "letters": "",
+   "mushafPosition": 4,
+   "lengthRank": 6,
+   "displacement": -2,
+   "mushafNeighbours": [
+    4,
+    6
+   ],
+   "strictSortNeighbours": [
+    6,
+    9
+   ],
+   "similarityToMushafNeighbours": 0.955,
+   "similarityToStrictSortNeighbours": 0.955,
+   "gain": 0
+  },
+  {
+   "sura": 6,
+   "words": 3050,
+   "letters": "",
+   "mushafPosition": 5,
+   "lengthRank": 5,
+   "displacement": 0,
+   "mushafNeighbours": [
+    5,
+    7
+   ],
+   "strictSortNeighbours": [
+    7,
+    5
+   ],
+   "similarityToMushafNeighbours": 0.958,
+   "similarityToStrictSortNeighbours": 0.958,
+   "gain": 0
+  },
+  {
+   "sura": 7,
+   "words": 3320,
+   "letters": "المص",
+   "mushafPosition": 6,
+   "lengthRank": 4,
+   "displacement": 2,
+   "mushafNeighbours": [
+    6,
+    8
+   ],
+   "strictSortNeighbours": [
+    3,
+    6
+   ],
+   "similarityToMushafNeighbours": 0.879,
+   "similarityToStrictSortNeighbours": 0.967,
+   "gain": -0.087
+  },
+  {
+   "sura": 8,
+   "words": 1233,
+   "letters": "",
+   "mushafPosition": 7,
+   "lengthRank": 20,
+   "displacement": -13,
+   "mushafNeighbours": [
+    7,
+    9
+   ],
+   "strictSortNeighbours": [
+    22,
+    40
+   ],
+   "similarityToMushafNeighbours": 0.844,
+   "similarityToStrictSortNeighbours": 0.877,
+   "gain": -0.033
+  },
+  {
+   "sura": 9,
+   "words": 2498,
+   "letters": "",
+   "mushafPosition": 8,
+   "lengthRank": 7,
+   "displacement": 1,
+   "mushafNeighbours": [
+    8,
+    10
+   ],
+   "strictSortNeighbours": [
+    5,
+    11
+   ],
+   "similarityToMushafNeighbours": 0.859,
+   "similarityToStrictSortNeighbours": 0.9,
+   "gain": -0.04
+  },
+  {
+   "sura": 10,
+   "words": 1833,
+   "letters": "الر",
+   "mushafPosition": 9,
+   "lengthRank": 10,
+   "displacement": -1,
+   "mushafNeighbours": [
+    9,
+    11
+   ],
+   "strictSortNeighbours": [
+    16,
+    12
+   ],
+   "similarityToMushafNeighbours": 0.884,
+   "similarityToStrictSortNeighbours": 0.902,
+   "gain": -0.018
+  },
+  {
+   "sura": 11,
+   "words": 1917,
+   "letters": "الر",
+   "mushafPosition": 10,
+   "lengthRank": 8,
+   "displacement": 2,
+   "mushafNeighbours": [
+    10,
+    12
+   ],
+   "strictSortNeighbours": [
+    9,
+    16
+   ],
+   "similarityToMushafNeighbours": 0.848,
+   "similarityToStrictSortNeighbours": 0.862,
+   "gain": -0.013
+  },
+  {
+   "sura": 12,
+   "words": 1777,
+   "letters": "الر",
+   "mushafPosition": 11,
+   "lengthRank": 11,
+   "displacement": 0,
+   "mushafNeighbours": [
+    11,
+    13
+   ],
+   "strictSortNeighbours": [
+    10,
+    18
+   ],
+   "similarityToMushafNeighbours": 0.712,
+   "similarityToStrictSortNeighbours": 0.873,
+   "gain": -0.161
+  },
+  {
+   "sura": 13,
+   "words": 853,
+   "letters": "المر",
+   "mushafPosition": 12,
+   "lengthRank": 32,
+   "displacement": -20,
+   "mushafNeighbours": [
+    12,
+    14
+   ],
+   "strictSortNeighbours": [
+    42,
+    14
+   ],
+   "similarityToMushafNeighbours": 0.819,
+   "similarityToStrictSortNeighbours": 0.911,
+   "gain": -0.092
+  },
+  {
+   "sura": 14,
+   "words": 830,
+   "letters": "الر",
+   "mushafPosition": 13,
+   "lengthRank": 33,
+   "displacement": -20,
+   "mushafNeighbours": [
+    13,
+    15
+   ],
+   "strictSortNeighbours": [
+    13,
+    43
+   ],
+   "similarityToMushafNeighbours": 0.725,
+   "similarityToStrictSortNeighbours": 0.795,
+   "gain": -0.069
+  },
+  {
+   "sura": 15,
+   "words": 655,
+   "letters": "الر",
+   "mushafPosition": 14,
+   "lengthRank": 40,
+   "displacement": -26,
+   "mushafNeighbours": [
+    14,
+    16
+   ],
+   "strictSortNeighbours": [
+    36,
+    46
+   ],
+   "similarityToMushafNeighbours": 0.638,
+   "similarityToStrictSortNeighbours": 0.741,
+   "gain": -0.103
+  },
+  {
+   "sura": 16,
+   "words": 1844,
+   "letters": "",
+   "mushafPosition": 15,
+   "lengthRank": 9,
+   "displacement": 6,
+   "mushafNeighbours": [
+    15,
+    17
+   ],
+   "strictSortNeighbours": [
+    11,
+    10
+   ],
+   "similarityToMushafNeighbours": 0.821,
+   "similarityToStrictSortNeighbours": 0.942,
+   "gain": -0.121
+  },
+  {
+   "sura": 17,
+   "words": 1556,
+   "letters": "",
+   "mushafPosition": 16,
+   "lengthRank": 13,
+   "displacement": 3,
+   "mushafNeighbours": [
+    16,
+    18
+   ],
+   "strictSortNeighbours": [
+    18,
+    28
+   ],
+   "similarityToMushafNeighbours": 0.915,
+   "similarityToStrictSortNeighbours": 0.942,
+   "gain": -0.027
+  },
+  {
+   "sura": 18,
+   "words": 1579,
+   "letters": "",
+   "mushafPosition": 17,
+   "lengthRank": 12,
+   "displacement": 5,
+   "mushafNeighbours": [
+    17,
+    19
+   ],
+   "strictSortNeighbours": [
+    12,
+    17
+   ],
+   "similarityToMushafNeighbours": 0.877,
+   "similarityToStrictSortNeighbours": 0.94,
+   "gain": -0.063
+  },
+  {
+   "sura": 19,
+   "words": 961,
+   "letters": "كهيعص",
+   "mushafPosition": 18,
+   "lengthRank": 27,
+   "displacement": -9,
+   "mushafNeighbours": [
+    18,
+    20
+   ],
+   "strictSortNeighbours": [
+    29,
+    25
+   ],
+   "similarityToMushafNeighbours": 0.853,
+   "similarityToStrictSortNeighbours": 0.723,
+   "gain": 0.129
+  },
+  {
+   "sura": 20,
+   "words": 1335,
+   "letters": "طه",
+   "mushafPosition": 19,
+   "lengthRank": 15,
+   "displacement": 4,
+   "mushafNeighbours": [
+    19,
+    21
+   ],
+   "strictSortNeighbours": [
+    28,
+    26
+   ],
+   "similarityToMushafNeighbours": 0.877,
+   "similarityToStrictSortNeighbours": 0.953,
+   "gain": -0.076
+  },
+  {
+   "sura": 21,
+   "words": 1169,
+   "letters": "",
+   "mushafPosition": 20,
+   "lengthRank": 23,
+   "displacement": -3,
+   "mushafNeighbours": [
+    20,
+    22
+   ],
+   "strictSortNeighbours": [
+    39,
+    27
+   ],
+   "similarityToMushafNeighbours": 0.786,
+   "similarityToStrictSortNeighbours": 0.824,
+   "gain": -0.038
+  },
+  {
+   "sura": 22,
+   "words": 1274,
+   "letters": "",
+   "mushafPosition": 21,
+   "lengthRank": 19,
+   "displacement": 2,
+   "mushafNeighbours": [
+    21,
+    23
+   ],
+   "strictSortNeighbours": [
+    33,
+    8
+   ],
+   "similarityToMushafNeighbours": 0.694,
+   "similarityToStrictSortNeighbours": 0.806,
+   "gain": -0.112
+  },
+  {
+   "sura": 23,
+   "words": 1050,
+   "letters": "",
+   "mushafPosition": 22,
+   "lengthRank": 25,
+   "displacement": -3,
+   "mushafNeighbours": [
+    22,
+    24
+   ],
+   "strictSortNeighbours": [
+    27,
+    29
+   ],
+   "similarityToMushafNeighbours": 0.665,
+   "similarityToStrictSortNeighbours": 0.846,
+   "gain": -0.181
+  },
+  {
+   "sura": 24,
+   "words": 1316,
+   "letters": "",
+   "mushafPosition": 23,
+   "lengthRank": 17,
+   "displacement": 6,
+   "mushafNeighbours": [
+    23,
+    25
+   ],
+   "strictSortNeighbours": [
+    26,
+    33
+   ],
+   "similarityToMushafNeighbours": 0.632,
+   "similarityToStrictSortNeighbours": 0.779,
+   "gain": -0.147
+  },
+  {
+   "sura": 25,
+   "words": 893,
+   "letters": "",
+   "mushafPosition": 24,
+   "lengthRank": 28,
+   "displacement": -4,
+   "mushafNeighbours": [
+    24,
+    26
+   ],
+   "strictSortNeighbours": [
+    19,
+    34
+   ],
+   "similarityToMushafNeighbours": 0.692,
+   "similarityToStrictSortNeighbours": 0.788,
+   "gain": -0.096
+  },
+  {
+   "sura": 26,
+   "words": 1318,
+   "letters": "طسم",
+   "mushafPosition": 25,
+   "lengthRank": 16,
+   "displacement": 9,
+   "mushafNeighbours": [
+    25,
+    27
+   ],
+   "strictSortNeighbours": [
+    20,
+    24
+   ],
+   "similarityToMushafNeighbours": 0.859,
+   "similarityToStrictSortNeighbours": 0.748,
+   "gain": 0.112
+  },
+  {
+   "sura": 27,
+   "words": 1151,
+   "letters": "طس",
+   "mushafPosition": 26,
+   "lengthRank": 24,
+   "displacement": 2,
+   "mushafNeighbours": [
+    26,
+    28
+   ],
+   "strictSortNeighbours": [
+    21,
+    23
+   ],
+   "similarityToMushafNeighbours": 0.958,
+   "similarityToStrictSortNeighbours": 0.864,
+   "gain": 0.094
+  },
+  {
+   "sura": 28,
+   "words": 1430,
+   "letters": "طسم",
+   "mushafPosition": 27,
+   "lengthRank": 14,
+   "displacement": 13,
+   "mushafNeighbours": [
+    27,
+    29
+   ],
+   "strictSortNeighbours": [
+    17,
+    20
+   ],
+   "similarityToMushafNeighbours": 0.926,
+   "similarityToStrictSortNeighbours": 0.953,
+   "gain": -0.027
+  },
+  {
+   "sura": 29,
+   "words": 976,
+   "letters": "الم",
+   "mushafPosition": 28,
+   "lengthRank": 26,
+   "displacement": 2,
+   "mushafNeighbours": [
+    28,
+    30
+   ],
+   "strictSortNeighbours": [
+    23,
+    19
+   ],
+   "similarityToMushafNeighbours": 0.886,
+   "similarityToStrictSortNeighbours": 0.75,
+   "gain": 0.136
+  },
+  {
+   "sura": 30,
+   "words": 817,
+   "letters": "الم",
+   "mushafPosition": 29,
+   "lengthRank": 35,
+   "displacement": -6,
+   "mushafNeighbours": [
+    29,
+    31
+   ],
+   "strictSortNeighbours": [
+    43,
+    41
+   ],
+   "similarityToMushafNeighbours": 0.855,
+   "similarityToStrictSortNeighbours": 0.893,
+   "gain": -0.038
+  },
+  {
+   "sura": 31,
+   "words": 546,
+   "letters": "الم",
+   "mushafPosition": 30,
+   "lengthRank": 44,
+   "displacement": -14,
+   "mushafNeighbours": [
+    30,
+    32
+   ],
+   "strictSortNeighbours": [
+    48,
+    47
+   ],
+   "similarityToMushafNeighbours": 0.665,
+   "similarityToStrictSortNeighbours": 0.556,
+   "gain": 0.109
+  },
+  {
+   "sura": 32,
+   "words": 372,
+   "letters": "الم",
+   "mushafPosition": 31,
+   "lengthRank": 51,
+   "displacement": -20,
+   "mushafNeighbours": [
+    31,
+    33
+   ],
+   "strictSortNeighbours": [
+    50,
+    51
+   ],
+   "similarityToMushafNeighbours": 0.507,
+   "similarityToStrictSortNeighbours": 0.679,
+   "gain": -0.172
+  },
+  {
+   "sura": 33,
+   "words": 1287,
+   "letters": "",
+   "mushafPosition": 32,
+   "lengthRank": 18,
+   "displacement": 14,
+   "mushafNeighbours": [
+    32,
+    34
+   ],
+   "strictSortNeighbours": [
+    24,
+    22
+   ],
+   "similarityToMushafNeighbours": 0.549,
+   "similarityToStrictSortNeighbours": 0.853,
+   "gain": -0.304
+  },
+  {
+   "sura": 34,
+   "words": 883,
+   "letters": "",
+   "mushafPosition": 33,
+   "lengthRank": 29,
+   "displacement": 4,
+   "mushafNeighbours": [
+    33,
+    35
+   ],
+   "strictSortNeighbours": [
+    25,
+    37
+   ],
+   "similarityToMushafNeighbours": 0.743,
+   "similarityToStrictSortNeighbours": 0.75,
+   "gain": -0.007
+  },
+  {
+   "sura": 35,
+   "words": 775,
+   "letters": "",
+   "mushafPosition": 34,
+   "lengthRank": 37,
+   "displacement": -3,
+   "mushafNeighbours": [
+    34,
+    36
+   ],
+   "strictSortNeighbours": [
+    41,
+    38
+   ],
+   "similarityToMushafNeighbours": 0.786,
+   "similarityToStrictSortNeighbours": 0.672,
+   "gain": 0.114
+  },
+  {
+   "sura": 36,
+   "words": 725,
+   "letters": "يس",
+   "mushafPosition": 35,
+   "lengthRank": 39,
+   "displacement": -4,
+   "mushafNeighbours": [
+    35,
+    37
+   ],
+   "strictSortNeighbours": [
+    38,
+    15
+   ],
+   "similarityToMushafNeighbours": 0.77,
+   "similarityToStrictSortNeighbours": 0.772,
+   "gain": -0.002
+  },
+  {
+   "sura": 37,
+   "words": 860,
+   "letters": "",
+   "mushafPosition": 36,
+   "lengthRank": 30,
+   "displacement": 6,
+   "mushafNeighbours": [
+    36,
+    38
+   ],
+   "strictSortNeighbours": [
+    34,
+    42
+   ],
+   "similarityToMushafNeighbours": 0.846,
+   "similarityToStrictSortNeighbours": 0.623,
+   "gain": 0.223
+  },
+  {
+   "sura": 38,
+   "words": 733,
+   "letters": "ص",
+   "mushafPosition": 37,
+   "lengthRank": 38,
+   "displacement": -1,
+   "mushafNeighbours": [
+    37,
+    39
+   ],
+   "strictSortNeighbours": [
+    35,
+    36
+   ],
+   "similarityToMushafNeighbours": 0.837,
+   "similarityToStrictSortNeighbours": 0.667,
+   "gain": 0.17
+  },
+  {
+   "sura": 39,
+   "words": 1172,
+   "letters": "",
+   "mushafPosition": 38,
+   "lengthRank": 22,
+   "displacement": 16,
+   "mushafNeighbours": [
+    38,
+    40
+   ],
+   "strictSortNeighbours": [
+    40,
+    21
+   ],
+   "similarityToMushafNeighbours": 0.895,
+   "similarityToStrictSortNeighbours": 0.859,
+   "gain": 0.036
+  },
+  {
+   "sura": 40,
+   "words": 1219,
+   "letters": "حم",
+   "mushafPosition": 39,
+   "lengthRank": 21,
+   "displacement": 18,
+   "mushafNeighbours": [
+    39,
+    41
+   ],
+   "strictSortNeighbours": [
+    8,
+    39
+   ],
+   "similarityToMushafNeighbours": 0.906,
+   "similarityToStrictSortNeighbours": 0.913,
+   "gain": -0.007
+  },
+  {
+   "sura": 41,
+   "words": 794,
+   "letters": "حم",
+   "mushafPosition": 40,
+   "lengthRank": 36,
+   "displacement": 4,
+   "mushafNeighbours": [
+    40,
+    42
+   ],
+   "strictSortNeighbours": [
+    30,
+    35
+   ],
+   "similarityToMushafNeighbours": 0.859,
+   "similarityToStrictSortNeighbours": 0.808,
+   "gain": 0.051
+  },
+  {
+   "sura": 42,
+   "words": 860,
+   "letters": "حم",
+   "mushafPosition": 41,
+   "lengthRank": 31,
+   "displacement": 10,
+   "mushafNeighbours": [
+    41,
+    43
+   ],
+   "strictSortNeighbours": [
+    37,
+    13
+   ],
+   "similarityToMushafNeighbours": 0.81,
+   "similarityToStrictSortNeighbours": 0.696,
+   "gain": 0.114
+  },
+  {
+   "sura": 43,
+   "words": 830,
+   "letters": "حم",
+   "mushafPosition": 42,
+   "lengthRank": 34,
+   "displacement": 8,
+   "mushafNeighbours": [
+    42,
+    44
+   ],
+   "strictSortNeighbours": [
+    14,
+    30
+   ],
+   "similarityToMushafNeighbours": 0.75,
+   "similarityToStrictSortNeighbours": 0.768,
+   "gain": -0.018
+  },
+  {
+   "sura": 44,
+   "words": 346,
+   "letters": "حم",
+   "mushafPosition": 43,
+   "lengthRank": 57,
+   "displacement": -14,
+   "mushafNeighbours": [
+    43,
+    45
+   ],
+   "strictSortNeighbours": [
+    49,
+    54
+   ],
+   "similarityToMushafNeighbours": 0.786,
+   "similarityToStrictSortNeighbours": 0.661,
+   "gain": 0.125
+  },
+  {
+   "sura": 45,
+   "words": 488,
+   "letters": "حم",
+   "mushafPosition": 44,
+   "lengthRank": 46,
+   "displacement": -2,
+   "mushafNeighbours": [
+    44,
+    46
+   ],
+   "strictSortNeighbours": [
+    47,
+    58
+   ],
+   "similarityToMushafNeighbours": 0.848,
+   "similarityToStrictSortNeighbours": 0.647,
+   "gain": 0.201
+  },
+  {
+   "sura": 46,
+   "words": 643,
+   "letters": "حم",
+   "mushafPosition": 45,
+   "lengthRank": 41,
+   "displacement": 4,
+   "mushafNeighbours": [
+    45,
+    47
+   ],
+   "strictSortNeighbours": [
+    15,
+    57
+   ],
+   "similarityToMushafNeighbours": 0.714,
+   "similarityToStrictSortNeighbours": 0.592,
+   "gain": 0.123
+  },
+  {
+   "sura": 47,
+   "words": 539,
+   "letters": "",
+   "mushafPosition": 46,
+   "lengthRank": 45,
+   "displacement": 1,
+   "mushafNeighbours": [
+    46,
+    48
+   ],
+   "strictSortNeighbours": [
+    31,
+    45
+   ],
+   "similarityToMushafNeighbours": 0.69,
+   "similarityToStrictSortNeighbours": 0.647,
+   "gain": 0.042
+  },
+  {
+   "sura": 48,
+   "words": 560,
+   "letters": "",
+   "mushafPosition": 47,
+   "lengthRank": 43,
+   "displacement": 4,
+   "mushafNeighbours": [
+    47,
+    49
+   ],
+   "strictSortNeighbours": [
+    57,
+    31
+   ],
+   "similarityToMushafNeighbours": 0.83,
+   "similarityToStrictSortNeighbours": 0.728,
+   "gain": 0.103
+  },
+  {
+   "sura": 49,
+   "words": 347,
+   "letters": "",
+   "mushafPosition": 48,
+   "lengthRank": 56,
+   "displacement": -8,
+   "mushafNeighbours": [
+    48,
+    50
+   ],
+   "strictSortNeighbours": [
+    60,
+    44
+   ],
+   "similarityToMushafNeighbours": 0.636,
+   "similarityToStrictSortNeighbours": 0.656,
+   "gain": -0.02
+  },
+  {
+   "sura": 50,
+   "words": 373,
+   "letters": "ق",
+   "mushafPosition": 49,
+   "lengthRank": 50,
+   "displacement": -1,
+   "mushafNeighbours": [
+    49,
+    51
+   ],
+   "strictSortNeighbours": [
+    56,
+    32
+   ],
+   "similarityToMushafNeighbours": 0.464,
+   "similarityToStrictSortNeighbours": 0.627,
+   "gain": -0.163
+  },
+  {
+   "sura": 51,
+   "words": 360,
+   "letters": "",
+   "mushafPosition": 50,
+   "lengthRank": 52,
+   "displacement": -2,
+   "mushafNeighbours": [
+    50,
+    52
+   ],
+   "strictSortNeighbours": [
+    32,
+    53
+   ],
+   "similarityToMushafNeighbours": 0.661,
+   "similarityToStrictSortNeighbours": 0.531,
+   "gain": 0.129
+  },
+  {
+   "sura": 52,
+   "words": 312,
+   "letters": "",
+   "mushafPosition": 51,
+   "lengthRank": 60,
+   "displacement": -9,
+   "mushafNeighbours": [
+    51,
+    53
+   ],
+   "strictSortNeighbours": [
+    67,
+    68
+   ],
+   "similarityToMushafNeighbours": 0.551,
+   "similarityToStrictSortNeighbours": 0.712,
+   "gain": -0.161
+  },
+  {
+   "sura": 53,
+   "words": 360,
+   "letters": "",
+   "mushafPosition": 52,
+   "lengthRank": 53,
+   "displacement": -1,
+   "mushafNeighbours": [
+    52,
+    54
+   ],
+   "strictSortNeighbours": [
+    51,
+    55
+   ],
+   "similarityToMushafNeighbours": 0.482,
+   "similarityToStrictSortNeighbours": 0.643,
+   "gain": -0.161
+  },
+  {
+   "sura": 54,
+   "words": 342,
+   "letters": "",
+   "mushafPosition": 53,
+   "lengthRank": 58,
+   "displacement": -5,
+   "mushafNeighbours": [
+    53,
+    55
+   ],
+   "strictSortNeighbours": [
+    44,
+    67
+   ],
+   "similarityToMushafNeighbours": 0.69,
+   "similarityToStrictSortNeighbours": 0.799,
+   "gain": -0.109
+  },
+  {
+   "sura": 55,
+   "words": 351,
+   "letters": "",
+   "mushafPosition": 54,
+   "lengthRank": 54,
+   "displacement": 0,
+   "mushafNeighbours": [
+    54,
+    56
+   ],
+   "strictSortNeighbours": [
+    53,
+    60
+   ],
+   "similarityToMushafNeighbours": 0.813,
+   "similarityToStrictSortNeighbours": 0.563,
+   "gain": 0.25
+  },
+  {
+   "sura": 56,
+   "words": 379,
+   "letters": "",
+   "mushafPosition": 55,
+   "lengthRank": 49,
+   "displacement": 6,
+   "mushafNeighbours": [
+    55,
+    57
+   ],
+   "strictSortNeighbours": [
+    59,
+    50
+   ],
+   "similarityToMushafNeighbours": 0.699,
+   "similarityToStrictSortNeighbours": 0.511,
+   "gain": 0.188
+  },
+  {
+   "sura": 57,
+   "words": 574,
+   "letters": "",
+   "mushafPosition": 56,
+   "lengthRank": 42,
+   "displacement": 14,
+   "mushafNeighbours": [
+    56,
+    58
+   ],
+   "strictSortNeighbours": [
+    46,
+    48
+   ],
+   "similarityToMushafNeighbours": 0.533,
+   "similarityToStrictSortNeighbours": 0.739,
+   "gain": -0.205
+  },
+  {
+   "sura": 58,
+   "words": 472,
+   "letters": "",
+   "mushafPosition": 57,
+   "lengthRank": 47,
+   "displacement": 10,
+   "mushafNeighbours": [
+    57,
+    59
+   ],
+   "strictSortNeighbours": [
+    45,
+    59
+   ],
+   "similarityToMushafNeighbours": 0.696,
+   "similarityToStrictSortNeighbours": 0.694,
+   "gain": 0.002
+  },
+  {
+   "sura": 59,
+   "words": 445,
+   "letters": "",
+   "mushafPosition": 58,
+   "lengthRank": 48,
+   "displacement": 10,
+   "mushafNeighbours": [
+    58,
+    60
+   ],
+   "strictSortNeighbours": [
+    58,
+    56
+   ],
+   "similarityToMushafNeighbours": 0.777,
+   "similarityToStrictSortNeighbours": 0.616,
+   "gain": 0.161
+  },
+  {
+   "sura": 60,
+   "words": 348,
+   "letters": "",
+   "mushafPosition": 59,
+   "lengthRank": 55,
+   "displacement": 4,
+   "mushafNeighbours": [
+    59,
+    61
+   ],
+   "strictSortNeighbours": [
+    55,
+    49
+   ],
+   "similarityToMushafNeighbours": 0.696,
+   "similarityToStrictSortNeighbours": 0.574,
+   "gain": 0.123
+  },
+  {
+   "sura": 61,
+   "words": 221,
+   "letters": "",
+   "mushafPosition": 60,
+   "lengthRank": 70,
+   "displacement": -10,
+   "mushafNeighbours": [
+    60,
+    62
+   ],
+   "strictSortNeighbours": [
+    71,
+    70
+   ],
+   "similarityToMushafNeighbours": 0.692,
+   "similarityToStrictSortNeighbours": 0.594,
+   "gain": 0.098
+  },
+  {
+   "sura": 62,
+   "words": 175,
+   "letters": "",
+   "mushafPosition": 61,
+   "lengthRank": 76,
+   "displacement": -15,
+   "mushafNeighbours": [
+    61,
+    63
+   ],
+   "strictSortNeighbours": [
+    79,
+    78
+   ],
+   "similarityToMushafNeighbours": 0.717,
+   "similarityToStrictSortNeighbours": 0.304,
+   "gain": 0.413
+  },
+  {
+   "sura": 63,
+   "words": 180,
+   "letters": "",
+   "mushafPosition": 62,
+   "lengthRank": 74,
+   "displacement": -12,
+   "mushafNeighbours": [
+    62,
+    64
+   ],
+   "strictSortNeighbours": [
+    77,
+    79
+   ],
+   "similarityToMushafNeighbours": 0.748,
+   "similarityToStrictSortNeighbours": 0.225,
+   "gain": 0.522
+  },
+  {
+   "sura": 64,
+   "words": 241,
+   "letters": "",
+   "mushafPosition": 63,
+   "lengthRank": 68,
+   "displacement": -5,
+   "mushafNeighbours": [
+    63,
+    65
+   ],
+   "strictSortNeighbours": [
+    76,
+    71
+   ],
+   "similarityToMushafNeighbours": 0.859,
+   "similarityToStrictSortNeighbours": 0.605,
+   "gain": 0.254
+  },
+  {
+   "sura": 65,
+   "words": 287,
+   "letters": "",
+   "mushafPosition": 64,
+   "lengthRank": 62,
+   "displacement": 2,
+   "mushafNeighbours": [
+    64,
+    66
+   ],
+   "strictSortNeighbours": [
+    68,
+    72
+   ],
+   "similarityToMushafNeighbours": 0.826,
+   "similarityToStrictSortNeighbours": 0.438,
+   "gain": 0.388
+  },
+  {
+   "sura": 66,
+   "words": 249,
+   "letters": "",
+   "mushafPosition": 65,
+   "lengthRank": 66,
+   "displacement": -1,
+   "mushafNeighbours": [
+    65,
+    67
+   ],
+   "strictSortNeighbours": [
+    74,
+    76
+   ],
+   "similarityToMushafNeighbours": 0.563,
+   "similarityToStrictSortNeighbours": 0.286,
+   "gain": 0.277
+  },
+  {
+   "sura": 67,
+   "words": 333,
+   "letters": "",
+   "mushafPosition": 66,
+   "lengthRank": 59,
+   "displacement": 7,
+   "mushafNeighbours": [
+    66,
+    68
+   ],
+   "strictSortNeighbours": [
+    54,
+    52
+   ],
+   "similarityToMushafNeighbours": 0.417,
+   "similarityToStrictSortNeighbours": 0.551,
+   "gain": -0.134
+  },
+  {
+   "sura": 68,
+   "words": 300,
+   "letters": "ن",
+   "mushafPosition": 67,
+   "lengthRank": 61,
+   "displacement": 6,
+   "mushafNeighbours": [
+    67,
+    69
+   ],
+   "strictSortNeighbours": [
+    52,
+    65
+   ],
+   "similarityToMushafNeighbours": 0.429,
+   "similarityToStrictSortNeighbours": 0.652,
+   "gain": -0.223
+  },
+  {
+   "sura": 69,
+   "words": 258,
+   "letters": "",
+   "mushafPosition": 68,
+   "lengthRank": 64,
+   "displacement": 4,
+   "mushafNeighbours": [
+    68,
+    70
+   ],
+   "strictSortNeighbours": [
+    72,
+    74
+   ],
+   "similarityToMushafNeighbours": 0.431,
+   "similarityToStrictSortNeighbours": 0.574,
+   "gain": -0.143
+  },
+  {
+   "sura": 70,
+   "words": 217,
+   "letters": "",
+   "mushafPosition": 69,
+   "lengthRank": 71,
+   "displacement": -2,
+   "mushafNeighbours": [
+    69,
+    71
+   ],
+   "strictSortNeighbours": [
+    61,
+    73
+   ],
+   "similarityToMushafNeighbours": 0.373,
+   "similarityToStrictSortNeighbours": 0.554,
+   "gain": -0.181
+  },
+  {
+   "sura": 71,
+   "words": 226,
+   "letters": "",
+   "mushafPosition": 70,
+   "lengthRank": 69,
+   "displacement": 1,
+   "mushafNeighbours": [
+    70,
+    72
+   ],
+   "strictSortNeighbours": [
+    64,
+    61
+   ],
+   "similarityToMushafNeighbours": 0.395,
+   "similarityToStrictSortNeighbours": 0.746,
+   "gain": -0.35
+  },
+  {
+   "sura": 72,
+   "words": 285,
+   "letters": "",
+   "mushafPosition": 71,
+   "lengthRank": 63,
+   "displacement": 8,
+   "mushafNeighbours": [
+    71,
+    73
+   ],
+   "strictSortNeighbours": [
+    65,
+    69
+   ],
+   "similarityToMushafNeighbours": 0.464,
+   "similarityToStrictSortNeighbours": 0.5,
+   "gain": -0.036
+  },
+  {
+   "sura": 73,
+   "words": 199,
+   "letters": "",
+   "mushafPosition": 72,
+   "lengthRank": 72,
+   "displacement": 0,
+   "mushafNeighbours": [
+    72,
+    74
+   ],
+   "strictSortNeighbours": [
+    70,
+    77
+   ],
+   "similarityToMushafNeighbours": 0.65,
+   "similarityToStrictSortNeighbours": 0.589,
+   "gain": 0.06
+  },
+  {
+   "sura": 74,
+   "words": 255,
+   "letters": "",
+   "mushafPosition": 73,
+   "lengthRank": 65,
+   "displacement": 8,
+   "mushafNeighbours": [
+    73,
+    75
+   ],
+   "strictSortNeighbours": [
+    69,
+    66
+   ],
+   "similarityToMushafNeighbours": 0.563,
+   "similarityToStrictSortNeighbours": 0.493,
+   "gain": 0.069
+  },
+  {
+   "sura": 75,
+   "words": 164,
+   "letters": "",
+   "mushafPosition": 74,
+   "lengthRank": 79,
+   "displacement": -5,
+   "mushafNeighbours": [
+    74,
+    76
+   ],
+   "strictSortNeighbours": [
+    83,
+    89
+   ],
+   "similarityToMushafNeighbours": 0.451,
+   "similarityToStrictSortNeighbours": 0.268,
+   "gain": 0.183
+  },
+  {
+   "sura": 76,
+   "words": 243,
+   "letters": "",
+   "mushafPosition": 75,
+   "lengthRank": 67,
+   "displacement": 8,
+   "mushafNeighbours": [
+    75,
+    77
+   ],
+   "strictSortNeighbours": [
+    66,
+    64
+   ],
+   "similarityToMushafNeighbours": 0.578,
+   "similarityToStrictSortNeighbours": 0.379,
+   "gain": 0.199
+  },
+  {
+   "sura": 77,
+   "words": 181,
+   "letters": "",
+   "mushafPosition": 76,
+   "lengthRank": 73,
+   "displacement": 3,
+   "mushafNeighbours": [
+    76,
+    78
+   ],
+   "strictSortNeighbours": [
+    73,
+    63
+   ],
+   "similarityToMushafNeighbours": 0.547,
+   "similarityToStrictSortNeighbours": 0.359,
+   "gain": 0.188
+  },
+  {
+   "sura": 78,
+   "words": 173,
+   "letters": "",
+   "mushafPosition": 77,
+   "lengthRank": 77,
+   "displacement": 0,
+   "mushafNeighbours": [
+    77,
+    79
+   ],
+   "strictSortNeighbours": [
+    62,
+    83
+   ],
+   "similarityToMushafNeighbours": 0.451,
+   "similarityToStrictSortNeighbours": 0.248,
+   "gain": 0.203
+  },
+  {
+   "sura": 79,
+   "words": 179,
+   "letters": "",
+   "mushafPosition": 78,
+   "lengthRank": 75,
+   "displacement": 3,
+   "mushafNeighbours": [
+    78,
+    80
+   ],
+   "strictSortNeighbours": [
+    63,
+    62
+   ],
+   "similarityToMushafNeighbours": 0.6,
+   "similarityToStrictSortNeighbours": 0.31,
+   "gain": 0.29
+  },
+  {
+   "sura": 80,
+   "words": 133,
+   "letters": "",
+   "mushafPosition": 79,
+   "lengthRank": 81,
+   "displacement": -2,
+   "mushafNeighbours": [
+    79,
+    81
+   ],
+   "strictSortNeighbours": [
+    89,
+    85
+   ],
+   "similarityToMushafNeighbours": 0.696,
+   "similarityToStrictSortNeighbours": 0.449,
+   "gain": 0.248
+  },
+  {
+   "sura": 81,
+   "words": 104,
+   "letters": "",
+   "mushafPosition": 80,
+   "lengthRank": 84,
+   "displacement": -4,
+   "mushafNeighbours": [
+    80,
+    82
+   ],
+   "strictSortNeighbours": [
+    84,
+    98
+   ],
+   "similarityToMushafNeighbours": 0.645,
+   "similarityToStrictSortNeighbours": 0.375,
+   "gain": 0.27
+  },
+  {
+   "sura": 82,
+   "words": 80,
+   "letters": "",
+   "mushafPosition": 81,
+   "lengthRank": 88,
+   "displacement": -7,
+   "mushafNeighbours": [
+    81,
+    83
+   ],
+   "strictSortNeighbours": [
+    90,
+    87
+   ],
+   "similarityToMushafNeighbours": 0.897,
+   "similarityToStrictSortNeighbours": 0.714,
+   "gain": 0.183
+  },
+  {
+   "sura": 83,
+   "words": 169,
+   "letters": "",
+   "mushafPosition": 82,
+   "lengthRank": 78,
+   "displacement": 4,
+   "mushafNeighbours": [
+    82,
+    84
+   ],
+   "strictSortNeighbours": [
+    78,
+    75
+   ],
+   "similarityToMushafNeighbours": 0.781,
+   "similarityToStrictSortNeighbours": 0.257,
+   "gain": 0.525
+  },
+  {
+   "sura": 84,
+   "words": 107,
+   "letters": "",
+   "mushafPosition": 83,
+   "lengthRank": 83,
+   "displacement": 0,
+   "mushafNeighbours": [
+    83,
+    85
+   ],
+   "strictSortNeighbours": [
+    85,
+    81
+   ],
+   "similarityToMushafNeighbours": 0.482,
+   "similarityToStrictSortNeighbours": 0.315,
+   "gain": 0.167
+  },
+  {
+   "sura": 85,
+   "words": 109,
+   "letters": "",
+   "mushafPosition": 84,
+   "lengthRank": 82,
+   "displacement": 2,
+   "mushafNeighbours": [
+    84,
+    86
+   ],
+   "strictSortNeighbours": [
+    80,
+    84
+   ],
+   "similarityToMushafNeighbours": 0.277,
+   "similarityToStrictSortNeighbours": 0.297,
+   "gain": -0.02
+  },
+  {
+   "sura": 86,
+   "words": 61,
+   "letters": "",
+   "mushafPosition": 85,
+   "lengthRank": 92,
+   "displacement": -7,
+   "mushafNeighbours": [
+    85,
+    87
+   ],
+   "strictSortNeighbours": [
+    92,
+    91
+   ],
+   "similarityToMushafNeighbours": 0.121,
+   "similarityToStrictSortNeighbours": 0.138,
+   "gain": -0.018
+  },
+  {
+   "sura": 87,
+   "words": 72,
+   "letters": "",
+   "mushafPosition": 86,
+   "lengthRank": 89,
+   "displacement": -3,
+   "mushafNeighbours": [
+    86,
+    88
+   ],
+   "strictSortNeighbours": [
+    82,
+    96
+   ],
+   "similarityToMushafNeighbours": 0.353,
+   "similarityToStrictSortNeighbours": 0.828,
+   "gain": -0.475
+  },
+  {
+   "sura": 88,
+   "words": 92,
+   "letters": "",
+   "mushafPosition": 87,
+   "lengthRank": 86,
+   "displacement": 1,
+   "mushafNeighbours": [
+    87,
+    89
+   ],
+   "strictSortNeighbours": [
+    98,
+    90
+   ],
+   "similarityToMushafNeighbours": 0.732,
+   "similarityToStrictSortNeighbours": 0.179,
+   "gain": 0.554
+  },
+  {
+   "sura": 89,
+   "words": 137,
+   "letters": "",
+   "mushafPosition": 88,
+   "lengthRank": 80,
+   "displacement": 8,
+   "mushafNeighbours": [
+    88,
+    90
+   ],
+   "strictSortNeighbours": [
+    75,
+    80
+   ],
+   "similarityToMushafNeighbours": 0.911,
+   "similarityToStrictSortNeighbours": 0.498,
+   "gain": 0.413
+  },
+  {
+   "sura": 90,
+   "words": 82,
+   "letters": "",
+   "mushafPosition": 89,
+   "lengthRank": 87,
+   "displacement": 2,
+   "mushafNeighbours": [
+    89,
+    91
+   ],
+   "strictSortNeighbours": [
+    88,
+    82
+   ],
+   "similarityToMushafNeighbours": 0.516,
+   "similarityToStrictSortNeighbours": 0.4,
+   "gain": 0.116
+  },
+  {
+   "sura": 91,
+   "words": 54,
+   "letters": "",
+   "mushafPosition": 90,
+   "lengthRank": 93,
+   "displacement": -3,
+   "mushafNeighbours": [
+    90,
+    92
+   ],
+   "strictSortNeighbours": [
+    86,
+    93
+   ],
+   "similarityToMushafNeighbours": 0.518,
+   "similarityToStrictSortNeighbours": 0.545,
+   "gain": -0.027
+  },
+  {
+   "sura": 92,
+   "words": 71,
+   "letters": "",
+   "mushafPosition": 91,
+   "lengthRank": 91,
+   "displacement": 0,
+   "mushafNeighbours": [
+    91,
+    93
+   ],
+   "strictSortNeighbours": [
+    96,
+    86
+   ],
+   "similarityToMushafNeighbours": 0.975,
+   "similarityToStrictSortNeighbours": 0.525,
+   "gain": 0.451
+  },
+  {
+   "sura": 93,
+   "words": 40,
+   "letters": "",
+   "mushafPosition": 92,
+   "lengthRank": 94,
+   "displacement": -2,
+   "mushafNeighbours": [
+    92,
+    94
+   ],
+   "strictSortNeighbours": [
+    91,
+    100
+   ],
+   "similarityToMushafNeighbours": 0.629,
+   "similarityToStrictSortNeighbours": 0.603,
+   "gain": 0.027
+  },
+  {
+   "sura": 94,
+   "words": 27,
+   "letters": "",
+   "mushafPosition": 93,
+   "lengthRank": 102,
+   "displacement": -9,
+   "mushafNeighbours": [
+    93,
+    95
+   ],
+   "strictSortNeighbours": [
+    102,
+    109
+   ],
+   "similarityToMushafNeighbours": 0.166,
+   "similarityToStrictSortNeighbours": 0.064,
+   "gain": 0.103
+  },
+  {
+   "sura": 95,
+   "words": 34,
+   "letters": "",
+   "mushafPosition": 94,
+   "lengthRank": 98,
+   "displacement": -4,
+   "mushafNeighbours": [
+    94,
+    96
+   ],
+   "strictSortNeighbours": [
+    101,
+    104
+   ],
+   "similarityToMushafNeighbours": 0.233,
+   "similarityToStrictSortNeighbours": 0.08,
+   "gain": 0.153
+  },
+  {
+   "sura": 96,
+   "words": 72,
+   "letters": "",
+   "mushafPosition": 95,
+   "lengthRank": 90,
+   "displacement": 5,
+   "mushafNeighbours": [
+    95,
+    97
+   ],
+   "strictSortNeighbours": [
+    87,
+    92
+   ],
+   "similarityToMushafNeighbours": 0.27,
+   "similarityToStrictSortNeighbours": 0.884,
+   "gain": -0.614
+  },
+  {
+   "sura": 97,
+   "words": 30,
+   "letters": "",
+   "mushafPosition": 96,
+   "lengthRank": 100,
+   "displacement": -4,
+   "mushafNeighbours": [
+    96,
+    98
+   ],
+   "strictSortNeighbours": [
+    104,
+    102
+   ],
+   "similarityToMushafNeighbours": 0.172,
+   "similarityToStrictSortNeighbours": 0.465,
+   "gain": -0.294
+  },
+  {
+   "sura": 98,
+   "words": 94,
+   "letters": "",
+   "mushafPosition": 97,
+   "lengthRank": 85,
+   "displacement": 12,
+   "mushafNeighbours": [
+    97,
+    99
+   ],
+   "strictSortNeighbours": [
+    81,
+    88
+   ],
+   "similarityToMushafNeighbours": 0.395,
+   "similarityToStrictSortNeighbours": 0.339,
+   "gain": 0.056
+  },
+  {
+   "sura": 99,
+   "words": 36,
+   "letters": "",
+   "mushafPosition": 98,
+   "lengthRank": 96,
+   "displacement": 2,
+   "mushafNeighbours": [
+    98,
+    100
+   ],
+   "strictSortNeighbours": [
+    100,
+    101
+   ],
+   "similarityToMushafNeighbours": 0.522,
+   "similarityToStrictSortNeighbours": 0.393,
+   "gain": 0.129
+  },
+  {
+   "sura": 100,
+   "words": 40,
+   "letters": "",
+   "mushafPosition": 99,
+   "lengthRank": 95,
+   "displacement": 4,
+   "mushafNeighbours": [
+    99,
+    101
+   ],
+   "strictSortNeighbours": [
+    93,
+    99
+   ],
+   "similarityToMushafNeighbours": 0.29,
+   "similarityToStrictSortNeighbours": 0.382,
+   "gain": -0.092
+  },
+  {
+   "sura": 101,
+   "words": 36,
+   "letters": "",
+   "mushafPosition": 100,
+   "lengthRank": 97,
+   "displacement": 3,
+   "mushafNeighbours": [
+    100,
+    102
+   ],
+   "strictSortNeighbours": [
+    99,
+    95
+   ],
+   "similarityToMushafNeighbours": 0.134,
+   "similarityToStrictSortNeighbours": 0.174,
+   "gain": -0.04
+  },
+  {
+   "sura": 102,
+   "words": 28,
+   "letters": "",
+   "mushafPosition": 101,
+   "lengthRank": 101,
+   "displacement": 0,
+   "mushafNeighbours": [
+    101,
+    103
+   ],
+   "strictSortNeighbours": [
+    97,
+    94
+   ],
+   "similarityToMushafNeighbours": 0.127,
+   "similarityToStrictSortNeighbours": 0.058,
+   "gain": 0.069
+  },
+  {
+   "sura": 103,
+   "words": 14,
+   "letters": "",
+   "mushafPosition": 102,
+   "lengthRank": 112,
+   "displacement": -10,
+   "mushafNeighbours": [
+    102,
+    104
+   ],
+   "strictSortNeighbours": [
+    112,
+    108
+   ],
+   "similarityToMushafNeighbours": 0.085,
+   "similarityToStrictSortNeighbours": 0.088,
+   "gain": -0.003
+  },
+  {
+   "sura": 104,
+   "words": 33,
+   "letters": "",
+   "mushafPosition": 103,
+   "lengthRank": 99,
+   "displacement": 4,
+   "mushafNeighbours": [
+    103,
+    105
+   ],
+   "strictSortNeighbours": [
+    95,
+    97
+   ],
+   "similarityToMushafNeighbours": 0.061,
+   "similarityToStrictSortNeighbours": 0.5,
+   "gain": -0.439
+  },
+  {
+   "sura": 105,
+   "words": 23,
+   "letters": "",
+   "mushafPosition": 104,
+   "lengthRank": 105,
+   "displacement": -1,
+   "mushafNeighbours": [
+    104,
+    106
+   ],
+   "strictSortNeighbours": [
+    107,
+    111
+   ],
+   "similarityToMushafNeighbours": 0.095,
+   "similarityToStrictSortNeighbours": 0.155,
+   "gain": -0.06
+  },
+  {
+   "sura": 106,
+   "words": 17,
+   "letters": "",
+   "mushafPosition": 105,
+   "lengthRank": 110,
+   "displacement": -5,
+   "mushafNeighbours": [
+    105,
+    107
+   ],
+   "strictSortNeighbours": [
+    110,
+    112
+   ],
+   "similarityToMushafNeighbours": 0.1,
+   "similarityToStrictSortNeighbours": 0.106,
+   "gain": -0.006
+  },
+  {
+   "sura": 107,
+   "words": 25,
+   "letters": "",
+   "mushafPosition": 106,
+   "lengthRank": 104,
+   "displacement": 2,
+   "mushafNeighbours": [
+    106,
+    108
+   ],
+   "strictSortNeighbours": [
+    109,
+    105
+   ],
+   "similarityToMushafNeighbours": 0.067,
+   "similarityToStrictSortNeighbours": 0.551,
+   "gain": -0.484
+  },
+  {
+   "sura": 108,
+   "words": 10,
+   "letters": "",
+   "mushafPosition": 107,
+   "lengthRank": 113,
+   "displacement": -6,
+   "mushafNeighbours": [
+    107,
+    109
+   ],
+   "strictSortNeighbours": [
+    103
+   ],
+   "similarityToMushafNeighbours": 0.078,
+   "similarityToStrictSortNeighbours": 0.096,
+   "gain": -0.018
+  },
+  {
+   "sura": 109,
+   "words": 26,
+   "letters": "",
+   "mushafPosition": 108,
+   "lengthRank": 103,
+   "displacement": 5,
+   "mushafNeighbours": [
+    108,
+    110
+   ],
+   "strictSortNeighbours": [
+    94,
+    107
+   ],
+   "similarityToMushafNeighbours": 0.475,
+   "similarityToStrictSortNeighbours": 0.464,
+   "gain": 0.011
+  },
+  {
+   "sura": 110,
+   "words": 19,
+   "letters": "",
+   "mushafPosition": 109,
+   "lengthRank": 109,
+   "displacement": 0,
+   "mushafNeighbours": [
+    109,
+    111
+   ],
+   "strictSortNeighbours": [
+    114,
+    106
+   ],
+   "similarityToMushafNeighbours": 0.469,
+   "similarityToStrictSortNeighbours": 0.458,
+   "gain": 0.011
+  },
+  {
+   "sura": 111,
+   "words": 23,
+   "letters": "",
+   "mushafPosition": 110,
+   "lengthRank": 106,
+   "displacement": 4,
+   "mushafNeighbours": [
+    110,
+    112
+   ],
+   "strictSortNeighbours": [
+    105,
+    113
+   ],
+   "similarityToMushafNeighbours": 0.074,
+   "similarityToStrictSortNeighbours": 0.071,
+   "gain": 0.002
+  },
+  {
+   "sura": 112,
+   "words": 15,
+   "letters": "",
+   "mushafPosition": 111,
+   "lengthRank": 111,
+   "displacement": 0,
+   "mushafNeighbours": [
+    111,
+    113
+   ],
+   "strictSortNeighbours": [
+    106,
+    103
+   ],
+   "similarityToMushafNeighbours": 0.165,
+   "similarityToStrictSortNeighbours": 0.061,
+   "gain": 0.104
+  },
+  {
+   "sura": 113,
+   "words": 23,
+   "letters": "",
+   "mushafPosition": 112,
+   "lengthRank": 107,
+   "displacement": 5,
+   "mushafNeighbours": [
+    112,
+    114
+   ],
+   "strictSortNeighbours": [
+    111,
+    114
+   ],
+   "similarityToMushafNeighbours": 0.623,
+   "similarityToStrictSortNeighbours": 0.535,
+   "gain": 0.088
+  },
+  {
+   "sura": 114,
+   "words": 20,
+   "letters": "",
+   "mushafPosition": 113,
+   "lengthRank": 108,
+   "displacement": 5,
+   "mushafNeighbours": [
+    113
+   ],
+   "strictSortNeighbours": [
+    113,
+    110
+   ],
+   "similarityToMushafNeighbours": 1,
+   "similarityToStrictSortNeighbours": 0.873,
+   "gain": 0.127
+  }
+ ]
+}

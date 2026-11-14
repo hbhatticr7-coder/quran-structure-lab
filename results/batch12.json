@@ -1,0 +1,2555 @@
+{
+  "preregistrationSha256": "0b4b28fa2d6a40d58cab2b585ee2a8b6a914bfdbae42d7c583fb4349c7e04bb0",
+  "rings": {
+    "quran": "2 of 47",
+    "hebrewChapters": "4 of 121",
+    "gospelChapters": "1 of 40",
+    "quranShare": 0.0426,
+    "baselineShare": 0.0311,
+    "falseAlarmRateAssumed": 0.073,
+    "pAboveFalseAlarmRate": 0.867,
+    "pQuranAboveBaseline": 0.496
+  },
+  "parallel": {
+    "quran": "2 of 47",
+    "hebrewChapters": "0 of 121",
+    "gospelChapters": "1 of 40",
+    "quranShare": 0.0426,
+    "baselineShare": 0.0062,
+    "falseAlarmRateAssumed": 0.06,
+    "pAboveFalseAlarmRate": 0.782,
+    "pQuranAboveBaseline": 0.129
+  },
+  "sura12": {
+    "unit": "sura 12",
+    "contentWords": 1131,
+    "ringAlignP": 0.357,
+    "ringStrictP": 0.175,
+    "centresAgree": true,
+    "ring": false,
+    "parallelP": 0.426,
+    "parallelOffsetBlocks": 8,
+    "parallel": false,
+    "centreVerses": "46-53",
+    "mirrorPairs": [
+      {
+        "verses": "1-12 <-> 93-101",
+        "similarity": 0.2846
+      },
+      {
+        "verses": "13-21 <-> 82-92",
+        "similarity": 0.1475
+      },
+      {
+        "verses": "22-30 <-> 75-81",
+        "similarity": 0.1046
+      },
+      {
+        "verses": "31-38 <-> 66-74",
+        "similarity": 0.0927
+      }
+    ]
+  },
+  "quranRingsDetected": [
+    {
+      "unit": "sura 17",
+      "contentWords": 1046,
+      "ringAlignP": 0.0128,
+      "ringStrictP": 0.0282,
+      "centresAgree": true,
+      "ring": true,
+      "parallelP": 0.126,
+      "parallelOffsetBlocks": 5,
+      "parallel": false,
+      "centreVerses": "65-73 | 74-84",
+      "mirrorPairs": [
+        {
+          "verses": "47-56 <-> 95-101",
+          "similarity": 0.2362
+        },
+        {
+          "verses": "37-46 <-> 102-111",
+          "similarity": 0.1528
+        },
+        {
+          "verses": "57-64 <-> 85-94",
+          "similarity": 0.1144
+        }
+      ]
+    },
+    {
+      "unit": "sura 30",
+      "contentWords": 532,
+      "ringAlignP": 0.0214,
+      "ringStrictP": 0.002,
+      "centresAgree": true,
+      "ring": true,
+      "parallelP": 0.637,
+      "parallelOffsetBlocks": 3,
+      "parallel": false,
+      "centreVerses": "33-38 | 39-41",
+      "mirrorPairs": [
+        {
+          "verses": "29-32 <-> 42-46",
+          "similarity": 0.1986
+        },
+        {
+          "verses": "12-18 <-> 55-60",
+          "similarity": 0.1746
+        },
+        {
+          "verses": "24-28 <-> 47-50",
+          "similarity": 0.1371
+        },
+        {
+          "verses": "19-23 <-> 51-54",
+          "similarity": 0.1208
+        }
+      ]
+    }
+  ],
+  "quranParallelDetected": [
+    {
+      "unit": "sura 5",
+      "p": 0.0016,
+      "offsetBlocks": 9
+    },
+    {
+      "unit": "sura 41",
+      "p": 0.0304,
+      "offsetBlocks": 9
+    }
+  ],
+  "allUnits": {
+    "quran": [
+      {
+        "unit": "sura 2",
+        "contentWords": 3904,
+        "ringAlignP": 0.61,
+        "ringStrictP": 0.655,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.803,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 3",
+        "contentWords": 2281,
+        "ringAlignP": 0.544,
+        "ringStrictP": 0.427,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.674,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "sura 4",
+        "contentWords": 2478,
+        "ringAlignP": 0.178,
+        "ringStrictP": 0.19,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.522,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "sura 5",
+        "contentWords": 1824,
+        "ringAlignP": 0.032,
+        "ringStrictP": 0.127,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.0016,
+        "parallelOffsetBlocks": 9,
+        "parallel": true
+      },
+      {
+        "unit": "sura 6",
+        "contentWords": 1948,
+        "ringAlignP": 0.987,
+        "ringStrictP": 0.827,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.523,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 7",
+        "contentWords": 2155,
+        "ringAlignP": 0.0554,
+        "ringStrictP": 0.338,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.808,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 8",
+        "contentWords": 813,
+        "ringAlignP": 0.273,
+        "ringStrictP": 0.411,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.167,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "sura 9",
+        "contentWords": 1655,
+        "ringAlignP": 0.587,
+        "ringStrictP": 0.197,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.622,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 10",
+        "contentWords": 1133,
+        "ringAlignP": 0.744,
+        "ringStrictP": 0.753,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.831,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 11",
+        "contentWords": 1166,
+        "ringAlignP": 0.229,
+        "ringStrictP": 0.769,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.733,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 12",
+        "contentWords": 1131,
+        "ringAlignP": 0.357,
+        "ringStrictP": 0.175,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.426,
+        "parallelOffsetBlocks": 8,
+        "parallel": false,
+        "centreVerses": "46-53",
+        "mirrorPairs": [
+          {
+            "verses": "1-12 <-> 93-101",
+            "similarity": 0.2846
+          },
+          {
+            "verses": "13-21 <-> 82-92",
+            "similarity": 0.1475
+          },
+          {
+            "verses": "22-30 <-> 75-81",
+            "similarity": 0.1046
+          },
+          {
+            "verses": "31-38 <-> 66-74",
+            "similarity": 0.0927
+          }
+        ]
+      },
+      {
+        "unit": "sura 13",
+        "contentWords": 562,
+        "ringAlignP": 0.859,
+        "ringStrictP": 0.735,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.543,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 14",
+        "contentWords": 556,
+        "ringAlignP": 0.758,
+        "ringStrictP": 0.877,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.688,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 15",
+        "contentWords": 412,
+        "ringAlignP": 0.879,
+        "ringStrictP": 0.997,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.141,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 16",
+        "contentWords": 1185,
+        "ringAlignP": 0.867,
+        "ringStrictP": 0.954,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.587,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 17",
+        "contentWords": 1046,
+        "ringAlignP": 0.0128,
+        "ringStrictP": 0.0282,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.126,
+        "parallelOffsetBlocks": 5,
+        "parallel": false,
+        "centreVerses": "65-73 | 74-84",
+        "mirrorPairs": [
+          {
+            "verses": "47-56 <-> 95-101",
+            "similarity": 0.2362
+          },
+          {
+            "verses": "37-46 <-> 102-111",
+            "similarity": 0.1528
+          },
+          {
+            "verses": "57-64 <-> 85-94",
+            "similarity": 0.1144
+          }
+        ]
+      },
+      {
+        "unit": "sura 18",
+        "contentWords": 1063,
+        "ringAlignP": 0.464,
+        "ringStrictP": 0.11,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.167,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "sura 19",
+        "contentWords": 660,
+        "ringAlignP": 0.864,
+        "ringStrictP": 0.969,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.907,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 20",
+        "contentWords": 844,
+        "ringAlignP": 0.792,
+        "ringStrictP": 0.587,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.687,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 21",
+        "contentWords": 717,
+        "ringAlignP": 0.861,
+        "ringStrictP": 0.767,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.415,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 22",
+        "contentWords": 833,
+        "ringAlignP": 0.845,
+        "ringStrictP": 0.968,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.482,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 23",
+        "contentWords": 639,
+        "ringAlignP": 0.44,
+        "ringStrictP": 0.299,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.582,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 24",
+        "contentWords": 860,
+        "ringAlignP": 0.128,
+        "ringStrictP": 0.264,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.776,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 25",
+        "contentWords": 612,
+        "ringAlignP": 0.451,
+        "ringStrictP": 0.747,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.335,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 26",
+        "contentWords": 822,
+        "ringAlignP": 0.537,
+        "ringStrictP": 0.176,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.877,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "sura 27",
+        "contentWords": 743,
+        "ringAlignP": 0.49,
+        "ringStrictP": 0.719,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.918,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "sura 28",
+        "contentWords": 887,
+        "ringAlignP": 0.926,
+        "ringStrictP": 0.794,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.84,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 29",
+        "contentWords": 627,
+        "ringAlignP": 0.236,
+        "ringStrictP": 0.502,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.747,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 30",
+        "contentWords": 532,
+        "ringAlignP": 0.0214,
+        "ringStrictP": 0.002,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.637,
+        "parallelOffsetBlocks": 3,
+        "parallel": false,
+        "centreVerses": "33-38 | 39-41",
+        "mirrorPairs": [
+          {
+            "verses": "29-32 <-> 42-46",
+            "similarity": 0.1986
+          },
+          {
+            "verses": "12-18 <-> 55-60",
+            "similarity": 0.1746
+          },
+          {
+            "verses": "24-28 <-> 47-50",
+            "similarity": 0.1371
+          },
+          {
+            "verses": "19-23 <-> 51-54",
+            "similarity": 0.1208
+          }
+        ]
+      },
+      {
+        "unit": "sura 31",
+        "contentWords": 354,
+        "ringAlignP": 0.388,
+        "ringStrictP": 0.706,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.911,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 33",
+        "contentWords": 893,
+        "ringAlignP": 0.994,
+        "ringStrictP": 0.968,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.67,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "sura 34",
+        "contentWords": 544,
+        "ringAlignP": 0.987,
+        "ringStrictP": 0.929,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.59,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 35",
+        "contentWords": 508,
+        "ringAlignP": 0.314,
+        "ringStrictP": 0.153,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.0508,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "sura 36",
+        "contentWords": 439,
+        "ringAlignP": 0.376,
+        "ringStrictP": 0.658,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.444,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "sura 37",
+        "contentWords": 542,
+        "ringAlignP": 0.151,
+        "ringStrictP": 0.107,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.855,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 38",
+        "contentWords": 465,
+        "ringAlignP": 0.48,
+        "ringStrictP": 0.746,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.415,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 39",
+        "contentWords": 768,
+        "ringAlignP": 0.715,
+        "ringStrictP": 0.51,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.554,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "sura 40",
+        "contentWords": 787,
+        "ringAlignP": 0.499,
+        "ringStrictP": 0.191,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.631,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "sura 41",
+        "contentWords": 497,
+        "ringAlignP": 0.151,
+        "ringStrictP": 0.356,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.0304,
+        "parallelOffsetBlocks": 9,
+        "parallel": true
+      },
+      {
+        "unit": "sura 42",
+        "contentWords": 518,
+        "ringAlignP": 0.772,
+        "ringStrictP": 0.89,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.62,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 43",
+        "contentWords": 513,
+        "ringAlignP": 0.63,
+        "ringStrictP": 0.8,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.907,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "sura 45",
+        "contentWords": 322,
+        "ringAlignP": 0.803,
+        "ringStrictP": 0.861,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.23,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 46",
+        "contentWords": 404,
+        "ringAlignP": 0.975,
+        "ringStrictP": 0.732,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.95,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "sura 47",
+        "contentWords": 352,
+        "ringAlignP": 0.0572,
+        "ringStrictP": 0.0332,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.26,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "sura 48",
+        "contentWords": 404,
+        "ringAlignP": 0.317,
+        "ringStrictP": 0.706,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.529,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "sura 57",
+        "contentWords": 391,
+        "ringAlignP": 0.579,
+        "ringStrictP": 0.514,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.38,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "sura 58",
+        "contentWords": 300,
+        "ringAlignP": 0.293,
+        "ringStrictP": 0.759,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.925,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      }
+    ],
+    "hebrewChapters": [
+      {
+        "unit": "Gen 1",
+        "contentWords": 353,
+        "ringAlignP": 0.416,
+        "ringStrictP": 0.484,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.685,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 5",
+        "contentWords": 322,
+        "ringAlignP": 0.85,
+        "ringStrictP": 0.522,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.528,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 11",
+        "contentWords": 319,
+        "ringAlignP": 0.326,
+        "ringStrictP": 0.098,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.937,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 18",
+        "contentWords": 313,
+        "ringAlignP": 0.909,
+        "ringStrictP": 0.984,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.889,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 19",
+        "contentWords": 395,
+        "ringAlignP": 0.521,
+        "ringStrictP": 0.387,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.397,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 21",
+        "contentWords": 310,
+        "ringAlignP": 0.92,
+        "ringStrictP": 0.718,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.755,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 24",
+        "contentWords": 671,
+        "ringAlignP": 0.223,
+        "ringStrictP": 0.479,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.901,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 25",
+        "contentWords": 319,
+        "ringAlignP": 0.0308,
+        "ringStrictP": 0.0284,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.353,
+        "parallelOffsetBlocks": 3,
+        "parallel": false,
+        "centreVerses": "10-11 | 12-15",
+        "mirrorPairs": [
+          {
+            "verses": "7-9 <-> 16-17",
+            "similarity": 0.3776
+          },
+          {
+            "verses": "4-6 <-> 18-20",
+            "similarity": 0.1587
+          },
+          {
+            "verses": "1-3 <-> 21-22",
+            "similarity": 0.0258
+          }
+        ]
+      },
+      {
+        "unit": "Gen 26",
+        "contentWords": 337,
+        "ringAlignP": 0.895,
+        "ringStrictP": 0.473,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.744,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 27",
+        "contentWords": 470,
+        "ringAlignP": 0.845,
+        "ringStrictP": 0.786,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.55,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 29",
+        "contentWords": 333,
+        "ringAlignP": 0.348,
+        "ringStrictP": 0.093,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.812,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 30",
+        "contentWords": 419,
+        "ringAlignP": 0.3,
+        "ringStrictP": 0.873,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.724,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 31",
+        "contentWords": 526,
+        "ringAlignP": 0.539,
+        "ringStrictP": 0.547,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.852,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 32",
+        "contentWords": 320,
+        "ringAlignP": 0.251,
+        "ringStrictP": 0.469,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.894,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 36",
+        "contentWords": 411,
+        "ringAlignP": 0.985,
+        "ringStrictP": 0.973,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.67,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 37",
+        "contentWords": 352,
+        "ringAlignP": 0.802,
+        "ringStrictP": 0.747,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.331,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 41",
+        "contentWords": 594,
+        "ringAlignP": 0.732,
+        "ringStrictP": 0.834,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.848,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 42",
+        "contentWords": 347,
+        "ringAlignP": 0.507,
+        "ringStrictP": 0.603,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.634,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 43",
+        "contentWords": 345,
+        "ringAlignP": 0.509,
+        "ringStrictP": 0.282,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.708,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 46",
+        "contentWords": 343,
+        "ringAlignP": 0.436,
+        "ringStrictP": 0.695,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.537,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Gen 47",
+        "contentWords": 385,
+        "ringAlignP": 0.618,
+        "ringStrictP": 0.413,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.54,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 1",
+        "contentWords": 316,
+        "ringAlignP": 0.865,
+        "ringStrictP": 0.28,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.97,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 2",
+        "contentWords": 422,
+        "ringAlignP": 0.449,
+        "ringStrictP": 0.568,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.462,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 9",
+        "contentWords": 360,
+        "ringAlignP": 0.255,
+        "ringStrictP": 0.292,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.706,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 10",
+        "contentWords": 319,
+        "ringAlignP": 0.862,
+        "ringStrictP": 0.998,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.532,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 14",
+        "contentWords": 644,
+        "ringAlignP": 0.265,
+        "ringStrictP": 0.387,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.656,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 15",
+        "contentWords": 391,
+        "ringAlignP": 0.95,
+        "ringStrictP": 0.814,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.838,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 17",
+        "contentWords": 691,
+        "ringAlignP": 0.717,
+        "ringStrictP": 0.469,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.978,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 18",
+        "contentWords": 347,
+        "ringAlignP": 0.99,
+        "ringStrictP": 0.691,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.738,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 20",
+        "contentWords": 463,
+        "ringAlignP": 0.423,
+        "ringStrictP": 0.579,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.753,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 22",
+        "contentWords": 308,
+        "ringAlignP": 0.29,
+        "ringStrictP": 0.168,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.68,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 23",
+        "contentWords": 344,
+        "ringAlignP": 0.745,
+        "ringStrictP": 0.565,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.262,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 25",
+        "contentWords": 553,
+        "ringAlignP": 0.871,
+        "ringStrictP": 0.811,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.553,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 26",
+        "contentWords": 340,
+        "ringAlignP": 0.861,
+        "ringStrictP": 0.375,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.295,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 28",
+        "contentWords": 303,
+        "ringAlignP": 0.25,
+        "ringStrictP": 0.285,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.605,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Sam 30",
+        "contentWords": 338,
+        "ringAlignP": 0.788,
+        "ringStrictP": 0.932,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.15,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 2",
+        "contentWords": 387,
+        "ringAlignP": 0.864,
+        "ringStrictP": 0.229,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.963,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 3",
+        "contentWords": 498,
+        "ringAlignP": 0.898,
+        "ringStrictP": 0.949,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.952,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 6",
+        "contentWords": 306,
+        "ringAlignP": 0.577,
+        "ringStrictP": 0.699,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.968,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 7",
+        "contentWords": 314,
+        "ringAlignP": 0.971,
+        "ringStrictP": 0.929,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.624,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 11",
+        "contentWords": 330,
+        "ringAlignP": 0.837,
+        "ringStrictP": 0.613,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.866,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 12",
+        "contentWords": 382,
+        "ringAlignP": 0.291,
+        "ringStrictP": 0.917,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.819,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 13",
+        "contentWords": 470,
+        "ringAlignP": 0.176,
+        "ringStrictP": 0.0748,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.36,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 14",
+        "contentWords": 423,
+        "ringAlignP": 0.466,
+        "ringStrictP": 0.846,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.769,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 15",
+        "contentWords": 453,
+        "ringAlignP": 0.976,
+        "ringStrictP": 0.882,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.833,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 17",
+        "contentWords": 377,
+        "ringAlignP": 0.662,
+        "ringStrictP": 0.813,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.735,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 18",
+        "contentWords": 438,
+        "ringAlignP": 1,
+        "ringStrictP": 0.998,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.291,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 19",
+        "contentWords": 584,
+        "ringAlignP": 0.013,
+        "ringStrictP": 0.229,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.871,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 20",
+        "contentWords": 333,
+        "ringAlignP": 0.972,
+        "ringStrictP": 0.991,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.922,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 21",
+        "contentWords": 313,
+        "ringAlignP": 0.338,
+        "ringStrictP": 0.737,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.453,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 22",
+        "contentWords": 312,
+        "ringAlignP": 0.74,
+        "ringStrictP": 0.511,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.328,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 23",
+        "contentWords": 369,
+        "ringAlignP": 0.643,
+        "ringStrictP": 0.458,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.489,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Sam 24",
+        "contentWords": 352,
+        "ringAlignP": 0.935,
+        "ringStrictP": 0.934,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.852,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 1",
+        "contentWords": 616,
+        "ringAlignP": 0.534,
+        "ringStrictP": 0.637,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.988,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 2",
+        "contentWords": 600,
+        "ringAlignP": 0.842,
+        "ringStrictP": 0.717,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.883,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 3",
+        "contentWords": 325,
+        "ringAlignP": 0.206,
+        "ringStrictP": 0.332,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.28,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 5",
+        "contentWords": 403,
+        "ringAlignP": 0.421,
+        "ringStrictP": 0.387,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.659,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 6",
+        "contentWords": 436,
+        "ringAlignP": 0.47,
+        "ringStrictP": 0.85,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.993,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 7",
+        "contentWords": 648,
+        "ringAlignP": 0.205,
+        "ringStrictP": 0.27,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.46,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 8",
+        "contentWords": 836,
+        "ringAlignP": 0.0386,
+        "ringStrictP": 0.32,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.992,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 9",
+        "contentWords": 341,
+        "ringAlignP": 0.789,
+        "ringStrictP": 0.642,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.459,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 10",
+        "contentWords": 375,
+        "ringAlignP": 0.965,
+        "ringStrictP": 0.991,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.6,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 11",
+        "contentWords": 521,
+        "ringAlignP": 0.73,
+        "ringStrictP": 0.819,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.057,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 12",
+        "contentWords": 431,
+        "ringAlignP": 0.808,
+        "ringStrictP": 0.776,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.281,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 13",
+        "contentWords": 425,
+        "ringAlignP": 0.741,
+        "ringStrictP": 0.549,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.789,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 14",
+        "contentWords": 390,
+        "ringAlignP": 0.764,
+        "ringStrictP": 0.995,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.717,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 15",
+        "contentWords": 413,
+        "ringAlignP": 0.806,
+        "ringStrictP": 0.575,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.885,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 16",
+        "contentWords": 438,
+        "ringAlignP": 0.96,
+        "ringStrictP": 0.909,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.289,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 18",
+        "contentWords": 557,
+        "ringAlignP": 0.576,
+        "ringStrictP": 0.609,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.733,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 20",
+        "contentWords": 556,
+        "ringAlignP": 0.884,
+        "ringStrictP": 0.932,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.315,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 21",
+        "contentWords": 350,
+        "ringAlignP": 0.202,
+        "ringStrictP": 0.804,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.551,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Kgs 22",
+        "contentWords": 611,
+        "ringAlignP": 0.361,
+        "ringStrictP": 0.965,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.903,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 2",
+        "contentWords": 301,
+        "ringAlignP": 0.327,
+        "ringStrictP": 0.435,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.278,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 3",
+        "contentWords": 340,
+        "ringAlignP": 0.883,
+        "ringStrictP": 0.549,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.99,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 4",
+        "contentWords": 487,
+        "ringAlignP": 0.272,
+        "ringStrictP": 0.443,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.413,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 5",
+        "contentWords": 373,
+        "ringAlignP": 0.485,
+        "ringStrictP": 0.802,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.163,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 6",
+        "contentWords": 371,
+        "ringAlignP": 0.917,
+        "ringStrictP": 0.657,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.928,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 8",
+        "contentWords": 406,
+        "ringAlignP": 0.976,
+        "ringStrictP": 0.997,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.314,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 9",
+        "contentWords": 476,
+        "ringAlignP": 0.0158,
+        "ringStrictP": 0.037,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.598,
+        "parallelOffsetBlocks": 4,
+        "parallel": false,
+        "centreVerses": "21-23",
+        "mirrorPairs": [
+          {
+            "verses": "10-13 <-> 34-37",
+            "similarity": 0.3363
+          },
+          {
+            "verses": "16-17 <-> 27-29",
+            "similarity": 0.2489
+          },
+          {
+            "verses": "14-15 <-> 30-33",
+            "similarity": 0.1214
+          }
+        ]
+      },
+      {
+        "unit": "2Kgs 10",
+        "contentWords": 466,
+        "ringAlignP": 0.141,
+        "ringStrictP": 0.267,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.0706,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 13",
+        "contentWords": 333,
+        "ringAlignP": 0.95,
+        "ringStrictP": 0.905,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.966,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 14",
+        "contentWords": 380,
+        "ringAlignP": 0.208,
+        "ringStrictP": 0.492,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.418,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 15",
+        "contentWords": 480,
+        "ringAlignP": 0.118,
+        "ringStrictP": 0.119,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.386,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 17",
+        "contentWords": 507,
+        "ringAlignP": 0.784,
+        "ringStrictP": 0.946,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.513,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 18",
+        "contentWords": 490,
+        "ringAlignP": 0.707,
+        "ringStrictP": 0.824,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.416,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 19",
+        "contentWords": 436,
+        "ringAlignP": 0.575,
+        "ringStrictP": 0.965,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.214,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 21",
+        "contentWords": 307,
+        "ringAlignP": 0.761,
+        "ringStrictP": 0.517,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.262,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Kgs 23",
+        "contentWords": 582,
+        "ringAlignP": 0.0006,
+        "ringStrictP": 0.0002,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.631,
+        "parallelOffsetBlocks": 7,
+        "parallel": false,
+        "centreVerses": "9-11 | 12-13",
+        "mirrorPairs": [
+          {
+            "verses": "6-8 <-> 14-16",
+            "similarity": 0.3869
+          },
+          {
+            "verses": "1-3 <-> 21-24",
+            "similarity": 0.3141
+          },
+          {
+            "verses": "4-5 <-> 17-20",
+            "similarity": 0.2207
+          }
+        ]
+      },
+      {
+        "unit": "2Kgs 25",
+        "contentWords": 408,
+        "ringAlignP": 0.0584,
+        "ringStrictP": 0.0488,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.612,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 1",
+        "contentWords": 365,
+        "ringAlignP": 0.96,
+        "ringStrictP": 0.903,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.232,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 2",
+        "contentWords": 453,
+        "ringAlignP": 0.455,
+        "ringStrictP": 0.419,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.772,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 4",
+        "contentWords": 402,
+        "ringAlignP": 0.987,
+        "ringStrictP": 0.828,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.819,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 5",
+        "contentWords": 387,
+        "ringAlignP": 0.509,
+        "ringStrictP": 0.879,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.345,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 6",
+        "contentWords": 512,
+        "ringAlignP": 0.981,
+        "ringStrictP": 0.33,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.69,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 7",
+        "contentWords": 398,
+        "ringAlignP": 0.197,
+        "ringStrictP": 0.041,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.396,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 9",
+        "contentWords": 414,
+        "ringAlignP": 0.639,
+        "ringStrictP": 0.749,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.391,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 11",
+        "contentWords": 426,
+        "ringAlignP": 0.447,
+        "ringStrictP": 0.382,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.683,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 12",
+        "contentWords": 417,
+        "ringAlignP": 0.488,
+        "ringStrictP": 0.657,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.454,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 15",
+        "contentWords": 310,
+        "ringAlignP": 0.701,
+        "ringStrictP": 0.401,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.853,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 16",
+        "contentWords": 355,
+        "ringAlignP": 0.71,
+        "ringStrictP": 0.53,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.578,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 21",
+        "contentWords": 379,
+        "ringAlignP": 0.951,
+        "ringStrictP": 0.842,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.26,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 26",
+        "contentWords": 330,
+        "ringAlignP": 0.958,
+        "ringStrictP": 1,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.411,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 27",
+        "contentWords": 357,
+        "ringAlignP": 0.906,
+        "ringStrictP": 0.792,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.88,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 28",
+        "contentWords": 320,
+        "ringAlignP": 0.976,
+        "ringStrictP": 0.974,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.541,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "1Chr 29",
+        "contentWords": 399,
+        "ringAlignP": 0.0526,
+        "ringStrictP": 0.109,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.497,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 6",
+        "contentWords": 534,
+        "ringAlignP": 0.777,
+        "ringStrictP": 0.817,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.865,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 9",
+        "contentWords": 398,
+        "ringAlignP": 0.875,
+        "ringStrictP": 0.913,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.761,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 18",
+        "contentWords": 415,
+        "ringAlignP": 0.623,
+        "ringStrictP": 0.832,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.608,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 20",
+        "contentWords": 449,
+        "ringAlignP": 0.525,
+        "ringStrictP": 0.618,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.506,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 23",
+        "contentWords": 308,
+        "ringAlignP": 0.356,
+        "ringStrictP": 0.807,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.596,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 24",
+        "contentWords": 372,
+        "ringAlignP": 0.457,
+        "ringStrictP": 0.898,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.521,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 25",
+        "contentWords": 389,
+        "ringAlignP": 0.77,
+        "ringStrictP": 0.853,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.928,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 28",
+        "contentWords": 352,
+        "ringAlignP": 0.499,
+        "ringStrictP": 0.554,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.788,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 29",
+        "contentWords": 459,
+        "ringAlignP": 0.861,
+        "ringStrictP": 0.88,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.683,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 30",
+        "contentWords": 363,
+        "ringAlignP": 0.223,
+        "ringStrictP": 0.695,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.62,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 31",
+        "contentWords": 300,
+        "ringAlignP": 0.399,
+        "ringStrictP": 0.483,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.921,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 32",
+        "contentWords": 423,
+        "ringAlignP": 0.592,
+        "ringStrictP": 0.481,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.922,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 33",
+        "contentWords": 307,
+        "ringAlignP": 0.042,
+        "ringStrictP": 0.0266,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.462,
+        "parallelOffsetBlocks": 4,
+        "parallel": false,
+        "centreVerses": "11-12",
+        "mirrorPairs": [
+          {
+            "verses": "1-2 <-> 21-22",
+            "similarity": 0.4525
+          },
+          {
+            "verses": "7-7 <-> 15-15",
+            "similarity": 0.3076
+          },
+          {
+            "verses": "3-4 <-> 19-20",
+            "similarity": 0.1854
+          },
+          {
+            "verses": "5-6 <-> 16-18",
+            "similarity": 0.0442
+          }
+        ]
+      },
+      {
+        "unit": "2Chr 34",
+        "contentWords": 480,
+        "ringAlignP": 0.866,
+        "ringStrictP": 0.7,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.989,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 35",
+        "contentWords": 359,
+        "ringAlignP": 0.331,
+        "ringStrictP": 0.401,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.71,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "2Chr 36",
+        "contentWords": 311,
+        "ringAlignP": 0.971,
+        "ringStrictP": 0.78,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.941,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      }
+    ],
+    "gospelChapters": [
+      {
+        "unit": "Mt 5",
+        "contentWords": 364,
+        "ringAlignP": 0.542,
+        "ringStrictP": 0.674,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.462,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 9",
+        "contentWords": 322,
+        "ringAlignP": 0.3,
+        "ringStrictP": 0.554,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.0914,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 10",
+        "contentWords": 323,
+        "ringAlignP": 0.634,
+        "ringStrictP": 0.529,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.083,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 12",
+        "contentWords": 416,
+        "ringAlignP": 0.987,
+        "ringStrictP": 0.925,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.871,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 13",
+        "contentWords": 523,
+        "ringAlignP": 0.73,
+        "ringStrictP": 0.817,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.24,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 15",
+        "contentWords": 303,
+        "ringAlignP": 0.109,
+        "ringStrictP": 0.276,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.633,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 21",
+        "contentWords": 402,
+        "ringAlignP": 0.99,
+        "ringStrictP": 0.994,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.291,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 22",
+        "contentWords": 320,
+        "ringAlignP": 0.554,
+        "ringStrictP": 0.495,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.693,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 24",
+        "contentWords": 367,
+        "ringAlignP": 0.778,
+        "ringStrictP": 0.558,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.292,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 25",
+        "contentWords": 361,
+        "ringAlignP": 0.754,
+        "ringStrictP": 0.965,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.928,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 26",
+        "contentWords": 582,
+        "ringAlignP": 0.0818,
+        "ringStrictP": 0.326,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.117,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mt 27",
+        "contentWords": 514,
+        "ringAlignP": 0.958,
+        "ringStrictP": 0.936,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.615,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 1",
+        "contentWords": 344,
+        "ringAlignP": 0.973,
+        "ringStrictP": 0.975,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.703,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 4",
+        "contentWords": 328,
+        "ringAlignP": 0.958,
+        "ringStrictP": 0.991,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.123,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 5",
+        "contentWords": 326,
+        "ringAlignP": 0.879,
+        "ringStrictP": 0.942,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.212,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 6",
+        "contentWords": 465,
+        "ringAlignP": 0.0262,
+        "ringStrictP": 0.271,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.779,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 9",
+        "contentWords": 394,
+        "ringAlignP": 0.167,
+        "ringStrictP": 0.698,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.461,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 10",
+        "contentWords": 422,
+        "ringAlignP": 0.533,
+        "ringStrictP": 0.496,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.386,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 12",
+        "contentWords": 388,
+        "ringAlignP": 0.305,
+        "ringStrictP": 0.927,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.785,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 14",
+        "contentWords": 551,
+        "ringAlignP": 0.255,
+        "ringStrictP": 0.312,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.14,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Mk 15",
+        "contentWords": 337,
+        "ringAlignP": 0.346,
+        "ringStrictP": 0.507,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.874,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 1",
+        "contentWords": 580,
+        "ringAlignP": 0.401,
+        "ringStrictP": 0.225,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.81,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 2",
+        "contentWords": 409,
+        "ringAlignP": 0.0218,
+        "ringStrictP": 0.0082,
+        "centresAgree": true,
+        "ring": true,
+        "parallelP": 0.682,
+        "parallelOffsetBlocks": 9,
+        "parallel": false,
+        "centreVerses": "18-22 | 23-25",
+        "mirrorPairs": [
+          {
+            "verses": "1-4 <-> 39-42",
+            "similarity": 0.163
+          },
+          {
+            "verses": "14-17 <-> 26-30",
+            "similarity": 0.1555
+          },
+          {
+            "verses": "10-13 <-> 31-35",
+            "similarity": 0.1161
+          },
+          {
+            "verses": "5-9 <-> 36-38",
+            "similarity": 0.069
+          }
+        ]
+      },
+      {
+        "unit": "Lk 3",
+        "contentWords": 308,
+        "ringAlignP": 0.347,
+        "ringStrictP": 0.634,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.619,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 4",
+        "contentWords": 368,
+        "ringAlignP": 0.726,
+        "ringStrictP": 0.871,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.666,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 5",
+        "contentWords": 378,
+        "ringAlignP": 0.727,
+        "ringStrictP": 0.372,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.418,
+        "parallelOffsetBlocks": 7,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 6",
+        "contentWords": 439,
+        "ringAlignP": 0.974,
+        "ringStrictP": 0.855,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.246,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 7",
+        "contentWords": 443,
+        "ringAlignP": 0.647,
+        "ringStrictP": 0.44,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.0844,
+        "parallelOffsetBlocks": 6,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 8",
+        "contentWords": 509,
+        "ringAlignP": 0.622,
+        "ringStrictP": 0.634,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.624,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 9",
+        "contentWords": 537,
+        "ringAlignP": 0.145,
+        "ringStrictP": 0.19,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.78,
+        "parallelOffsetBlocks": 8,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 10",
+        "contentWords": 349,
+        "ringAlignP": 0.863,
+        "ringStrictP": 0.654,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.874,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 11",
+        "contentWords": 443,
+        "ringAlignP": 0.675,
+        "ringStrictP": 0.622,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.55,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 12",
+        "contentWords": 471,
+        "ringAlignP": 0.795,
+        "ringStrictP": 0.937,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.0072,
+        "parallelOffsetBlocks": 9,
+        "parallel": true
+      },
+      {
+        "unit": "Lk 13",
+        "contentWords": 316,
+        "ringAlignP": 0.844,
+        "ringStrictP": 0.719,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.677,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 18",
+        "contentWords": 319,
+        "ringAlignP": 0.317,
+        "ringStrictP": 0.349,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.394,
+        "parallelOffsetBlocks": 3,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 19",
+        "contentWords": 362,
+        "ringAlignP": 0.153,
+        "ringStrictP": 0.138,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.756,
+        "parallelOffsetBlocks": 9,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 20",
+        "contentWords": 345,
+        "ringAlignP": 0.482,
+        "ringStrictP": 0.191,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.276,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 22",
+        "contentWords": 474,
+        "ringAlignP": 0.396,
+        "ringStrictP": 0.308,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.617,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 23",
+        "contentWords": 407,
+        "ringAlignP": 0.969,
+        "ringStrictP": 0.84,
+        "centresAgree": true,
+        "ring": false,
+        "parallelP": 0.826,
+        "parallelOffsetBlocks": 5,
+        "parallel": false
+      },
+      {
+        "unit": "Lk 24",
+        "contentWords": 349,
+        "ringAlignP": 0.975,
+        "ringStrictP": 0.904,
+        "centresAgree": false,
+        "ring": false,
+        "parallelP": 0.749,
+        "parallelOffsetBlocks": 4,
+        "parallel": false
+      }
+    ]
+  }
+}

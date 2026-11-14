@@ -1,0 +1,663 @@
+{
+  "preregistrationSha256": "1a864b2e9a778ca1c2eaa10ff02e606cf5022f82bbb7af3acc9bc9eb0fb6f89a",
+  "A_rhyme": {
+    "primary": {
+      "suras": 29,
+      "measure": "rhyme family",
+      "meanShareOfVersesMatchingOwnOpening": 0.6483,
+      "meanUnderShuffle": 0.5452,
+      "p": 0.0208,
+      "perSura": [
+        {
+          "sura": 2,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 0.9404
+        },
+        {
+          "sura": 3,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 0.8442
+        },
+        {
+          "sura": 7,
+          "opening": "المص",
+          "ending": "A+د",
+          "share": 0
+        },
+        {
+          "sura": 10,
+          "opening": "الر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 11,
+          "opening": "الر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 12,
+          "opening": "الر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 13,
+          "opening": "المر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 14,
+          "opening": "الر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 15,
+          "opening": "الر",
+          "ending": "A+0",
+          "share": 0
+        },
+        {
+          "sura": 19,
+          "opening": "كهيعص",
+          "ending": "A+د",
+          "share": 0
+        },
+        {
+          "sura": 20,
+          "opening": "طه",
+          "ending": "A+0",
+          "share": 0.8284
+        },
+        {
+          "sura": 26,
+          "opening": "طسم",
+          "ending": "L+م",
+          "share": 0.9912
+        },
+        {
+          "sura": 27,
+          "opening": "طس",
+          "ending": "L+ن",
+          "share": 1
+        },
+        {
+          "sura": 28,
+          "opening": "طسم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 29,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 30,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 31,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 32,
+          "opening": "الم",
+          "ending": "L+م",
+          "share": 0.9655
+        },
+        {
+          "sura": 36,
+          "opening": "يس",
+          "ending": "L+ن",
+          "share": 1
+        },
+        {
+          "sura": 38,
+          "opening": "ص",
+          "ending": "A+د",
+          "share": 0.7386
+        },
+        {
+          "sura": 40,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 0.5119
+        },
+        {
+          "sura": 41,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 42,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 0.9804
+        },
+        {
+          "sura": 43,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 44,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 45,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 46,
+          "opening": "حم",
+          "ending": "L+م",
+          "share": 1
+        },
+        {
+          "sura": 50,
+          "opening": "ق",
+          "ending": "A+ف",
+          "share": 0
+        },
+        {
+          "sura": 68,
+          "opening": "ن",
+          "ending": "L+ن",
+          "share": 1
+        }
+      ]
+    },
+    "secondary": {
+      "lettersFormOwnVerse": {
+        "suras": 19,
+        "measure": "rhyme family",
+        "meanShareOfVersesMatchingOwnOpening": 0.8454,
+        "meanUnderShuffle": 0.7316,
+        "p": 0.0224,
+        "perSura": [
+          {
+            "sura": 2,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.9404
+          },
+          {
+            "sura": 3,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.8442
+          },
+          {
+            "sura": 7,
+            "opening": "المص",
+            "ending": "A+د",
+            "share": 0
+          },
+          {
+            "sura": 19,
+            "opening": "كهيعص",
+            "ending": "A+د",
+            "share": 0
+          },
+          {
+            "sura": 20,
+            "opening": "طه",
+            "ending": "A+0",
+            "share": 0.8284
+          },
+          {
+            "sura": 26,
+            "opening": "طسم",
+            "ending": "L+م",
+            "share": 0.9912
+          },
+          {
+            "sura": 28,
+            "opening": "طسم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 29,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 30,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 31,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 32,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.9655
+          },
+          {
+            "sura": 36,
+            "opening": "يس",
+            "ending": "L+ن",
+            "share": 1
+          },
+          {
+            "sura": 40,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.5119
+          },
+          {
+            "sura": 41,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 42,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.9804
+          },
+          {
+            "sura": 43,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 44,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 45,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 1
+          },
+          {
+            "sura": 46,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 1
+          }
+        ]
+      },
+      "exactKey": {
+        "suras": 29,
+        "measure": "exact rhyme key",
+        "meanShareOfVersesMatchingOwnOpening": 0.186,
+        "meanUnderShuffle": 0.1305,
+        "p": 0.03,
+        "perSura": [
+          {
+            "sura": 2,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.1825
+          },
+          {
+            "sura": 3,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.1407
+          },
+          {
+            "sura": 7,
+            "opening": "المص",
+            "ending": "A+د",
+            "share": 0
+          },
+          {
+            "sura": 10,
+            "opening": "الر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 11,
+            "opening": "الر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 12,
+            "opening": "الر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 13,
+            "opening": "المر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 14,
+            "opening": "الر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 15,
+            "opening": "الر",
+            "ending": "A+0",
+            "share": 0
+          },
+          {
+            "sura": 19,
+            "opening": "كهيعص",
+            "ending": "A+د",
+            "share": 0
+          },
+          {
+            "sura": 20,
+            "opening": "طه",
+            "ending": "A+0",
+            "share": 0.8284
+          },
+          {
+            "sura": 26,
+            "opening": "طسم",
+            "ending": "L+م",
+            "share": 0.1283
+          },
+          {
+            "sura": 27,
+            "opening": "طس",
+            "ending": "L+ن",
+            "share": 0.9032
+          },
+          {
+            "sura": 28,
+            "opening": "طسم",
+            "ending": "L+م",
+            "share": 0.023
+          },
+          {
+            "sura": 29,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.0882
+          },
+          {
+            "sura": 30,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.0508
+          },
+          {
+            "sura": 31,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.2121
+          },
+          {
+            "sura": 32,
+            "opening": "الم",
+            "ending": "L+م",
+            "share": 0.0345
+          },
+          {
+            "sura": 36,
+            "opening": "يس",
+            "ending": "L+ن",
+            "share": 0.8537
+          },
+          {
+            "sura": 38,
+            "opening": "ص",
+            "ending": "A+د",
+            "share": 0.0682
+          },
+          {
+            "sura": 40,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.0476
+          },
+          {
+            "sura": 41,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.1321
+          },
+          {
+            "sura": 42,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.1765
+          },
+          {
+            "sura": 43,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.1023
+          },
+          {
+            "sura": 44,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.2414
+          },
+          {
+            "sura": 45,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.1667
+          },
+          {
+            "sura": 46,
+            "opening": "حم",
+            "ending": "L+م",
+            "share": 0.2059
+          },
+          {
+            "sura": 50,
+            "opening": "ق",
+            "ending": "A+ف",
+            "share": 0
+          },
+          {
+            "sura": 68,
+            "opening": "ن",
+            "ending": "L+ن",
+            "share": 0.8077
+          }
+        ]
+      }
+    }
+  },
+  "B_letterforms": {
+    "primary": {
+      "groups": 18,
+      "groupsCoveredByThe14": 14,
+      "mostPossible": 14,
+      "setsDoingAsWell": 558780,
+      "ofAllSets": 40116600,
+      "p": 0.0139,
+      "groupsNotCovered": [
+        "ب ت ث",
+        "د ذ",
+        "ف",
+        "و"
+      ]
+    },
+    "secondary": {
+      "coarserGrouping15": {
+        "groups": 15,
+        "groupsCoveredByThe14": 13,
+        "mostPossible": 14,
+        "setsDoingAsWell": 552336,
+        "ofAllSets": 40116600,
+        "p": 0.0138,
+        "groupsNotCovered": [
+          "د ذ",
+          "و"
+        ]
+      },
+      "undottedMember": {
+        "multiLetterGroupsHit": 6,
+        "whereTheLetterPresentIsTheUndottedOne": 6,
+        "chanceIfOneLetterPerGroupWerePickedAtRandom": 0.0104
+      }
+    }
+  },
+  "C_order": {
+    "multiLetterOpenings": [
+      "الم",
+      "المص",
+      "الر",
+      "المر",
+      "كهيعص",
+      "طه",
+      "طسم",
+      "طس",
+      "يس",
+      "حم",
+      "عسق"
+    ],
+    "observedOrderIsConsistent": true,
+    "shareOfRandomArrangementsThatAreConsistent": 0.00114,
+    "p": 0.00114
+  },
+  "D_soundClasses": {
+    "presentPerClass": {
+      "voiceless": "5 of 10",
+      "stops": "4 of 8",
+      "emphatic": "2 of 4",
+      "elevated": "3 of 7",
+      "qalqala": "2 of 5"
+    },
+    "imbalance": 1,
+    "smallestPossible": 1,
+    "p": 0.0255
+  },
+  "E_nineteen": {
+    "primary": {
+      "cases": 78,
+      "multiplesOf19": 5,
+      "expectedByChance": 4.1053,
+      "p": 0.392,
+      "which": [
+        "11:ر=323",
+        "19:ي=342",
+        "28:ط=19",
+        "42:ق=57",
+        "50:ق=57"
+      ]
+    },
+    "secondary": {
+      "strictCount": {
+        "cases": 78,
+        "multiplesOf19": 4,
+        "expectedByChance": 4.1053,
+        "p": 0.593,
+        "which": [
+          "11:ر=323",
+          "28:ط=19",
+          "42:ق=57",
+          "50:ق=57"
+        ]
+      },
+      "basmalaIncluded": {
+        "cases": 78,
+        "multiplesOf19": 5,
+        "expectedByChance": 4.1053,
+        "p": 0.392,
+        "which": [
+          "15:ل=323",
+          "28:ط=19",
+          "40:م=380",
+          "42:ق=57",
+          "50:ق=57"
+        ]
+      },
+      "perSuraTotals": {
+        "suras": 29,
+        "multiplesOf19": 3,
+        "expectedByChance": 1.5263,
+        "which": [
+          "13",
+          "30",
+          "50"
+        ]
+      },
+      "khalifaHeadlineClaims": [
+        {
+          "claim": "qaf in sura 50",
+          "khalifa": 57,
+          "thisCount": 57,
+          "multipleOf19": true
+        },
+        {
+          "claim": "qaf in sura 42",
+          "khalifa": 57,
+          "thisCount": 57,
+          "multipleOf19": true
+        },
+        {
+          "claim": "nun in sura 68",
+          "khalifa": 133,
+          "thisCount": 131,
+          "multipleOf19": false
+        },
+        {
+          "claim": "sad across suras 7, 19, 38",
+          "khalifa": 152,
+          "thisCount": 153,
+          "multipleOf19": false
+        },
+        {
+          "claim": "ha + mim across suras 40 to 46",
+          "khalifa": 2147,
+          "thisCount": 2112,
+          "multipleOf19": false
+        }
+      ]
+    }
+  },
+  "F_class": {
+    "rhyme": {
+      "test": "rhyme, both suras lettered",
+      "beta": 0.1309,
+      "t": 8.8495,
+      "p": 0.0001
+    },
+    "vocabularyWithBookOpenerControl": {
+      "test": "vocabulary, both suras lettered, Book-opener controlled",
+      "beta": 0.0503,
+      "t": 4.3465,
+      "p": 0.0001
+    },
+    "bookOpeners": {
+      "amongLettered": "24 of 29",
+      "amongUnlettered": "16 of 85"
+    }
+  }
+}

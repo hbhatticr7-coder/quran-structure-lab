@@ -1,0 +1,329 @@
+{
+  "preregistrationSha256": "86f117f12033f785d02716f1b811e8051aa802f8bc99625dc6c01f34546ae643",
+  "surasUsed": 111,
+  "rootsExamined": 304,
+  "part1_vocabulary": {
+    "validation": {
+      "confirmationTests": 40,
+      "medianP": 0.1805,
+      "testsBelow05": 6,
+      "medianT": 0.942,
+      "passes": false
+    },
+    "stableRoots": [
+      {
+        "root": "حزن",
+        "commonestWords": [
+          "يَحْزُن (37)",
+          "حَزَن (3)",
+          "حُزْن (2)"
+        ],
+        "selectedInShareOfHalfSamples": 0.725,
+        "direction": "more in lettered suras",
+        "per1000_lettered": 1.292,
+        "per1000_unlettered": 0.4763,
+        "t": 4.0784,
+        "tMeccanOnly": 2.8896,
+        "tNoldeke": 4.2895
+      },
+      {
+        "root": "أرض",
+        "commonestWords": [
+          "أَرْض (461)"
+        ],
+        "selectedInShareOfHalfSamples": 0.6,
+        "direction": "more in lettered suras",
+        "per1000_lettered": 10.2929,
+        "per1000_unlettered": 7.7799,
+        "t": 3.7573,
+        "tMeccanOnly": 2.7813,
+        "tNoldeke": 3.0067
+      }
+    ],
+    "confirmations": [
+      {
+        "split": 0,
+        "t": -0.3934,
+        "p": 0.652
+      },
+      {
+        "split": 0,
+        "t": 1.2824,
+        "p": 0.103
+      },
+      {
+        "split": 1,
+        "t": 0.1889,
+        "p": 0.436
+      },
+      {
+        "split": 1,
+        "t": -0.0311,
+        "p": 0.508
+      },
+      {
+        "split": 2,
+        "t": 1.2309,
+        "p": 0.113
+      },
+      {
+        "split": 2,
+        "t": -0.3802,
+        "p": 0.653
+      },
+      {
+        "split": 3,
+        "t": 1.3087,
+        "p": 0.0998
+      },
+      {
+        "split": 3,
+        "t": 1.036,
+        "p": 0.153
+      },
+      {
+        "split": 4,
+        "t": 0.2492,
+        "p": 0.407
+      },
+      {
+        "split": 4,
+        "t": 0.7293,
+        "p": 0.231
+      },
+      {
+        "split": 5,
+        "t": 0.8005,
+        "p": 0.221
+      },
+      {
+        "split": 5,
+        "t": 1.4807,
+        "p": 0.0748
+      },
+      {
+        "split": 6,
+        "t": 0.8414,
+        "p": 0.202
+      },
+      {
+        "split": 6,
+        "t": -1.8723,
+        "p": 0.967
+      },
+      {
+        "split": 7,
+        "t": -0.013,
+        "p": 0.503
+      },
+      {
+        "split": 7,
+        "t": 1.3229,
+        "p": 0.0959
+      },
+      {
+        "split": 8,
+        "t": -1.4203,
+        "p": 0.915
+      },
+      {
+        "split": 8,
+        "t": -0.0763,
+        "p": 0.534
+      },
+      {
+        "split": 9,
+        "t": 1.1445,
+        "p": 0.128
+      },
+      {
+        "split": 9,
+        "t": -0.5414,
+        "p": 0.701
+      },
+      {
+        "split": 10,
+        "t": 1.0755,
+        "p": 0.141
+      },
+      {
+        "split": 10,
+        "t": 2.0306,
+        "p": 0.0248
+      },
+      {
+        "split": 11,
+        "t": 0.8873,
+        "p": 0.187
+      },
+      {
+        "split": 11,
+        "t": 0.4458,
+        "p": 0.334
+      },
+      {
+        "split": 12,
+        "t": 1.0581,
+        "p": 0.149
+      },
+      {
+        "split": 12,
+        "t": -0.5217,
+        "p": 0.699
+      },
+      {
+        "split": 13,
+        "t": -1.0414,
+        "p": 0.848
+      },
+      {
+        "split": 13,
+        "t": -0.5907,
+        "p": 0.728
+      },
+      {
+        "split": 14,
+        "t": 0.9262,
+        "p": 0.183
+      },
+      {
+        "split": 14,
+        "t": -0.76,
+        "p": 0.782
+      },
+      {
+        "split": 15,
+        "t": 1.6818,
+        "p": 0.051
+      },
+      {
+        "split": 15,
+        "t": 1.7792,
+        "p": 0.0396
+      },
+      {
+        "split": 16,
+        "t": 0.942,
+        "p": 0.178
+      },
+      {
+        "split": 16,
+        "t": 2.6418,
+        "p": 0.0065
+      },
+      {
+        "split": 17,
+        "t": 1.2411,
+        "p": 0.107
+      },
+      {
+        "split": 17,
+        "t": 1.9779,
+        "p": 0.0287
+      },
+      {
+        "split": 18,
+        "t": 2.7053,
+        "p": 0.00435
+      },
+      {
+        "split": 18,
+        "t": 1.1146,
+        "p": 0.136
+      },
+      {
+        "split": 19,
+        "t": 1.1329,
+        "p": 0.135
+      },
+      {
+        "split": 19,
+        "t": 2.7059,
+        "p": 0.00475
+      }
+    ]
+  },
+  "part2_formalFeatures": [
+    {
+      "feature": "proper nouns per 1,000 words",
+      "lettered": 49.334,
+      "unlettered": 51.9362,
+      "adjustedDifference": 2.4831,
+      "t": 0.8963,
+      "p": 0.375,
+      "pAdjusted": 0.642
+    },
+    {
+      "feature": "imperatives per 1,000 words",
+      "lettered": 26.2461,
+      "unlettered": 22.2815,
+      "adjustedDifference": 2.0998,
+      "t": 1.1175,
+      "p": 0.267,
+      "pAdjusted": 0.601
+    },
+    {
+      "feature": "share of verbs in the perfect tense",
+      "lettered": 0.4751,
+      "unlettered": 0.4652,
+      "adjustedDifference": -0.0056,
+      "t": -0.392,
+      "p": 0.695,
+      "pAdjusted": 0.782
+    },
+    {
+      "feature": "first-person plural verbs per 1,000 words",
+      "lettered": 25.44,
+      "unlettered": 23.0642,
+      "adjustedDifference": -3.2019,
+      "t": -1.2028,
+      "p": 0.228,
+      "pAdjusted": 0.601
+    },
+    {
+      "feature": "second-person verbs per 1,000 words",
+      "lettered": 62.3563,
+      "unlettered": 57.4873,
+      "adjustedDifference": 2.8113,
+      "t": 0.7917,
+      "p": 0.428,
+      "pAdjusted": 0.642
+    },
+    {
+      "feature": "passive verbs per 1,000 words",
+      "lettered": 14.5319,
+      "unlettered": 15.2562,
+      "adjustedDifference": -0.0087,
+      "t": -0.0057,
+      "p": 0.995,
+      "pAdjusted": 0.995
+    },
+    {
+      "feature": "vocative ya per 1,000 words",
+      "lettered": 5.3141,
+      "unlettered": 4.0718,
+      "adjustedDifference": 1.2758,
+      "t": 1.4833,
+      "p": 0.14,
+      "pAdjusted": 0.601
+    },
+    {
+      "feature": "verbs as a share of content words",
+      "lettered": 0.3996,
+      "unlettered": 0.3757,
+      "adjustedDifference": 0.0047,
+      "t": 0.6342,
+      "p": 0.527,
+      "pAdjusted": 0.678
+    },
+    {
+      "feature": "share of verses rhyming in long i/u + consonant",
+      "lettered": 0.8462,
+      "unlettered": 0.6065,
+      "adjustedDifference": 0.2464,
+      "t": 3.1303,
+      "p": 0.0028,
+      "pAdjusted": 0.0252
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "preregistrationSha256": "84900eabc6716628fc900e2f3c84b6ddeb96e76690c20ab92a848084c23286d1",
+  "L1_families": {
+    "primary": {
+      "test": "L1 PRIMARY: vocabulary, same letters",
+      "beta": -0.0226,
+      "t": -0.8576,
+      "p": 0.802
+    },
+    "secondary": {
+      "rhyme": {
+        "test": "rhyme, same letters",
+        "beta": -0.0055,
+        "t": -0.1549,
+        "p": 0.512
+      },
+      "noldeke": {
+        "test": "vocabulary, same letters, Noldeke chronology",
+        "beta": -0.0171,
+        "t": -0.6583,
+        "p": 0.743
+      },
+      "withoutFirstFiveVerses": {
+        "test": "vocabulary without first five verses, same letters",
+        "beta": -0.0169,
+        "t": -0.7438,
+        "p": 0.769
+      },
+      "hmFamily": {
+        "test": "vocabulary, HM family",
+        "beta": 0.0032,
+        "t": 0.0829,
+        "p": 0.451
+      },
+      "separatedALM": {
+        "test": "vocabulary, separated ALM pairs (2-3 against 29-32)",
+        "beta": -0.0348,
+        "t": -0.5877,
+        "p": 0.728
+      },
+      "partialOverlap": {
+        "test": "vocabulary, share of letters in common (different-letter pairs)",
+        "beta": -0.013,
+        "t": -0.3036,
+        "p": 0.613
+      }
+    },
+    "descriptive": {
+      "chanceLevel": 0.5,
+      "meanVocabularyPercentile": {
+        "allSameLetterPairs": 0.809,
+        "HM": 0.8002,
+        "ALR": 0.7875,
+        "ALM_all": 0.8295,
+        "ALM_withinBlocks": 0.8393,
+        "ALM_separatedPairs": 0.8209,
+        "TSM": 0.9018,
+        "letteredPairsWithDifferentLetters": 0.7689,
+        "letteredWithUnlettered": 0.5496
+      },
+      "separatedALMPairs": [
+        {
+          "pair": "2-29",
+          "vocabularyPercentile": 0.8616
+        },
+        {
+          "pair": "2-30",
+          "vocabularyPercentile": 0.817
+        },
+        {
+          "pair": "2-31",
+          "vocabularyPercentile": 0.8661
+        },
+        {
+          "pair": "2-32",
+          "vocabularyPercentile": 0.7277
+        },
+        {
+          "pair": "3-29",
+          "vocabularyPercentile": 0.9196
+        },
+        {
+          "pair": "3-30",
+          "vocabularyPercentile": 0.8527
+        },
+        {
+          "pair": "3-31",
+          "vocabularyPercentile": 0.817
+        },
+        {
+          "pair": "3-32",
+          "vocabularyPercentile": 0.7054
+        }
+      ]
+    }
+  },
+  "L2_letterFrequency": {
+    "primary": {
+      "countingRule": "skeleton",
+      "standardisedAcross": "the 29 lettered suras",
+      "observed": 7.9269,
+      "meanUnderShuffle": 0.0048,
+      "surasWithPositiveOwnScore": "19 of 29",
+      "p": 0.00445
+    },
+    "secondary": {
+      "strictCount": {
+        "countingRule": "strict",
+        "standardisedAcross": "the 29 lettered suras",
+        "observed": 8.3176,
+        "meanUnderShuffle": 0.008,
+        "surasWithPositiveOwnScore": "20 of 29",
+        "p": 0.00296
+      },
+      "standardisedAcrossAllSuras": {
+        "countingRule": "skeleton",
+        "standardisedAcross": "all 114 suras",
+        "observed": 4.2247,
+        "meanUnderShuffle": 0.1228,
+        "surasWithPositiveOwnScore": "18 of 29",
+        "p": 0.00085
+      }
+    },
+    "singleLetterSuras": [
+      {
+        "sura": 38,
+        "letter": "ص",
+        "count": 28,
+        "perThousandLetters": 9.3645,
+        "rankAmong29": 3,
+        "rankAmong114": 30
+      },
+      {
+        "sura": 50,
+        "letter": "ق",
+        "count": 56,
+        "perThousandLetters": 38.0435,
+        "rankAmong29": 1,
+        "rankAmong114": 4
+      },
+      {
+        "sura": 68,
+        "letter": "ن",
+        "count": 130,
+        "perThousandLetters": 103.4208,
+        "rankAmong29": 5,
+        "rankAmong114": 12
+      }
+    ],
+    "table": [
+      {
+        "sura": 2,
+        "letter": "ا",
+        "count": 4213,
+        "perThousandLetters": 164.5061,
+        "rankAmong29": 10,
+        "rankAmong114": 46
+      },
+      {
+        "sura": 2,
+        "letter": "ل",
+        "count": 3197,
+        "perThousandLetters": 124.834,
+        "rankAmong29": 7,
+        "rankAmong114": 38
+      },
+      {
+        "sura": 2,
+        "letter": "م",
+        "count": 2191,
+        "perThousandLetters": 85.5525,
+        "rankAmong29": 14,
+        "rankAmong114": 38
+      },
+      {
+        "sura": 3,
+        "letter": "ا",
+        "count": 2350,
+        "perThousandLetters": 160.9369,
+        "rankAmong29": 18,
+        "rankAmong114": 60
+      },
+      {
+        "sura": 3,
+        "letter": "ل",
+        "count": 1887,
+        "perThousandLetters": 129.2289,
+        "rankAmong29": 5,
+        "rankAmong114": 27
+      },
+      {
+        "sura": 3,
+        "letter": "م",
+        "count": 1245,
+        "perThousandLetters": 85.2623,
+        "rankAmong29": 15,
+        "rankAmong114": 39
+      },
+      {
+        "sura": 7,
+        "letter": "ا",
+        "count": 2343,
+        "perThousandLetters": 166.56,
+        "rankAmong29": 8,
+        "rankAmong114": 41
+      },
+      {
+        "sura": 7,
+        "letter": "ل",
+        "count": 1525,
+        "perThousandLetters": 108.4098,
+        "rankAmong29": 22,
+        "rankAmong114": 75
+      },
+      {
+        "sura": 7,
+        "letter": "م",
+        "count": 1160,
+        "perThousandLetters": 82.4625,
+        "rankAmong29": 19,
+        "rankAmong114": 52
+      },
+      {
+        "sura": 7,
+        "letter": "ص",
+        "count": 97,
+        "perThousandLetters": 6.8956,
+        "rankAmong29": 12,
+        "rankAmong114": 54
+      },
+      {
+        "sura": 10,
+        "letter": "ا",
+        "count": 1223,
+        "perThousandLetters": 164.7804,
+        "rankAmong29": 9,
+        "rankAmong114": 45
+      },
+      {
+        "sura": 10,
+        "letter": "ل",
+        "count": 908,
+        "perThousandLetters": 122.339,
+        "rankAmong29": 9,
+        "rankAmong114": 47
+      },
+      {
+        "sura": 10,
+        "letter": "ر",
+        "count": 254,
+        "perThousandLetters": 34.2226,
+        "rankAmong29": 25,
+        "rankAmong114": 90
+      },
+      {
+        "sura": 11,
+        "letter": "ا",
+        "count": 1276,
+        "perThousandLetters": 167.2346,
+        "rankAmong29": 7,
+        "rankAmong114": 40
+      },
+      {
+        "sura": 11,
+        "letter": "ل",
+        "count": 790,
+        "perThousandLetters": 103.5387,
+        "rankAmong29": 25,
+        "rankAmong114": 85
+      },
+      {
+        "sura": 11,
+        "letter": "ر",
+        "count": 322,
+        "perThousandLetters": 42.2018,
+        "rankAmong29": 4,
+        "rankAmong114": 47
+      },
+      {
+        "sura": 12,
+        "letter": "ا",
+        "count": 1233,
+        "perThousandLetters": 173.1255,
+        "rankAmong29": 2,
+        "rankAmong114": 30
+      },
+      {
+        "sura": 12,
+        "letter": "ل",
+        "count": 807,
+        "perThousandLetters": 113.3109,
+        "rankAmong29": 14,
+        "rankAmong114": 62
+      },
+      {
+        "sura": 12,
+        "letter": "ر",
+        "count": 254,
+        "perThousandLetters": 35.6641,
+        "rankAmong29": 21,
+        "rankAmong114": 83
+      },
+      {
+        "sura": 13,
+        "letter": "ا",
+        "count": 556,
+        "perThousandLetters": 161.3465,
+        "rankAmong29": 17,
+        "rankAmong114": 59
+      },
+      {
+        "sura": 13,
+        "letter": "ل",
+        "count": 475,
+        "perThousandLetters": 137.841,
+        "rankAmong29": 2,
+        "rankAmong114": 14
+      },
+      {
+        "sura": 13,
+        "letter": "م",
+        "count": 256,
+        "perThousandLetters": 74.289,
+        "rankAmong29": 26,
+        "rankAmong114": 81
+      },
+      {
+        "sura": 13,
+        "letter": "ر",
+        "count": 134,
+        "perThousandLetters": 38.8857,
+        "rankAmong29": 15,
+        "rankAmong114": 68
+      },
+      {
+        "sura": 14,
+        "letter": "ا",
+        "count": 549,
+        "perThousandLetters": 158.7623,
+        "rankAmong29": 22,
+        "rankAmong114": 70
+      },
+      {
+        "sura": 14,
+        "letter": "ل",
+        "count": 447,
+        "perThousandLetters": 129.2655,
+        "rankAmong29": 4,
+        "rankAmong114": 26
+      },
+      {
+        "sura": 14,
+        "letter": "ر",
+        "count": 157,
+        "perThousandLetters": 45.402,
+        "rankAmong29": 1,
+        "rankAmong114": 33
+      },
+      {
+        "sura": 15,
+        "letter": "ا",
+        "count": 457,
+        "perThousandLetters": 163.5648,
+        "rankAmong29": 13,
+        "rankAmong114": 50
+      },
+      {
+        "sura": 15,
+        "letter": "ل",
+        "count": 318,
+        "perThousandLetters": 113.8153,
+        "rankAmong29": 13,
+        "rankAmong114": 61
+      },
+      {
+        "sura": 15,
+        "letter": "ر",
+        "count": 93,
+        "perThousandLetters": 33.2856,
+        "rankAmong29": 27,
+        "rankAmong114": 95
+      },
+      {
+        "sura": 19,
+        "letter": "ك",
+        "count": 136,
+        "perThousandLetters": 35.5091,
+        "rankAmong29": 3,
+        "rankAmong114": 26
+      },
+      {
+        "sura": 19,
+        "letter": "ه",
+        "count": 173,
+        "perThousandLetters": 45.1697,
+        "rankAmong29": 25,
+        "rankAmong114": 83
+      },
+      {
+        "sura": 19,
+        "letter": "ي",
+        "count": 341,
+        "perThousandLetters": 89.0339,
+        "rankAmong29": 5,
+        "rankAmong114": 28
+      },
+      {
+        "sura": 19,
+        "letter": "ع",
+        "count": 116,
+        "perThousandLetters": 30.2872,
+        "rankAmong29": 14,
+        "rankAmong114": 42
+      },
+      {
+        "sura": 19,
+        "letter": "ص",
+        "count": 25,
+        "perThousandLetters": 6.5274,
+        "rankAmong29": 16,
+        "rankAmong114": 60
+      },
+      {
+        "sura": 20,
+        "letter": "ط",
+        "count": 27,
+        "perThousandLetters": 5.1078,
+        "rankAmong29": 5,
+        "rankAmong114": 36
+      },
+      {
+        "sura": 20,
+        "letter": "ه",
+        "count": 249,
+        "perThousandLetters": 47.1056,
+        "rankAmong29": 21,
+        "rankAmong114": 76
+      },
+      {
+        "sura": 26,
+        "letter": "ط",
+        "count": 32,
+        "perThousandLetters": 5.8034,
+        "rankAmong29": 3,
+        "rankAmong114": 28
+      },
+      {
+        "sura": 26,
+        "letter": "س",
+        "count": 92,
+        "perThousandLetters": 16.6848,
+        "rankAmong29": 23,
+        "rankAmong114": 85
+      },
+      {
+        "sura": 26,
+        "letter": "م",
+        "count": 480,
+        "perThousandLetters": 87.0511,
+        "rankAmong29": 12,
+        "rankAmong114": 32
+      },
+      {
+        "sura": 27,
+        "letter": "ط",
+        "count": 26,
+        "perThousandLetters": 5.5591,
+        "rankAmong29": 4,
+        "rankAmong114": 32
+      },
+      {
+        "sura": 27,
+        "letter": "س",
+        "count": 92,
+        "perThousandLetters": 19.6707,
+        "rankAmong29": 12,
+        "rankAmong114": 53
+      },
+      {
+        "sura": 28,
+        "letter": "ط",
+        "count": 18,
+        "perThousandLetters": 3.1099,
+        "rankAmong29": 18,
+        "rankAmong114": 74
+      },
+      {
+        "sura": 28,
+        "letter": "س",
+        "count": 100,
+        "perThousandLetters": 17.2771,
+        "rankAmong29": 21,
+        "rankAmong114": 81
+      },
+      {
+        "sura": 28,
+        "letter": "م",
+        "count": 456,
+        "perThousandLetters": 78.7837,
+        "rankAmong29": 22,
+        "rankAmong114": 70
+      },
+      {
+        "sura": 29,
+        "letter": "ا",
+        "count": 711,
+        "perThousandLetters": 169.4067,
+        "rankAmong29": 6,
+        "rankAmong114": 38
+      },
+      {
+        "sura": 29,
+        "letter": "ل",
+        "count": 549,
+        "perThousandLetters": 130.8077,
+        "rankAmong29": 3,
+        "rankAmong114": 21
+      },
+      {
+        "sura": 29,
+        "letter": "م",
+        "count": 340,
+        "perThousandLetters": 81.0102,
+        "rankAmong29": 20,
+        "rankAmong114": 58
+      },
+      {
+        "sura": 30,
+        "letter": "ا",
+        "count": 492,
+        "perThousandLetters": 145.3471,
+        "rankAmong29": 27,
+        "rankAmong114": 102
+      },
+      {
+        "sura": 30,
+        "letter": "ل",
+        "count": 389,
+        "perThousandLetters": 114.9188,
+        "rankAmong29": 11,
+        "rankAmong114": 57
+      },
+      {
+        "sura": 30,
+        "letter": "م",
+        "count": 313,
+        "perThousandLetters": 92.4668,
+        "rankAmong29": 6,
+        "rankAmong114": 19
+      },
+      {
+        "sura": 31,
+        "letter": "ا",
+        "count": 336,
+        "perThousandLetters": 158.6402,
+        "rankAmong29": 23,
+        "rankAmong114": 71
+      },
+      {
+        "sura": 31,
+        "letter": "ل",
+        "count": 292,
+        "perThousandLetters": 137.8659,
+        "rankAmong29": 1,
+        "rankAmong114": 13
+      },
+      {
+        "sura": 31,
+        "letter": "م",
+        "count": 169,
+        "perThousandLetters": 79.7923,
+        "rankAmong29": 21,
+        "rankAmong114": 67
+      },
+      {
+        "sura": 32,
+        "letter": "ا",
+        "count": 241,
+        "perThousandLetters": 158.5526,
+        "rankAmong29": 24,
+        "rankAmong114": 72
+      },
+      {
+        "sura": 32,
+        "letter": "ل",
+        "count": 150,
+        "perThousandLetters": 98.6842,
+        "rankAmong29": 28,
+        "rankAmong114": 95
+      },
+      {
+        "sura": 32,
+        "letter": "م",
+        "count": 154,
+        "perThousandLetters": 101.3158,
+        "rankAmong29": 3,
+        "rankAmong114": 9
+      },
+      {
+        "sura": 36,
+        "letter": "ي",
+        "count": 235,
+        "perThousandLetters": 78.7006,
+        "rankAmong29": 19,
+        "rankAmong114": 66
+      },
+      {
+        "sura": 36,
+        "letter": "س",
+        "count": 46,
+        "perThousandLetters": 15.4052,
+        "rankAmong29": 27,
+        "rankAmong114": 91
+      },
+      {
+        "sura": 38,
+        "letter": "ص",
+        "count": 28,
+        "perThousandLetters": 9.3645,
+        "rankAmong29": 3,
+        "rankAmong114": 30
+      },
+      {
+        "sura": 40,
+        "letter": "ح",
+        "count": 61,
+        "perThousandLetters": 12.2441,
+        "rankAmong29": 18,
+        "rankAmong114": 67
+      },
+      {
+        "sura": 40,
+        "letter": "م",
+        "count": 376,
+        "perThousandLetters": 75.4717,
+        "rankAmong29": 24,
+        "rankAmong114": 77
+      },
+      {
+        "sura": 41,
+        "letter": "ح",
+        "count": 45,
+        "perThousandLetters": 13.7195,
+        "rankAmong29": 11,
+        "rankAmong114": 46
+      },
+      {
+        "sura": 41,
+        "letter": "م",
+        "count": 272,
+        "perThousandLetters": 82.9268,
+        "rankAmong29": 18,
+        "rankAmong114": 48
+      },
+      {
+        "sura": 42,
+        "letter": "ح",
+        "count": 50,
+        "perThousandLetters": 14.5943,
+        "rankAmong29": 6,
+        "rankAmong114": 37
+      },
+      {
+        "sura": 42,
+        "letter": "م",
+        "count": 296,
+        "perThousandLetters": 86.3981,
+        "rankAmong29": 13,
+        "rankAmong114": 35
+      },
+      {
+        "sura": 42,
+        "letter": "ع",
+        "count": 97,
+        "perThousandLetters": 28.3129,
+        "rankAmong29": 24,
+        "rankAmong114": 63
+      },
+      {
+        "sura": 42,
+        "letter": "س",
+        "count": 52,
+        "perThousandLetters": 15.1781,
+        "rankAmong29": 29,
+        "rankAmong114": 93
+      },
+      {
+        "sura": 42,
+        "letter": "ق",
+        "count": 56,
+        "perThousandLetters": 16.3456,
+        "rankAmong29": 28,
+        "rankAmong114": 84
+      },
+      {
+        "sura": 43,
+        "letter": "ح",
+        "count": 41,
+        "perThousandLetters": 11.6942,
+        "rankAmong29": 22,
+        "rankAmong114": 76
+      },
+      {
+        "sura": 43,
+        "letter": "م",
+        "count": 320,
+        "perThousandLetters": 91.2721,
+        "rankAmong29": 8,
+        "rankAmong114": 22
+      },
+      {
+        "sura": 44,
+        "letter": "ح",
+        "count": 13,
+        "perThousandLetters": 9.0466,
+        "rankAmong29": 28,
+        "rankAmong114": 100
+      },
+      {
+        "sura": 44,
+        "letter": "م",
+        "count": 146,
+        "perThousandLetters": 101.6006,
+        "rankAmong29": 2,
+        "rankAmong114": 8
+      },
+      {
+        "sura": 45,
+        "letter": "ح",
+        "count": 28,
+        "perThousandLetters": 13.9165,
+        "rankAmong29": 10,
+        "rankAmong114": 44
+      },
+      {
+        "sura": 45,
+        "letter": "م",
+        "count": 196,
+        "perThousandLetters": 97.4155,
+        "rankAmong29": 4,
+        "rankAmong114": 11
+      },
+      {
+        "sura": 46,
+        "letter": "ح",
+        "count": 33,
+        "perThousandLetters": 12.6923,
+        "rankAmong29": 16,
+        "rankAmong114": 61
+      },
+      {
+        "sura": 46,
+        "letter": "م",
+        "count": 221,
+        "perThousandLetters": 85,
+        "rankAmong29": 16,
+        "rankAmong114": 43
+      },
+      {
+        "sura": 50,
+        "letter": "ق",
+        "count": 56,
+        "perThousandLetters": 38.0435,
+        "rankAmong29": 1,
+        "rankAmong114": 4
+      },
+      {
+        "sura": 68,
+        "letter": "ن",
+        "count": 130,
+        "perThousandLetters": 103.4208,
+        "rankAmong29": 5,
+        "rankAmong114": 12
+      }
+    ]
+  }
+}

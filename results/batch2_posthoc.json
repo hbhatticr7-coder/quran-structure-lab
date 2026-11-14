@@ -1,0 +1,109 @@
+{
+  "note": "Post hoc. Added after seeing batch 2 results; no confirmatory weight.",
+  "top10AdjacentPairsByResidual": [
+    {
+      "pair": "113-114",
+      "residual": 0.7619,
+      "percentile": 1,
+      "farrinPair": true
+    },
+    {
+      "pair": "91-92",
+      "residual": 0.5968,
+      "percentile": 0.9777,
+      "farrinPair": true
+    },
+    {
+      "pair": "89-90",
+      "residual": 0.5948,
+      "percentile": 0.9732,
+      "farrinPair": true
+    },
+    {
+      "pair": "92-93",
+      "residual": 0.59,
+      "percentile": 0.9732,
+      "farrinPair": false
+    },
+    {
+      "pair": "109-110",
+      "residual": 0.584,
+      "percentile": 0.875,
+      "farrinPair": true
+    },
+    {
+      "pair": "82-83",
+      "residual": 0.5743,
+      "percentile": 1,
+      "farrinPair": false
+    },
+    {
+      "pair": "55-56",
+      "residual": 0.4977,
+      "percentile": 0.9375,
+      "farrinPair": false
+    },
+    {
+      "pair": "88-89",
+      "residual": 0.478,
+      "percentile": 0.8482,
+      "farrinPair": false
+    },
+    {
+      "pair": "79-80",
+      "residual": 0.4437,
+      "percentile": 0.8973,
+      "farrinPair": true
+    },
+    {
+      "pair": "73-74",
+      "residual": 0.4319,
+      "percentile": 0.8839,
+      "farrinPair": true
+    }
+  ],
+  "farrinPairsInTop10": 6,
+  "bottom5AdjacentPairs": [
+    {
+      "pair": "94-95",
+      "residual": -0.2401,
+      "percentile": 0.0469,
+      "farrinPair": false
+    },
+    {
+      "pair": "74-75",
+      "residual": -0.2523,
+      "percentile": 0.2411,
+      "farrinPair": false
+    },
+    {
+      "pair": "90-91",
+      "residual": -0.2779,
+      "percentile": 0.058,
+      "farrinPair": false
+    },
+    {
+      "pair": "52-53",
+      "residual": -0.2829,
+      "percentile": 0.2723,
+      "farrinPair": true
+    },
+    {
+      "pair": "86-87",
+      "residual": -0.2903,
+      "percentile": 0.0893,
+      "farrinPair": false
+    }
+  ],
+  "adjacentPairsAboveZero": "61 of 113",
+  "primaryWithoutTop5Pairs": {
+    "beta": 0.0277,
+    "t": 1.7451,
+    "p": 0.0435
+  },
+  "farrinPairsMinusOtherAdjacent": {
+    "beta": 0.081,
+    "t": 2.6544,
+    "p": 0.0045
+  }
+}

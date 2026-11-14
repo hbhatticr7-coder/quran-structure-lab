@@ -1,0 +1,951 @@
+{
+  "preregistrationSha256": "80e7579a02a37fd55ac25239c49f6ad9a68d4e2cfbddc95d9889e540388c855f",
+  "seed": 20261116,
+  "draws": 100000,
+  "yield": {
+    "nearTwinPairs_ratio0_6_anySura": 290,
+    "nearTwinPairs_ratio0_6_differentSuras": 252,
+    "ofWhichWithSubstitutionSite": 24,
+    "selectedPairs": {
+      "0.5": 48,
+      "0.6": 21,
+      "0.7": 10
+    },
+    "selectedSites": {
+      "0.5": 50,
+      "0.6": 22,
+      "0.7": 10
+    },
+    "phraseLevel": {
+      "usableFrames": 65,
+      "occurrences": 159,
+      "framesWithTwoOccurrences": 49,
+      "largestFrame": 7
+    }
+  },
+  "primary_wholeSura": {
+    "pairs": 21,
+    "informativePairs": 21,
+    "meanScore": 0.255,
+    "positive": 11,
+    "negative": 10,
+    "pSignFlip": 0.177,
+    "pSignTest": 0.5
+  },
+  "secondary": {
+    "strictContext": {
+      "pairs": 21,
+      "informativePairs": 20,
+      "meanScore": 0.2305,
+      "positive": 12,
+      "negative": 8,
+      "pSignFlip": 0.205,
+      "pSignTest": 0.252
+    },
+    "localContext": {
+      "pairs": 21,
+      "informativePairs": 18,
+      "meanScore": 0.2757,
+      "positive": 10,
+      "negative": 8,
+      "pSignFlip": 0.278,
+      "pSignTest": 0.407
+    },
+    "periodContext": {
+      "pairs": 21,
+      "informativePairs": 19,
+      "meanScore": -0.5271,
+      "positive": 9,
+      "negative": 10,
+      "pSignFlip": 0.983,
+      "pSignTest": 0.676
+    },
+    "associationMeasure": {
+      "pairs": 21,
+      "informativePairs": 21,
+      "meanScore": 0.0046,
+      "positive": 11,
+      "negative": 10,
+      "pSignFlip": 0.36,
+      "pSignTest": 0.5
+    },
+    "ratio0_5": {
+      "pairs": 48,
+      "informativePairs": 46,
+      "meanScore": 0.1498,
+      "positive": 22,
+      "negative": 24,
+      "pSignFlip": 0.25,
+      "pSignTest": 0.671
+    },
+    "ratio0_7": {
+      "pairs": 10,
+      "informativePairs": 10,
+      "meanScore": -0.3031,
+      "positive": 3,
+      "negative": 7,
+      "pSignFlip": 0.828,
+      "pSignTest": 0.945
+    }
+  },
+  "amendmentA1_phraseLevel": {
+    "wholeSura": {
+      "frames": 65,
+      "informativeFrames": 63,
+      "totalExcess": 12.1552,
+      "meanExcessPerInformativeFrame": 0.1929,
+      "framesPositive": 35,
+      "framesNegative": 28,
+      "p": 0.0196
+    },
+    "strictContext": {
+      "frames": 65,
+      "informativeFrames": 60,
+      "totalExcess": 7.1626,
+      "meanExcessPerInformativeFrame": 0.1194,
+      "framesPositive": 29,
+      "framesNegative": 31,
+      "p": 0.116
+    },
+    "localContext": {
+      "frames": 65,
+      "informativeFrames": 56,
+      "totalExcess": 18.9943,
+      "meanExcessPerInformativeFrame": 0.3392,
+      "framesPositive": 37,
+      "framesNegative": 19,
+      "p": 0.00055
+    },
+    "periodContext": {
+      "frames": 65,
+      "informativeFrames": 61,
+      "totalExcess": -7.0713,
+      "meanExcessPerInformativeFrame": -0.1159,
+      "framesPositive": 32,
+      "framesNegative": 29,
+      "p": 0.918
+    }
+  },
+  "phraseTop15Frames": [
+    {
+      "frame": "تبع ملل _ كون شرك",
+      "excess": 3.0378,
+      "occurrences": [
+        "3:95 حنف",
+        "12:38 أبو",
+        "16:123 حنف"
+      ]
+    },
+    {
+      "frame": "رأي أله _ سمو أرض",
+      "excess": 2.1024,
+      "occurrences": [
+        "14:19 خلق",
+        "17:99 خلق",
+        "22:18 سجد",
+        "24:41 سبح",
+        "31:20 سخر",
+        "46:33 خلق",
+        "58:7 علم"
+      ]
+    },
+    {
+      "frame": "ضرر شيأ _ كلل شيأ",
+      "excess": 1.9118,
+      "occurrences": [
+        "9:39 أله",
+        "11:57 ربب"
+      ]
+    },
+    {
+      "frame": "أله رسل _ أله رسل",
+      "excess": 1.5968,
+      "occurrences": [
+        "8:13 شقق",
+        "33:22 صدق",
+        "72:23 عصي"
+      ]
+    },
+    {
+      "frame": "دنو أخر _ سبل أله",
+      "excess": 1.5091,
+      "occurrences": [
+        "4:74 قتل",
+        "14:3 صدد"
+      ]
+    },
+    {
+      "frame": "قول ملأ _ سحر علم",
+      "excess": 1.3727,
+      "occurrences": [
+        "7:109 قوم",
+        "26:34 حول"
+      ]
+    },
+    {
+      "frame": "قول أخذ _ ولد سبح",
+      "excess": 1.1734,
+      "occurrences": [
+        "2:116 أله",
+        "10:68 أله",
+        "21:26 رحم"
+      ]
+    },
+    {
+      "frame": "أله حبب _ خيل فخر",
+      "excess": 1.1256,
+      "occurrences": [
+        "4:36 كون",
+        "31:18 كلل",
+        "57:23 كلل"
+      ]
+    },
+    {
+      "frame": "ليس سلط _ ربب وكل",
+      "excess": 1.0114,
+      "occurrences": [
+        "16:99 أمن",
+        "17:65 كفي"
+      ]
+    },
+    {
+      "frame": "أله أله _ كلل شيأ",
+      "excess": 1.0105,
+      "occurrences": [
+        "20:98 وسع",
+        "33:55 كون"
+      ]
+    },
+    {
+      "frame": "أخذ أله _ كون أله",
+      "excess": 0.973,
+      "occurrences": [
+        "23:91 ولد",
+        "40:21 ذنب"
+      ]
+    },
+    {
+      "frame": "عصو حجر _ ثني عشر",
+      "excess": 0.8047,
+      "occurrences": [
+        "2:60 فجر",
+        "7:160 بجس"
+      ]
+    },
+    {
+      "frame": "قلب كنن _ أذن وقر",
+      "excess": 0.7664,
+      "occurrences": [
+        "6:25 فقه",
+        "17:46 فقه",
+        "18:57 فقه",
+        "41:5 دعو"
+      ]
+    },
+    {
+      "frame": "سمو أرض _ ولد كون",
+      "excess": 0.5517,
+      "occurrences": [
+        "6:101 كون",
+        "25:2 أخذ"
+      ]
+    },
+    {
+      "frame": "ربب سمو _ ربب عرش",
+      "excess": 0.5493,
+      "occurrences": [
+        "23:86 سبع",
+        "43:82 أرض"
+      ]
+    }
+  ],
+  "phraseBottom15Frames": [
+    {
+      "frame": "قول جيأ _ وجد أبو",
+      "excess": -0.327,
+      "occurrences": [
+        "10:78 لفت",
+        "43:24 هدي"
+      ]
+    },
+    {
+      "frame": "توب بعد _ ربب بعد",
+      "excess": -0.3955,
+      "occurrences": [
+        "7:153 أمن",
+        "16:119 صلح"
+      ]
+    },
+    {
+      "frame": "أيي أنس _ ربب خلق",
+      "excess": -0.4355,
+      "occurrences": [
+        "2:21 عبد",
+        "4:1 وقي"
+      ]
+    },
+    {
+      "frame": "رحم قول _ أله وكل",
+      "excess": -0.4899,
+      "occurrences": [
+        "13:30 ربب",
+        "39:38 حسب"
+      ]
+    },
+    {
+      "frame": "أله هدي _ صرط قوم",
+      "excess": -0.5045,
+      "occurrences": [
+        "2:213 شيأ",
+        "22:54 أمن",
+        "24:46 شيأ"
+      ]
+    },
+    {
+      "frame": "بيت طوف _ ركع سجد",
+      "excess": -0.5194,
+      "occurrences": [
+        "2:125 عكف",
+        "22:26 قوم"
+      ]
+    },
+    {
+      "frame": "مثل دعو _ دون أله",
+      "excess": -0.5384,
+      "occurrences": [
+        "2:23 شهد",
+        "10:38 طوع"
+      ]
+    },
+    {
+      "frame": "رضو أله _ فوز عظم",
+      "excess": -0.5493,
+      "occurrences": [
+        "5:119 رضو",
+        "9:72 كبر"
+      ]
+    },
+    {
+      "frame": "سمو أرض _ يوم كون",
+      "excess": -0.5493,
+      "occurrences": [
+        "11:7 ستت",
+        "32:5 عرج"
+      ]
+    },
+    {
+      "frame": "حمد أله _ سمو أرض",
+      "excess": -0.6209,
+      "occurrences": [
+        "6:1 خلق",
+        "35:1 فطر"
+      ]
+    },
+    {
+      "frame": "كتب نزل _ صدق بين",
+      "excess": -0.6496,
+      "occurrences": [
+        "6:92 برك",
+        "46:30 بعد"
+      ]
+    },
+    {
+      "frame": "قول ربب _ قوم ظلم",
+      "excess": -0.8287,
+      "occurrences": [
+        "7:47 جعل",
+        "28:21 نجو"
+      ]
+    },
+    {
+      "frame": "سمو أرض _ علو شرك",
+      "excess": -0.9521,
+      "occurrences": [
+        "10:18 سبح",
+        "16:3 حقق"
+      ]
+    },
+    {
+      "frame": "قول تبع _ أبو كون",
+      "excess": -1.0986,
+      "occurrences": [
+        "2:170 لفو",
+        "31:21 وجد"
+      ]
+    },
+    {
+      "frame": "سمو أرض _ أله قول",
+      "excess": -1.2367,
+      "occurrences": [
+        "13:16 قول",
+        "27:64 أله",
+        "31:25 قول",
+        "39:38 قول"
+      ]
+    }
+  ],
+  "top20Sites": [
+    {
+      "verses": "4:26 / 8:71",
+      "rootInFirst": "توب",
+      "rootInSecond": "مكن",
+      "countsFirstRoot_ownSura_otherSura": [
+        11,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "D": 3.1355
+    },
+    {
+      "verses": "33:21 / 60:6",
+      "rootInFirst": "ذكر",
+      "rootInSecond": "ولي",
+      "countsFirstRoot_ownSura_otherSura": [
+        6,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        4,
+        7
+      ],
+      "D": 2.0541
+    },
+    {
+      "verses": "16:124 / 32:25",
+      "rootInFirst": "حكم",
+      "rootInSecond": "فصل",
+      "countsFirstRoot_ownSura_otherSura": [
+        3,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "D": 1.9459
+    },
+    {
+      "verses": "3:109 / 42:53",
+      "rootInFirst": "رجع",
+      "rootInSecond": "صير",
+      "countsFirstRoot_ownSura_otherSura": [
+        3,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        1,
+        2
+      ],
+      "D": 1.4351
+    },
+    {
+      "verses": "7:151 / 23:118",
+      "rootInFirst": "رحم",
+      "rootInSecond": "خير",
+      "countsFirstRoot_ownSura_otherSura": [
+        15,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        6,
+        9
+      ],
+      "D": 1.1086
+    },
+    {
+      "verses": "29:68 / 39:32",
+      "rootInFirst": "فري",
+      "rootInSecond": "كذب",
+      "countsFirstRoot_ownSura_otherSura": [
+        1,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        4,
+        5
+      ],
+      "D": 0.8979
+    },
+    {
+      "verses": "16:61 / 35:45",
+      "rootInFirst": "ظلم",
+      "rootInSecond": "كسب",
+      "countsFirstRoot_ownSura_otherSura": [
+        9,
+        4
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "D": 0.7472
+    },
+    {
+      "verses": "3:11 / 8:52",
+      "rootInFirst": "كذب",
+      "rootInSecond": "كفر",
+      "countsFirstRoot_ownSura_otherSura": [
+        7,
+        1
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        16,
+        43
+      ],
+      "D": 0.64
+    },
+    {
+      "verses": "22:6 / 42:9",
+      "rootInFirst": "حقق",
+      "rootInSecond": "ولي",
+      "countsFirstRoot_ownSura_otherSura": [
+        6,
+        5
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        6,
+        4
+      ],
+      "D": 0.5348
+    },
+    {
+      "verses": "29:63 / 31:25",
+      "rootInFirst": "نزل",
+      "rootInSecond": "خلق",
+      "countsFirstRoot_ownSura_otherSura": [
+        6,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        4,
+        5
+      ],
+      "D": 0.4184
+    },
+    {
+      "verses": "2:170 / 5:104",
+      "rootInFirst": "تبع",
+      "rootInSecond": "علو",
+      "countsFirstRoot_ownSura_otherSura": [
+        17,
+        4
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        1
+      ],
+      "D": 0.2595
+    },
+    {
+      "verses": "3:29 / 5:40",
+      "rootInFirst": "علم",
+      "rootInSecond": "ملك",
+      "countsFirstRoot_ownSura_otherSura": [
+        38,
+        28
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        8,
+        13
+      ],
+      "D": -0.1619
+    },
+    {
+      "verses": "2:170 / 5:104",
+      "rootInFirst": "عقل",
+      "rootInSecond": "علم",
+      "countsFirstRoot_ownSura_otherSura": [
+        7,
+        2
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        28,
+        102
+      ],
+      "D": -0.1813
+    },
+    {
+      "verses": "39:48 / 45:33",
+      "rootInFirst": "كسب",
+      "rootInSecond": "عمل",
+      "countsFirstRoot_ownSura_otherSura": [
+        4,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        5,
+        8
+      ],
+      "D": -0.184
+    },
+    {
+      "verses": "7:111 / 26:36",
+      "rootInFirst": "رسل",
+      "rootInSecond": "بعث",
+      "countsFirstRoot_ownSura_otherSura": [
+        29,
+        17
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        1,
+        3
+      ],
+      "D": -0.3251
+    },
+    {
+      "verses": "7:11 / 17:61",
+      "rootInFirst": "كون",
+      "rootInSecond": "قول",
+      "countsFirstRoot_ownSura_otherSura": [
+        73,
+        44
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        44,
+        109
+      ],
+      "D": -0.3986
+    },
+    {
+      "verses": "7:153 / 16:119",
+      "rootInFirst": "أمن",
+      "rootInSecond": "صلح",
+      "countsFirstRoot_ownSura_otherSura": [
+        35,
+        14
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        2,
+        13
+      ],
+      "D": -0.791
+    },
+    {
+      "verses": "2:49 / 7:141",
+      "rootInFirst": "ذبح",
+      "rootInSecond": "قتل",
+      "countsFirstRoot_ownSura_otherSura": [
+        2,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        2,
+        31
+      ],
+      "D": -0.9243
+    },
+    {
+      "verses": "2:23 / 10:38",
+      "rootInFirst": "شهد",
+      "rootInSecond": "طوع",
+      "countsFirstRoot_ownSura_otherSura": [
+        15,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        6
+      ],
+      "D": -1.0769
+    },
+    {
+      "verses": "3:10 / 58:17",
+      "rootInFirst": "وقد",
+      "rootInSecond": "صحب",
+      "countsFirstRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        1
+      ],
+      "D": -1.0986
+    }
+  ],
+  "bottom20Sites": [
+    {
+      "verses": "16:124 / 32:25",
+      "rootInFirst": "حكم",
+      "rootInSecond": "فصل",
+      "countsFirstRoot_ownSura_otherSura": [
+        3,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "D": 1.9459
+    },
+    {
+      "verses": "3:109 / 42:53",
+      "rootInFirst": "رجع",
+      "rootInSecond": "صير",
+      "countsFirstRoot_ownSura_otherSura": [
+        3,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        1,
+        2
+      ],
+      "D": 1.4351
+    },
+    {
+      "verses": "7:151 / 23:118",
+      "rootInFirst": "رحم",
+      "rootInSecond": "خير",
+      "countsFirstRoot_ownSura_otherSura": [
+        15,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        6,
+        9
+      ],
+      "D": 1.1086
+    },
+    {
+      "verses": "29:68 / 39:32",
+      "rootInFirst": "فري",
+      "rootInSecond": "كذب",
+      "countsFirstRoot_ownSura_otherSura": [
+        1,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        4,
+        5
+      ],
+      "D": 0.8979
+    },
+    {
+      "verses": "16:61 / 35:45",
+      "rootInFirst": "ظلم",
+      "rootInSecond": "كسب",
+      "countsFirstRoot_ownSura_otherSura": [
+        9,
+        4
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "D": 0.7472
+    },
+    {
+      "verses": "3:11 / 8:52",
+      "rootInFirst": "كذب",
+      "rootInSecond": "كفر",
+      "countsFirstRoot_ownSura_otherSura": [
+        7,
+        1
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        16,
+        43
+      ],
+      "D": 0.64
+    },
+    {
+      "verses": "22:6 / 42:9",
+      "rootInFirst": "حقق",
+      "rootInSecond": "ولي",
+      "countsFirstRoot_ownSura_otherSura": [
+        6,
+        5
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        6,
+        4
+      ],
+      "D": 0.5348
+    },
+    {
+      "verses": "29:63 / 31:25",
+      "rootInFirst": "نزل",
+      "rootInSecond": "خلق",
+      "countsFirstRoot_ownSura_otherSura": [
+        6,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        4,
+        5
+      ],
+      "D": 0.4184
+    },
+    {
+      "verses": "2:170 / 5:104",
+      "rootInFirst": "تبع",
+      "rootInSecond": "علو",
+      "countsFirstRoot_ownSura_otherSura": [
+        17,
+        4
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        1
+      ],
+      "D": 0.2595
+    },
+    {
+      "verses": "3:29 / 5:40",
+      "rootInFirst": "علم",
+      "rootInSecond": "ملك",
+      "countsFirstRoot_ownSura_otherSura": [
+        38,
+        28
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        8,
+        13
+      ],
+      "D": -0.1619
+    },
+    {
+      "verses": "2:170 / 5:104",
+      "rootInFirst": "عقل",
+      "rootInSecond": "علم",
+      "countsFirstRoot_ownSura_otherSura": [
+        7,
+        2
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        28,
+        102
+      ],
+      "D": -0.1813
+    },
+    {
+      "verses": "39:48 / 45:33",
+      "rootInFirst": "كسب",
+      "rootInSecond": "عمل",
+      "countsFirstRoot_ownSura_otherSura": [
+        4,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        5,
+        8
+      ],
+      "D": -0.184
+    },
+    {
+      "verses": "7:111 / 26:36",
+      "rootInFirst": "رسل",
+      "rootInSecond": "بعث",
+      "countsFirstRoot_ownSura_otherSura": [
+        29,
+        17
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        1,
+        3
+      ],
+      "D": -0.3251
+    },
+    {
+      "verses": "7:11 / 17:61",
+      "rootInFirst": "كون",
+      "rootInSecond": "قول",
+      "countsFirstRoot_ownSura_otherSura": [
+        73,
+        44
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        44,
+        109
+      ],
+      "D": -0.3986
+    },
+    {
+      "verses": "7:153 / 16:119",
+      "rootInFirst": "أمن",
+      "rootInSecond": "صلح",
+      "countsFirstRoot_ownSura_otherSura": [
+        35,
+        14
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        2,
+        13
+      ],
+      "D": -0.791
+    },
+    {
+      "verses": "2:49 / 7:141",
+      "rootInFirst": "ذبح",
+      "rootInSecond": "قتل",
+      "countsFirstRoot_ownSura_otherSura": [
+        2,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        2,
+        31
+      ],
+      "D": -0.9243
+    },
+    {
+      "verses": "2:23 / 10:38",
+      "rootInFirst": "شهد",
+      "rootInSecond": "طوع",
+      "countsFirstRoot_ownSura_otherSura": [
+        15,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        6
+      ],
+      "D": -1.0769
+    },
+    {
+      "verses": "3:10 / 58:17",
+      "rootInFirst": "وقد",
+      "rootInSecond": "صحب",
+      "countsFirstRoot_ownSura_otherSura": [
+        0,
+        0
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        0,
+        1
+      ],
+      "D": -1.0986
+    },
+    {
+      "verses": "3:89 / 9:27",
+      "rootInFirst": "صلح",
+      "rootInSecond": "شيأ",
+      "countsFirstRoot_ownSura_otherSura": [
+        4,
+        3
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        7,
+        32
+      ],
+      "D": -1.215
+    },
+    {
+      "verses": "2:58 / 7:161",
+      "rootInFirst": "دخل",
+      "rootInSecond": "سكن",
+      "countsFirstRoot_ownSura_otherSura": [
+        4,
+        6
+      ],
+      "countsSecondRoot_ownSura_otherSura": [
+        2,
+        7
+      ],
+      "D": -1.4663
+    }
+  ]
+}
