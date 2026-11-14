@@ -21,4 +21,7 @@ done
 curl -sS -L -o data/external/tanzil/quran-data.xml "https://tanzil.net/res/text/metadata/quran-data.xml"
 curl -sS -L -A "research-script/1.0" -o data/external/wikipedia/list_of_chapters.wikitext "https://en.wikipedia.org/w/index.php?title=List_of_chapters_in_the_Quran&action=raw"
 
+# Mishnah, Hebrew, from Sefaria (public domain editions): batch 13
+node scripts/20_fetch_mishnah.mjs
+
 echo "done"
