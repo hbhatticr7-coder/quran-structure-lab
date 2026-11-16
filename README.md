@@ -120,6 +120,12 @@ Batch 17 (sound and subject):
 node scripts/25_batch17_sound_subject.mjs
 ```
 
+Batch 18 (audit of popular word-count claims):
+
+```bash
+node scripts/26_batch18_word_counts.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

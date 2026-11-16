@@ -870,3 +870,67 @@ Of verses ending in long a plus a consonant, 59 are warning and 29 mercy. That i
 - Only what the script shows is measured. Features of recitation, such as nasalisation, lengthening and pauses, are not.
 - The descriptive studies argue from chosen passages, where an effect could be real and local. A test across all verses averages those passages with many that have no such effect.
 - No comparison with other Arabic texts, so nothing here separates the Quran's choices from properties of the language.
+
+---
+
+# Results, batch 18: an audit of popular word-count claims (2026-11-16)
+
+Specified in `PREREGISTRATION_batch18.md`, committed to the public repository (commit e38b682) before any count was made. Run once. Numbers are in `results/batch18.json`.
+
+Each word is counted three ways, the same for every claim: the dictionary word in all its forms (Word), its singular forms only (Singular), and every word from its root (Root). The text is the Hafs reading in the Tanzil edition, 77,429 words.
+
+## Tally
+
+| Verdict | Claims |
+|---|---|
+| Holds | 8 |
+| Holds under another rule (the same rule for both words) | 4 |
+| Only with mixed rules | 1 |
+| Does not hold | 7 |
+
+## The claims
+
+| # | Claim | Claimed | Counted | Verdict |
+|---|---|---|---|---|
+| 1 | This world = the hereafter | 115 | *dunya* 115, *akhira* 115 | Holds |
+| 2 | Angels = devils | 88 | *malak* in all forms 88, *shaytan* in all forms 88 | Holds |
+| 8 | "Say" = "they said" | 332 | *qul* 332, *qalu* 332 | Holds |
+| 6 | Day | 365 | 365 as the claim defines it (singular, no attached pronoun, not "on that day"). All singular forms: 445 | Holds, under the claim's own definition |
+| 7 | Days, plural and dual | 30 | 27 plural + 3 dual | Holds |
+| 11 | Prayers, plural | 5 | 5 | Holds |
+| 19 | Iblis | 11 | 11 | Holds |
+| 20 | Muhammad | 4 | 4 | Holds |
+| 4 | Man = woman | 24 | Singular: 24 and 24. All forms: 29 and 26 | Holds for the singular only |
+| 5 | Month | 12 | Singular: 12. All forms: 21 | Holds for the singular only |
+| 13 | Benefit = corruption | 50 | Roots: 50 and 50. The nouns themselves: 11 and 11 | Holds for the whole roots |
+| 16 | Tongue = admonition | 25 | Roots: 25 and 25. *maw'iza* itself: 9 | Holds for the whole roots |
+| 10 | Alms = blessing | 32 | *zakat* 32. *baraka* 3; its root 32 | Only with mixed rules |
+| 3 | Life = death | 145 | *hayat* 76, *mawt* 50. Roots: 189 and 165 | Does not hold |
+| 9 | Sea 32, land 13 | 32 and 13 | Sea 33. Land 12, plus "dry land" 1 = 13 | Does not hold: sea is 33 |
+| 12 | "Seven heavens" | 7 | 5 as "seven heavens" | Does not hold by the registered rule; see below |
+| 14 | Calamity = thanks | 75 | Roots: 77 and 75 | Does not hold |
+| 15 | Patience = hardship | 114 | Roots: 103 and 102 | Does not hold |
+| 17 | Reason = light | 49 | Root of reason 49. *nur* 43 | Does not hold |
+| 18 | Desire = dread | 8 | Roots: 8 and 12 | Does not hold |
+
+I predicted that a minority would hold under the Word rule (8 of 20 did), that the names and the days would hold (they did), that "month" would hold (it does only for the singular), and that "day 365" would hold under the claim's own narrow definition (it did).
+
+## Notes
+
+- **Claims 1, 2 and 8 are exact under the plainest rule.** The word for this world and the word for the hereafter each occur 115 times; angel and devil, in all their forms, 88 times each; the command "say" and the report "they said" 332 times each.
+- **Day 365** depends on its definition. All singular forms of "day" number 445. Leaving out "on that day" gives 375, and also leaving out forms with an attached pronoun ("their day", "your day") gives 365. The definition is the one the claim's supporters use, and it was written into the plan before counting, but it is a narrow one.
+- **Man and woman, and month,** hold for the singular. That is the natural reading for "month" (twelve mentions of "a month"); for man and woman it leaves out the dual and, for men, the separate plural.
+- **Sea and land.** The singular "sea" occurs 33 times, not 32 (18:109 has it twice). "Land" occurs 12 times; the thirteenth form with the article, at 52:28, is a name of God ("the Kind"). Adding the one "dry land" (20:77), as the claim does, gives 13. So 33 to 13, which is 71.7% sea; the claim's 32 to 13 would be 71.1%.
+- **Seven heavens (post hoc).** My rule counted "seven" directly followed by "heavens", which occurs five times (2:29, 41:12, 65:12, 67:3, 71:15). The reverse order, "the heavens, the seven", occurs twice more (17:44, 23:86). Counting both orders gives 7, as claimed. The registered rule was narrower than the claim, so by the plan this is a miss, and by the claim's natural meaning it holds.
+- **Zakat and blessing** match only by counting one as a word and the other as a whole root.
+- **The four that miss by a little** (calamity and thanks 77 and 75; patience and hardship 103 and 102) show how close near-misses are when whole roots are counted.
+
+## What these counts mean
+
+Each is a fact about this edition under a stated rule. Three things should be kept in mind before drawing more from them.
+
+- **Selection.** These lists were compiled by people looking for matches. The pairs that were tried and did not match are not on the lists, so the share that hold here says nothing about how often a random pair would match.
+- **Rule choice.** Seven of the twelve that hold need a particular rule (a narrow definition, the singular only, the whole root). The rules were fixed before counting here, but the claims' authors were free to choose them.
+- **Edition.** Counts can shift by one or two between reading traditions and between ways of dividing words.
+
+The three plain matches (115, 88, 332) are the ones least open to these objections: one word against one word, counted in all forms, with no special definition.

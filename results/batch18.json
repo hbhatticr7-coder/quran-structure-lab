@@ -1,0 +1,327 @@
+{
+  "preregistrationSha256": "500133cb9ebca167da0a53fbc441243fa4b8898c7b683d5b4ccb3ca2d7a99798",
+  "totalWords": 77429,
+  "tally": {
+    "Holds": 8,
+    "Does not hold": 7,
+    "Holds under another rule": 4,
+    "Only with mixed rules": 1
+  },
+  "claims": [
+    {
+      "id": 1,
+      "claim": "This world = the hereafter",
+      "claimed": 115,
+      "counts": [
+        {
+          "word": "dunya (this world)",
+          "word_count": 115,
+          "singular": 115,
+          "root": 133
+        },
+        {
+          "word": "akhira (the hereafter)",
+          "word_count": 115,
+          "singular": 115,
+          "root": 250
+        }
+      ],
+      "verdict": "Holds"
+    },
+    {
+      "id": 2,
+      "claim": "Angels = devils",
+      "claimed": 88,
+      "counts": [
+        {
+          "word": "malak (angel)",
+          "word_count": 88,
+          "singular": 13,
+          "root": 206
+        },
+        {
+          "word": "shaytan (devil)",
+          "word_count": 88,
+          "singular": 70,
+          "root": 88
+        }
+      ],
+      "verdict": "Holds"
+    },
+    {
+      "id": 3,
+      "claim": "Life = death",
+      "claimed": 145,
+      "counts": [
+        {
+          "word": "hayat (life)",
+          "word_count": 76,
+          "singular": 76,
+          "root": 189
+        },
+        {
+          "word": "mawt (death)",
+          "word_count": 50,
+          "singular": 50,
+          "root": 165
+        }
+      ],
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 4,
+      "claim": "Man = woman",
+      "claimed": 24,
+      "counts": [
+        {
+          "word": "rajul (man)",
+          "word_count": 29,
+          "singular": 24,
+          "root": 73
+        },
+        {
+          "word": "imra'a (woman)",
+          "word_count": 26,
+          "singular": 24,
+          "root": 38
+        }
+      ],
+      "verdict": "Holds under another rule (singular only)"
+    },
+    {
+      "id": 5,
+      "claim": "Month",
+      "claimed": 12,
+      "counts": [
+        {
+          "word": "shahr (month)",
+          "word_count": 21,
+          "singular": 12,
+          "root": 21
+        }
+      ],
+      "verdict": "Holds under another rule (singular only)"
+    },
+    {
+      "id": 6,
+      "claim": "Day",
+      "claimed": 365,
+      "counts": {
+        "asTheClaimDefinesIt_singularNoPronounNotYawmaidhin": 365,
+        "singularWithoutYawmaidhin": 375,
+        "allSingular": 445,
+        "allForms": 475
+      },
+      "verdict": "Holds (under the claim's own definition)"
+    },
+    {
+      "id": 7,
+      "claim": "Days (plural and dual)",
+      "claimed": 30,
+      "counts": {
+        "plural": 27,
+        "dual": 3,
+        "together": 30
+      },
+      "verdict": "Holds"
+    },
+    {
+      "id": 8,
+      "claim": "\"Say\" = \"they said\"",
+      "claimed": 332,
+      "counts": {
+        "qul": 332,
+        "qalu": 332
+      },
+      "verdict": "Holds"
+    },
+    {
+      "id": 9,
+      "claim": "Sea 32 and land 13 (71.11% sea)",
+      "claimed": "32 and 13",
+      "counts": {
+        "seaSingular": 33,
+        "seaAllForms": 41,
+        "landSingularWithArticle": 13,
+        "landInVerseWithSea": 9,
+        "dryLand_yabas": 1,
+        "percentSea_articleRulePlusYabas": 70.21,
+        "percentSea_withSeaRulePlusYabas": 76.74
+      },
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 10,
+      "claim": "Alms (zakat) = blessing (baraka)",
+      "claimed": 32,
+      "counts": [
+        {
+          "word": "zakat (alms)",
+          "word_count": 32,
+          "singular": 32,
+          "root": 59
+        },
+        {
+          "word": "baraka (blessing)",
+          "word_count": 3,
+          "singular": 0,
+          "root": 32
+        }
+      ],
+      "verdict": "Only with mixed rules"
+    },
+    {
+      "id": 11,
+      "claim": "Prayers (plural)",
+      "claimed": 5,
+      "counts": {
+        "salawat": 5,
+        "salatAllForms": 83
+      },
+      "verdict": "Holds"
+    },
+    {
+      "id": 12,
+      "claim": "\"Seven heavens\"",
+      "claimed": 7,
+      "counts": {
+        "sevenFollowedByHeavens": 5
+      },
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 13,
+      "claim": "Benefit = corruption",
+      "claimed": 50,
+      "counts": [
+        {
+          "word": "naf' (benefit)",
+          "word_count": 11,
+          "singular": 11,
+          "root": 50
+        },
+        {
+          "word": "fasad (corruption)",
+          "word_count": 11,
+          "singular": 11,
+          "root": 50
+        }
+      ],
+      "verdict": "Holds under another rule (whole root)"
+    },
+    {
+      "id": 14,
+      "claim": "Calamity = thanks",
+      "claimed": 75,
+      "counts": [
+        {
+          "word": "musiba (calamity)",
+          "word_count": 10,
+          "singular": 10,
+          "root": 77
+        },
+        {
+          "word": "shukr (thanks)",
+          "word_count": 1,
+          "singular": 1,
+          "root": 75
+        }
+      ],
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 15,
+      "claim": "Patience = hardship",
+      "claimed": 114,
+      "counts": [
+        {
+          "word": "sabr (patience)",
+          "word_count": 15,
+          "singular": 15,
+          "root": 103
+        },
+        {
+          "word": "hardship (root sh-d-d)",
+          "root": 102
+        }
+      ],
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 16,
+      "claim": "Tongue = admonition",
+      "claimed": 25,
+      "counts": [
+        {
+          "word": "lisan (tongue)",
+          "word_count": 25,
+          "singular": 15,
+          "root": 25
+        },
+        {
+          "word": "maw'iza (admonition)",
+          "word_count": 9,
+          "singular": 9,
+          "root": 25
+        }
+      ],
+      "verdict": "Holds under another rule (whole root)"
+    },
+    {
+      "id": 17,
+      "claim": "Reason = light",
+      "claimed": 49,
+      "counts": [
+        {
+          "word": "reason (root '-q-l)",
+          "root": 49
+        },
+        {
+          "word": "nur (light)",
+          "word_count": 43,
+          "singular": 43,
+          "root": 194
+        }
+      ],
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 18,
+      "claim": "Desire = dread",
+      "claimed": 8,
+      "counts": [
+        {
+          "word": "desire (root r-gh-b)",
+          "root": 8
+        },
+        {
+          "word": "dread (root r-h-b)",
+          "root": 12
+        },
+        {
+          "word": "rahba alone",
+          "word_count": 1
+        }
+      ],
+      "verdict": "Does not hold"
+    },
+    {
+      "id": 19,
+      "claim": "Iblis",
+      "claimed": 11,
+      "counts": {
+        "iblis": 11
+      },
+      "verdict": "Holds"
+    },
+    {
+      "id": 20,
+      "claim": "Muhammad",
+      "claimed": 4,
+      "counts": {
+        "muhammad": 4
+      },
+      "verdict": "Holds"
+    }
+  ]
+}

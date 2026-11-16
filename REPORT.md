@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what seventeen pre-registered batches of tests found
+# Structure in the Quran's arrangement: what eighteen pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -8,7 +8,7 @@ The order of suras in the mushaf is more than a sort by length. Neighbouring sur
 
 This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
 
-Seventeen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+Eighteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -70,6 +70,18 @@ Each claim was checked against every occurrence by a rule fixed in advance. The 
 | *anzala* for the Torah and Gospel, *nazzala* for the Quran | Does not hold beyond the verse it is built on (3:3) |
 | *sana* for years of hardship, *'am* for years of ease | Does not hold as a rule: 22 of 28 occurrences are plain counts of time |
 
+### Popular word-count claims (batch 18)
+
+Twenty claims, each word counted three ways by rules fixed before counting. These are facts about one edition; the lists were compiled by people looking for matches, so the share that hold says nothing about chance.
+
+| Verdict | Claims |
+|---|---|
+| Holds under the plainest rule | This world 115 = the hereafter 115; angels 88 = devils 88; "say" 332 = "they said" 332; days 30; prayers 5; Iblis 11; Muhammad 4 |
+| Holds under the claim's own narrow definition | Day 365 (all singular forms: 445) |
+| Holds for the singular only, or for whole roots | Man 24 = woman 24; month 12; benefit 50 = corruption 50; tongue 25 = admonition 25 |
+| Only with a different rule for each word | Alms 32 = blessing 32 |
+| Does not hold | Life = death; sea 32 and land 13 (sea is 33); calamity = thanks; patience = hardship; reason = light; desire = dread. "Seven heavens" is 5 by the registered rule and 7 if both word orders are counted |
+
 ## The main finding in more detail
 
 After sura 1 the mushaf runs roughly longest to shortest, but 6.7% of sura pairs are out of order. The question was whether those exceptions are arbitrary.
@@ -105,7 +117,7 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the seventeen test plans.
+- `PREREGISTRATION*.md`: the eighteen test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
 - `SEAMS.md`: every boundary between neighbouring suras with the word-families shared across it.
 - `ATLAS.md`: ten pairs of near-synonyms and the company each word keeps.
