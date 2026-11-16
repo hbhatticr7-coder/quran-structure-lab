@@ -102,6 +102,12 @@ Batch 14 (the seams between suras; also writes `SEAMS.md`):
 node scripts/22_batch14_seams.mjs
 ```
 
+Batch 15 (classical claims about near-synonyms; also writes `ATLAS.md`):
+
+```bash
+node scripts/23_batch15_word_atlas.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

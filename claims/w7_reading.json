@@ -1,0 +1,48 @@
+{
+  "note": "Reading for claim W7 (batch 15): every occurrence of sana / sinin and of 'am, classed as hardship, ease, or a plain count of time. Strict rule: a verse is classed hardship or ease only if the verse itself says the years were hard or easy. Written after listing the occurrences and before the batch was run. This is one reader's judgement.",
+  "classes": {
+    "sana 2:96": "count",
+    "sana 5:26": "hardship",
+    "sana 7:130": "hardship",
+    "sana 10:5": "count",
+    "sana 12:42": "hardship",
+    "sana 12:47": "count",
+    "sana 17:12": "count",
+    "sana 18:11": "count",
+    "sana 18:25": "count",
+    "sana 20:40": "count",
+    "sana 22:47": "count",
+    "sana 23:112": "count",
+    "sana 26:18": "count",
+    "sana 26:205": "ease",
+    "sana 29:14": "count",
+    "sana 30:4": "count",
+    "sana 32:5": "count",
+    "sana 46:15": "count",
+    "sana 70:4": "count",
+    "am 2:259": "count",
+    "am 9:28": "count",
+    "am 9:37": "count",
+    "am 9:126": "hardship",
+    "am 12:49": "ease",
+    "am 29:14": "count",
+    "am 31:14": "count"
+  },
+  "comments": {
+    "sana 5:26": "forty years of wandering, forbidden the land",
+    "sana 7:130": "years of famine",
+    "sana 12:42": "several years in prison",
+    "sana 12:47": "seven years of planting and harvest. Supporters of the claim read the verse's word for 'continuously' as toil; the years themselves are the fertile ones",
+    "sana 20:40": "years among the people of Madyan, in a verse about trials. Supporters read this as hardship; the verse does not say the years were hard",
+    "sana 26:205": "'if We gave them enjoyment for years': ease, against the claim",
+    "sana 29:14": "Noah's thousand years among his people. Supporters read this as years of struggle; the verse states a duration",
+    "am 9:126": "'they are tried every year once or twice': hardship, against the claim",
+    "am 12:49": "a year in which people are given rain and press: ease",
+    "am 2:259": "dead for a hundred years: a duration",
+    "am 29:14": "'less fifty years'. Supporters read this as the years of ease after the flood; the verse states a number"
+  },
+  "generousReading": {
+    "note": "If the three cases that supporters read as hardship are counted that way.",
+    "sanaHardshipAdds": ["12:47", "20:40", "29:14"]
+  }
+}

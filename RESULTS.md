@@ -697,3 +697,50 @@ Of the eight pairs for which Farrin states a link at the boundary, two rank high
 - Shared word-families only. This is the main limit: the classical authors argue from meaning, and a link such as a prayer at the end of one sura answered at the start of the next need not share a root.
 - The map lists shared roots by rarity. Several listed roots are common words (Lord, say, people); a shared root is a candidate link, and judging it needs a reader.
 - For 17 pairs of very short suras the opening and close are the same verses, so they contribute nothing to S1.
+
+---
+
+# Results, batch 15: the word-choice atlas (2026-11-16)
+
+Specified in `PREREGISTRATION_batch15.md`, committed to the public repository (commit d1d8fa4) before this batch's code was written. Run once. Numbers are in `results/batch15.json`; the atlas is in `ATLAS.md` and `results/word_atlas.json`; the reading used for W7 is in `claims/w7_reading.json`.
+
+I know many of these verses, so the rules were not written blind. What the checks add is that each rule is applied to every occurrence and every exception is listed.
+
+## Part 1. Seven classical claims
+
+| Claim | Result | p | Verdict |
+|---|---|---|---|
+| W1. *matar* is rain as punishment, *ghayth* rain as mercy | *matar*: 15 of 15 with a punishment word nearby. *ghayth*: 1 of 3 | 0.020 | Holds; very small numbers |
+| W2. Singular *rih* is a harmful wind, plural *riyah* a merciful one | Plural: 8 mercy, 0 harm, 2 neither. Singular: 10 harm, 0 mercy alone, 2 both, 7 neither | 0.00002 | Holds as a tendency |
+| W3. *anzala* for the Torah and Gospel, *nazzala* for the Quran | With Torah or Gospel named: *anzala* 10 of 183, *nazzala* 2 of 62 | 0.38 | Does not hold by this rule |
+| W4. *khashya* is fear of God, *khawf* fear in general | God named within three words: 42% against 15% | 0.0002 | Holds as a tendency |
+| W5. *fu'ad* is the heart as a faculty beside hearing and sight | Hearing and sight in the verse: 7 of 16 against 7 of 132 | 0.0001 | Holds as a tendency |
+| W6. *halafa* for the oaths of liars, *aqsama* for solemn oaths | Falsehood nearby: 8 of 13 against 1 of 20. First-person oaths: 0 against 8 | 0.0007 | Holds |
+| W7. *sana* for years of hardship, *'am* for years of ease | By reading: *sana* 3 hardship, 1 ease, 15 plain counts. *'am* 1 hardship, 1 ease, 7 plain counts | none | Does not hold as a rule |
+
+My predictions were right for six of the seven. I expected W3 to hold weakly and it did not.
+
+### Notes on each
+
+- **W1 rain.** The 15 occurrences of the root m-t-r sit in nine verses: the destruction of Lot's people, the taunt "rain down stones on us" (8:32), the cloud that 'Ad took for rain (46:24), and "if you are troubled by rain" (4:102), where rain is a hardship and not a punishment. The one marker hit for *ghayth* (57:20) is a false alarm: the rain there is an image of worldly life, and the punishment mentioned is in the Hereafter.
+- **W2 wind.** The plural is never a harmful wind. The singular usually is, but not always: Solomon's wind (21:81, 34:12, 38:36) is a favour, 10:22 has "a pleasant wind" before the storm, and two uses are not weather at all (your strength, 8:46; the scent of Joseph, 12:94). Two of the ten singular "harm" hits are Solomon's wind, caught by the marker words "violent" and "punishment" in the same verse. So the fair statement is: a merciful wind may be singular or plural; a destructive wind is always singular.
+- **W3 sent down.** 3:3 sets the two verbs side by side (*nazzala* for the Book sent to the Prophet, *anzala* for the Torah and Gospel), and that verse is the basis of the claim. Across all verses that name the Torah or Gospel, *anzala* is used ten times and *nazzala* once (3:93), which is the ratio expected from how common each verb is. *anzala* is also used freely of the Quran.
+- **W4 fear.** A tendency with many cases on both sides: 28 of 48 uses of kh-sh-y do not have God within three words, and 18 uses of kh-w-f do. The rule misses "fear Him" where God is a pronoun.
+- **W5 heart.** All 16 occurrences of *fu'ad* are in Meccan suras; *qalb* is mostly Medinan (93 of 132). Seven of the 16 list it with hearing and sight ("He gave you hearing, sight and hearts").
+- **W6 oaths.** Of the five uses of h-l-f without a falsehood marker nearby, four are still about the hypocrites or a habitual swearer (9:56, 9:62, 9:95, 68:10). Only 5:89, on expiating oaths, is neutral. All eight oaths in God's own voice ("I swear by ...") use *aqsama*.
+- **W7 year.** The claim fits the cases it is built on: years of famine (7:130), years in prison (12:42), forty years of wandering (5:26), and the year of rain (12:49). Against it: "if We gave them enjoyment for years" uses *sana* (26:205), and "they are tried every year" uses *'am* (9:126). Twenty-two of the 28 occurrences are plain counts of time. Counting three disputed cases the way the claim's supporters do (12:47, 20:40, 29:14) gives *sana* 6 hardship of 19, still a minority.
+
+## Part 2. The atlas
+
+`ATLAS.md` gives, for ten pairs, how often each word occurs, its Meccan and Medinan split, and the words that keep company with one member of the pair far more than the other. Three things that stand out from it (description, not tested):
+
+- **Human: *bashar* / *insan*.** *bashar* keeps company with "like" (15 verses against 2), "messenger" and "angel": it is the word in "you are only a human like us" and in the contrast of human with angel. *insan* keeps company with "favour", "turns away" and "calls": the human as the one who is given, forgets and pleads.
+- **Did: *'amila* / *fa'ala*.** *'amila* goes with "righteous" (87 verses against 3), "evil deed", "recompense" and "He sees": deeds that are judged. *fa'ala* goes with "fathers" and "how": what people did, and how God dealt with earlier peoples.
+- **Came: *ja'a* / *ata*.** No simple rule shows. Each has its own fixed phrases (*ja'a* in "whoever comes with a good deed"; *ata* in "has the story reached you" and "it comes upon them while they do not perceive").
+
+## Limits
+
+- Small numbers for several pairs.
+- The marker lists are mine, and markers misfire in both directions (W1's false alarm at 57:20; W2's Solomon verses).
+- W7 is one reader's judgement.
+- Batch 5 found that the Gospels and Kings also choose between near-equivalent words in ways that fit their surroundings. These checks say which classical observations hold across every occurrence. They do not say such choices are unusual.

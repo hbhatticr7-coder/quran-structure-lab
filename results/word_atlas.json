@@ -1,0 +1,1104 @@
+[
+ {
+  "meaning": "rain",
+  "first": {
+   "word": "matar",
+   "occurrences": 15,
+   "meccan": 13,
+   "medinan": 2,
+   "verses": [
+    "4:102",
+    "7:84",
+    "7:84",
+    "8:32",
+    "11:82",
+    "15:74",
+    "25:40",
+    "25:40",
+    "26:173",
+    "26:173",
+    "26:173",
+    "27:58",
+    "27:58",
+    "27:58",
+    "46:24"
+   ]
+  },
+  "second": {
+   "word": "ghayth",
+   "occurrences": 3,
+   "meccan": 2,
+   "medinan": 1,
+   "verses": [
+    "31:34",
+    "42:28",
+    "57:20"
+   ]
+  },
+  "company": {
+   "versesFirst": 9,
+   "versesSecond": 3,
+   "distinctiveOfFirst": [
+    {
+     "word": "كانَ",
+     "withFirst": 4,
+     "withSecond": 1
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "كانَ",
+     "withFirst": 4,
+     "withSecond": 1
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "wind",
+  "first": {
+   "word": "rih (singular)",
+   "occurrences": 19,
+   "meccan": 15,
+   "medinan": 4,
+   "verses": [
+    "3:117",
+    "8:46",
+    "10:22",
+    "10:22",
+    "12:94",
+    "14:18",
+    "17:69",
+    "21:81",
+    "22:31",
+    "30:51",
+    "33:9",
+    "34:12",
+    "38:36",
+    "41:16",
+    "42:33",
+    "46:24",
+    "51:41",
+    "54:19",
+    "69:6"
+   ]
+  },
+  "second": {
+   "word": "riyah (plural)",
+   "occurrences": 10,
+   "meccan": 9,
+   "medinan": 1,
+   "verses": [
+    "2:164",
+    "7:57",
+    "15:22",
+    "18:45",
+    "25:48",
+    "27:63",
+    "30:46",
+    "30:48",
+    "35:9",
+    "45:5"
+   ]
+  },
+  "company": {
+   "versesFirst": 18,
+   "versesSecond": 10,
+   "distinctiveOfFirst": [
+    {
+     "word": "كانَ",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "جَرَيْ",
+     "withFirst": 3,
+     "withSecond": 2
+    },
+    {
+     "word": "شَىْء",
+     "withFirst": 3,
+     "withSecond": 2
+    },
+    {
+     "word": "كُلّ",
+     "withFirst": 3,
+     "withSecond": 3
+    },
+    {
+     "word": "بَعْد",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "آيَة",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "رَسُول",
+     "withFirst": 7,
+     "withSecond": 7
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 5,
+     "withSecond": 6
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "أَنزَلَ",
+     "withFirst": 0,
+     "withSecond": 6
+    },
+    {
+     "word": "بُشِّرَ",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "ماء",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "سَماء",
+     "withFirst": 1,
+     "withSecond": 6
+    },
+    {
+     "word": "بَيْن",
+     "withFirst": 1,
+     "withSecond": 4
+    },
+    {
+     "word": "أَرْض",
+     "withFirst": 1,
+     "withSecond": 4
+    },
+    {
+     "word": "حَياة",
+     "withFirst": 2,
+     "withSecond": 4
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 5,
+     "withSecond": 6
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "sent down",
+  "first": {
+   "word": "anzala",
+   "occurrences": 183,
+   "meccan": 85,
+   "medinan": 98
+  },
+  "second": {
+   "word": "nazzala",
+   "occurrences": 62,
+   "meccan": 39,
+   "medinan": 23
+  },
+  "company": {
+   "versesFirst": 162,
+   "versesSecond": 61,
+   "distinctiveOfFirst": [
+    {
+     "word": "اتَّبَعَ",
+     "withFirst": 14,
+     "withSecond": 0
+    },
+    {
+     "word": "قَوْم",
+     "withFirst": 25,
+     "withSecond": 1
+    },
+    {
+     "word": "خَلَقَ",
+     "withFirst": 7,
+     "withSecond": 0
+    },
+    {
+     "word": "مِسْكِين",
+     "withFirst": 7,
+     "withSecond": 0
+    },
+    {
+     "word": "حَكِيم",
+     "withFirst": 18,
+     "withSecond": 1
+    },
+    {
+     "word": "قَلِيل",
+     "withFirst": 6,
+     "withSecond": 0
+    },
+    {
+     "word": "أَكَلَ",
+     "withFirst": 6,
+     "withSecond": 0
+    },
+    {
+     "word": "فاسِق",
+     "withFirst": 6,
+     "withSecond": 0
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "سُلْطان",
+     "withFirst": 3,
+     "withSecond": 6
+    },
+    {
+     "word": "أَشْرَكَ",
+     "withFirst": 3,
+     "withSecond": 4
+    },
+    {
+     "word": "قُرْءان",
+     "withFirst": 6,
+     "withSecond": 7
+    },
+    {
+     "word": "عَبْد",
+     "withFirst": 7,
+     "withSecond": 7
+    },
+    {
+     "word": "حَمْد",
+     "withFirst": 3,
+     "withSecond": 3
+    },
+    {
+     "word": "مَوْت",
+     "withFirst": 7,
+     "withSecond": 6
+    },
+    {
+     "word": "قَلْب",
+     "withFirst": 8,
+     "withSecond": 6
+    },
+    {
+     "word": "بُنَىّ",
+     "withFirst": 4,
+     "withSecond": 3
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "fear",
+  "first": {
+   "word": "khashya (kh-sh-y)",
+   "occurrences": 48,
+   "meccan": 22,
+   "medinan": 26
+  },
+  "second": {
+   "word": "khawf (kh-w-f)",
+   "occurrences": 124,
+   "meccan": 77,
+   "medinan": 47
+  },
+  "company": {
+   "versesFirst": 40,
+   "versesSecond": 112,
+   "distinctiveOfFirst": [
+    {
+     "word": "رَضِيَ",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "نِعْمَة",
+     "withFirst": 5,
+     "withSecond": 2
+    },
+    {
+     "word": "غَفُور",
+     "withFirst": 5,
+     "withSecond": 2
+    },
+    {
+     "word": "غَيْب",
+     "withFirst": 5,
+     "withSecond": 2
+    },
+    {
+     "word": "ناس",
+     "withFirst": 9,
+     "withSecond": 5
+    },
+    {
+     "word": "قَلْب",
+     "withFirst": 4,
+     "withSecond": 2
+    },
+    {
+     "word": "زَكاة",
+     "withFirst": 3,
+     "withSecond": 2
+    },
+    {
+     "word": "أَمْر",
+     "withFirst": 4,
+     "withSecond": 3
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "يَحْزُن",
+     "withFirst": 0,
+     "withSecond": 18
+    },
+    {
+     "word": "صالِح",
+     "withFirst": 0,
+     "withSecond": 12
+    },
+    {
+     "word": "أَرْض",
+     "withFirst": 0,
+     "withSecond": 8
+    },
+    {
+     "word": "عَظِيم",
+     "withFirst": 0,
+     "withSecond": 7
+    },
+    {
+     "word": "فَضْل",
+     "withFirst": 0,
+     "withSecond": 6
+    },
+    {
+     "word": "عَذاب",
+     "withFirst": 1,
+     "withSecond": 15
+    },
+    {
+     "word": "أَشْرَكَ",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "شَيْطان",
+     "withFirst": 0,
+     "withSecond": 5
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "heart",
+  "first": {
+   "word": "fu'ad",
+   "occurrences": 16,
+   "meccan": 16,
+   "medinan": 0,
+   "verses": [
+    "6:110",
+    "6:113",
+    "11:120",
+    "14:37",
+    "14:43",
+    "16:78",
+    "17:36",
+    "23:78",
+    "25:32",
+    "28:10",
+    "32:9",
+    "46:26",
+    "46:26",
+    "53:11",
+    "67:23",
+    "104:7"
+   ]
+  },
+  "second": {
+   "word": "qalb",
+   "occurrences": 132,
+   "meccan": 39,
+   "medinan": 93
+  },
+  "company": {
+   "versesFirst": 15,
+   "versesSecond": 124,
+   "distinctiveOfFirst": [
+    {
+     "word": "شَكَرَ",
+     "withFirst": 5,
+     "withSecond": 0
+    },
+    {
+     "word": "بَصِير",
+     "withFirst": 7,
+     "withSecond": 11
+    },
+    {
+     "word": "قَلِيل",
+     "withFirst": 3,
+     "withSecond": 4
+    },
+    {
+     "word": "أَهْواء",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "أُمَّة",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "سَمِعَ",
+     "withFirst": 6,
+     "withSecond": 12
+    },
+    {
+     "word": "جَعَلَ",
+     "withFirst": 5,
+     "withSecond": 15
+    },
+    {
+     "word": "مِسْكِين",
+     "withFirst": 1,
+     "withSecond": 4
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "اللَّه",
+     "withFirst": 2,
+     "withSecond": 81
+    },
+    {
+     "word": "آتَى",
+     "withFirst": 0,
+     "withSecond": 20
+    },
+    {
+     "word": "بَعْد",
+     "withFirst": 0,
+     "withSecond": 13
+    },
+    {
+     "word": "هَدَى",
+     "withFirst": 0,
+     "withSecond": 12
+    },
+    {
+     "word": "إِذْن",
+     "withFirst": 0,
+     "withSecond": 12
+    },
+    {
+     "word": "مَرَض",
+     "withFirst": 0,
+     "withSecond": 12
+    },
+    {
+     "word": "طَبَعَ",
+     "withFirst": 0,
+     "withSecond": 11
+    },
+    {
+     "word": "حَكِيم",
+     "withFirst": 0,
+     "withSecond": 11
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "swear",
+  "first": {
+   "word": "halafa",
+   "occurrences": 13,
+   "meccan": 1,
+   "medinan": 12,
+   "verses": [
+    "4:62",
+    "5:89",
+    "9:42",
+    "9:56",
+    "9:62",
+    "9:74",
+    "9:95",
+    "9:96",
+    "9:107",
+    "58:14",
+    "58:18",
+    "58:18",
+    "68:10"
+   ]
+  },
+  "second": {
+   "word": "aqsama",
+   "occurrences": 20,
+   "meccan": 15,
+   "medinan": 5,
+   "verses": [
+    "5:53",
+    "5:106",
+    "5:107",
+    "6:109",
+    "7:49",
+    "14:44",
+    "16:38",
+    "24:53",
+    "24:53",
+    "30:55",
+    "35:42",
+    "56:75",
+    "68:17",
+    "69:38",
+    "70:40",
+    "75:1",
+    "75:2",
+    "81:15",
+    "84:16",
+    "90:1"
+   ]
+  },
+  "company": {
+   "versesFirst": 12,
+   "versesSecond": 19,
+   "distinctiveOfFirst": [
+    {
+     "word": "اللَّه",
+     "withFirst": 11,
+     "withSecond": 8
+    },
+    {
+     "word": "كانَ",
+     "withFirst": 4,
+     "withSecond": 4
+    },
+    {
+     "word": "قَوْم",
+     "withFirst": 3,
+     "withSecond": 3
+    },
+    {
+     "word": "يَوْم",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "آمَنَ",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "قالَ",
+     "withFirst": 1,
+     "withSecond": 4
+    },
+    {
+     "word": "يَمِين",
+     "withFirst": 1,
+     "withSecond": 5
+    },
+    {
+     "word": "جاهَدَ",
+     "withFirst": 0,
+     "withSecond": 5
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "جاهَدَ",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "يَمِين",
+     "withFirst": 1,
+     "withSecond": 5
+    },
+    {
+     "word": "قالَ",
+     "withFirst": 1,
+     "withSecond": 4
+    },
+    {
+     "word": "آمَنَ",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "يَوْم",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "قَوْم",
+     "withFirst": 3,
+     "withSecond": 3
+    },
+    {
+     "word": "كانَ",
+     "withFirst": 4,
+     "withSecond": 4
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 11,
+     "withSecond": 8
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "year",
+  "first": {
+   "word": "sana",
+   "occurrences": 19,
+   "meccan": 16,
+   "medinan": 3,
+   "verses": [
+    "2:96",
+    "5:26",
+    "7:130",
+    "10:5",
+    "12:42",
+    "12:47",
+    "17:12",
+    "18:11",
+    "18:25",
+    "20:40",
+    "22:47",
+    "23:112",
+    "26:18",
+    "26:205",
+    "29:14",
+    "30:4",
+    "32:5",
+    "46:15",
+    "70:4"
+   ]
+  },
+  "second": {
+   "word": "'am",
+   "occurrences": 9,
+   "meccan": 3,
+   "medinan": 6,
+   "verses": [
+    "2:259",
+    "2:259",
+    "9:28",
+    "9:37",
+    "9:37",
+    "9:126",
+    "12:49",
+    "29:14",
+    "31:14"
+   ]
+  },
+  "company": {
+   "versesFirst": 19,
+   "versesSecond": 7,
+   "distinctiveOfFirst": [
+    {
+     "word": "قالَ",
+     "withFirst": 7,
+     "withSecond": 1
+    },
+    {
+     "word": "أَعَدَّ",
+     "withFirst": 6,
+     "withSecond": 1
+    },
+    {
+     "word": "أَلْف",
+     "withFirst": 5,
+     "withSecond": 1
+    },
+    {
+     "word": "قَدِير",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "يَوْم",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "لَبِثَ",
+     "withFirst": 6,
+     "withSecond": 2
+    },
+    {
+     "word": "قَوْم",
+     "withFirst": 3,
+     "withSecond": 2
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 4,
+     "withSecond": 3
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "ناس",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 4,
+     "withSecond": 3
+    },
+    {
+     "word": "قَوْم",
+     "withFirst": 3,
+     "withSecond": 2
+    },
+    {
+     "word": "لَبِثَ",
+     "withFirst": 6,
+     "withSecond": 2
+    },
+    {
+     "word": "يَوْم",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "قَدِير",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "أَلْف",
+     "withFirst": 5,
+     "withSecond": 1
+    },
+    {
+     "word": "أَعَدَّ",
+     "withFirst": 6,
+     "withSecond": 1
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "came",
+  "first": {
+   "word": "ja'a",
+   "occurrences": 278,
+   "meccan": 208,
+   "medinan": 70
+  },
+  "second": {
+   "word": "ata",
+   "occurrences": 264,
+   "meccan": 200,
+   "medinan": 64
+  },
+  "company": {
+   "versesFirst": 262,
+   "versesSecond": 240,
+   "distinctiveOfFirst": [
+    {
+     "word": "رِيح",
+     "withFirst": 5,
+     "withSecond": 0
+    },
+    {
+     "word": "طَيِّبَة",
+     "withFirst": 5,
+     "withSecond": 0
+    },
+    {
+     "word": "أُمَّة",
+     "withFirst": 10,
+     "withSecond": 1
+    },
+    {
+     "word": "نَجَّى",
+     "withFirst": 9,
+     "withSecond": 1
+    },
+    {
+     "word": "سَيِّئَة",
+     "withFirst": 12,
+     "withSecond": 2
+    },
+    {
+     "word": "جَزَى",
+     "withFirst": 7,
+     "withSecond": 1
+    },
+    {
+     "word": "فَرِيق",
+     "withFirst": 6,
+     "withSecond": 1
+    },
+    {
+     "word": "بَعَثَ",
+     "withFirst": 6,
+     "withSecond": 1
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "فاحِشَة",
+     "withFirst": 0,
+     "withSecond": 8
+    },
+    {
+     "word": "حَدِيث",
+     "withFirst": 1,
+     "withSecond": 9
+    },
+    {
+     "word": "رَزَقَ",
+     "withFirst": 1,
+     "withSecond": 7
+    },
+    {
+     "word": "يَشْعُرُ",
+     "withFirst": 2,
+     "withSecond": 11
+    },
+    {
+     "word": "دُنْيا",
+     "withFirst": 1,
+     "withSecond": 6
+    },
+    {
+     "word": "حَيْث",
+     "withFirst": 1,
+     "withSecond": 6
+    },
+    {
+     "word": "أَحْبَبْ",
+     "withFirst": 1,
+     "withSecond": 6
+    },
+    {
+     "word": "جَمِيع",
+     "withFirst": 2,
+     "withSecond": 10
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "human",
+  "first": {
+   "word": "bashar",
+   "occurrences": 37,
+   "meccan": 33,
+   "medinan": 4
+  },
+  "second": {
+   "word": "insan",
+   "occurrences": 71,
+   "meccan": 61,
+   "medinan": 10
+  },
+  "company": {
+   "versesFirst": 37,
+   "versesSecond": 69,
+   "distinctiveOfFirst": [
+    {
+     "word": "مَثَل",
+     "withFirst": 15,
+     "withSecond": 2
+    },
+    {
+     "word": "رَسُول",
+     "withFirst": 8,
+     "withSecond": 1
+    },
+    {
+     "word": "مَلَك",
+     "withFirst": 6,
+     "withSecond": 1
+    },
+    {
+     "word": "قالَ",
+     "withFirst": 26,
+     "withSecond": 14
+    },
+    {
+     "word": "آمَنَ",
+     "withFirst": 5,
+     "withSecond": 1
+    },
+    {
+     "word": "اللَّه",
+     "withFirst": 14,
+     "withSecond": 5
+    },
+    {
+     "word": "أَنزَلَ",
+     "withFirst": 4,
+     "withSecond": 1
+    },
+    {
+     "word": "عَبْد",
+     "withFirst": 5,
+     "withSecond": 2
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "نِعْمَة",
+     "withFirst": 0,
+     "withSecond": 8
+    },
+    {
+     "word": "أَعْرَضَ",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "مُحْسِن",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "أُمَّة",
+     "withFirst": 0,
+     "withSecond": 5
+    },
+    {
+     "word": "دَعا",
+     "withFirst": 1,
+     "withSecond": 8
+    },
+    {
+     "word": "كُلّ",
+     "withFirst": 1,
+     "withSecond": 7
+    },
+    {
+     "word": "يَوْم",
+     "withFirst": 1,
+     "withSecond": 6
+    },
+    {
+     "word": "ذَكَرَ",
+     "withFirst": 1,
+     "withSecond": 5
+    }
+   ]
+  }
+ },
+ {
+  "meaning": "did",
+  "first": {
+   "word": "'amila",
+   "occurrences": 276,
+   "meccan": 173,
+   "medinan": 103
+  },
+  "second": {
+   "word": "fa'ala",
+   "occurrences": 88,
+   "meccan": 47,
+   "medinan": 41
+  },
+  "company": {
+   "versesFirst": 255,
+   "versesSecond": 83,
+   "distinctiveOfFirst": [
+    {
+     "word": "مُحْسِن",
+     "withFirst": 25,
+     "withSecond": 0
+    },
+    {
+     "word": "بَصِير",
+     "withFirst": 24,
+     "withSecond": 0
+    },
+    {
+     "word": "صالِح",
+     "withFirst": 87,
+     "withSecond": 3
+    },
+    {
+     "word": "سَيِّئَة",
+     "withFirst": 35,
+     "withSecond": 1
+    },
+    {
+     "word": "خالِد",
+     "withFirst": 12,
+     "withSecond": 0
+    },
+    {
+     "word": "جَزَى",
+     "withFirst": 29,
+     "withSecond": 1
+    },
+    {
+     "word": "نَصَرَ",
+     "withFirst": 8,
+     "withSecond": 0
+    },
+    {
+     "word": "قَلْب",
+     "withFirst": 8,
+     "withSecond": 0
+    }
+   ],
+   "distinctiveOfSecond": [
+    {
+     "word": "آباء",
+     "withFirst": 0,
+     "withSecond": 7
+    },
+    {
+     "word": "بَلَغَ",
+     "withFirst": 2,
+     "withSecond": 7
+    },
+    {
+     "word": "يَذَرَ",
+     "withFirst": 2,
+     "withSecond": 4
+    },
+    {
+     "word": "أَمْر",
+     "withFirst": 7,
+     "withSecond": 11
+    },
+    {
+     "word": "أَضَلَّ",
+     "withFirst": 3,
+     "withSecond": 5
+    },
+    {
+     "word": "فاسِق",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "أَوْحَى",
+     "withFirst": 2,
+     "withSecond": 3
+    },
+    {
+     "word": "كَيْف",
+     "withFirst": 2,
+     "withSecond": 3
+    }
+   ]
+  }
+ }
+]

@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what fourteen pre-registered batches of tests found
+# Structure in the Quran's arrangement: what fifteen pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -8,7 +8,7 @@ The order of suras in the mushaf is more than a sort by length. Neighbouring sur
 
 This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
 
-Fourteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+Fifteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -54,6 +54,20 @@ Passed at the ordinary level but with a known weakness.
 | The letters' order runs from throat to lips (my prediction) | p = 0.061; the abjad order fits better |
 | A vocabulary signature for lettered suras | Failed its validation; median p = 0.18 over 40 split-half tests |
 
+### Classical claims about near-synonyms (batch 15)
+
+Each claim was checked against every occurrence by a rule fixed in advance. The atlas of what company each word keeps is in `ATLAS.md`.
+
+| Claim | Verdict |
+|---|---|
+| *matar* is rain as punishment, *ghayth* rain as mercy | Holds: 15 of 15, on very small numbers |
+| *halafa* for the oaths of liars, *aqsama* for solemn oaths | Holds: 8 of 13 against 1 of 20; every oath in God's voice uses *aqsama* |
+| A destructive wind is singular; the plural is merciful | Holds as a tendency: the plural is never harmful, the singular is not always |
+| *fu'ad* is the heart beside hearing and sight | Holds as a tendency: 44% against 5%; all 16 uses are Meccan |
+| *khashya* is fear of God, *khawf* fear in general | Holds as a tendency: 42% against 15% |
+| *anzala* for the Torah and Gospel, *nazzala* for the Quran | Does not hold beyond the verse it is built on (3:3) |
+| *sana* for years of hardship, *'am* for years of ease | Does not hold as a rule: 22 of 28 occurrences are plain counts of time |
+
 ## The main finding in more detail
 
 After sura 1 the mushaf runs roughly longest to shortest, but 6.7% of sura pairs are out of order. The question was whether those exceptions are arbitrary.
@@ -89,8 +103,9 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the fourteen test plans.
+- `PREREGISTRATION*.md`: the fifteen test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
 - `SEAMS.md`: every boundary between neighbouring suras with the word-families shared across it.
+- `ATLAS.md`: ten pairs of near-synonyms and the company each word keeps.
 - `claims/registry.json`: the claims tested and their sources.
 - `README.md`: how to re-run everything.
