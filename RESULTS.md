@@ -811,3 +811,62 @@ With those corrections, the picture is:
 - The episode table depends on marker words and needed seven corrections by reading. It should be read as a draft.
 - The host includes other prophets' stories in the same sura. Sura 26 tells its stories with shared refrains, which is part of why its tie is visible.
 - Batch 5 found that the Gospels and Kings also fit wording to context. This batch shows that the Quran's tellings are fitted to their suras; it does not show that this is unusual.
+
+---
+
+# Results, batch 17: sound and subject (2026-11-16)
+
+Specified in `PREREGISTRATION_batch17.md`, committed to the public repository (commit 5697214) before this batch's code was written. Run once. Numbers are in `results/batch17.json`.
+
+Question: with the marker words themselves removed, do verses of warning and verses of mercy differ in sound, as several descriptive studies say?
+
+626 verses were classed as mercy and 578 as warning. Thirty-three suras have at least five of each and were used; the comparison is made within each sura.
+
+A correction to the plan's wording: it speaks of "22" consonants, but the rule it defines (all letters except alif, waw and ya) gives 25. The rule was applied as defined.
+
+## Results
+
+| Feature | Warning verses | Mercy verses | Suras higher in warning / in mercy | Predicted | p |
+|---|---|---|---|---|---|
+| F1. Hard consonants (share of consonants) | 15.4% | 14.5% | 23 / 10 | Higher in warning | 0.063 |
+| F2. Soft consonants (share of consonants) | 48.4% | 49.4% | 15 / 18 | Higher in mercy | 0.17 |
+| F3. Long vowels per short vowel | 0.233 | 0.210 | 25 / 8 | Higher in mercy | 1.0 |
+| F4. Verse length in words | 15.7 | 16.5 | 11 / 22 | No direction | 0.23 |
+
+None of the four passes.
+
+- **Hard consonants** lean the way the claim says, in 23 of 33 suras, but the difference is under one percentage point and misses the threshold.
+- **Soft consonants** show no reliable difference.
+- **Long vowels go the opposite way** to the prediction: warning verses have more of them, in 25 of 33 suras. The test was one-sided in the other direction, so it counts as a failed prediction. As an observation it is the largest difference in the table.
+- **Verse length** does not differ.
+
+I expected verse length to differ and the other three to show small effects in the predicted directions. Verse length did not differ, and the long-vowel prediction was wrong in direction.
+
+## Reading under the pre-stated rule
+
+The claim that warning sounds harsh and mercy sounds soft does not hold across the whole text by these measures, whatever is true of chosen passages.
+
+## Letter by letter (description; 25 letters, so only very small p-values mean anything)
+
+| Leans towards | Letter | Per thousand consonants, warning / mercy | Suras leaning each way | p |
+|---|---|---|---|---|
+| Mercy | lam | 162 / 184 | 9 / 24 | 0.00006 |
+| Mercy | zay | 7 / 15 | 10 / 23 | 0.002 |
+| Warning | fa | 46 / 35 | 25 / 8 | 0.003 |
+| Warning | dhal | 28 / 20 | 25 / 8 | 0.011 |
+| Warning | qaf | 32 / 25 | 23 / 10 | 0.029 |
+
+Only lam clears a correction for 25 letters. It is the commonest consonant in mercy verses largely because of a few very common words that stay in the verse after the markers are removed: the name of God (two lams), "those who" and "for". The letters leaning towards warning also trace to common words: "in" and "disbelieved" for fa, "those who" and "taste" for dhal, "said" and "taste" for qaf.
+
+So the differences that exist are differences of vocabulary. This is the limit stated in advance: two subjects use different words, and different words have different letters.
+
+## Rhyme endings (description)
+
+Of verses ending in long a plus a consonant, 59 are warning and 29 mercy. That is not evidence of sound matching subject: the warning words themselves ("fire", "punishment") end that way and often stand at the end of the verse.
+
+## Limits
+
+- Subject is assigned by marker words. Many "mercy" verses are legal or narrative verses that close with the names "the Forgiving, the Merciful".
+- Only what the script shows is measured. Features of recitation, such as nasalisation, lengthening and pauses, are not.
+- The descriptive studies argue from chosen passages, where an effect could be real and local. A test across all verses averages those passages with many that have no such effect.
+- No comparison with other Arabic texts, so nothing here separates the Quran's choices from properties of the language.

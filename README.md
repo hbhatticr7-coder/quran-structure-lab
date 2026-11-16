@@ -114,6 +114,12 @@ Batch 16 (the retold stories; also writes `RETELLINGS.md`):
 node scripts/24_batch16_retellings.mjs
 ```
 
+Batch 17 (sound and subject):
+
+```bash
+node scripts/25_batch17_sound_subject.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

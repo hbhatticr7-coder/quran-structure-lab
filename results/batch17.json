@@ -1,0 +1,300 @@
+{
+  "preregistrationSha256": "eb6698b9fd5776726366acede9212cedee2e5a4128cf6ae36c15965fb5856e97",
+  "verses": {
+    "mercy": 626,
+    "warning": 578
+  },
+  "surasUsed": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    33,
+    34,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    46
+  ],
+  "features": [
+    {
+      "feature": "F1 hard consonants (share of consonants)",
+      "meanInWarningVerses": 0.1535,
+      "meanInMercyVerses": 0.1446,
+      "meanDifference": 0.009,
+      "surasHigherInWarning": 23,
+      "surasHigherInMercy": 10,
+      "test": "one-sided, warning higher",
+      "p": 0.063
+    },
+    {
+      "feature": "F2 soft consonants (share of consonants)",
+      "meanInWarningVerses": 0.4835,
+      "meanInMercyVerses": 0.4935,
+      "meanDifference": -0.01,
+      "surasHigherInWarning": 15,
+      "surasHigherInMercy": 18,
+      "test": "one-sided, mercy higher",
+      "p": 0.169
+    },
+    {
+      "feature": "F3 long vowels per short vowel",
+      "meanInWarningVerses": 0.2327,
+      "meanInMercyVerses": 0.2099,
+      "meanDifference": 0.0227,
+      "surasHigherInWarning": 25,
+      "surasHigherInMercy": 8,
+      "test": "one-sided, mercy higher",
+      "p": 1
+    },
+    {
+      "feature": "F4 verse length in words",
+      "meanInWarningVerses": 15.7212,
+      "meanInMercyVerses": 16.4768,
+      "meanDifference": -0.7556,
+      "surasHigherInWarning": 11,
+      "surasHigherInMercy": 22,
+      "test": "two-sided",
+      "p": 0.229
+    }
+  ],
+  "letterByLetter": [
+    {
+      "letter": "م",
+      "sharePer1000_warning": 134.8508,
+      "sharePer1000_mercy": 122.0824,
+      "surasLeaningWarning": 22,
+      "surasLeaningMercy": 11,
+      "pTwoSided": 0.0561
+    },
+    {
+      "letter": "ف",
+      "sharePer1000_warning": 45.9853,
+      "sharePer1000_mercy": 34.867,
+      "surasLeaningWarning": 25,
+      "surasLeaningMercy": 8,
+      "pTwoSided": 0.00337
+    },
+    {
+      "letter": "ذ",
+      "sharePer1000_warning": 27.555,
+      "sharePer1000_mercy": 19.858,
+      "surasLeaningWarning": 25,
+      "surasLeaningMercy": 8,
+      "pTwoSided": 0.0111
+    },
+    {
+      "letter": "ق",
+      "sharePer1000_warning": 31.8495,
+      "sharePer1000_mercy": 25.3275,
+      "surasLeaningWarning": 23,
+      "surasLeaningMercy": 10,
+      "pTwoSided": 0.0288
+    },
+    {
+      "letter": "ج",
+      "sharePer1000_warning": 15.9245,
+      "sharePer1000_mercy": 12.8232,
+      "surasLeaningWarning": 21,
+      "surasLeaningMercy": 12,
+      "pTwoSided": 0.0408
+    },
+    {
+      "letter": "د",
+      "sharePer1000_warning": 31.6273,
+      "sharePer1000_mercy": 28.8096,
+      "surasLeaningWarning": 20,
+      "surasLeaningMercy": 13,
+      "pTwoSided": 0.271
+    },
+    {
+      "letter": "س",
+      "sharePer1000_warning": 26.0883,
+      "sharePer1000_mercy": 24.3775,
+      "surasLeaningWarning": 18,
+      "surasLeaningMercy": 15,
+      "pTwoSided": 0.479
+    },
+    {
+      "letter": "ظ",
+      "sharePer1000_warning": 6.1771,
+      "sharePer1000_mercy": 4.5207,
+      "surasLeaningWarning": 17,
+      "surasLeaningMercy": 13,
+      "pTwoSided": 0.215
+    },
+    {
+      "letter": "ر",
+      "sharePer1000_warning": 52.8691,
+      "sharePer1000_mercy": 51.213,
+      "surasLeaningWarning": 19,
+      "surasLeaningMercy": 14,
+      "pTwoSided": 0.639
+    },
+    {
+      "letter": "خ",
+      "sharePer1000_warning": 14.6875,
+      "sharePer1000_mercy": 13.3505,
+      "surasLeaningWarning": 19,
+      "surasLeaningMercy": 14,
+      "pTwoSided": 0.456
+    },
+    {
+      "letter": "ث",
+      "sharePer1000_warning": 6.8964,
+      "sharePer1000_mercy": 5.934,
+      "surasLeaningWarning": 16,
+      "surasLeaningMercy": 17,
+      "pTwoSided": 0.465
+    },
+    {
+      "letter": "ه",
+      "sharePer1000_warning": 74.3693,
+      "sharePer1000_mercy": 73.4076,
+      "surasLeaningWarning": 16,
+      "surasLeaningMercy": 17,
+      "pTwoSided": 0.782
+    },
+    {
+      "letter": "ش",
+      "sharePer1000_warning": 10.0138,
+      "sharePer1000_mercy": 9.7574,
+      "surasLeaningWarning": 15,
+      "surasLeaningMercy": 17,
+      "pTwoSided": 0.881
+    },
+    {
+      "letter": "غ",
+      "sharePer1000_warning": 4.0178,
+      "sharePer1000_mercy": 3.8087,
+      "surasLeaningWarning": 16,
+      "surasLeaningMercy": 14,
+      "pTwoSided": 0.828
+    },
+    {
+      "letter": "ض",
+      "sharePer1000_warning": 7.1763,
+      "sharePer1000_mercy": 7.0024,
+      "surasLeaningWarning": 13,
+      "surasLeaningMercy": 18,
+      "pTwoSided": 0.882
+    },
+    {
+      "letter": "ح",
+      "sharePer1000_warning": 18.6498,
+      "sharePer1000_mercy": 19.0571,
+      "surasLeaningWarning": 12,
+      "surasLeaningMercy": 21,
+      "pTwoSided": 0.861
+    },
+    {
+      "letter": "ط",
+      "sharePer1000_warning": 4.0754,
+      "sharePer1000_mercy": 4.6512,
+      "surasLeaningWarning": 13,
+      "surasLeaningMercy": 17,
+      "pTwoSided": 0.567
+    },
+    {
+      "letter": "ك",
+      "sharePer1000_warning": 45.7562,
+      "sharePer1000_mercy": 46.446,
+      "surasLeaningWarning": 17,
+      "surasLeaningMercy": 16,
+      "pTwoSided": 0.824
+    },
+    {
+      "letter": "ن",
+      "sharePer1000_warning": 133.8286,
+      "sharePer1000_mercy": 135.743,
+      "surasLeaningWarning": 16,
+      "surasLeaningMercy": 17,
+      "pTwoSided": 0.76
+    },
+    {
+      "letter": "ص",
+      "sharePer1000_warning": 8.7685,
+      "sharePer1000_mercy": 10.8747,
+      "surasLeaningWarning": 10,
+      "surasLeaningMercy": 22,
+      "pTwoSided": 0.134
+    },
+    {
+      "letter": "ب",
+      "sharePer1000_warning": 47.9424,
+      "sharePer1000_mercy": 50.5727,
+      "surasLeaningWarning": 17,
+      "surasLeaningMercy": 16,
+      "pTwoSided": 0.418
+    },
+    {
+      "letter": "ت",
+      "sharePer1000_warning": 42.0448,
+      "sharePer1000_mercy": 46.1346,
+      "surasLeaningWarning": 12,
+      "surasLeaningMercy": 21,
+      "pTwoSided": 0.207
+    },
+    {
+      "letter": "ز",
+      "sharePer1000_warning": 7.3885,
+      "sharePer1000_mercy": 15.4517,
+      "surasLeaningWarning": 10,
+      "surasLeaningMercy": 23,
+      "pTwoSided": 0.00231
+    },
+    {
+      "letter": "ع",
+      "sharePer1000_warning": 39.5496,
+      "sharePer1000_mercy": 49.4751,
+      "surasLeaningWarning": 14,
+      "surasLeaningMercy": 19,
+      "pTwoSided": 0.0702
+    },
+    {
+      "letter": "ل",
+      "sharePer1000_warning": 161.9081,
+      "sharePer1000_mercy": 184.4545,
+      "surasLeaningWarning": 9,
+      "surasLeaningMercy": 24,
+      "pTwoSided": 0.00006
+    }
+  ],
+  "rhymeEndingsByClass": {
+    "L+C": {
+      "mercy": 433,
+      "warning": 397
+    },
+    "A+0": {
+      "mercy": 145,
+      "warning": 93
+    },
+    "A+C": {
+      "mercy": 29,
+      "warning": 59
+    }
+  }
+}
