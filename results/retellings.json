@@ -1,0 +1,850 @@
+{
+ "moses": [
+  {
+   "sura": 2,
+   "period": "Medinan",
+   "verses": "49-70, 87-95, 108-111, 136-139, 246-251",
+   "contentWords": 616,
+   "episodes": [
+    "Infancy",
+    "Sea, drowning",
+    "Wilderness food",
+    "Golden calf",
+    "The cow"
+   ],
+   "particularRoots": 35,
+   "echoInOwnHost": 0.3429,
+   "meanEchoInOtherHosts": 0.0869,
+   "echoedParticularWords": [
+    "رَغَد",
+    "طاقَة",
+    "يَهْبِطُ",
+    "بَقَرَة",
+    "فَرَضَ",
+    "ثَبَّتْ",
+    "أُمْنِيَّت",
+    "فَجْر"
+   ]
+  },
+  {
+   "sura": 3,
+   "period": "Medinan",
+   "verses": "11-14, 84-87",
+   "contentWords": 100,
+   "episodes": [],
+   "particularRoots": 6,
+   "echoInOwnHost": 0.5,
+   "meanEchoInOtherHosts": 0.0867,
+   "echoedParticularWords": [
+    "قِنطار",
+    "فِضَّة",
+    "حَرْث"
+   ]
+  },
+  {
+   "sura": 4,
+   "period": "Medinan",
+   "verses": "153-167",
+   "contentWords": 174,
+   "episodes": [
+    "Magicians",
+    "Golden calf"
+   ],
+   "particularRoots": 5,
+   "echoInOwnHost": 0.6,
+   "meanEchoInOtherHosts": 0.096,
+   "echoedParticularWords": [
+    "بُهْتان",
+    "مَسِيح",
+    "أَعْتَدَتْ"
+   ]
+  },
+  {
+   "sura": 5,
+   "period": "Medinan",
+   "verses": "20-27",
+   "contentWords": 88,
+   "episodes": [
+    "Wandering"
+   ],
+   "particularRoots": 4,
+   "echoInOwnHost": 0.25,
+   "meanEchoInOtherHosts": 0.16,
+   "echoedParticularWords": [
+    "تَأْسَ"
+   ]
+  },
+  {
+   "sura": 6,
+   "period": "Meccan",
+   "verses": "84-94, 154-157",
+   "contentWords": 192,
+   "episodes": [],
+   "particularRoots": 13,
+   "echoInOwnHost": 0.6923,
+   "meanEchoInOtherHosts": 0.1415,
+   "echoedParticularWords": [
+    "قِرْطاس",
+    "صَدَفَ",
+    "دَرَسُ",
+    "خاضُ",
+    "زَعَمَ",
+    "يَلْعَبْ",
+    "شَفاعَة",
+    "حافِظ"
+   ]
+  },
+  {
+   "sura": 7,
+   "period": "Meccan",
+   "verses": "103-163",
+   "contentWords": 653,
+   "episodes": [
+    "Staff and hand",
+    "Magicians",
+    "Plagues",
+    "Sea, drowning",
+    "Wilderness food",
+    "Sinai, tablets",
+    "Golden calf",
+    "Journey (sura 18)"
+   ],
+   "particularRoots": 37,
+   "echoInOwnHost": 0.2703,
+   "meanEchoInOtherHosts": 0.1211,
+   "echoedParticularWords": [
+    "تَجَلَّى",
+    "رَجْفَة",
+    "يَنالُ",
+    "سَفِيه",
+    "خَبِيث",
+    "صاغِر",
+    "مِيقات",
+    "غِلّ"
+   ]
+  },
+  {
+   "sura": 8,
+   "period": "Medinan",
+   "verses": "52-57",
+   "contentWords": 54,
+   "episodes": [
+    "Sea, drowning"
+   ],
+   "particularRoots": 5,
+   "echoInOwnHost": 0.4,
+   "meanEchoInOtherHosts": 0.184,
+   "echoedParticularWords": [
+    "دابَّة",
+    "شَرّ"
+   ]
+  },
+  {
+   "sura": 10,
+   "period": "Meccan",
+   "verses": "75-93",
+   "contentWords": 171,
+   "episodes": [
+    "Sea, drowning",
+    "Pharaoh's body"
+   ],
+   "particularRoots": 4,
+   "echoInOwnHost": 0.25,
+   "meanEchoInOtherHosts": 0.06,
+   "echoedParticularWords": [
+    "آن"
+   ]
+  },
+  {
+   "sura": 11,
+   "period": "Meccan",
+   "verses": "17-20, 96-100, 110-113",
+   "contentWords": 115,
+   "episodes": [],
+   "particularRoots": 5,
+   "echoInOwnHost": 0.4,
+   "meanEchoInOtherHosts": 0.16,
+   "echoedParticularWords": [
+    "رُكْن",
+    "مَسَّ"
+   ]
+  },
+  {
+   "sura": 14,
+   "period": "Meccan",
+   "verses": "5-11",
+   "contentWords": 104,
+   "episodes": [],
+   "particularRoots": 0,
+   "echoInOwnHost": null,
+   "meanEchoInOtherHosts": null,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 17,
+   "period": "Meccan",
+   "verses": "2-5, 101-105",
+   "contentWords": 76,
+   "episodes": [
+    "Sea, drowning"
+   ],
+   "particularRoots": 5,
+   "echoInOwnHost": 0.4,
+   "meanEchoInOtherHosts": 0.04,
+   "echoedParticularWords": [
+    "يَسْتَفِزَّ",
+    "خِلال"
+   ]
+  },
+  {
+   "sura": 18,
+   "period": "Meccan",
+   "verses": "60-69",
+   "contentWords": 72,
+   "episodes": [
+    "Journey (sura 18)"
+   ],
+   "particularRoots": 9,
+   "echoInOwnHost": 0.4444,
+   "meanEchoInOtherHosts": 0.1422,
+   "echoedParticularWords": [
+    "لَدُن",
+    "يَسْتَفْتُ",
+    "أَعْجَبَ",
+    "أَحاطَ"
+   ]
+  },
+  {
+   "sura": 19,
+   "period": "Meccan",
+   "verses": "28-31, 51-56",
+   "contentWords": 69,
+   "episodes": [],
+   "particularRoots": 2,
+   "echoInOwnHost": 0.5,
+   "meanEchoInOtherHosts": 0.06,
+   "echoedParticularWords": [
+    "صَبِيّ"
+   ]
+  },
+  {
+   "sura": 20,
+   "period": "Meccan",
+   "verses": "9-95",
+   "contentWords": 514,
+   "episodes": [
+    "Infancy",
+    "Killing, Madyan",
+    "Fire and call",
+    "Staff and hand",
+    "Aaron as helper",
+    "Magicians",
+    "Sea, drowning",
+    "Wilderness food",
+    "Golden calf"
+   ],
+   "particularRoots": 40,
+   "echoInOwnHost": 0.15,
+   "meanEchoInOtherHosts": 0.117,
+   "echoedParticularWords": [
+    "خابَ",
+    "ضُحًى",
+    "وِزْر",
+    "حَدِيث",
+    "خَشِيَ",
+    "زَوْج"
+   ]
+  },
+  {
+   "sura": 22,
+   "period": "Medinan",
+   "verses": "44-47",
+   "contentWords": 41,
+   "episodes": [
+    "Killing, Madyan"
+   ],
+   "particularRoots": 9,
+   "echoInOwnHost": 0.1111,
+   "meanEchoInOtherHosts": 0.1733,
+   "echoedParticularWords": [
+    "أَمْلَى"
+   ]
+  },
+  {
+   "sura": 23,
+   "period": "Meccan",
+   "verses": "45-52",
+   "contentWords": 43,
+   "episodes": [],
+   "particularRoots": 0,
+   "echoInOwnHost": null,
+   "meanEchoInOtherHosts": null,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 26,
+   "period": "Meccan",
+   "verses": "10-26, 41-68",
+   "contentWords": 179,
+   "episodes": [
+    "Magicians",
+    "Sea, drowning"
+   ],
+   "particularRoots": 10,
+   "echoInOwnHost": 0.2,
+   "meanEchoInOtherHosts": 0.072,
+   "echoedParticularWords": [
+    "أُزْلِفَتْ",
+    "يَطْمَعُ"
+   ]
+  },
+  {
+   "sura": 27,
+   "period": "Meccan",
+   "verses": "7-15",
+   "contentWords": 78,
+   "episodes": [
+    "Fire and call",
+    "Staff and hand"
+   ],
+   "particularRoots": 2,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.14,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 28,
+   "period": "Meccan",
+   "verses": "3-51, 76-79",
+   "contentWords": 571,
+   "episodes": [
+    "Infancy",
+    "Killing, Madyan",
+    "Fire and call",
+    "Staff and hand",
+    "Aaron as helper",
+    "Haman, tower",
+    "Qarun"
+   ],
+   "particularRoots": 38,
+   "echoInOwnHost": 0.0526,
+   "meanEchoInOtherHosts": 0.1284,
+   "echoedParticularWords": [
+    "مَكَّ",
+    "أَصْبَحَ"
+   ]
+  },
+  {
+   "sura": 29,
+   "period": "Meccan",
+   "verses": "39-42",
+   "contentWords": 44,
+   "episodes": [
+    "Sea, drowning",
+    "Haman, tower",
+    "Qarun"
+   ],
+   "particularRoots": 5,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.064,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 32,
+   "period": "Meccan",
+   "verses": "23-26",
+   "contentWords": 31,
+   "episodes": [],
+   "particularRoots": 0,
+   "echoInOwnHost": null,
+   "meanEchoInOtherHosts": null,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 33,
+   "period": "Medinan",
+   "verses": "7-10, 69-72",
+   "contentWords": 81,
+   "episodes": [],
+   "particularRoots": 5,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.136,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 40,
+   "period": "Meccan",
+   "verses": "23-56",
+   "contentWords": 323,
+   "episodes": [
+    "Haman, tower",
+    "Believer",
+    "Qarun"
+   ],
+   "particularRoots": 14,
+   "echoInOwnHost": 0.2857,
+   "meanEchoInOtherHosts": 0.1857,
+   "echoedParticularWords": [
+    "مَقْت",
+    "حاقَ",
+    "جادَلُ",
+    "حَسِبَ"
+   ]
+  },
+  {
+   "sura": 41,
+   "period": "Meccan",
+   "verses": "45-48",
+   "contentWords": 39,
+   "episodes": [],
+   "particularRoots": 2,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.04,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 42,
+   "period": "Meccan",
+   "verses": "13-16",
+   "contentWords": 70,
+   "episodes": [],
+   "particularRoots": 3,
+   "echoInOwnHost": 0.6667,
+   "meanEchoInOtherHosts": 0.1467,
+   "echoedParticularWords": [
+    "أَنابَ",
+    "مَصِير"
+   ]
+  },
+  {
+   "sura": 43,
+   "period": "Meccan",
+   "verses": "46-54",
+   "contentWords": 55,
+   "episodes": [],
+   "particularRoots": 3,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.0933,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 44,
+   "period": "Meccan",
+   "verses": "17-20, 31-34",
+   "contentWords": 31,
+   "episodes": [],
+   "particularRoots": 2,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.16,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 46,
+   "period": "Meccan",
+   "verses": "12-15, 30-33",
+   "contentWords": 103,
+   "episodes": [],
+   "particularRoots": 5,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.112,
+   "echoedParticularWords": []
+  },
+  {
+   "sura": 61,
+   "period": "Medinan",
+   "verses": "5-8",
+   "contentWords": 54,
+   "episodes": [],
+   "particularRoots": 1,
+   "echoInOwnHost": 0,
+   "meanEchoInOtherHosts": 0.04,
+   "echoedParticularWords": []
+  }
+ ],
+ "others": {
+  "Noah": [
+   {
+    "sura": 3,
+    "verses": "33-36",
+    "contentWords": 37
+   },
+   {
+    "sura": 4,
+    "verses": "163-166",
+    "contentWords": 39
+   },
+   {
+    "sura": 7,
+    "verses": "59-72",
+    "contentWords": 132
+   },
+   {
+    "sura": 9,
+    "verses": "70-73",
+    "contentWords": 65
+   },
+   {
+    "sura": 10,
+    "verses": "71-74",
+    "contentWords": 55
+   },
+   {
+    "sura": 11,
+    "verses": "25-51, 89-92",
+    "contentWords": 308
+   },
+   {
+    "sura": 14,
+    "verses": "9-12",
+    "contentWords": 69
+   },
+   {
+    "sura": 17,
+    "verses": "3-6, 17-20",
+    "contentWords": 70
+   },
+   {
+    "sura": 19,
+    "verses": "58-61",
+    "contentWords": 40
+   },
+   {
+    "sura": 21,
+    "verses": "76-79",
+    "contentWords": 35
+   },
+   {
+    "sura": 23,
+    "verses": "23-26",
+    "contentWords": 32
+   },
+   {
+    "sura": 25,
+    "verses": "37-40",
+    "contentWords": 33
+   },
+   {
+    "sura": 26,
+    "verses": "105-119",
+    "contentWords": 51
+   },
+   {
+    "sura": 29,
+    "verses": "14-17",
+    "contentWords": 42
+   },
+   {
+    "sura": 33,
+    "verses": "7-10",
+    "contentWords": 40
+   },
+   {
+    "sura": 40,
+    "verses": "5-8, 31-34",
+    "contentWords": 93
+   },
+   {
+    "sura": 42,
+    "verses": "13-16",
+    "contentWords": 70
+   },
+   {
+    "sura": 57,
+    "verses": "26-29",
+    "contentWords": 64
+   },
+   {
+    "sura": 66,
+    "verses": "10-12",
+    "contentWords": 46
+   },
+   {
+    "sura": 71,
+    "verses": "1-4, 21-28",
+    "contentWords": 81
+   }
+  ],
+  "Abraham": [
+   {
+    "sura": 2,
+    "verses": "124-143, 258-263",
+    "contentWords": 382
+   },
+   {
+    "sura": 3,
+    "verses": "33-36, 65-71, 84-87, 95-100",
+    "contentWords": 194
+   },
+   {
+    "sura": 4,
+    "verses": "54-57, 125-128, 163-166",
+    "contentWords": 149
+   },
+   {
+    "sura": 6,
+    "verses": "74-86, 161-164",
+    "contentWords": 158
+   },
+   {
+    "sura": 9,
+    "verses": "70-73, 114-117",
+    "contentWords": 114
+   },
+   {
+    "sura": 11,
+    "verses": "69-79",
+    "contentWords": 93
+   },
+   {
+    "sura": 12,
+    "verses": "6-9, 38-41",
+    "contentWords": 88
+   },
+   {
+    "sura": 14,
+    "verses": "35-38",
+    "contentWords": 45
+   },
+   {
+    "sura": 16,
+    "verses": "120-126",
+    "contentWords": 55
+   },
+   {
+    "sura": 19,
+    "verses": "41-49, 58-61",
+    "contentWords": 108
+   },
+   {
+    "sura": 21,
+    "verses": "51-72",
+    "contentWords": 107
+   },
+   {
+    "sura": 22,
+    "verses": "26-29, 43-46, 78",
+    "contentWords": 105
+   },
+   {
+    "sura": 29,
+    "verses": "16-19, 31-34",
+    "contentWords": 79
+   },
+   {
+    "sura": 33,
+    "verses": "7-10",
+    "contentWords": 40
+   },
+   {
+    "sura": 37,
+    "verses": "83-86, 104-112",
+    "contentWords": 34
+   },
+   {
+    "sura": 42,
+    "verses": "13-16",
+    "contentWords": 70
+   },
+   {
+    "sura": 57,
+    "verses": "26-29",
+    "contentWords": 64
+   },
+   {
+    "sura": 60,
+    "verses": "4-7",
+    "contentWords": 61
+   }
+  ],
+  "Lot": [
+   {
+    "sura": 11,
+    "verses": "70-92",
+    "contentWords": 222
+   },
+   {
+    "sura": 21,
+    "verses": "71-77",
+    "contentWords": 53
+   },
+   {
+    "sura": 22,
+    "verses": "43-46",
+    "contentWords": 32
+   },
+   {
+    "sura": 26,
+    "verses": "160-170",
+    "contentWords": 39
+   },
+   {
+    "sura": 27,
+    "verses": "54-59",
+    "contentWords": 40
+   },
+   {
+    "sura": 29,
+    "verses": "26-36",
+    "contentWords": 99
+   },
+   {
+    "sura": 66,
+    "verses": "10-12",
+    "contentWords": 46
+   }
+  ],
+  "Ad": [
+   {
+    "sura": 7,
+    "verses": "65-77",
+    "contentWords": 153
+   },
+   {
+    "sura": 9,
+    "verses": "70-73",
+    "contentWords": 65
+   },
+   {
+    "sura": 11,
+    "verses": "50-63",
+    "contentWords": 148
+   },
+   {
+    "sura": 14,
+    "verses": "9-12",
+    "contentWords": 69
+   },
+   {
+    "sura": 29,
+    "verses": "38-41",
+    "contentWords": 47
+   },
+   {
+    "sura": 40,
+    "verses": "31-34",
+    "contentWords": 37
+   },
+   {
+    "sura": 41,
+    "verses": "13-18",
+    "contentWords": 65
+   },
+   {
+    "sura": 46,
+    "verses": "21-24",
+    "contentWords": 45
+   }
+  ],
+  "Thamud": [
+   {
+    "sura": 7,
+    "verses": "73-76",
+    "contentWords": 59
+   },
+   {
+    "sura": 9,
+    "verses": "70-73",
+    "contentWords": 65
+   },
+   {
+    "sura": 11,
+    "verses": "61-71, 95-98",
+    "contentWords": 133
+   },
+   {
+    "sura": 14,
+    "verses": "9-12",
+    "contentWords": 69
+   },
+   {
+    "sura": 17,
+    "verses": "59-62",
+    "contentWords": 46
+   },
+   {
+    "sura": 27,
+    "verses": "45-48",
+    "contentWords": 31
+   },
+   {
+    "sura": 29,
+    "verses": "38-41",
+    "contentWords": 47
+   },
+   {
+    "sura": 40,
+    "verses": "31-34",
+    "contentWords": 37
+   },
+   {
+    "sura": 41,
+    "verses": "13-20",
+    "contentWords": 78
+   }
+  ],
+  "Shuayb": [
+   {
+    "sura": 7,
+    "verses": "85-95",
+    "contentWords": 143
+   },
+   {
+    "sura": 11,
+    "verses": "84-97",
+    "contentWords": 138
+   },
+   {
+    "sura": 29,
+    "verses": "36-39",
+    "contentWords": 34
+   }
+  ],
+  "Adam": [
+   {
+    "sura": 2,
+    "verses": "31-40",
+    "contentWords": 99
+   },
+   {
+    "sura": 3,
+    "verses": "33-36, 59-62",
+    "contentWords": 76
+   },
+   {
+    "sura": 5,
+    "verses": "27-30",
+    "contentWords": 43
+   },
+   {
+    "sura": 7,
+    "verses": "11-38, 172-175",
+    "contentWords": 351
+   },
+   {
+    "sura": 17,
+    "verses": "61-73",
+    "contentWords": 118
+   },
+   {
+    "sura": 18,
+    "verses": "50-53",
+    "contentWords": 45
+   },
+   {
+    "sura": 19,
+    "verses": "58-61",
+    "contentWords": 40
+   },
+   {
+    "sura": 20,
+    "verses": "115-124",
+    "contentWords": 67
+   },
+   {
+    "sura": 34,
+    "verses": "20-23",
+    "contentWords": 40
+   }
+  ]
+ }
+}

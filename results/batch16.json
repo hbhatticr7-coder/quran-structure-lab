@@ -1,0 +1,232 @@
+{
+  "preregistrationSha256": "9298504198f0cbb206a831cdaddc6c51f34bbef2d73aa08ea97b03c54f6d47c2",
+  "mosesTellings": 29,
+  "mosesPassingMentions": [
+    21,
+    25,
+    37,
+    38,
+    50,
+    51,
+    53,
+    54,
+    66,
+    69,
+    73,
+    79,
+    85,
+    87,
+    89
+  ],
+  "R1_primary": {
+    "tellings": 26,
+    "meanEchoInOwnHost": 0.2506,
+    "meanEchoUnderReassignment": 0.1187,
+    "ownHostBeatsAverageOtherHost": 16,
+    "p": 0.00006
+  },
+  "secondary": {
+    "withoutVerseFinalWords": {
+      "tellings": 26,
+      "meanEchoInOwnHost": 0.2272,
+      "meanEchoUnderReassignment": 0.1124,
+      "ownHostBeatsAverageOtherHost": 13,
+      "p": 0.00054
+    },
+    "reassignedWithinPeriod": {
+      "tellings": 26,
+      "meanEchoInOwnHost": 0.2506,
+      "meanEchoUnderReassignment": 0.1344,
+      "ownHostBeatsAverageOtherHost": 16,
+      "p": 0.00059
+    },
+    "otherProphets": {
+      "Noah": {
+        "tellings": 20,
+        "meanEchoInOwnHost": 0.3738,
+        "meanEchoUnderReassignment": 0.2646,
+        "ownHostBeatsAverageOtherHost": 13,
+        "p": 0.00139
+      },
+      "Abraham": {
+        "tellings": 18,
+        "meanEchoInOwnHost": 0.3729,
+        "meanEchoUnderReassignment": 0.2882,
+        "ownHostBeatsAverageOtherHost": 12,
+        "p": 0.00495
+      },
+      "Lot": {
+        "tellings": 7,
+        "meanEchoInOwnHost": 0.4916,
+        "meanEchoUnderReassignment": 0.4216,
+        "ownHostBeatsAverageOtherHost": 4,
+        "p": 0.0345
+      },
+      "Ad": {
+        "tellings": 8,
+        "meanEchoInOwnHost": 0.4986,
+        "meanEchoUnderReassignment": 0.4416,
+        "ownHostBeatsAverageOtherHost": 4,
+        "p": 0.0532
+      },
+      "Thamud": {
+        "tellings": 9,
+        "meanEchoInOwnHost": 0.5433,
+        "meanEchoUnderReassignment": 0.4615,
+        "ownHostBeatsAverageOtherHost": 6,
+        "p": 0.013
+      },
+      "Shuayb": {
+        "tellings": 3,
+        "note": "fewer than four tellings; not tested"
+      },
+      "Adam": {
+        "tellings": 9,
+        "meanEchoInOwnHost": 0.6078,
+        "meanEchoUnderReassignment": 0.4576,
+        "ownHostBeatsAverageOtherHost": 8,
+        "p": 0.00096
+      }
+    }
+  },
+  "episodeCounts": [
+    {
+      "episode": "Infancy",
+      "suras": [
+        2,
+        20,
+        28
+      ]
+    },
+    {
+      "episode": "Killing, Madyan",
+      "suras": [
+        20,
+        22,
+        28
+      ]
+    },
+    {
+      "episode": "Fire and call",
+      "suras": [
+        20,
+        27,
+        28
+      ]
+    },
+    {
+      "episode": "Staff and hand",
+      "suras": [
+        7,
+        20,
+        27,
+        28
+      ]
+    },
+    {
+      "episode": "Aaron as helper",
+      "suras": [
+        20,
+        28
+      ]
+    },
+    {
+      "episode": "Magicians",
+      "suras": [
+        4,
+        7,
+        20,
+        26
+      ]
+    },
+    {
+      "episode": "Plagues",
+      "suras": [
+        7
+      ]
+    },
+    {
+      "episode": "Sea, drowning",
+      "suras": [
+        2,
+        7,
+        8,
+        10,
+        17,
+        20,
+        26,
+        29
+      ]
+    },
+    {
+      "episode": "Haman, tower",
+      "suras": [
+        28,
+        29,
+        40
+      ]
+    },
+    {
+      "episode": "Believer",
+      "suras": [
+        40
+      ]
+    },
+    {
+      "episode": "Wilderness food",
+      "suras": [
+        2,
+        7,
+        20
+      ]
+    },
+    {
+      "episode": "Sinai, tablets",
+      "suras": [
+        7
+      ]
+    },
+    {
+      "episode": "Golden calf",
+      "suras": [
+        2,
+        4,
+        7,
+        20
+      ]
+    },
+    {
+      "episode": "The cow",
+      "suras": [
+        2
+      ]
+    },
+    {
+      "episode": "Wandering",
+      "suras": [
+        5
+      ]
+    },
+    {
+      "episode": "Qarun",
+      "suras": [
+        28,
+        29,
+        40
+      ]
+    },
+    {
+      "episode": "Journey (sura 18)",
+      "suras": [
+        7,
+        18
+      ]
+    },
+    {
+      "episode": "Pharaoh's body",
+      "suras": [
+        10
+      ]
+    }
+  ]
+}

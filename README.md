@@ -108,6 +108,12 @@ Batch 15 (classical claims about near-synonyms; also writes `ATLAS.md`):
 node scripts/23_batch15_word_atlas.mjs
 ```
 
+Batch 16 (the retold stories; also writes `RETELLINGS.md`):
+
+```bash
+node scripts/24_batch16_retellings.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

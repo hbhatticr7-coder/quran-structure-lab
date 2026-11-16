@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what fifteen pre-registered batches of tests found
+# Structure in the Quran's arrangement: what sixteen pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -8,7 +8,7 @@ The order of suras in the mushaf is more than a sort by length. Neighbouring sur
 
 This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
 
-Fifteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+Sixteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -22,6 +22,7 @@ Passed a pre-registered test and survived the checks set for it.
 | Mushaf neighbours share rhyme beyond length and date | +7.1 points, p = 0.0004; survives removal of its five strongest pairs (batch 6) |
 | The exceptions to the length rule raise neighbour resemblance | Vocabulary 0.623 against 0.554 for random exceptions, p = 0.00006; rhyme p = 0.0002; holds with all lettered suras removed (batch 11) |
 | The Mishnah's exceptions to its length rule do the same | Adjacent tractates 0.822 against 0.740 for random exceptions, p = 0.0001; holds for true exceptions alone (batch 13) |
+| Each telling of a prophet's story is fitted to its sura | The details particular to a Moses telling recur in the rest of its sura twice as often as in other suras (25% against 12%, p = 0.00006); holds for five of six other prophets (batch 16) |
 | Sura 12 is a ring in its wording | Farrin's mirror pairing is the best of 945; the Genesis telling shows none under its published outline, p = 0.62 (batches 1, 3) |
 | Suras with opening letters form one class | Alike in rhyme (+13.1 points, p = 0.0001) and in vocabulary (+5.0), whichever letters they carry (batches 7, 8) |
 | The opening letters keep one internal order | 0.11% of random arrangements are as consistent (batch 8) |
@@ -103,9 +104,10 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the fifteen test plans.
+- `PREREGISTRATION*.md`: the sixteen test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
 - `SEAMS.md`: every boundary between neighbouring suras with the word-families shared across it.
 - `ATLAS.md`: ten pairs of near-synonyms and the company each word keeps.
+- `RETELLINGS.md`: which Moses episodes each sura tells, and what is particular to each telling.
 - `claims/registry.json`: the claims tested and their sources.
 - `README.md`: how to re-run everything.

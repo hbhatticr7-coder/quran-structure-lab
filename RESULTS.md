@@ -744,3 +744,70 @@ My predictions were right for six of the seven. I expected W3 to hold weakly and
 - The marker lists are mine, and markers misfire in both directions (W1's false alarm at 57:20; W2's Solomon verses).
 - W7 is one reader's judgement.
 - Batch 5 found that the Gospels and Kings also choose between near-equivalent words in ways that fit their surroundings. These checks say which classical observations hold across every occurrence. They do not say such choices are unusual.
+
+---
+
+# Results, batch 16: the retold stories (2026-11-16)
+
+Specified in `PREREGISTRATION_batch16.md`, committed to the public repository (commit 0715b3b) before this batch's code was written. Run once. Numbers are in `results/batch16.json`; the map is in `RETELLINGS.md` and `results/retellings.json`.
+
+Moses, Pharaoh or Aaron is named in 44 suras. Twenty-nine have a telling of at least 30 content words; the other 15 are passing mentions.
+
+## R1. Are a telling's particular details tied to its sura? Yes.
+
+A telling's "particular" roots are those found in it and in no other telling of the same story. The echo is the share of them that also occur elsewhere in the same sura.
+
+| Test | Tellings | Echo in own sura | Echo if suras are reassigned | p |
+|---|---|---|---|---|
+| Moses (primary) | 26 | 25% | 12% | 0.00006 |
+| Moses, verse-final words removed | 26 | 23% | 11% | 0.0005 |
+| Moses, reassigned within the same period only | 26 | 25% | 13% | 0.0006 |
+| Noah | 20 | 37% | 26% | 0.0014 |
+| Adam and Iblis | 9 | 61% | 46% | 0.0010 |
+| Abraham | 18 | 37% | 29% | 0.0050 |
+| Thamud | 9 | 54% | 46% | 0.013 |
+| Lot | 7 | 49% | 42% | 0.035 |
+| 'Ad | 8 | 50% | 44% | 0.053 |
+
+For Moses, no random reassignment in 100,000 did as well. Shu'ayb has only three tellings and was not tested. I predicted a clear pass that would weaken without verse-final words and survive; that is what happened.
+
+Reading under the pre-stated rule: what is particular to each telling is shared with the rest of its sura. Each telling is cut to its sura, not copied from a stock version. The effect is not produced by rhyme words or by period alone.
+
+Two exceptions worth noting: the two fullest tellings, suras 20 and 28, show little or no tie (15% against 12%, and 5% against 13%). In both, the Moses story takes up most of the sura, so there is little "rest of the sura" for it to echo.
+
+## Examples of the tie, checked against the text
+
+- **Sura 10.** Only this telling has Pharaoh, drowning, say he believes, and the reply "Now? When you disobeyed before" (10:91). The same word opens the rebuke to the Prophet's own audience forty verses earlier: "Now? When you used to hasten it" (10:51). The sura then names the one people whose late belief was accepted, the people of Jonah (10:98).
+- **Sura 26.** Only here do the magicians say "we hope our Lord will forgive us our sins" (26:51). Thirty verses on, Abraham says "whom I hope will forgive me my sin" (26:82). Only here are Pharaoh's people "brought near" the sea (26:64); later the Garden is "brought near" the God-fearing (26:90).
+- **Sura 18.** The servant of God is taught knowledge "from Us" (18:65), with the same rare word as the cave-youths' prayer for mercy "from You" (18:10). Moses is told he cannot bear "what you do not encompass in knowledge" (18:68); of Dhul-Qarnayn it is said "We encompassed what he had in knowledge" (18:91).
+- **Sura 7.** Only this telling has the appointed time and the Lord manifesting Himself to the mountain (7:142-143). Near the end of the sura, the Hour is something "none will make manifest at its time but He" (7:187), with both roots again.
+
+## The map of Moses episodes
+
+`RETELLINGS.md` has a table of suras against 18 episodes, found from marker words. It is an automatic first pass. Reading it against the text gives these corrections:
+
+**Marked in error** (the marker word is there, the episode is not):
+- Sura 2, infancy: the "chest" at 2:248 is the Ark in the story of Saul.
+- Sura 4, the magicians: "crucify" at 4:157 concerns Jesus.
+- Sura 7, the journey of sura 18: the "fish" at 7:163 are those of the Sabbath-breakers.
+- Sura 22, Madyan: 22:44 names Madyan in a list of peoples.
+
+**Missed** (the episode is there, outside the verses the name rule captured or in other words):
+- Sura 26, the staff and hand (26:32-33): Pharaoh is not named for some verses and the passage fell outside the telling.
+- Suras 43 and 44, the drowning (43:55, 44:24): just beyond the captured verses.
+- Sura 10, the magicians (10:79-82): told without the marker words.
+
+With those corrections, the picture is:
+
+- **Three long tellings carry most of the story:** sura 20 (nine episodes), sura 28 (seven) and sura 7 (seven).
+- **The most retold episode is the sea and the drowning,** in at least ten suras.
+- **Several episodes are told once only:** the plagues and the tablets (sura 7), the believer in Pharaoh's house (sura 40), the cow (sura 2), the forty years of wandering (sura 5), the journey with the servant of God (sura 18), and Pharaoh's body being preserved (sura 10).
+- **Moses' early life** (infancy, the killing, Madyan) is told only in suras 20 and 28.
+- **Twelve tellings have none of the 18 episodes.** They refer to Moses and the Book, or to Pharaoh's end, without narrating a scene.
+
+## Limits
+
+- Tellings are found by names, with a three-verse tail. This cuts some passages short, as the corrections show.
+- The episode table depends on marker words and needed seven corrections by reading. It should be read as a draft.
+- The host includes other prophets' stories in the same sura. Sura 26 tells its stories with shared refrains, which is part of why its tie is visible.
+- Batch 5 found that the Gospels and Kings also fit wording to context. This batch shows that the Quran's tellings are fitted to their suras; it does not show that this is unusual.
