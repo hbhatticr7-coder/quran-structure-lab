@@ -1,0 +1,718 @@
+{
+  "preregistrationSha256": "a6e846b1e937ec7bd132918bd57959254d1b312e47eff08dca2fba24038d547e",
+  "blindness": {
+    "closes": 40,
+    "identifiedExactly": 40,
+    "share": 1,
+    "withinOneSura": 40,
+    "passed": false
+  },
+  "primary": {
+    "seams": 113,
+    "meanRankOfTrueOpening": 1.7168,
+    "chance": 3,
+    "p": 0.00001
+  },
+  "rankedFirst": {
+    "count": 67,
+    "share": 0.5929,
+    "chance": 0.2,
+    "p": 6.87e-20
+  },
+  "rankDistribution": [
+    67,
+    22,
+    14,
+    9,
+    1
+  ],
+  "agreement": {
+    "seams": 38,
+    "bothRankedTrueFirst": 20,
+    "firstJudgeRankedTrueFirst": 21,
+    "secondJudgeRankedTrueFirst": 20,
+    "sameRankGiven": 32,
+    "meanRankFirstJudge": 1.7632,
+    "meanRankSecondJudge": 1.7368
+  },
+  "seams": [
+    {
+      "seam": "1-2",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 2,
+      "reasonForTopChoice": "Close asks for guidance on the straight path; D answers: this scripture, beyond doubt, guides the mindful."
+    },
+    {
+      "seam": "2-3",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 3,
+      "reasonForTopChoice": "Belief in all the books is continued by a scripture confirming earlier ones, with believers affirming all of it."
+    },
+    {
+      "seam": "3-4",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 4,
+      "reasonForTopChoice": "Close ends exhorting believers to fear God to succeed; B opens telling people to fear their Lord and continues practical community duties."
+    },
+    {
+      "seam": "4-5",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 5,
+      "reasonForTopChoice": "Close gives a legal ruling clarified by God for believers; E continues with further binding rules and obligations addressed to believers."
+    },
+    {
+      "seam": "5-6",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 6,
+      "reasonForTopChoice": "Close ends with God ruling heavens, earth and all within; E opens praising God who made heavens and earth, against those setting up equals."
+    },
+    {
+      "seam": "6-7",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 7,
+      "reasonForTopChoice": "Close refuses any lord but God and warns of swift punishment; B says follow no other patrons and recalls towns destroyed, deeds weighed."
+    },
+    {
+      "seam": "7-8",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 8,
+      "reasonForTopChoice": "Close urges silent listening and humble remembrance; E describes true believers whose hearts tremble at God's mention and whose faith grows on hearing verses."
+    },
+    {
+      "seam": "8-9",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 9,
+      "reasonForTopChoice": "Continues the subject of treaties and relations with deniers by announcing terms for treaty-bound idolaters."
+    },
+    {
+      "seam": "9-10",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 10,
+      "reasonForTopChoice": "Close announces a messenger from among yourselves; A asks whether it is strange that one of them was inspired to warn."
+    },
+    {
+      "seam": "10-11",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 11,
+      "reasonForTopChoice": "Close: call on none but God, truth has come, I am not your guardian; C: worship only God, speaker merely warns and brings good news."
+    },
+    {
+      "seam": "11-12",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 12,
+      "reasonForTopChoice": "The close says messengers' accounts are told to steady the heart; this opens by telling the best of stories."
+    },
+    {
+      "seam": "12-13",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 13,
+      "reasonForTopChoice": "Close says the stories are no invention but confirmation, lessons for the thoughtful; B affirms what is revealed is truth, with signs for thinkers."
+    },
+    {
+      "seam": "13-14",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 14,
+      "reasonForTopChoice": "Answers the charge of being no messenger: a scripture sent through him, as every messenger was sent."
+    },
+    {
+      "seam": "14-15",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 16,
+      "reasonForTopChoice": "Close says God keeps His promise and warns He is one God; B says God's command is coming and angels warn He alone is god."
+    },
+    {
+      "seam": "15-16",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 16,
+      "reasonForTopChoice": "Close ends: worship until certainty comes, with mockers answered; C opens that God's command is coming, do not hurry it."
+    },
+    {
+      "seam": "16-17",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 18,
+      "reasonForTopChoice": "The advice not to grieve over them is echoed by the warning against destroying oneself with grief."
+    },
+    {
+      "seam": "17-18",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 18,
+      "reasonForTopChoice": "Close ends praising God who has no child; A opens with praise to God and warns those claiming He took a child."
+    },
+    {
+      "seam": "18-19",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 21,
+      "reasonForTopChoice": "Close says I am only a human like you and speaks of the Lord's words; B has deniers objecting he is merely human like them."
+    },
+    {
+      "seam": "19-20",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 18,
+      "reasonForTopChoice": "Close rejects ascribing a child to God and says the message gladdens and warns; A warns child-claimers and promises believers reward."
+    },
+    {
+      "seam": "20-21",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 21,
+      "reasonForTopChoice": "Close has them demanding a sign and everyone waiting; D says reckoning nears while they are heedless and still demand a sign."
+    },
+    {
+      "seam": "21-22",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 22,
+      "reasonForTopChoice": "Close warns all, unsure if the promise is near or far; B opens by telling people to fear the terrible final hour."
+    },
+    {
+      "seam": "22-23",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 23,
+      "reasonForTopChoice": "Believers urged to pray, give alms and do good are then declared successful for exactly those traits."
+    },
+    {
+      "seam": "23-24",
+      "rankOfTrueOpening": 5,
+      "judgeTopChoiceWasSura": 25,
+      "reasonForTopChoice": "Close exalts God the true king and condemns invoking another god; B blesses the ruler of heavens and earth and rejects powerless adopted gods."
+    },
+    {
+      "seam": "24-25",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 25,
+      "reasonForTopChoice": "God owning everything and the messenger's standing continue into His rule of heavens and earth and His servant's warning."
+    },
+    {
+      "seam": "25-26",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 23,
+      "reasonForTopChoice": "Picks up the same portrait of the faithful: shunning idle talk, spouses, and an eternal reward in paradise."
+    },
+    {
+      "seam": "26-27",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 27,
+      "reasonForTopChoice": "After denying the message comes from devils or poets, E presents it as a clear book guiding believers, with deniers wandering blindly like the poets."
+    },
+    {
+      "seam": "27-28",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 26,
+      "reasonForTopChoice": "Reciting the scripture, warning the stray, and promised signs continue in clear verses, grief over unbelief, and a sign."
+    },
+    {
+      "seam": "28-29",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 29,
+      "reasonForTopChoice": "Returning to God and not siding with unbelievers leads into believers being tested and meeting God."
+    },
+    {
+      "seam": "29-30",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 31,
+      "reasonForTopChoice": "Close promises guidance to those who strive and condemns belief in falsehood; C offers guidance for good-doers against one who buys idle tales to mislead."
+    },
+    {
+      "seam": "30-31",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 31,
+      "reasonForTopChoice": "Deniers rejecting the scripture's signs are followed by one who turns from its verses with idle tales."
+    },
+    {
+      "seam": "31-32",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 34,
+      "reasonForTopChoice": "Close ends on God alone knowing the hour, rain and wombs; E continues with what God knows of earth and sky and the denied hour."
+    },
+    {
+      "seam": "32-33",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 34,
+      "reasonForTopChoice": "Close has them asking when the decision will come; A has deniers saying the hour will not come and an oath that it will."
+    },
+    {
+      "seam": "33-34",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 34,
+      "reasonForTopChoice": "Close mentions heavens and earth, punishment and mercy to believers; C praises the owner of heaven and earth who rewards believers by exact record."
+    },
+    {
+      "seam": "34-35",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 32,
+      "reasonForTopChoice": "Close declares truth has come by revelation and ends with doubters; C declares the scripture undoubtedly from the Lord, truth not invention."
+    },
+    {
+      "seam": "35-36",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 38,
+      "reasonForTopChoice": "Continues arrogance, scheming, perished earlier generations, and punishment not yet tasted because deferred."
+    },
+    {
+      "seam": "36-37",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 37,
+      "reasonForTopChoice": "Close argues the maker of heavens and earth can re-create man; B asks whether they are harder to create, being made from clay."
+    },
+    {
+      "seam": "37-38",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 38,
+      "reasonForTopChoice": "Picks up the reminder, the defiant deniers, earlier generations, and punishment they have not yet tasted."
+    },
+    {
+      "seam": "38-39",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 37,
+      "reasonForTopChoice": "Close has a fire-made being scorning clay, expelled and cursed; A has devils pelted and driven off, and people made from sticky clay."
+    },
+    {
+      "seam": "39-40",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 42,
+      "reasonForTopChoice": "Close ends with angels circling the throne in praise; E opens with angels praising God and seeking forgiveness for those on earth."
+    },
+    {
+      "seam": "40-41",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 38,
+      "reasonForTopChoice": "Close: stronger earlier peoples exulted, then believed too late; A: proud deniers, earlier generations perished crying out too late."
+    },
+    {
+      "seam": "41-42",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 40,
+      "reasonForTopChoice": "If this is from God and rejected: the scripture is from God, and only deniers dispute His signs."
+    },
+    {
+      "seam": "42-43",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 41,
+      "reasonForTopChoice": "Close says God speaks to a human by inspiration or from behind a veil; E has a veil between and a human inspired."
+    },
+    {
+      "seam": "43-44",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 44,
+      "reasonForTopChoice": "Close leaves them to play until their promised day; D says they play in doubt and tells him to watch for the day."
+    },
+    {
+      "seam": "44-45",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 42,
+      "reasonForTopChoice": "Close contrasts hell and gardens and says it was eased in your tongue; C has recitation in a named language warning of garden and blaze."
+    },
+    {
+      "seam": "45-46",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 46,
+      "reasonForTopChoice": "Close ends praising God after deniers ignored the hour; D presents scripture from the creator of heavens and earth, deniers ignoring the warning."
+    },
+    {
+      "seam": "46-47",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 47,
+      "reasonForTopChoice": "Deniers' fate and why punishment is not hastened continue: God voids their deeds and tests people by one another."
+    },
+    {
+      "seam": "47-48",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 48,
+      "reasonForTopChoice": "Close urges not weakening while uppermost and promises reward; D announces a clear victory and tranquillity sent into believers' hearts."
+    },
+    {
+      "seam": "48-49",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 49,
+      "reasonForTopChoice": "Close describes the messenger's companions and promises forgiveness and great reward; A instructs them on conduct toward him with the same promise."
+    },
+    {
+      "seam": "49-50",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 48,
+      "reasonForTopChoice": "God's favor in guiding to faith continues as favor completed, guidance, and faith deepened in believers' hearts."
+    },
+    {
+      "seam": "50-51",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 51,
+      "reasonForTopChoice": "Close ends with the day of coming forth and God's warning; D swears that the promise is true and judgement will come."
+    },
+    {
+      "seam": "51-52",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 52,
+      "reasonForTopChoice": "Close ends with woe to unbelievers on their promised day; E swears the punishment will fall and repeats woe to deniers, with the magic taunt."
+    },
+    {
+      "seam": "52-53",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 53,
+      "reasonForTopChoice": "Close ends with praise as the stars fade; A opens with an oath by the setting star and vindicates the companion."
+    },
+    {
+      "seam": "53-54",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 54,
+      "reasonForTopChoice": "Close says the imminent event nears and a warner has come; C opens that the hour nears and warnings fail."
+    },
+    {
+      "seam": "54-55",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 55,
+      "reasonForTopChoice": "Close says everything is created by measure and ends near a mighty King; A names the Merciful, sun and moon reckoned, the balance set."
+    },
+    {
+      "seam": "55-56",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 56,
+      "reasonForTopChoice": "Close describes gardens with people reclining on cushions; E sorts people into groups, the foremost reclining on couches in gardens of delight."
+    },
+    {
+      "seam": "56-57",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 57,
+      "reasonForTopChoice": "The command to glorify the Lord is answered by everything glorifying God, giver of life and death, ever near."
+    },
+    {
+      "seam": "57-58",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 59,
+      "reasonForTopChoice": "The closing mention of scripture-holders is picked up by the account of deniers among them being expelled."
+    },
+    {
+      "seam": "58-59",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 60,
+      "reasonForTopChoice": "Directly continues the ban on befriending those who oppose God and His messenger."
+    },
+    {
+      "seam": "59-60",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 62,
+      "reasonForTopChoice": "Close lists God as king, holy, glorified by heaven and earth; A opens with everything glorifying the holy king, then scripture carried or not."
+    },
+    {
+      "seam": "60-61",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 61,
+      "reasonForTopChoice": "Close has a pledge and a ban on allying with God's enemies; A rebukes saying without doing and praises fighting for God in ranks."
+    },
+    {
+      "seam": "61-62",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 59,
+      "reasonForTopChoice": "The promised near victory and believers prevailing over refusers is illustrated by deniers driven from their homes."
+    },
+    {
+      "seam": "62-63",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 63,
+      "reasonForTopChoice": "Those who desert the messenger for trade lead into insincere followers whose testimony to him is false."
+    },
+    {
+      "seam": "63-64",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 64,
+      "reasonForTopChoice": "Might belonging to God leads into His kingship and power; believers versus deniers and hidden hearts continue."
+    },
+    {
+      "seam": "64-65",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 65,
+      "reasonForTopChoice": "Close warns about spouses and urges fearing God; B gives rules for parting from wives and promises a way out to the God-mindful."
+    },
+    {
+      "seam": "65-66",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 67,
+      "reasonForTopChoice": "Close ends with seven heavens showing God's power over everything; D opens with the holder of all power who made seven flawless heavens."
+    },
+    {
+      "seam": "66-67",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 65,
+      "reasonForTopChoice": "Close gives examples of prophets' wives and marriage loyalty; C continues with the prophet addressed on wives and divorce conduct."
+    },
+    {
+      "seam": "67-68",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 70,
+      "reasonForTopChoice": "Answers the question of when the promised punishment comes: unstoppable for deniers, and seen as near."
+    },
+    {
+      "seam": "68-69",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 70,
+      "reasonForTopChoice": "Close urges patience while deniers are given time; C repeats the call to patience and announces the punishment sure to befall them."
+    },
+    {
+      "seam": "69-70",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 68,
+      "reasonForTopChoice": "Close defends the messenger as no poet or soothsayer; C continues the defence, swearing he is not mad and urging him not to yield."
+    },
+    {
+      "seam": "70-71",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 69,
+      "reasonForTopChoice": "Close leaves deniers until their promised day and threatens replacing them; D names the inevitable and recounts earlier peoples wiped out."
+    },
+    {
+      "seam": "71-72",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 69,
+      "reasonForTopChoice": "Close tells of a people drowned for clinging to idols; C lists destroyed peoples and recalls being carried by ship when water overflowed."
+    },
+    {
+      "seam": "72-73",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 70,
+      "reasonForTopChoice": "Near or far is answered directly: they see the promised punishment as far, God sees it near."
+    },
+    {
+      "seam": "73-74",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 74,
+      "reasonForTopChoice": "Close addresses the night-worshipper with commands to pray, give and lend; C addresses him again to rise, warn, give without gain and be patient."
+    },
+    {
+      "seam": "74-75",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 75,
+      "reasonForTopChoice": "Close has the damned admitting they denied judgment day; D swears by the day of rising and answers man's doubt about it."
+    },
+    {
+      "seam": "75-76",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 76,
+      "reasonForTopChoice": "Close asks if man is left purposeless, recalling the drop he came from; B answers: made from a drop in order to test him."
+    },
+    {
+      "seam": "76-77",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 77,
+      "reasonForTopChoice": "Close calls itself a reminder and warns of a neglected heavy day; B swears by bearers of a reminder that the promised day will happen."
+    },
+    {
+      "seam": "77-78",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 78,
+      "reasonForTopChoice": "Close asks what message they will believe and names the day of sorting; B has them disputing the great news, the day of decision fixed."
+    },
+    {
+      "seam": "78-79",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 81,
+      "reasonForTopChoice": "Close warns of the day each sees what his hands sent ahead; E depicts that day, when each soul knows what it brought."
+    },
+    {
+      "seam": "79-80",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 78,
+      "reasonForTopChoice": "Close has people asking when the hour comes and mentions anchored mountains; A opens with people asking about the great news, mountains as pegs."
+    },
+    {
+      "seam": "80-81",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 81,
+      "reasonForTopChoice": "Close ends with the cry when each abandons kin, absorbed in himself; E continues that day's scenes, things abandoned, each soul knowing what it brought."
+    },
+    {
+      "seam": "81-82",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 82,
+      "reasonForTopChoice": "Repeats the image of stars and of each soul learning what it did, with noble recorders."
+    },
+    {
+      "seam": "82-83",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 83,
+      "reasonForTopChoice": "Recorded deeds, the wicked, and denial of judgment day continue in the wicked's register and woe to deniers."
+    },
+    {
+      "seam": "83-84",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 85,
+      "reasonForTopChoice": "Close has believers watching deniers who once mocked them; E shows persecutors sitting and watching what they did to believers, then requital."
+    },
+    {
+      "seam": "84-85",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 85,
+      "reasonForTopChoice": "Close has celestial oaths and punishment except for believers who do good; C continues sky oaths, burning for persecutors and gardens for such believers."
+    },
+    {
+      "seam": "85-86",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 86,
+      "reasonForTopChoice": "Close: God witnesses, begins and repeats, guarded recitation, deniers surrounded; C: every soul has a watcher, God restores man, decisive speech, deniers given respite."
+    },
+    {
+      "seam": "86-87",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 87,
+      "reasonForTopChoice": "Close reflects on man's creation and decisive speech, leaving deniers aside; A turns to glorifying the Lord who creates and shapes, then reciting and reminding."
+    },
+    {
+      "seam": "87-88",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 88,
+      "reasonForTopChoice": "The better hereafter and the two fates are unfolded: faces in fire and faces in the garden."
+    },
+    {
+      "seam": "88-89",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 87,
+      "reasonForTopChoice": "Repeats the command to remind, and the fate of the one who turns away into great fire."
+    },
+    {
+      "seam": "89-90",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 90,
+      "reasonForTopChoice": "Close rebukes intense love of wealth and regret at sending nothing ahead; B rebukes boasting of squandered wealth and neglecting to feed the needy."
+    },
+    {
+      "seam": "90-91",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 92,
+      "reasonForTopChoice": "Close contrasts squandered wealth with the steep path of giving, two ways, fire; D contrasts the giver and the miser whose wealth is useless."
+    },
+    {
+      "seam": "91-92",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 92,
+      "reasonForTopChoice": "Continues oaths by night and day, the purifying of oneself, and the fate of the wretched denier."
+    },
+    {
+      "seam": "92-93",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 93,
+      "reasonForTopChoice": "Repeats the promise that he will be satisfied, with giving to the poor and not repelling beggars."
+    },
+    {
+      "seam": "93-94",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 94,
+      "reasonForTopChoice": "Close lists God's favours to the listener; B continues the same list: chest opened, burden lifted, renown raised, ease after hardship."
+    },
+    {
+      "seam": "94-95",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 93,
+      "reasonForTopChoice": "Close reassures the listener by recalling favours; E is the same kind of reassurance, recounting shelter, guidance and enrichment from his Lord."
+    },
+    {
+      "seam": "95-96",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 96,
+      "reasonForTopChoice": "Continues man's creation, his overstepping decline, and the return to the Lord who judges."
+    },
+    {
+      "seam": "96-97",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 97,
+      "reasonForTopChoice": "Close commands reading what God taught; E continues with how it was sent down, on the night of decree."
+    },
+    {
+      "seam": "97-98",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 98,
+      "reasonForTopChoice": "Close tells of the revelation being sent down; B tells what followed when that clear proof came, a messenger reciting purified pages."
+    },
+    {
+      "seam": "98-99",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 101,
+      "reasonForTopChoice": "The two fates, pleased believers and deniers in fire, are mirrored by heavy scales and light scales."
+    },
+    {
+      "seam": "99-100",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 101,
+      "reasonForTopChoice": "Scattered people and atom-weights of deeds lead into scattered moths and the weighing of scales."
+    },
+    {
+      "seam": "100-101",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 99,
+      "reasonForTopChoice": "Close ends with graves emptied and hearts' contents exposed; C shows earth throwing out its burdens and people shown their deeds."
+    },
+    {
+      "seam": "101-102",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 102,
+      "reasonForTopChoice": "The raging fire for light scales continues as the blazing fire seen with certainty and the questioning."
+    },
+    {
+      "seam": "102-103",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 104,
+      "reasonForTopChoice": "Rivalry in piling up continues as the wealth-counter, who is thrown into God's kindled fire."
+    },
+    {
+      "seam": "103-104",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 104,
+      "reasonForTopChoice": "Shows the loss in concrete form: the backbiter hoarding wealth, opposite of those urging truth and patience."
+    },
+    {
+      "seam": "104-105",
+      "rankOfTrueOpening": 3,
+      "judgeTopChoiceWasSura": 102,
+      "reasonForTopChoice": "Close condemns the wealth-hoarder bound for the fire; D rebukes rivalry in piling up more and warns they will see the blazing fire."
+    },
+    {
+      "seam": "105-106",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 106,
+      "reasonForTopChoice": "Close tells of an attacking army destroyed; D follows with a tribe's resulting security, owed to the Lord who made them safe from fear."
+    },
+    {
+      "seam": "106-107",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 107,
+      "reasonForTopChoice": "Close asks worship of the Lord who fed them against hunger; D condemns those who neglect feeding the poor and pray heedlessly."
+    },
+    {
+      "seam": "107-108",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 108,
+      "reasonForTopChoice": "Close condemns careless, showy prayer and withholding help; A gives the contrast: pray to your Lord sincerely and sacrifice from abundance."
+    },
+    {
+      "seam": "108-109",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 111,
+      "reasonForTopChoice": "The hater who is cut off without a future is matched by a man cursed and ruined."
+    },
+    {
+      "seam": "109-110",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 110,
+      "reasonForTopChoice": "Close separates two religions; A shows the outcome, people entering God's religion in crowds when help and victory arrive."
+    },
+    {
+      "seam": "110-111",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 108,
+      "reasonForTopChoice": "Close: victory granted, so glorify your Lord; A parallels it: abundance granted, so pray to your Lord, and the enemy is cut off."
+    },
+    {
+      "seam": "111-112",
+      "rankOfTrueOpening": 4,
+      "judgeTopChoiceWasSura": 109,
+      "reasonForTopChoice": "After cursing a doomed opponent whose wealth is useless, B turns to address the deniers directly and separates from their worship."
+    },
+    {
+      "seam": "112-113",
+      "rankOfTrueOpening": 2,
+      "judgeTopChoiceWasSura": 114,
+      "reasonForTopChoice": "After declaring God the one on whom all depend, one seeks refuge with Him as Lord, King, God."
+    },
+    {
+      "seam": "113-114",
+      "rankOfTrueOpening": 1,
+      "judgeTopChoiceWasSura": 114,
+      "reasonForTopChoice": "Close is a refuge prayer against outer harms; A is its twin refuge prayer, against the inner whisperer."
+    }
+  ]
+}

@@ -1,0 +1,2850 @@
+{
+ "seed": 584354,
+ "key": {
+  "C1046": {
+   "sura": 1,
+   "kind": "close",
+   "verses": "1-7"
+  },
+  "P6972": {
+   "sura": 1,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C6461": {
+   "sura": 2,
+   "kind": "close",
+   "verses": "285-286"
+  },
+  "P1042": {
+   "sura": 2,
+   "kind": "opening",
+   "verses": "1-9"
+  },
+  "C6678": {
+   "sura": 3,
+   "kind": "close",
+   "verses": "198-200"
+  },
+  "P7922": {
+   "sura": 3,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C6838": {
+   "sura": 4,
+   "kind": "close",
+   "verses": "175-176"
+  },
+  "P3930": {
+   "sura": 4,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C2208": {
+   "sura": 5,
+   "kind": "close",
+   "verses": "117-120"
+  },
+  "P1188": {
+   "sura": 5,
+   "kind": "opening",
+   "verses": "1-2"
+  },
+  "C6433": {
+   "sura": 6,
+   "kind": "close",
+   "verses": "162-165"
+  },
+  "P2511": {
+   "sura": 6,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C5256": {
+   "sura": 7,
+   "kind": "close",
+   "verses": "202-206"
+  },
+  "P8929": {
+   "sura": 7,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C4628": {
+   "sura": 8,
+   "kind": "close",
+   "verses": "72-75"
+  },
+  "P3880": {
+   "sura": 8,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C5012": {
+   "sura": 9,
+   "kind": "close",
+   "verses": "125-129"
+  },
+  "P1988": {
+   "sura": 9,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C1784": {
+   "sura": 10,
+   "kind": "close",
+   "verses": "105-109"
+  },
+  "P4641": {
+   "sura": 10,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C8646": {
+   "sura": 11,
+   "kind": "close",
+   "verses": "119-123"
+  },
+  "P6207": {
+   "sura": 11,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C4980": {
+   "sura": 12,
+   "kind": "close",
+   "verses": "109-111"
+  },
+  "P7071": {
+   "sura": 12,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C3772": {
+   "sura": 13,
+   "kind": "close",
+   "verses": "40-43"
+  },
+  "P3919": {
+   "sura": 13,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C8183": {
+   "sura": 14,
+   "kind": "close",
+   "verses": "47-52"
+  },
+  "P9063": {
+   "sura": 14,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C9662": {
+   "sura": 15,
+   "kind": "close",
+   "verses": "88-99"
+  },
+  "P1721": {
+   "sura": 15,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C8617": {
+   "sura": 16,
+   "kind": "close",
+   "verses": "124-128"
+  },
+  "P7410": {
+   "sura": 16,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C5140": {
+   "sura": 17,
+   "kind": "close",
+   "verses": "108-111"
+  },
+  "P6019": {
+   "sura": 17,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C1471": {
+   "sura": 18,
+   "kind": "close",
+   "verses": "107-110"
+  },
+  "P5968": {
+   "sura": 18,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C5396": {
+   "sura": 19,
+   "kind": "close",
+   "verses": "91-98"
+  },
+  "P8010": {
+   "sura": 19,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C3755": {
+   "sura": 20,
+   "kind": "close",
+   "verses": "131-135"
+  },
+  "P7757": {
+   "sura": 20,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C4098": {
+   "sura": 21,
+   "kind": "close",
+   "verses": "105-112"
+  },
+  "P3701": {
+   "sura": 21,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C6029": {
+   "sura": 22,
+   "kind": "close",
+   "verses": "76-78"
+  },
+  "P6586": {
+   "sura": 22,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C7987": {
+   "sura": 23,
+   "kind": "close",
+   "verses": "113-118"
+  },
+  "P6985": {
+   "sura": 23,
+   "kind": "opening",
+   "verses": "1-14"
+  },
+  "C1301": {
+   "sura": 24,
+   "kind": "close",
+   "verses": "62-64"
+  },
+  "P3089": {
+   "sura": 24,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C1757": {
+   "sura": 25,
+   "kind": "close",
+   "verses": "71-77"
+  },
+  "P2329": {
+   "sura": 25,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C2809": {
+   "sura": 26,
+   "kind": "close",
+   "verses": "218-227"
+  },
+  "P9425": {
+   "sura": 26,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C1576": {
+   "sura": 27,
+   "kind": "close",
+   "verses": "89-93"
+  },
+  "P6311": {
+   "sura": 27,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C3868": {
+   "sura": 28,
+   "kind": "close",
+   "verses": "85-88"
+  },
+  "P4884": {
+   "sura": 28,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C8283": {
+   "sura": 29,
+   "kind": "close",
+   "verses": "65-69"
+  },
+  "P1389": {
+   "sura": 29,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C4676": {
+   "sura": 30,
+   "kind": "close",
+   "verses": "55-60"
+  },
+  "P9718": {
+   "sura": 30,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C2018": {
+   "sura": 31,
+   "kind": "close",
+   "verses": "33-34"
+  },
+  "P1825": {
+   "sura": 31,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C5467": {
+   "sura": 32,
+   "kind": "close",
+   "verses": "25-30"
+  },
+  "P7818": {
+   "sura": 32,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C9513": {
+   "sura": 33,
+   "kind": "close",
+   "verses": "70-73"
+  },
+  "P6144": {
+   "sura": 33,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C9956": {
+   "sura": 34,
+   "kind": "close",
+   "verses": "49-54"
+  },
+  "P8911": {
+   "sura": 34,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C2842": {
+   "sura": 35,
+   "kind": "close",
+   "verses": "43-45"
+  },
+  "P7983": {
+   "sura": 35,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C1195": {
+   "sura": 36,
+   "kind": "close",
+   "verses": "78-83"
+  },
+  "P4832": {
+   "sura": 36,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C4470": {
+   "sura": 37,
+   "kind": "close",
+   "verses": "168-182"
+  },
+  "P8573": {
+   "sura": 37,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C6619": {
+   "sura": 38,
+   "kind": "close",
+   "verses": "76-88"
+  },
+  "P4738": {
+   "sura": 38,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C4024": {
+   "sura": 39,
+   "kind": "close",
+   "verses": "73-75"
+  },
+  "P2208": {
+   "sura": 39,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C7098": {
+   "sura": 40,
+   "kind": "close",
+   "verses": "82-85"
+  },
+  "P5125": {
+   "sura": 40,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C7661": {
+   "sura": 41,
+   "kind": "close",
+   "verses": "50-54"
+  },
+  "P2501": {
+   "sura": 41,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C7212": {
+   "sura": 42,
+   "kind": "close",
+   "verses": "50-53"
+  },
+  "P7947": {
+   "sura": 42,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C2419": {
+   "sura": 43,
+   "kind": "close",
+   "verses": "83-89"
+  },
+  "P4996": {
+   "sura": 43,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C8229": {
+   "sura": 44,
+   "kind": "close",
+   "verses": "48-59"
+  },
+  "P2681": {
+   "sura": 44,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C4230": {
+   "sura": 45,
+   "kind": "close",
+   "verses": "32-37"
+  },
+  "P3019": {
+   "sura": 45,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C1831": {
+   "sura": 46,
+   "kind": "close",
+   "verses": "33-35"
+  },
+  "P4779": {
+   "sura": 46,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C7418": {
+   "sura": 47,
+   "kind": "close",
+   "verses": "34-38"
+  },
+  "P1650": {
+   "sura": 47,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C4175": {
+   "sura": 48,
+   "kind": "close",
+   "verses": "28-29"
+  },
+  "P9820": {
+   "sura": 48,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C8542": {
+   "sura": 49,
+   "kind": "close",
+   "verses": "15-18"
+  },
+  "P5366": {
+   "sura": 49,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C1528": {
+   "sura": 50,
+   "kind": "close",
+   "verses": "39-45"
+  },
+  "P5527": {
+   "sura": 50,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C7778": {
+   "sura": 51,
+   "kind": "close",
+   "verses": "51-60"
+  },
+  "P4388": {
+   "sura": 51,
+   "kind": "opening",
+   "verses": "1-16"
+  },
+  "C4381": {
+   "sura": 52,
+   "kind": "close",
+   "verses": "43-49"
+  },
+  "P6907": {
+   "sura": 52,
+   "kind": "opening",
+   "verses": "1-16"
+  },
+  "C7689": {
+   "sura": 53,
+   "kind": "close",
+   "verses": "47-62"
+  },
+  "P5342": {
+   "sura": 53,
+   "kind": "opening",
+   "verses": "1-16"
+  },
+  "C6385": {
+   "sura": 54,
+   "kind": "close",
+   "verses": "46-55"
+  },
+  "P6018": {
+   "sura": 54,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C6613": {
+   "sura": 55,
+   "kind": "close",
+   "verses": "68-78"
+  },
+  "P4061": {
+   "sura": 55,
+   "kind": "opening",
+   "verses": "1-14"
+  },
+  "C8775": {
+   "sura": 56,
+   "kind": "close",
+   "verses": "82-96"
+  },
+  "P5512": {
+   "sura": 56,
+   "kind": "opening",
+   "verses": "1-16"
+  },
+  "C1114": {
+   "sura": 57,
+   "kind": "close",
+   "verses": "27-29"
+  },
+  "P6534": {
+   "sura": 57,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C4213": {
+   "sura": 58,
+   "kind": "close",
+   "verses": "21-22"
+  },
+  "P3017": {
+   "sura": 58,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C7780": {
+   "sura": 59,
+   "kind": "close",
+   "verses": "21-24"
+  },
+  "P8036": {
+   "sura": 59,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C5748": {
+   "sura": 60,
+   "kind": "close",
+   "verses": "11-13"
+  },
+  "P9944": {
+   "sura": 60,
+   "kind": "opening",
+   "verses": "1-2"
+  },
+  "C9898": {
+   "sura": 61,
+   "kind": "close",
+   "verses": "12-14"
+  },
+  "P4699": {
+   "sura": 61,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C4300": {
+   "sura": 62,
+   "kind": "close",
+   "verses": "9-11"
+  },
+  "P6106": {
+   "sura": 62,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C4021": {
+   "sura": 63,
+   "kind": "close",
+   "verses": "8-11"
+  },
+  "P3534": {
+   "sura": 63,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C5922": {
+   "sura": 64,
+   "kind": "close",
+   "verses": "14-18"
+  },
+  "P9413": {
+   "sura": 64,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C4216": {
+   "sura": 65,
+   "kind": "close",
+   "verses": "11-12"
+  },
+  "P5915": {
+   "sura": 65,
+   "kind": "opening",
+   "verses": "1-2"
+  },
+  "C3536": {
+   "sura": 66,
+   "kind": "close",
+   "verses": "10-12"
+  },
+  "P3912": {
+   "sura": 66,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C8469": {
+   "sura": 67,
+   "kind": "close",
+   "verses": "25-30"
+  },
+  "P3298": {
+   "sura": 67,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C2535": {
+   "sura": 68,
+   "kind": "close",
+   "verses": "44-52"
+  },
+  "P2267": {
+   "sura": 68,
+   "kind": "opening",
+   "verses": "1-14"
+  },
+  "C7455": {
+   "sura": 69,
+   "kind": "close",
+   "verses": "37-52"
+  },
+  "P8428": {
+   "sura": 69,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C1906": {
+   "sura": 70,
+   "kind": "close",
+   "verses": "36-44"
+  },
+  "P8942": {
+   "sura": 70,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C3948": {
+   "sura": 71,
+   "kind": "close",
+   "verses": "23-28"
+  },
+  "P5865": {
+   "sura": 71,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C1228": {
+   "sura": 72,
+   "kind": "close",
+   "verses": "23-28"
+  },
+  "P7905": {
+   "sura": 72,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C9918": {
+   "sura": 73,
+   "kind": "close",
+   "verses": "20-20"
+  },
+  "P2450": {
+   "sura": 73,
+   "kind": "opening",
+   "verses": "1-10"
+  },
+  "C7714": {
+   "sura": 74,
+   "kind": "close",
+   "verses": "43-56"
+  },
+  "P8679": {
+   "sura": 74,
+   "kind": "opening",
+   "verses": "1-18"
+  },
+  "C3586": {
+   "sura": 75,
+   "kind": "close",
+   "verses": "27-40"
+  },
+  "P7968": {
+   "sura": 75,
+   "kind": "opening",
+   "verses": "1-13"
+  },
+  "C4901": {
+   "sura": 76,
+   "kind": "close",
+   "verses": "25-31"
+  },
+  "P4566": {
+   "sura": 76,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C1112": {
+   "sura": 77,
+   "kind": "close",
+   "verses": "37-50"
+  },
+  "P4679": {
+   "sura": 77,
+   "kind": "opening",
+   "verses": "1-19"
+  },
+  "C5468": {
+   "sura": 78,
+   "kind": "close",
+   "verses": "35-40"
+  },
+  "P2537": {
+   "sura": 78,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C6846": {
+   "sura": 79,
+   "kind": "close",
+   "verses": "32-46"
+  },
+  "P1369": {
+   "sura": 79,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C9053": {
+   "sura": 80,
+   "kind": "close",
+   "verses": "26-42"
+  },
+  "P5387": {
+   "sura": 80,
+   "kind": "opening",
+   "verses": "1-21"
+  },
+  "C4495": {
+   "sura": 81,
+   "kind": "close",
+   "verses": "14-29"
+  },
+  "P2599": {
+   "sura": 81,
+   "kind": "opening",
+   "verses": "1-19"
+  },
+  "C1189": {
+   "sura": 82,
+   "kind": "close",
+   "verses": "6-19"
+  },
+  "P9903": {
+   "sura": 82,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C3537": {
+   "sura": 83,
+   "kind": "close",
+   "verses": "24-36"
+  },
+  "P1687": {
+   "sura": 83,
+   "kind": "opening",
+   "verses": "1-14"
+  },
+  "C2774": {
+   "sura": 84,
+   "kind": "close",
+   "verses": "10-25"
+  },
+  "P1341": {
+   "sura": 84,
+   "kind": "opening",
+   "verses": "1-14"
+  },
+  "C2725": {
+   "sura": 85,
+   "kind": "close",
+   "verses": "9-22"
+  },
+  "P5424": {
+   "sura": 85,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C4624": {
+   "sura": 86,
+   "kind": "close",
+   "verses": "1-17"
+  },
+  "P1234": {
+   "sura": 86,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C4282": {
+   "sura": 87,
+   "kind": "close",
+   "verses": "4-19"
+  },
+  "P4538": {
+   "sura": 87,
+   "kind": "opening",
+   "verses": "1-15"
+  },
+  "C1850": {
+   "sura": 88,
+   "kind": "close",
+   "verses": "9-26"
+  },
+  "P6496": {
+   "sura": 88,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C4944": {
+   "sura": 89,
+   "kind": "close",
+   "verses": "20-30"
+  },
+  "P2600": {
+   "sura": 89,
+   "kind": "opening",
+   "verses": "1-15"
+  },
+  "C4814": {
+   "sura": 90,
+   "kind": "close",
+   "verses": "6-20"
+  },
+  "P8276": {
+   "sura": 90,
+   "kind": "opening",
+   "verses": "1-17"
+  },
+  "C3041": {
+   "sura": 91,
+   "kind": "close",
+   "verses": "1-15"
+  },
+  "P6657": {
+   "sura": 91,
+   "kind": "opening",
+   "verses": "1-15"
+  },
+  "C5302": {
+   "sura": 92,
+   "kind": "close",
+   "verses": "4-21"
+  },
+  "P5784": {
+   "sura": 92,
+   "kind": "opening",
+   "verses": "1-19"
+  },
+  "C2718": {
+   "sura": 93,
+   "kind": "close",
+   "verses": "1-11"
+  },
+  "P4522": {
+   "sura": 93,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C4796": {
+   "sura": 94,
+   "kind": "close",
+   "verses": "1-8"
+  },
+  "P7826": {
+   "sura": 94,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C2863": {
+   "sura": 95,
+   "kind": "close",
+   "verses": "1-8"
+  },
+  "P6889": {
+   "sura": 95,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C9299": {
+   "sura": 96,
+   "kind": "close",
+   "verses": "3-19"
+  },
+  "P7553": {
+   "sura": 96,
+   "kind": "opening",
+   "verses": "1-16"
+  },
+  "C5141": {
+   "sura": 97,
+   "kind": "close",
+   "verses": "1-5"
+  },
+  "P5026": {
+   "sura": 97,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C1907": {
+   "sura": 98,
+   "kind": "close",
+   "verses": "4-8"
+  },
+  "P1334": {
+   "sura": 98,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C4963": {
+   "sura": 99,
+   "kind": "close",
+   "verses": "1-8"
+  },
+  "P3978": {
+   "sura": 99,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C9483": {
+   "sura": 100,
+   "kind": "close",
+   "verses": "1-11"
+  },
+  "P2273": {
+   "sura": 100,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C2460": {
+   "sura": 101,
+   "kind": "close",
+   "verses": "1-11"
+  },
+  "P9599": {
+   "sura": 101,
+   "kind": "opening",
+   "verses": "1-11"
+  },
+  "C4543": {
+   "sura": 102,
+   "kind": "close",
+   "verses": "1-8"
+  },
+  "P9926": {
+   "sura": 102,
+   "kind": "opening",
+   "verses": "1-8"
+  },
+  "C1427": {
+   "sura": 103,
+   "kind": "close",
+   "verses": "1-3"
+  },
+  "P7175": {
+   "sura": 103,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C1895": {
+   "sura": 104,
+   "kind": "close",
+   "verses": "1-9"
+  },
+  "P9620": {
+   "sura": 104,
+   "kind": "opening",
+   "verses": "1-9"
+  },
+  "C9948": {
+   "sura": 105,
+   "kind": "close",
+   "verses": "1-5"
+  },
+  "P5492": {
+   "sura": 105,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C3358": {
+   "sura": 106,
+   "kind": "close",
+   "verses": "1-4"
+  },
+  "P7188": {
+   "sura": 106,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C9971": {
+   "sura": 107,
+   "kind": "close",
+   "verses": "1-7"
+  },
+  "P2133": {
+   "sura": 107,
+   "kind": "opening",
+   "verses": "1-7"
+  },
+  "C1929": {
+   "sura": 108,
+   "kind": "close",
+   "verses": "1-3"
+  },
+  "P6863": {
+   "sura": 108,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C9935": {
+   "sura": 109,
+   "kind": "close",
+   "verses": "1-6"
+  },
+  "P6483": {
+   "sura": 109,
+   "kind": "opening",
+   "verses": "1-6"
+  },
+  "C9195": {
+   "sura": 110,
+   "kind": "close",
+   "verses": "1-3"
+  },
+  "P8000": {
+   "sura": 110,
+   "kind": "opening",
+   "verses": "1-3"
+  },
+  "C2795": {
+   "sura": 111,
+   "kind": "close",
+   "verses": "1-5"
+  },
+  "P1905": {
+   "sura": 111,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C6362": {
+   "sura": 112,
+   "kind": "close",
+   "verses": "1-4"
+  },
+  "P6418": {
+   "sura": 112,
+   "kind": "opening",
+   "verses": "1-4"
+  },
+  "C7375": {
+   "sura": 113,
+   "kind": "close",
+   "verses": "1-5"
+  },
+  "P2422": {
+   "sura": 113,
+   "kind": "opening",
+   "verses": "1-5"
+  },
+  "C8423": {
+   "sura": 114,
+   "kind": "close",
+   "verses": "1-6"
+  },
+  "P5580": {
+   "sura": 114,
+   "kind": "opening",
+   "verses": "1-6"
+  }
+ },
+ "items": {
+  "S558": {
+   "sura": 25,
+   "options": [
+    23,
+    26,
+    28,
+    27,
+    24
+   ],
+   "trueLabel": "B"
+  },
+  "S200": {
+   "sura": 58,
+   "options": [
+    60,
+    61,
+    56,
+    59,
+    57
+   ],
+   "trueLabel": "D"
+  },
+  "S128": {
+   "sura": 81,
+   "options": [
+    84,
+    79,
+    80,
+    83,
+    82
+   ],
+   "trueLabel": "E"
+  },
+  "S549": {
+   "sura": 63,
+   "options": [
+    66,
+    65,
+    61,
+    62,
+    64
+   ],
+   "trueLabel": "E"
+  },
+  "S192": {
+   "sura": 11,
+   "options": [
+    13,
+    9,
+    12,
+    14,
+    10
+   ],
+   "trueLabel": "C"
+  },
+  "S514": {
+   "sura": 67,
+   "options": [
+    70,
+    65,
+    69,
+    66,
+    68
+   ],
+   "trueLabel": "E"
+  },
+  "S624": {
+   "sura": 8,
+   "options": [
+    11,
+    7,
+    10,
+    6,
+    9
+   ],
+   "trueLabel": "E"
+  },
+  "S771": {
+   "sura": 61,
+   "options": [
+    59,
+    64,
+    60,
+    63,
+    62
+   ],
+   "trueLabel": "E"
+  },
+  "S895": {
+   "sura": 88,
+   "options": [
+    90,
+    87,
+    86,
+    89,
+    91
+   ],
+   "trueLabel": "D"
+  },
+  "S188": {
+   "sura": 35,
+   "options": [
+    33,
+    37,
+    38,
+    34,
+    36
+   ],
+   "trueLabel": "E"
+  },
+  "S331": {
+   "sura": 57,
+   "options": [
+    58,
+    56,
+    59,
+    60,
+    55
+   ],
+   "trueLabel": "A"
+  },
+  "S949": {
+   "sura": 108,
+   "options": [
+    109,
+    110,
+    107,
+    111,
+    106
+   ],
+   "trueLabel": "A"
+  },
+  "S910": {
+   "sura": 56,
+   "options": [
+    58,
+    59,
+    55,
+    54,
+    57
+   ],
+   "trueLabel": "E"
+  },
+  "S516": {
+   "sura": 28,
+   "options": [
+    30,
+    27,
+    29,
+    31,
+    26
+   ],
+   "trueLabel": "C"
+  },
+  "S259": {
+   "sura": 91,
+   "options": [
+    90,
+    92,
+    94,
+    89,
+    93
+   ],
+   "trueLabel": "B"
+  },
+  "S322": {
+   "sura": 72,
+   "options": [
+    75,
+    71,
+    74,
+    70,
+    73
+   ],
+   "trueLabel": "E"
+  },
+  "S648": {
+   "sura": 22,
+   "options": [
+    21,
+    20,
+    24,
+    25,
+    23
+   ],
+   "trueLabel": "E"
+  },
+  "S688": {
+   "sura": 103,
+   "options": [
+    102,
+    105,
+    104,
+    101,
+    106
+   ],
+   "trueLabel": "C"
+  },
+  "S394": {
+   "sura": 24,
+   "options": [
+    27,
+    22,
+    25,
+    23,
+    26
+   ],
+   "trueLabel": "C"
+  },
+  "S865": {
+   "sura": 99,
+   "options": [
+    97,
+    98,
+    101,
+    102,
+    100
+   ],
+   "trueLabel": "E"
+  },
+  "S471": {
+   "sura": 95,
+   "options": [
+    93,
+    97,
+    98,
+    96,
+    94
+   ],
+   "trueLabel": "D"
+  },
+  "S208": {
+   "sura": 2,
+   "options": [
+    5,
+    1,
+    6,
+    3,
+    4
+   ],
+   "trueLabel": "D"
+  },
+  "S106": {
+   "sura": 112,
+   "options": [
+    113,
+    109,
+    114,
+    111,
+    110
+   ],
+   "trueLabel": "A"
+  },
+  "S478": {
+   "sura": 101,
+   "options": [
+    102,
+    104,
+    100,
+    103,
+    99
+   ],
+   "trueLabel": "A"
+  },
+  "S667": {
+   "sura": 30,
+   "options": [
+    31,
+    29,
+    32,
+    33,
+    28
+   ],
+   "trueLabel": "A"
+  },
+  "S491": {
+   "sura": 87,
+   "options": [
+    88,
+    89,
+    85,
+    86,
+    90
+   ],
+   "trueLabel": "A"
+  },
+  "S292": {
+   "sura": 16,
+   "options": [
+    18,
+    15,
+    14,
+    19,
+    17
+   ],
+   "trueLabel": "E"
+  },
+  "S370": {
+   "sura": 13,
+   "options": [
+    14,
+    16,
+    15,
+    12,
+    11
+   ],
+   "trueLabel": "A"
+  },
+  "S690": {
+   "sura": 49,
+   "options": [
+    51,
+    50,
+    52,
+    48,
+    47
+   ],
+   "trueLabel": "B"
+  },
+  "S431": {
+   "sura": 92,
+   "options": [
+    90,
+    95,
+    93,
+    94,
+    91
+   ],
+   "trueLabel": "C"
+  },
+  "S738": {
+   "sura": 82,
+   "options": [
+    81,
+    80,
+    85,
+    84,
+    83
+   ],
+   "trueLabel": "E"
+  },
+  "S466": {
+   "sura": 37,
+   "options": [
+    36,
+    35,
+    39,
+    38,
+    40
+   ],
+   "trueLabel": "D"
+  },
+  "S427": {
+   "sura": 102,
+   "options": [
+    101,
+    100,
+    103,
+    104,
+    105
+   ],
+   "trueLabel": "C"
+  },
+  "S323": {
+   "sura": 62,
+   "options": [
+    61,
+    63,
+    60,
+    64,
+    65
+   ],
+   "trueLabel": "B"
+  },
+  "S952": {
+   "sura": 98,
+   "options": [
+    101,
+    99,
+    96,
+    100,
+    97
+   ],
+   "trueLabel": "B"
+  },
+  "S638": {
+   "sura": 41,
+   "options": [
+    44,
+    43,
+    40,
+    39,
+    42
+   ],
+   "trueLabel": "E"
+  },
+  "S531": {
+   "sura": 46,
+   "options": [
+    47,
+    45,
+    44,
+    48,
+    49
+   ],
+   "trueLabel": "A"
+  },
+  "S797": {
+   "sura": 27,
+   "options": [
+    25,
+    28,
+    29,
+    26,
+    30
+   ],
+   "trueLabel": "B"
+  },
+  "S557": {
+   "sura": 68,
+   "options": [
+    67,
+    71,
+    70,
+    69,
+    66
+   ],
+   "trueLabel": "D"
+  },
+  "S190": {
+   "sura": 66,
+   "options": [
+    69,
+    67,
+    65,
+    64,
+    68
+   ],
+   "trueLabel": "B"
+  },
+  "S822": {
+   "sura": 36,
+   "options": [
+    38,
+    37,
+    39,
+    35,
+    34
+   ],
+   "trueLabel": "B"
+  },
+  "S718": {
+   "sura": 17,
+   "options": [
+    18,
+    19,
+    15,
+    20,
+    16
+   ],
+   "trueLabel": "A"
+  },
+  "S434": {
+   "sura": 50,
+   "options": [
+    52,
+    48,
+    49,
+    51,
+    53
+   ],
+   "trueLabel": "D"
+  },
+  "S874": {
+   "sura": 79,
+   "options": [
+    78,
+    77,
+    80,
+    82,
+    81
+   ],
+   "trueLabel": "C"
+  },
+  "S691": {
+   "sura": 45,
+   "options": [
+    44,
+    47,
+    48,
+    46,
+    43
+   ],
+   "trueLabel": "D"
+  },
+  "S210": {
+   "sura": 71,
+   "options": [
+    70,
+    72,
+    69,
+    73,
+    74
+   ],
+   "trueLabel": "B"
+  },
+  "S892": {
+   "sura": 19,
+   "options": [
+    18,
+    21,
+    22,
+    17,
+    20
+   ],
+   "trueLabel": "E"
+  },
+  "S119": {
+   "sura": 6,
+   "options": [
+    5,
+    7,
+    8,
+    4,
+    9
+   ],
+   "trueLabel": "B"
+  },
+  "S279": {
+   "sura": 110,
+   "options": [
+    108,
+    111,
+    113,
+    109,
+    112
+   ],
+   "trueLabel": "B"
+  },
+  "S425": {
+   "sura": 55,
+   "options": [
+    58,
+    54,
+    53,
+    57,
+    56
+   ],
+   "trueLabel": "E"
+  },
+  "S464": {
+   "sura": 4,
+   "options": [
+    7,
+    6,
+    3,
+    2,
+    5
+   ],
+   "trueLabel": "E"
+  },
+  "S976": {
+   "sura": 70,
+   "options": [
+    68,
+    71,
+    72,
+    69,
+    73
+   ],
+   "trueLabel": "B"
+  },
+  "S356": {
+   "sura": 33,
+   "options": [
+    36,
+    31,
+    34,
+    35,
+    32
+   ],
+   "trueLabel": "C"
+  },
+  "S469": {
+   "sura": 18,
+   "options": [
+    20,
+    21,
+    16,
+    17,
+    19
+   ],
+   "trueLabel": "E"
+  },
+  "S327": {
+   "sura": 15,
+   "options": [
+    13,
+    18,
+    16,
+    14,
+    17
+   ],
+   "trueLabel": "C"
+  },
+  "S340": {
+   "sura": 107,
+   "options": [
+    108,
+    105,
+    106,
+    110,
+    109
+   ],
+   "trueLabel": "A"
+  },
+  "S792": {
+   "sura": 83,
+   "options": [
+    81,
+    82,
+    84,
+    86,
+    85
+   ],
+   "trueLabel": "C"
+  },
+  "S564": {
+   "sura": 90,
+   "options": [
+    93,
+    88,
+    89,
+    92,
+    91
+   ],
+   "trueLabel": "E"
+  },
+  "S154": {
+   "sura": 85,
+   "options": [
+    83,
+    87,
+    86,
+    88,
+    84
+   ],
+   "trueLabel": "C"
+  },
+  "S346": {
+   "sura": 105,
+   "options": [
+    103,
+    104,
+    108,
+    106,
+    107
+   ],
+   "trueLabel": "D"
+  },
+  "S572": {
+   "sura": 44,
+   "options": [
+    46,
+    47,
+    42,
+    43,
+    45
+   ],
+   "trueLabel": "E"
+  },
+  "S730": {
+   "sura": 3,
+   "options": [
+    1,
+    4,
+    6,
+    2,
+    5
+   ],
+   "trueLabel": "B"
+  },
+  "S901": {
+   "sura": 10,
+   "options": [
+    8,
+    13,
+    11,
+    12,
+    9
+   ],
+   "trueLabel": "C"
+  },
+  "S733": {
+   "sura": 48,
+   "options": [
+    49,
+    47,
+    51,
+    46,
+    50
+   ],
+   "trueLabel": "A"
+  },
+  "S363": {
+   "sura": 74,
+   "options": [
+    73,
+    76,
+    72,
+    75,
+    77
+   ],
+   "trueLabel": "D"
+  },
+  "S179": {
+   "sura": 80,
+   "options": [
+    79,
+    78,
+    83,
+    82,
+    81
+   ],
+   "trueLabel": "E"
+  },
+  "S767": {
+   "sura": 89,
+   "options": [
+    88,
+    90,
+    91,
+    87,
+    92
+   ],
+   "trueLabel": "B"
+  },
+  "S110": {
+   "sura": 1,
+   "options": [
+    5,
+    4,
+    3,
+    2,
+    6
+   ],
+   "trueLabel": "D"
+  },
+  "S656": {
+   "sura": 75,
+   "options": [
+    73,
+    76,
+    77,
+    78,
+    74
+   ],
+   "trueLabel": "B"
+  },
+  "S819": {
+   "sura": 54,
+   "options": [
+    55,
+    56,
+    52,
+    57,
+    53
+   ],
+   "trueLabel": "A"
+  },
+  "S930": {
+   "sura": 97,
+   "options": [
+    99,
+    98,
+    100,
+    96,
+    95
+   ],
+   "trueLabel": "B"
+  },
+  "S674": {
+   "sura": 42,
+   "options": [
+    45,
+    43,
+    40,
+    44,
+    41
+   ],
+   "trueLabel": "B"
+  },
+  "S486": {
+   "sura": 40,
+   "options": [
+    38,
+    43,
+    41,
+    42,
+    39
+   ],
+   "trueLabel": "C"
+  },
+  "S482": {
+   "sura": 59,
+   "options": [
+    62,
+    58,
+    61,
+    60,
+    57
+   ],
+   "trueLabel": "D"
+  },
+  "S112": {
+   "sura": 34,
+   "options": [
+    33,
+    36,
+    32,
+    35,
+    37
+   ],
+   "trueLabel": "D"
+  },
+  "S768": {
+   "sura": 38,
+   "options": [
+    37,
+    36,
+    41,
+    39,
+    40
+   ],
+   "trueLabel": "D"
+  },
+  "S256": {
+   "sura": 26,
+   "options": [
+    28,
+    24,
+    29,
+    25,
+    27
+   ],
+   "trueLabel": "E"
+  },
+  "S697": {
+   "sura": 69,
+   "options": [
+    70,
+    71,
+    68,
+    72,
+    67
+   ],
+   "trueLabel": "A"
+  },
+  "S354": {
+   "sura": 21,
+   "options": [
+    20,
+    22,
+    24,
+    23,
+    19
+   ],
+   "trueLabel": "B"
+  },
+  "S968": {
+   "sura": 111,
+   "options": [
+    113,
+    109,
+    114,
+    110,
+    112
+   ],
+   "trueLabel": "E"
+  },
+  "S405": {
+   "sura": 20,
+   "options": [
+    23,
+    19,
+    18,
+    21,
+    22
+   ],
+   "trueLabel": "D"
+  },
+  "S537": {
+   "sura": 51,
+   "options": [
+    54,
+    49,
+    53,
+    50,
+    52
+   ],
+   "trueLabel": "E"
+  },
+  "S283": {
+   "sura": 43,
+   "options": [
+    41,
+    45,
+    46,
+    44,
+    42
+   ],
+   "trueLabel": "D"
+  },
+  "S428": {
+   "sura": 93,
+   "options": [
+    92,
+    94,
+    91,
+    95,
+    96
+   ],
+   "trueLabel": "B"
+  },
+  "S839": {
+   "sura": 106,
+   "options": [
+    108,
+    109,
+    104,
+    107,
+    105
+   ],
+   "trueLabel": "D"
+  },
+  "S508": {
+   "sura": 113,
+   "options": [
+    114,
+    110,
+    111,
+    112,
+    109
+   ],
+   "trueLabel": "A"
+  },
+  "S655": {
+   "sura": 76,
+   "options": [
+    75,
+    77,
+    74,
+    78,
+    79
+   ],
+   "trueLabel": "B"
+  },
+  "S155": {
+   "sura": 84,
+   "options": [
+    82,
+    83,
+    85,
+    87,
+    86
+   ],
+   "trueLabel": "C"
+  },
+  "S807": {
+   "sura": 7,
+   "options": [
+    6,
+    9,
+    10,
+    5,
+    8
+   ],
+   "trueLabel": "E"
+  },
+  "S390": {
+   "sura": 53,
+   "options": [
+    56,
+    55,
+    54,
+    52,
+    51
+   ],
+   "trueLabel": "C"
+  },
+  "S506": {
+   "sura": 109,
+   "options": [
+    110,
+    107,
+    111,
+    112,
+    108
+   ],
+   "trueLabel": "A"
+  },
+  "S389": {
+   "sura": 64,
+   "options": [
+    67,
+    65,
+    62,
+    63,
+    66
+   ],
+   "trueLabel": "B"
+  },
+  "S252": {
+   "sura": 12,
+   "options": [
+    14,
+    13,
+    10,
+    15,
+    11
+   ],
+   "trueLabel": "B"
+  },
+  "S462": {
+   "sura": 104,
+   "options": [
+    107,
+    103,
+    105,
+    102,
+    106
+   ],
+   "trueLabel": "C"
+  },
+  "S169": {
+   "sura": 5,
+   "options": [
+    8,
+    3,
+    4,
+    7,
+    6
+   ],
+   "trueLabel": "E"
+  },
+  "S935": {
+   "sura": 77,
+   "options": [
+    75,
+    78,
+    80,
+    76,
+    79
+   ],
+   "trueLabel": "B"
+  },
+  "S882": {
+   "sura": 14,
+   "options": [
+    15,
+    16,
+    12,
+    17,
+    13
+   ],
+   "trueLabel": "A"
+  },
+  "S504": {
+   "sura": 78,
+   "options": [
+    77,
+    79,
+    80,
+    76,
+    81
+   ],
+   "trueLabel": "B"
+  },
+  "S284": {
+   "sura": 47,
+   "options": [
+    49,
+    45,
+    50,
+    48,
+    46
+   ],
+   "trueLabel": "D"
+  },
+  "S236": {
+   "sura": 86,
+   "options": [
+    87,
+    85,
+    89,
+    88,
+    84
+   ],
+   "trueLabel": "A"
+  },
+  "S736": {
+   "sura": 73,
+   "options": [
+    72,
+    75,
+    74,
+    76,
+    71
+   ],
+   "trueLabel": "C"
+  },
+  "S994": {
+   "sura": 31,
+   "options": [
+    32,
+    29,
+    30,
+    33,
+    34
+   ],
+   "trueLabel": "A"
+  },
+  "S309": {
+   "sura": 65,
+   "options": [
+    63,
+    64,
+    68,
+    67,
+    66
+   ],
+   "trueLabel": "E"
+  },
+  "S248": {
+   "sura": 94,
+   "options": [
+    92,
+    96,
+    95,
+    97,
+    93
+   ],
+   "trueLabel": "C"
+  },
+  "S745": {
+   "sura": 23,
+   "options": [
+    24,
+    25,
+    22,
+    26,
+    21
+   ],
+   "trueLabel": "A"
+  },
+  "S753": {
+   "sura": 100,
+   "options": [
+    98,
+    102,
+    99,
+    103,
+    101
+   ],
+   "trueLabel": "E"
+  },
+  "S304": {
+   "sura": 29,
+   "options": [
+    30,
+    32,
+    31,
+    27,
+    28
+   ],
+   "trueLabel": "A"
+  },
+  "S951": {
+   "sura": 60,
+   "options": [
+    61,
+    63,
+    59,
+    62,
+    58
+   ],
+   "trueLabel": "A"
+  },
+  "S948": {
+   "sura": 39,
+   "options": [
+    37,
+    38,
+    41,
+    40,
+    42
+   ],
+   "trueLabel": "D"
+  },
+  "S858": {
+   "sura": 32,
+   "options": [
+    34,
+    35,
+    33,
+    30,
+    31
+   ],
+   "trueLabel": "C"
+  },
+  "S877": {
+   "sura": 9,
+   "options": [
+    10,
+    7,
+    12,
+    11,
+    8
+   ],
+   "trueLabel": "A"
+  },
+  "S761": {
+   "sura": 52,
+   "options": [
+    53,
+    55,
+    50,
+    54,
+    51
+   ],
+   "trueLabel": "A"
+  },
+  "S989": {
+   "sura": 96,
+   "options": [
+    99,
+    95,
+    94,
+    98,
+    97
+   ],
+   "trueLabel": "E"
+  },
+  "R946": {
+   "sura": 25,
+   "options": [
+    23,
+    27,
+    28,
+    26,
+    24
+   ],
+   "trueLabel": "D"
+  },
+  "R588": {
+   "sura": 58,
+   "options": [
+    61,
+    56,
+    59,
+    60,
+    57
+   ],
+   "trueLabel": "C"
+  },
+  "R986": {
+   "sura": 81,
+   "options": [
+    84,
+    83,
+    80,
+    82,
+    79
+   ],
+   "trueLabel": "D"
+  },
+  "R571": {
+   "sura": 63,
+   "options": [
+    61,
+    64,
+    66,
+    65,
+    62
+   ],
+   "trueLabel": "B"
+  },
+  "R412": {
+   "sura": 11,
+   "options": [
+    9,
+    13,
+    10,
+    12,
+    14
+   ],
+   "trueLabel": "D"
+  },
+  "R593": {
+   "sura": 67,
+   "options": [
+    65,
+    69,
+    66,
+    70,
+    68
+   ],
+   "trueLabel": "E"
+  },
+  "R920": {
+   "sura": 8,
+   "options": [
+    6,
+    11,
+    10,
+    9,
+    7
+   ],
+   "trueLabel": "D"
+  },
+  "R650": {
+   "sura": 61,
+   "options": [
+    63,
+    64,
+    59,
+    60,
+    62
+   ],
+   "trueLabel": "E"
+  },
+  "R818": {
+   "sura": 88,
+   "options": [
+    89,
+    86,
+    87,
+    91,
+    90
+   ],
+   "trueLabel": "A"
+  },
+  "R376": {
+   "sura": 35,
+   "options": [
+    37,
+    38,
+    33,
+    34,
+    36
+   ],
+   "trueLabel": "E"
+  },
+  "R957": {
+   "sura": 57,
+   "options": [
+    59,
+    58,
+    55,
+    60,
+    56
+   ],
+   "trueLabel": "B"
+  },
+  "R434": {
+   "sura": 108,
+   "options": [
+    111,
+    106,
+    109,
+    110,
+    107
+   ],
+   "trueLabel": "C"
+  },
+  "R460": {
+   "sura": 56,
+   "options": [
+    58,
+    55,
+    59,
+    54,
+    57
+   ],
+   "trueLabel": "E"
+  },
+  "R212": {
+   "sura": 28,
+   "options": [
+    29,
+    26,
+    27,
+    30,
+    31
+   ],
+   "trueLabel": "A"
+  },
+  "R143": {
+   "sura": 91,
+   "options": [
+    93,
+    89,
+    90,
+    94,
+    92
+   ],
+   "trueLabel": "E"
+  },
+  "R554": {
+   "sura": 72,
+   "options": [
+    70,
+    73,
+    75,
+    71,
+    74
+   ],
+   "trueLabel": "B"
+  },
+  "R116": {
+   "sura": 22,
+   "options": [
+    23,
+    25,
+    24,
+    21,
+    20
+   ],
+   "trueLabel": "A"
+  },
+  "R167": {
+   "sura": 103,
+   "options": [
+    102,
+    101,
+    105,
+    106,
+    104
+   ],
+   "trueLabel": "E"
+  },
+  "R573": {
+   "sura": 24,
+   "options": [
+    25,
+    23,
+    27,
+    22,
+    26
+   ],
+   "trueLabel": "A"
+  },
+  "R366": {
+   "sura": 99,
+   "options": [
+    101,
+    100,
+    102,
+    97,
+    98
+   ],
+   "trueLabel": "B"
+  },
+  "R396": {
+   "sura": 95,
+   "options": [
+    93,
+    98,
+    97,
+    94,
+    96
+   ],
+   "trueLabel": "E"
+  },
+  "R921": {
+   "sura": 2,
+   "options": [
+    3,
+    6,
+    4,
+    1,
+    5
+   ],
+   "trueLabel": "A"
+  },
+  "R463": {
+   "sura": 112,
+   "options": [
+    110,
+    113,
+    109,
+    114,
+    111
+   ],
+   "trueLabel": "B"
+  },
+  "R538": {
+   "sura": 101,
+   "options": [
+    102,
+    103,
+    104,
+    100,
+    99
+   ],
+   "trueLabel": "A"
+  },
+  "R281": {
+   "sura": 30,
+   "options": [
+    33,
+    31,
+    32,
+    29,
+    28
+   ],
+   "trueLabel": "B"
+  },
+  "R574": {
+   "sura": 87,
+   "options": [
+    89,
+    90,
+    85,
+    86,
+    88
+   ],
+   "trueLabel": "E"
+  },
+  "R334": {
+   "sura": 16,
+   "options": [
+    18,
+    17,
+    19,
+    14,
+    15
+   ],
+   "trueLabel": "B"
+  },
+  "R139": {
+   "sura": 13,
+   "options": [
+    14,
+    15,
+    16,
+    11,
+    12
+   ],
+   "trueLabel": "A"
+  },
+  "R192": {
+   "sura": 49,
+   "options": [
+    50,
+    48,
+    51,
+    52,
+    47
+   ],
+   "trueLabel": "A"
+  },
+  "R556": {
+   "sura": 92,
+   "options": [
+    90,
+    93,
+    95,
+    94,
+    91
+   ],
+   "trueLabel": "B"
+  },
+  "R213": {
+   "sura": 82,
+   "options": [
+    80,
+    83,
+    84,
+    85,
+    81
+   ],
+   "trueLabel": "B"
+  },
+  "R405": {
+   "sura": 37,
+   "options": [
+    40,
+    35,
+    36,
+    38,
+    39
+   ],
+   "trueLabel": "D"
+  },
+  "R160": {
+   "sura": 102,
+   "options": [
+    101,
+    104,
+    100,
+    103,
+    105
+   ],
+   "trueLabel": "D"
+  },
+  "R630": {
+   "sura": 62,
+   "options": [
+    64,
+    60,
+    61,
+    65,
+    63
+   ],
+   "trueLabel": "E"
+  },
+  "R371": {
+   "sura": 98,
+   "options": [
+    100,
+    99,
+    97,
+    101,
+    96
+   ],
+   "trueLabel": "B"
+  },
+  "R965": {
+   "sura": 41,
+   "options": [
+    42,
+    43,
+    44,
+    40,
+    39
+   ],
+   "trueLabel": "A"
+  },
+  "R157": {
+   "sura": 46,
+   "options": [
+    44,
+    48,
+    47,
+    45,
+    49
+   ],
+   "trueLabel": "C"
+  },
+  "R744": {
+   "sura": 27,
+   "options": [
+    26,
+    25,
+    30,
+    29,
+    28
+   ],
+   "trueLabel": "E"
+  }
+ },
+ "blind": {
+  "B735": 42,
+  "B894": 82,
+  "B251": 3,
+  "B306": 96,
+  "B162": 91,
+  "B710": 51,
+  "B946": 10,
+  "B371": 56,
+  "B913": 23,
+  "B403": 44,
+  "B800": 67,
+  "B703": 21,
+  "B362": 60,
+  "B683": 47,
+  "B592": 110,
+  "B185": 2,
+  "B228": 88,
+  "B187": 72,
+  "B853": 57,
+  "B390": 94,
+  "B146": 108,
+  "B206": 26,
+  "B746": 24,
+  "B916": 14,
+  "B330": 111,
+  "B526": 27,
+  "B100": 48,
+  "B152": 97,
+  "B587": 62,
+  "B814": 92,
+  "B653": 18,
+  "B377": 63,
+  "B474": 43,
+  "B264": 38,
+  "B102": 32,
+  "B721": 50,
+  "B213": 113,
+  "B241": 8,
+  "B728": 70,
+  "B820": 31
+ }
+}

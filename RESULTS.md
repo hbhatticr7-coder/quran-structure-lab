@@ -934,3 +934,64 @@ Each is a fact about this edition under a stated rule. Three things should be ke
 - **Edition.** Counts can shift by one or two between reading traditions and between ways of dividing words.
 
 The three plain matches (115, 88, 332) are the ones least open to these objections: one word against one word, counted in all forms, with no special definition.
+
+---
+
+# Results, batch 19: reading the seams for meaning (2026-11-16)
+
+Specified in `PREREGISTRATION_batch19.md`, committed to the public repository (commit 682a184) before any reader was run. Everything the readers saw and wrote is in `reading/`, with the key linking codes to suras added after scoring. Numbers are in `results/batch19.json` and `results/batch19_posthoc.json`; the judges' reasons for all 113 seams are in `SEAM_READINGS.md`.
+
+## The blindness check failed
+
+A fresh reader was given 40 of the gists of sura endings and asked to name the sura. It named all 40 correctly.
+
+The gists had no proper names, no Arabic and no quotation, and they still identify their suras completely. A language model knows the Quran too well for paraphrase to hide where a passage comes from.
+
+The plan set a limit of 25% and said that above it "the result cannot be trusted either way". That is the verdict on the judging below.
+
+## What the judges did
+
+| Measure | Result | Chance |
+|---|---|---|
+| Mean rank given to the true next opening (1 is best) | 1.72 | 3.0 |
+| Seams where the true opening was ranked first | 67 of 113 (59%) | 20% |
+| Ranks given, first to fifth | 67, 22, 14, 9, 1 | equal |
+| Two judges on the same 38 seams: same rank given | 32 of 38 | |
+
+Taken at face value this is a very large effect. It cannot be taken at face value. A judge able to tell which sura a close belongs to can also recall which sura comes next, and the instruction to set recognition aside cannot be enforced or checked.
+
+## What can be said about how the judges worked (post hoc)
+
+Three observations, none of which rescues the test:
+
+- **They did not simply use memory.** A reader asked to identify the suras scored 40 of 40. Judges using memory of the order would have scored near 113 of 113. They scored 67.
+- **Their success tracks the content of the gists.** Where the wording of the two gists favours the true opening over the other four, the judges ranked it first in 21 of 25 seams (84%). Where the wording favours it least, in 8 of 19 (42%). Recall of the order would not depend on this.
+- **But they beat chance even where the wording points elsewhere** (23 of 47 seams where wording ranks the true opening fourth or fifth). That could be links of meaning that word overlap cannot see, or it could be recognition leaking in. The data here cannot tell these apart.
+
+## A judge-free version of the question (post hoc)
+
+The same five candidate openings were ranked mechanically, so that no reader's memory could enter.
+
+| Ranking method | Mean rank of the true opening | Ranked first | p |
+|---|---|---|---|
+| Wording shared between the English gists | 3.08 | 23 of 113 | 0.74 |
+| Arabic roots shared between the passages | 3.00 | 22 of 113 | 0.51 |
+
+Both are at chance. Paraphrasing into plain English does not bring out a link between a close and the next opening in particular. This agrees with batch 14 and extends it from Arabic roots to paraphrased content. It is still a measure of wording, and a link that takes reasoning to see (a question answered, a request granted) is outside it.
+
+## Where this leaves the question
+
+- By wording, in Arabic or in paraphrase, the close of a sura is no nearer the opening of the next than to the openings of its other neighbours.
+- Readers who can reason about meaning pick the true continuation three times as often as chance, but they are not blind, and the size of the leak is unknown.
+- Settling it needs a reader who can follow meaning and cannot identify the passages: people who do not know which passages are neighbours, or a weaker model shown first to fail the identification test.
+
+## What is worth keeping
+
+`SEAM_READINGS.md` lists, for every seam, the connection the judge saw between the close and its first-choice opening. Where the first choice was the true next sura, these are candidate links of meaning, stated in a sentence and checkable against the text: a request for guidance followed by "this is the guidance" (1 to 2); praise of God who has no child followed by a warning to those who say He took one (17 to 18); "is man left without purpose, he who was a drop" followed by "We made him from a drop to test him" (75 to 76); a list of favours continued (93 to 94). Many are the links the classical literature also gives. They are a reader's proposals, not findings.
+
+## Limits
+
+- All readers are instances of one model family.
+- The judges saw 60-word gists, not the passages.
+- The alternatives offered were always the four nearest other suras. Nothing here compares the next sura with distant ones.
+- The post hoc analyses were chosen after seeing the result.

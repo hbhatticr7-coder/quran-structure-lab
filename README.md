@@ -126,6 +126,12 @@ Batch 18 (audit of popular word-count claims):
 node scripts/26_batch18_word_counts.mjs
 ```
 
+Batch 19 (reading the seams for meaning) cannot be re-run by script alone: its gists and rankings were written by language-model readers. Everything they saw and wrote is in `reading/`, including the prompts' inputs and the key. To re-score from those files:
+
+```bash
+node scripts/29_batch19_score.mjs reading/key.json
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout
