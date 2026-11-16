@@ -645,3 +645,55 @@ Batch 11 stands: the mushaf's order is deliberate and not a bare sort by length.
 - The Mishnah measure uses word forms without lemmas, so it is cruder than the Quran measure. A cruder measure would be expected to weaken the result, and it is strong anyway.
 - The Mishnah is built in six thematic orders; the mushaf has no such divisions. The tests respect that (only within-order pairs are used), but the two arrangements are not built the same way.
 - Printed chapter counts differ slightly from older ones in a few tractates.
+
+---
+
+# Results, batch 14: the seams between suras (2026-11-16)
+
+Specified in `PREREGISTRATION_batch14.md`, committed to the public repository (commit c4caad3) before this batch's code was written. Run once. Numbers are in `results/batch14.json`; every seam is in `results/seam_map.json` and, in readable form, in `SEAMS.md`.
+
+Question: does the close of each sura connect to the opening of the next, as the classical *munasabat* literature holds?
+
+## S1. Is the link at the boundary? No, not as a general rule.
+
+| Window | Seam (close of N, opening of N+1) | Reverse (opening of N, close of N+1) | Seam higher / reverse higher / equal | p |
+|---|---|---|---|---|
+| 40 content words, roots (primary) | 0.083 | 0.088 | 41 / 55 / 17 | 0.79 |
+| 20 content words | 0.059 | 0.060 | 48 / 52 / 13 | 0.57 |
+| 80 content words | 0.122 | 0.125 | 38 / 46 / 29 | 0.67 |
+| Three verses | 0.043 | 0.047 | 33 / 45 / 35 | 0.74 |
+| Lemmas in place of roots | 0.047 | 0.049 | 49 / 47 / 17 | 0.68 |
+
+The end of a sura is no closer to the start of the next than the start of the first is to the end of the second. I predicted a modest pass. That was wrong.
+
+How specific is the link to the next sura? As a match for a sura's close, the next sura's opening sits on average at the 57th percentile among all suras' openings, and the opening of the sura after next sits at the 60th. Eight seams share no root at all (all among the short suras from 80 onward).
+
+## Reading under the pre-stated rule
+
+Neighbouring suras resemble each other as wholes (batches 2, 6, 11), but the boundary itself is not marked in shared word-families. Links of meaning that use different words could still be there; this measure cannot see them.
+
+## What the map does show
+
+The rule fails on average, but individual seams are striking. Twenty-three of the 113 are above the 90th percentile. The strongest:
+
+| Seam | Close | Opening | Similarity | Reverse | Shared word-families |
+|---|---|---|---|---|---|
+| 43-44 | 43:83-89 | 44:1-10 | 0.288 | 0.076 | "play" (43:83, 44:9); blessed; wise |
+| 82-83 | 82:6-19 | 83:1-14 | 0.275 | 0.080 | "the wicked" (82:14, 83:7); "what will make you know" (82:17-18, 83:8); denying the Day of Judgement (82:9, 83:11) |
+| 11-12 | 11:119-123 | 12:1-6 | 0.219 | 0.064 | "We relate to you" the stories (11:120, 12:3); "unaware" (11:123, 12:3) |
+| 113-114 | 113:1-5 | 114:1-6 | 0.218 | 0.218 | "Say: I seek refuge in the Lord of ... from the evil of ..." |
+| 38-39 | 38:76-88 | 39:1-4 | 0.218 | 0.044 | "sincere" servants (38:83) and sincere religion (39:2-3); might / the Mighty |
+| 91-92 | 91:1-15 | 92:1-19 | 0.205 | 0.105 | "the most wretched" (91:12, 92:15); purify (91:9, 92:18) |
+| 28-29 | 28:85-88 | 29:1-7 | 0.178 | 0.064 | "hope" (28:86, 29:5) |
+
+In several of these the reverse is weak, so the link really is at the boundary for those pairs.
+
+## Check against Farrin's eight boundary claims
+
+Of the eight pairs for which Farrin states a link at the boundary, two rank high here (38-39 is 5th of 113; 2-3 is 13th), one is in the upper third (22-23, 29th), and five are in the middle or bottom (12-13, 27-28, 4-5, 54-55, 101-102). His links for those five are thematic (for example "measure" in 54:49 against "balance" in 55:7-9) and do not share a root.
+
+## Limits
+
+- Shared word-families only. This is the main limit: the classical authors argue from meaning, and a link such as a prayer at the end of one sura answered at the start of the next need not share a root.
+- The map lists shared roots by rarity. Several listed roots are common words (Lord, say, people); a shared root is a candidate link, and judging it needs a reader.
+- For 17 pairs of very short suras the opening and close are the same verses, so they contribute nothing to S1.

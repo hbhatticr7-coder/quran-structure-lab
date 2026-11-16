@@ -1,0 +1,4164 @@
+[
+ {
+  "seam": "1-2",
+  "closeVerses": "1:1-7",
+  "openingVerses": "2:1-9",
+  "similarity": 0.0755,
+  "reverse": 0.1049,
+  "percentileAmongAllOpenings": 0.5714,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "هدي",
+    "weight": 3.1471,
+    "inClose": "هَدَى",
+    "inOpening": "هُدًى"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "مُسْتَقِيم",
+    "inOpening": "أَقامَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 57
+ },
+ {
+  "seam": "2-3",
+  "closeVerses": "2:285-286",
+  "openingVerses": "3:1-7",
+  "similarity": 0.1621,
+  "reverse": 0.1779,
+  "percentileAmongAllOpenings": 0.9464,
+  "sharedRoots": 13,
+  "strongestSharedRoots": [
+   {
+    "root": "فرق",
+    "weight": 4.5484,
+    "inClose": "فَرَّقُ",
+    "inOpening": "فُرْقان"
+   },
+   {
+    "root": "نزل",
+    "weight": 3.189,
+    "inClose": "أَنزَلَ",
+    "inOpening": "نَزَّلَ"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كِتاب",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "رحم",
+    "weight": 2.9919,
+    "inClose": "رَحِمَ",
+    "inOpening": "أَرْحام"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   }
+  ],
+  "rank": 13
+ },
+ {
+  "seam": "3-4",
+  "closeVerses": "3:198-200",
+  "openingVerses": "4:1-3",
+  "similarity": 0.0587,
+  "reverse": 0.1027,
+  "percentileAmongAllOpenings": 0.4375,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "وقي",
+    "weight": 3.27,
+    "inClose": "اتَّقَى",
+    "inOpening": "اتَّقَى"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "أَيّ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 71
+ },
+ {
+  "seam": "4-5",
+  "closeVerses": "4:175-176",
+  "openingVerses": "5:1-2",
+  "similarity": 0.0492,
+  "reverse": 0.0769,
+  "percentileAmongAllOpenings": 0.5,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "فضل",
+    "weight": 4.2163,
+    "inClose": "فَضْل",
+    "inOpening": "فَضْل"
+   },
+   {
+    "root": "هدي",
+    "weight": 3.1471,
+    "inClose": "هَدَى",
+    "inOpening": "هَدْي"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "مُسْتَقِيم",
+    "inOpening": "قَوْم"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 77
+ },
+ {
+  "seam": "5-6",
+  "closeVerses": "5:117-120",
+  "openingVerses": "6:1-5",
+  "similarity": 0.0837,
+  "reverse": 0.0692,
+  "percentileAmongAllOpenings": 0.5446,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 47
+ },
+ {
+  "seam": "6-7",
+  "closeVerses": "6:162-165",
+  "openingVerses": "7:1-8",
+  "similarity": 0.0327,
+  "reverse": 0.1341,
+  "percentileAmongAllOpenings": 0.1607,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عالَم",
+    "inOpening": "عِلْم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 88
+ },
+ {
+  "seam": "7-8",
+  "closeVerses": "7:202-206",
+  "openingVerses": "8:1-5",
+  "similarity": 0.0987,
+  "reverse": 0.0786,
+  "percentileAmongAllOpenings": 0.7054,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "عند",
+    "weight": 3.4963,
+    "inClose": "عِند",
+    "inOpening": "عِند"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذَكَرَ",
+    "inOpening": "ذَكَرَ"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "آيَة"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "قَوْم",
+    "inOpening": "أَقامَ"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 38
+ },
+ {
+  "seam": "8-9",
+  "closeVerses": "8:72-75",
+  "openingVerses": "9:1-4",
+  "similarity": 0.0886,
+  "reverse": 0.1469,
+  "percentileAmongAllOpenings": 0.6429,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "كبر",
+    "weight": 3.7077,
+    "inClose": "كَبِير",
+    "inOpening": "أَكْبَر"
+   },
+   {
+    "root": "ولي",
+    "weight": 3.4298,
+    "inClose": "وَلِيّ",
+    "inOpening": "تَوَلَّى"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شَىْء",
+    "inOpening": "شَىْء"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كافِر"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِيم",
+    "inOpening": "عَلِمَ"
+   }
+  ],
+  "rank": 42
+ },
+ {
+  "seam": "9-10",
+  "closeVerses": "9:125-129",
+  "openingVerses": "10:1-4",
+  "similarity": 0.0835,
+  "reverse": 0.0941,
+  "percentileAmongAllOpenings": 0.6964,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "عرش",
+    "weight": 5.2724,
+    "inClose": "عَرْش",
+    "inOpening": "عَرْش"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "تَذَكَّرَ",
+    "inOpening": "تَذَكَّرَ"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كافِر",
+    "inOpening": "كافِر"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "مُؤْمِن",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 49
+ },
+ {
+  "seam": "10-11",
+  "closeVerses": "10:105-109",
+  "openingVerses": "11:1-5",
+  "similarity": 0.1458,
+  "reverse": 0.2541,
+  "percentileAmongAllOpenings": 0.8661,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "فضل",
+    "weight": 4.2163,
+    "inClose": "فَضْل",
+    "inOpening": "فَضْل"
+   },
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حَكَمَ",
+    "inOpening": "أُحْكِمَتْ"
+   },
+   {
+    "root": "غفر",
+    "weight": 3.4298,
+    "inClose": "غَفُور",
+    "inOpening": "اسْتَغْفَرَ"
+   },
+   {
+    "root": "عبد",
+    "weight": 3.2126,
+    "inClose": "عَبْد",
+    "inOpening": "عَبَدَ"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شاءَ",
+    "inOpening": "شَىْء"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "آيَة"
+   }
+  ],
+  "rank": 16
+ },
+ {
+  "seam": "11-12",
+  "closeVerses": "11:119-123",
+  "openingVerses": "12:1-6",
+  "similarity": 0.2185,
+  "reverse": 0.0643,
+  "percentileAmongAllOpenings": 0.9911,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "تمم",
+    "weight": 5.7424,
+    "inClose": "تَمَّ",
+    "inOpening": "أَتَمَّ"
+   },
+   {
+    "root": "قصص",
+    "weight": 5.5192,
+    "inClose": "قَصَّ",
+    "inOpening": "قَصَّ"
+   },
+   {
+    "root": "غفل",
+    "weight": 5.1827,
+    "inClose": "غافِل",
+    "inOpening": "غافِل"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "ناس",
+    "inOpening": "إِنسان"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "مَكانَت",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 3
+ },
+ {
+  "seam": "12-13",
+  "closeVerses": "12:109-111",
+  "openingVerses": "13:1-3",
+  "similarity": 0.0736,
+  "reverse": 0.1342,
+  "percentileAmongAllOpenings": 0.5179,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "فصل",
+    "weight": 5.0004,
+    "inClose": "تَفْصِيل",
+    "inOpening": "فَصَّلَ"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "قَوْم",
+    "inOpening": "قَوْم"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "آمَنَ"
+   }
+  ],
+  "rank": 59
+ },
+ {
+  "seam": "13-14",
+  "closeVerses": "13:40-43",
+  "openingVerses": "14:1-4",
+  "similarity": 0.1262,
+  "reverse": 0.1244,
+  "percentileAmongAllOpenings": 0.8304,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حَكَمَ",
+    "inOpening": "حَكِيم"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كِتاب",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "رسل",
+    "weight": 2.6766,
+    "inClose": "مُرْسَل",
+    "inOpening": "أَرْسَلَ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "بين",
+    "weight": 2.62,
+    "inClose": "بَيْن",
+    "inOpening": "بَيَّنُ"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كافِر",
+    "inOpening": "كافِر"
+   }
+  ],
+  "rank": 23
+ },
+ {
+  "seam": "14-15",
+  "closeVerses": "14:47-52",
+  "openingVerses": "15:1-10",
+  "similarity": 0.0401,
+  "reverse": 0.0938,
+  "percentileAmongAllOpenings": 0.2768,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "تَذَكَّرَ",
+    "inOpening": "ذِكْر"
+   },
+   {
+    "root": "رسل",
+    "weight": 2.6766,
+    "inClose": "رَسُول",
+    "inOpening": "أَرْسَلَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   }
+  ],
+  "rank": 83
+ },
+ {
+  "seam": "15-16",
+  "closeVerses": "15:88-99",
+  "openingVerses": "16:1-7",
+  "similarity": 0.143,
+  "reverse": 0.0405,
+  "percentileAmongAllOpenings": 0.8393,
+  "sharedRoots": 11,
+  "strongestSharedRoots": [
+   {
+    "root": "سبح",
+    "weight": 4.2722,
+    "inClose": "سَبَّحَ",
+    "inOpening": "سُبْحان"
+   },
+   {
+    "root": "نذر",
+    "weight": 3.9932,
+    "inClose": "نَذِير",
+    "inOpening": "أَنذَرَ"
+   },
+   {
+    "root": "شرك",
+    "weight": 3.7752,
+    "inClose": "مُشْرِك",
+    "inOpening": "أَشْرَكَ"
+   },
+   {
+    "root": "أمر",
+    "weight": 3.3176,
+    "inClose": "أَمَرَ",
+    "inOpening": "أَمْر"
+   },
+   {
+    "root": "عبد",
+    "weight": 3.2126,
+    "inClose": "عَبَدَ",
+    "inOpening": "عَبْد"
+   },
+   {
+    "root": "نزل",
+    "weight": 3.189,
+    "inClose": "أَنزَلَ",
+    "inOpening": "نَزَّلَ"
+   }
+  ],
+  "rank": 18
+ },
+ {
+  "seam": "16-17",
+  "closeVerses": "16:124-128",
+  "openingVerses": "17:1-5",
+  "similarity": 0.0321,
+  "reverse": 0.1157,
+  "percentileAmongAllOpenings": 0.2143,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "هدي",
+    "weight": 3.1471,
+    "inClose": "مُهْتَدي",
+    "inOpening": "هُدًى"
+   },
+   {
+    "root": "جعل",
+    "weight": 2.9983,
+    "inClose": "جَعَلَ",
+    "inOpening": "جَعَلَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 90
+ },
+ {
+  "seam": "17-18",
+  "closeVerses": "17:108-111",
+  "openingVerses": "18:1-7",
+  "similarity": 0.1455,
+  "reverse": 0.0834,
+  "percentileAmongAllOpenings": 0.9018,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "حمد",
+    "weight": 4.5484,
+    "inClose": "حَمْد",
+    "inOpening": "حَمْد"
+   },
+   {
+    "root": "ولد",
+    "weight": 4.3561,
+    "inClose": "وَلَد",
+    "inOpening": "وَلَد"
+   },
+   {
+    "root": "كبر",
+    "weight": 3.7077,
+    "inClose": "كَبِّرْ",
+    "inOpening": "كَبُرَ"
+   },
+   {
+    "root": "حسن",
+    "weight": 3.5619,
+    "inClose": "حُسْنَى",
+    "inOpening": "حَسَن"
+   },
+   {
+    "root": "أخذ",
+    "weight": 3.2409,
+    "inClose": "اتَّخَذَ",
+    "inOpening": "اتَّخَذَ"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "أَيّ"
+   }
+  ],
+  "rank": 17
+ },
+ {
+  "seam": "18-19",
+  "closeVerses": "18:107-110",
+  "openingVerses": "19:1-7",
+  "similarity": 0.0899,
+  "reverse": 0.1909,
+  "percentileAmongAllOpenings": 0.7321,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "بشر",
+    "weight": 3.959,
+    "inClose": "بَشَر",
+    "inOpening": "بُشِّرَ"
+   },
+   {
+    "root": "عبد",
+    "weight": 3.2126,
+    "inClose": "عِبادَت",
+    "inOpening": "عَبْد"
+   },
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 41
+ },
+ {
+  "seam": "19-20",
+  "closeVerses": "19:91-98",
+  "openingVerses": "20:1-10",
+  "similarity": 0.0836,
+  "reverse": 0.0782,
+  "percentileAmongAllOpenings": 0.6429,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "رحم",
+    "weight": 2.9919,
+    "inClose": "رَحْمٰن",
+    "inOpening": "رَحْمٰن"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "أتي",
+    "weight": 2.5519,
+    "inClose": "آتِي",
+    "inOpening": "أَتَى"
+   }
+  ],
+  "rank": 48
+ },
+ {
+  "seam": "20-21",
+  "closeVerses": "20:131-135",
+  "openingVerses": "21:1-6",
+  "similarity": 0.1583,
+  "reverse": 0.1544,
+  "percentileAmongAllOpenings": 0.9464,
+  "sharedRoots": 9,
+  "strongestSharedRoots": [
+   {
+    "root": "هلك",
+    "weight": 4.595,
+    "inClose": "أَهْلَكَ",
+    "inOpening": "أَهْلَكَ"
+   },
+   {
+    "root": "أول",
+    "weight": 3.959,
+    "inClose": "أَوَّل",
+    "inOpening": "أَوَّل"
+   },
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "رسل",
+    "weight": 2.6766,
+    "inClose": "أَرْسَلَ",
+    "inOpening": "أَرْسَلَ"
+   },
+   {
+    "root": "أتي",
+    "weight": 2.5519,
+    "inClose": "أَتَى",
+    "inOpening": "أَتَى"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "آيَة"
+   }
+  ],
+  "rank": 14
+ },
+ {
+  "seam": "21-22",
+  "closeVerses": "21:105-112",
+  "openingVerses": "22:1-4",
+  "similarity": 0.0511,
+  "reverse": 0.106,
+  "percentileAmongAllOpenings": 0.2589,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "ولي",
+    "weight": 3.4298,
+    "inClose": "تَوَلَّى",
+    "inOpening": "تَوَلَّى"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كَتَبَ",
+    "inOpening": "كَتَبَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عالَم",
+    "inOpening": "عِلْم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "إِلٰه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 74
+ },
+ {
+  "seam": "22-23",
+  "closeVerses": "22:76-78",
+  "openingVerses": "23:1-14",
+  "similarity": 0.1162,
+  "reverse": 0.0398,
+  "percentileAmongAllOpenings": 0.7054,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "فلح",
+    "weight": 5.0492,
+    "inClose": "أَفْلَحَ",
+    "inOpening": "أَفْلَحَ"
+   },
+   {
+    "root": "زكو",
+    "weight": 4.7127,
+    "inClose": "زَكاة",
+    "inOpening": "زَكاة"
+   },
+   {
+    "root": "صلو",
+    "weight": 4.2383,
+    "inClose": "صَلاة",
+    "inOpening": "صَلاة"
+   },
+   {
+    "root": "فعل",
+    "weight": 4.1131,
+    "inClose": "فَعَلَ",
+    "inOpening": "فاعِل"
+   },
+   {
+    "root": "جعل",
+    "weight": 2.9983,
+    "inClose": "جَعَلَ",
+    "inOpening": "جَعَلَ"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "ناس",
+    "inOpening": "إِنسان"
+   }
+  ],
+  "rank": 29
+ },
+ {
+  "seam": "23-24",
+  "closeVerses": "23:113-118",
+  "openingVerses": "24:1-4",
+  "similarity": 0.0327,
+  "reverse": 0.077,
+  "percentileAmongAllOpenings": 0.1161,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "أخر",
+    "weight": 3.2492,
+    "inClose": "آخَر",
+    "inOpening": "آخِر"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 89
+ },
+ {
+  "seam": "24-25",
+  "closeVerses": "24:62-64",
+  "openingVerses": "25:1-4",
+  "similarity": 0.0793,
+  "reverse": 0.0446,
+  "percentileAmongAllOpenings": 0.5625,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شاءَ",
+    "inOpening": "شَىْء"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عالَم"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 55
+ },
+ {
+  "seam": "25-26",
+  "closeVerses": "25:71-77",
+  "openingVerses": "26:1-10",
+  "similarity": 0.1278,
+  "reverse": 0.1358,
+  "percentileAmongAllOpenings": 0.9643,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "كرم",
+    "weight": 4.9095,
+    "inClose": "كَرِيم",
+    "inOpening": "كَرِيم"
+   },
+   {
+    "root": "زوج",
+    "weight": 4.4614,
+    "inClose": "زَوْج",
+    "inOpening": "زَوْج"
+   },
+   {
+    "root": "كذب",
+    "weight": 3.189,
+    "inClose": "كَذَّبَ",
+    "inOpening": "كَذَّبَ"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذُكِّرَ",
+    "inOpening": "ذِكْر"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "آيَة"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "مُقام",
+    "inOpening": "قَوْم"
+   }
+  ],
+  "rank": 22
+ },
+ {
+  "seam": "26-27",
+  "closeVerses": "26:218-227",
+  "openingVerses": "27:1-8",
+  "similarity": 0.0802,
+  "reverse": 0.119,
+  "percentileAmongAllOpenings": 0.5179,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "لقي",
+    "weight": 3.8328,
+    "inClose": "أَلْقَى",
+    "inOpening": "لَقَّى"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمِلَ",
+    "inOpening": "عَمَل"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "آيَة"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "قامَ",
+    "inOpening": "أَقامَ"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِيم",
+    "inOpening": "عَلِيم"
+   }
+  ],
+  "rank": 54
+ },
+ {
+  "seam": "27-28",
+  "closeVerses": "27:89-93",
+  "openingVerses": "28:1-7",
+  "similarity": 0.0664,
+  "reverse": 0.2333,
+  "percentileAmongAllOpenings": 0.3482,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "تلو",
+    "weight": 4.6272,
+    "inClose": "تَلَى",
+    "inOpening": "تَلَى"
+   },
+   {
+    "root": "رأي",
+    "weight": 3.0444,
+    "inClose": "أَرَيْ",
+    "inOpening": "أَرَيْ"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "آيَة"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمِن",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 63
+ },
+ {
+  "seam": "28-29",
+  "closeVerses": "28:85-88",
+  "openingVerses": "29:1-7",
+  "similarity": 0.1779,
+  "reverse": 0.0637,
+  "percentileAmongAllOpenings": 0.8482,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "رجو",
+    "weight": 5.4423,
+    "inClose": "يَرْجُوا۟",
+    "inOpening": "يَرْجُوا۟"
+   },
+   {
+    "root": "لقي",
+    "weight": 3.8328,
+    "inClose": "أَلْقَى",
+    "inOpening": "لِقاء"
+   },
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حُكْم",
+    "inOpening": "حَكَمَ"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كافِر",
+    "inOpening": "كَفَّرَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "أَعْلَم",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 8
+ },
+ {
+  "seam": "29-30",
+  "closeVerses": "29:65-69",
+  "openingVerses": "30:1-8",
+  "similarity": 0.088,
+  "reverse": 0.1003,
+  "percentileAmongAllOpenings": 0.6071,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "ناس",
+    "inOpening": "ناس"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كافِر"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمِن",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 43
+ },
+ {
+  "seam": "30-31",
+  "closeVerses": "30:55-60",
+  "openingVerses": "31:1-8",
+  "similarity": 0.1387,
+  "reverse": 0.2158,
+  "percentileAmongAllOpenings": 0.875,
+  "sharedRoots": 10,
+  "strongestSharedRoots": [
+   {
+    "root": "يقن",
+    "weight": 5.4059,
+    "inClose": "يُوقِنُ",
+    "inOpening": "يُوقِنُ"
+   },
+   {
+    "root": "غير",
+    "weight": 3.7545,
+    "inClose": "غَيْر",
+    "inOpening": "غَيْر"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كِتاب",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "ناس",
+    "inOpening": "ناس"
+   },
+   {
+    "root": "أتي",
+    "weight": 2.5519,
+    "inClose": "آتَى",
+    "inOpening": "آتَى"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "آيَة"
+   }
+  ],
+  "rank": 19
+ },
+ {
+  "seam": "31-32",
+  "closeVerses": "31:33-34",
+  "openingVerses": "32:1-6",
+  "similarity": 0.1086,
+  "reverse": 0.1011,
+  "percentileAmongAllOpenings": 0.7679,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "نزل",
+    "weight": 3.189,
+    "inClose": "نَزَّلَ",
+    "inOpening": "تَنزِيل"
+   },
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   },
+   {
+    "root": "رحم",
+    "weight": 2.9919,
+    "inClose": "أَرْحام",
+    "inOpening": "رَحِيم"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عِلْم",
+    "inOpening": "عالَم"
+   }
+  ],
+  "rank": 32
+ },
+ {
+  "seam": "32-33",
+  "closeVerses": "32:25-30",
+  "openingVerses": "33:1-4",
+  "similarity": 0.0629,
+  "reverse": 0.0676,
+  "percentileAmongAllOpenings": 0.4643,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "هدي",
+    "weight": 3.1471,
+    "inClose": "هَدَى",
+    "inOpening": "هَدَى"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كافِر"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "أَيّ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قَوْل"
+   }
+  ],
+  "rank": 68
+ },
+ {
+  "seam": "33-34",
+  "closeVerses": "33:70-73",
+  "openingVerses": "34:1-4",
+  "similarity": 0.1655,
+  "reverse": 0.1014,
+  "percentileAmongAllOpenings": 0.9286,
+  "sharedRoots": 9,
+  "strongestSharedRoots": [
+   {
+    "root": "صلح",
+    "weight": 3.6023,
+    "inClose": "أَصْلَحَ",
+    "inOpening": "صالِحَة"
+   },
+   {
+    "root": "غفر",
+    "weight": 3.4298,
+    "inClose": "غَفَرَ",
+    "inOpening": "غَفُور"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمَل",
+    "inOpening": "عَمِلَ"
+   },
+   {
+    "root": "رحم",
+    "weight": 2.9919,
+    "inClose": "رَحِيم",
+    "inOpening": "رَحِيم"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   }
+  ],
+  "rank": 11
+ },
+ {
+  "seam": "34-35",
+  "closeVerses": "34:49-54",
+  "openingVerses": "35:1-3",
+  "similarity": 0.025,
+  "reverse": 0.1111,
+  "percentileAmongAllOpenings": 0.2679,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "بعد",
+    "weight": 3.3309,
+    "inClose": "بَعِيد",
+    "inOpening": "بَعْد"
+   }
+  ],
+  "rank": 93
+ },
+ {
+  "seam": "35-36",
+  "closeVerses": "35:43-45",
+  "openingVerses": "36:1-11",
+  "similarity": 0.0153,
+  "reverse": 0.2104,
+  "percentileAmongAllOpenings": 0.0536,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "بصر",
+    "weight": 3.8036,
+    "inClose": "بَصِير",
+    "inOpening": "أَبْصَرَ"
+   }
+  ],
+  "rank": 101
+ },
+ {
+  "seam": "36-37",
+  "closeVerses": "36:78-83",
+  "openingVerses": "37:1-11",
+  "similarity": 0.1037,
+  "reverse": 0.1491,
+  "percentileAmongAllOpenings": 0.7054,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلْق",
+    "inOpening": "خَلْق"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   }
+  ],
+  "rank": 34
+ },
+ {
+  "seam": "37-38",
+  "closeVerses": "37:168-182",
+  "openingVerses": "38:1-8",
+  "similarity": 0.164,
+  "reverse": 0.1358,
+  "percentileAmongAllOpenings": 0.9107,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "حين",
+    "weight": 5.2416,
+    "inClose": "حِين",
+    "inOpening": "حِين"
+   },
+   {
+    "root": "نذر",
+    "weight": 3.9932,
+    "inClose": "مُنذَر",
+    "inOpening": "مُنذِر"
+   },
+   {
+    "root": "عزز",
+    "weight": 3.9759,
+    "inClose": "عِزَّة",
+    "inOpening": "عِزَّة"
+   },
+   {
+    "root": "نزل",
+    "weight": 3.189,
+    "inClose": "نَزَلَ",
+    "inOpening": "أَنزَلَ"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذِكْر",
+    "inOpening": "ذِكْر"
+   },
+   {
+    "root": "عذب",
+    "weight": 2.921,
+    "inClose": "عَذاب",
+    "inOpening": "عَذاب"
+   }
+  ],
+  "rank": 12
+ },
+ {
+  "seam": "38-39",
+  "closeVerses": "38:76-88",
+  "openingVerses": "39:1-4",
+  "similarity": 0.2182,
+  "reverse": 0.0444,
+  "percentileAmongAllOpenings": 1,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "خلص",
+    "weight": 5.3369,
+    "inClose": "مُخْلَص",
+    "inOpening": "مُخْلِص"
+   },
+   {
+    "root": "دين",
+    "weight": 4.2722,
+    "inClose": "دِين",
+    "inOpening": "دِين"
+   },
+   {
+    "root": "عزز",
+    "weight": 3.9759,
+    "inClose": "عِزَّة",
+    "inOpening": "عَزِيز"
+   },
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   },
+   {
+    "root": "عبد",
+    "weight": 3.2126,
+    "inClose": "عَبْد",
+    "inOpening": "عَبَدَ"
+   },
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   }
+  ],
+  "rank": 5
+ },
+ {
+  "seam": "39-40",
+  "closeVerses": "39:73-75",
+  "openingVerses": "40:1-6",
+  "similarity": 0.0409,
+  "reverse": 0.0977,
+  "percentileAmongAllOpenings": 0.3304,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عالَم",
+    "inOpening": "عَلِيم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 81
+ },
+ {
+  "seam": "40-41",
+  "closeVerses": "40:82-85",
+  "openingVerses": "41:1-7",
+  "similarity": 0.1295,
+  "reverse": 0.1041,
+  "percentileAmongAllOpenings": 0.875,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "وحد",
+    "weight": 4.5334,
+    "inClose": "وَحْد",
+    "inOpening": "واحِد"
+   },
+   {
+    "root": "شرك",
+    "weight": 3.7752,
+    "inClose": "مُشْرِك",
+    "inOpening": "مُشْرِك"
+   },
+   {
+    "root": "كثر",
+    "weight": 3.6505,
+    "inClose": "أَكْثَر",
+    "inOpening": "أَكْثَر"
+   },
+   {
+    "root": "بين",
+    "weight": 2.62,
+    "inClose": "بَيِّنَة",
+    "inOpening": "بَيْن"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كافِر"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عِلْم",
+    "inOpening": "عَلِمَ"
+   }
+  ],
+  "rank": 21
+ },
+ {
+  "seam": "41-42",
+  "closeVerses": "41:50-54",
+  "openingVerses": "42:1-7",
+  "similarity": 0.0239,
+  "reverse": 0.2398,
+  "percentileAmongAllOpenings": 0.1161,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "رحم",
+    "weight": 2.9919,
+    "inClose": "رَحْمَة",
+    "inOpening": "رَحِيم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 94
+ },
+ {
+  "seam": "42-43",
+  "closeVerses": "42:50-53",
+  "openingVerses": "43:1-10",
+  "similarity": 0.2088,
+  "reverse": 0.1566,
+  "percentileAmongAllOpenings": 0.9464,
+  "sharedRoots": 12,
+  "strongestSharedRoots": [
+   {
+    "root": "علو",
+    "weight": 4.5186,
+    "inClose": "عَلِيّ",
+    "inOpening": "عَلِيّ"
+   },
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حَكِيم",
+    "inOpening": "حَكِيم"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذَكَر",
+    "inOpening": "ذِكْر"
+   },
+   {
+    "root": "هدي",
+    "weight": 3.1471,
+    "inClose": "هَدَى",
+    "inOpening": "اهْتَدَى"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كِتاب",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "جعل",
+    "weight": 2.9983,
+    "inClose": "جَعَلَ",
+    "inOpening": "جَعَلَ"
+   }
+  ],
+  "rank": 6
+ },
+ {
+  "seam": "43-44",
+  "closeVerses": "43:83-89",
+  "openingVerses": "44:1-10",
+  "similarity": 0.2877,
+  "reverse": 0.0764,
+  "percentileAmongAllOpenings": 0.9821,
+  "sharedRoots": 11,
+  "strongestSharedRoots": [
+   {
+    "root": "لعب",
+    "weight": 5.7424,
+    "inClose": "يَلْعَبْ",
+    "inOpening": "يَلْعَبْ"
+   },
+   {
+    "root": "برك",
+    "weight": 5.2724,
+    "inClose": "تَبارَكَ",
+    "inOpening": "مُبارَكَة"
+   },
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حَكِيم",
+    "inOpening": "حَكِيم"
+   },
+   {
+    "root": "عند",
+    "weight": 3.4963,
+    "inClose": "عِند",
+    "inOpening": "عِند"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 1
+ },
+ {
+  "seam": "44-45",
+  "closeVerses": "44:48-59",
+  "openingVerses": "45:1-6",
+  "similarity": 0.0851,
+  "reverse": 0.1931,
+  "percentileAmongAllOpenings": 0.7321,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "عزز",
+    "weight": 3.9759,
+    "inClose": "عَزِيز",
+    "inOpening": "عَزِيز"
+   },
+   {
+    "root": "موت",
+    "weight": 3.7752,
+    "inClose": "مَوْت",
+    "inOpening": "مَوْت"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "مَقام",
+    "inOpening": "قَوْم"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "أَمِين",
+    "inOpening": "مُؤْمِن"
+   }
+  ],
+  "rank": 46
+ },
+ {
+  "seam": "45-46",
+  "closeVerses": "45:32-37",
+  "openingVerses": "46:1-5",
+  "similarity": 0.1752,
+  "reverse": 0.184,
+  "percentileAmongAllOpenings": 0.9107,
+  "sharedRoots": 10,
+  "strongestSharedRoots": [
+   {
+    "root": "عزز",
+    "weight": 3.9759,
+    "inClose": "عَزِيز",
+    "inOpening": "عَزِيز"
+   },
+   {
+    "root": "حكم",
+    "weight": 3.4963,
+    "inClose": "حَكِيم",
+    "inOpening": "حَكِيم"
+   },
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   }
+  ],
+  "rank": 9
+ },
+ {
+  "seam": "46-47",
+  "closeVerses": "46:33-35",
+  "openingVerses": "47:1-4",
+  "similarity": 0.0739,
+  "reverse": 0.1007,
+  "percentileAmongAllOpenings": 0.4732,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "حقق",
+    "weight": 3.1659,
+    "inClose": "حَقّ",
+    "inOpening": "حَقّ"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شَىْء",
+    "inOpening": "شاءَ"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كَفَرَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 58
+ },
+ {
+  "seam": "47-48",
+  "closeVerses": "47:34-38",
+  "openingVerses": "48:1-5",
+  "similarity": 0.066,
+  "reverse": 0.1587,
+  "percentileAmongAllOpenings": 0.6429,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "غفر",
+    "weight": 3.4298,
+    "inClose": "غَفَرَ",
+    "inOpening": "غَفَرَ"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كَفَّرَ"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "قَوْم",
+    "inOpening": "مُسْتَقِيم"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 64
+ },
+ {
+  "seam": "48-49",
+  "closeVerses": "48:28-29",
+  "openingVerses": "49:1-4",
+  "similarity": 0.101,
+  "reverse": 0.1506,
+  "percentileAmongAllOpenings": 0.7589,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "أجر",
+    "weight": 4.143,
+    "inClose": "أَجْر",
+    "inOpening": "أَجْر"
+   },
+   {
+    "root": "عظم",
+    "weight": 3.8939,
+    "inClose": "عَظِيم",
+    "inOpening": "عَظِيم"
+   },
+   {
+    "root": "غفر",
+    "weight": 3.4298,
+    "inClose": "مَغْفِرَة",
+    "inOpening": "مَغْفِرَة"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمِلَ",
+    "inOpening": "عَمَل"
+   },
+   {
+    "root": "رسل",
+    "weight": 2.6766,
+    "inClose": "أَرْسَلَ",
+    "inOpening": "رَسُول"
+   },
+   {
+    "root": "بين",
+    "weight": 2.62,
+    "inClose": "بَيْن",
+    "inOpening": "بَيْن"
+   }
+  ],
+  "rank": 36
+ },
+ {
+  "seam": "49-50",
+  "closeVerses": "49:15-18",
+  "openingVerses": "50:1-7",
+  "similarity": 0.099,
+  "reverse": 0.0778,
+  "percentileAmongAllOpenings": 0.6161,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شَىْء",
+    "inOpening": "شَىْء"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلَّمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 37
+ },
+ {
+  "seam": "50-51",
+  "closeVerses": "50:39-45",
+  "openingVerses": "51:1-16",
+  "similarity": 0.1054,
+  "reverse": 0.0335,
+  "percentileAmongAllOpenings": 0.7946,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "يسر",
+    "weight": 5.0492,
+    "inClose": "يَسِير",
+    "inOpening": "يُسْر"
+   },
+   {
+    "root": "وعد",
+    "weight": 3.8706,
+    "inClose": "وَعِيد",
+    "inOpening": "وَعَدَ"
+   },
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "مَكان",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 33
+ },
+ {
+  "seam": "51-52",
+  "closeVerses": "51:51-60",
+  "openingVerses": "52:1-16",
+  "similarity": 0.0388,
+  "reverse": 0.064,
+  "percentileAmongAllOpenings": 0.1518,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "سحر",
+    "weight": 4.6606,
+    "inClose": "ساحِر",
+    "inOpening": "سِحْر"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 85
+ },
+ {
+  "seam": "52-53",
+  "closeVerses": "52:43-49",
+  "openingVerses": "53:1-16",
+  "similarity": 0.0654,
+  "reverse": 0.0091,
+  "percentileAmongAllOpenings": 0.4911,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "نجم",
+    "weight": 6.1731,
+    "inClose": "نَجْم",
+    "inOpening": "نَجْم"
+   },
+   {
+    "root": "رأي",
+    "weight": 3.0444,
+    "inClose": "رَأَى",
+    "inOpening": "رَأَى"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلَّمَ"
+   }
+  ],
+  "rank": 65
+ },
+ {
+  "seam": "53-54",
+  "closeVerses": "53:47-62",
+  "openingVerses": "54:1-8",
+  "similarity": 0.0806,
+  "reverse": 0.0693,
+  "percentileAmongAllOpenings": 0.7411,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "هوي",
+    "weight": 5.1272,
+    "inClose": "هَوَى",
+    "inOpening": "أَهْواء"
+   },
+   {
+    "root": "غني",
+    "weight": 4.4614,
+    "inClose": "أَغْنَى",
+    "inOpening": "أَغْنَتْ"
+   },
+   {
+    "root": "نذر",
+    "weight": 3.9932,
+    "inClose": "نَذِير",
+    "inOpening": "نَذِير"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "آيَة"
+   }
+  ],
+  "rank": 51
+ },
+ {
+  "seam": "54-55",
+  "closeVerses": "54:46-55",
+  "openingVerses": "55:1-14",
+  "similarity": 0.018,
+  "reverse": 0.0423,
+  "percentileAmongAllOpenings": 0.1786,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   }
+  ],
+  "rank": 99
+ },
+ {
+  "seam": "55-56",
+  "closeVerses": "55:68-78",
+  "openingVerses": "56:1-16",
+  "similarity": 0.0687,
+  "reverse": 0.0734,
+  "percentileAmongAllOpenings": 0.7946,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "وكأ",
+    "weight": 6.3402,
+    "inClose": "مُتَّكِئ",
+    "inOpening": "مُتَّكِئ"
+   },
+   {
+    "root": "جنن",
+    "weight": 3.46,
+    "inClose": "جانّ",
+    "inOpening": "جَنَّة"
+   },
+   {
+    "root": "كذب",
+    "weight": 3.189,
+    "inClose": "كَذَّبَ",
+    "inOpening": "كاذِب"
+   },
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "مُتَقابِل"
+   }
+  ],
+  "rank": 62
+ },
+ {
+  "seam": "56-57",
+  "closeVerses": "56:82-96",
+  "openingVerses": "57:1-5",
+  "similarity": 0.1318,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.9107,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "سبح",
+    "weight": 4.2722,
+    "inClose": "سَبَّحَ",
+    "inOpening": "سَبَّحَ"
+   },
+   {
+    "root": "رجع",
+    "weight": 4.1034,
+    "inClose": "رَجَعَ",
+    "inOpening": "رَجَعَ"
+   },
+   {
+    "root": "بصر",
+    "weight": 3.8036,
+    "inClose": "أَبْصَرَ",
+    "inOpening": "بَصِير"
+   },
+   {
+    "root": "نزل",
+    "weight": 3.189,
+    "inClose": "نُزُل",
+    "inOpening": "نَزَلَ"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "اسْم",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 20
+ },
+ {
+  "seam": "57-58",
+  "closeVerses": "57:27-29",
+  "openingVerses": "58:1-4",
+  "similarity": 0.0637,
+  "reverse": 0.069,
+  "percentileAmongAllOpenings": 0.4554,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "تبع",
+    "weight": 3.6882,
+    "inClose": "اتَّبَعَ",
+    "inOpening": "مُتَتابِعَيْن"
+   },
+   {
+    "root": "غفر",
+    "weight": 3.4298,
+    "inClose": "غَفَرَ",
+    "inOpening": "غَفُور"
+   },
+   {
+    "root": "رسل",
+    "weight": 2.6766,
+    "inClose": "رَسُول",
+    "inOpening": "رَسُول"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 66
+ },
+ {
+  "seam": "58-59",
+  "closeVerses": "58:21-22",
+  "openingVerses": "59:1-3",
+  "similarity": 0.111,
+  "reverse": 0.0205,
+  "percentileAmongAllOpenings": 0.8393,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "عزز",
+    "weight": 3.9759,
+    "inClose": "عَزِيز",
+    "inOpening": "عَزِيز"
+   },
+   {
+    "root": "قلب",
+    "weight": 3.6947,
+    "inClose": "قَلْب",
+    "inOpening": "قَلْب"
+   },
+   {
+    "root": "أخر",
+    "weight": 3.2492,
+    "inClose": "آخِر",
+    "inOpening": "آخِر"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كَتَبَ",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 31
+ },
+ {
+  "seam": "59-60",
+  "closeVerses": "59:21-24",
+  "openingVerses": "60:1-2",
+  "similarity": 0.0222,
+  "reverse": 0.0852,
+  "percentileAmongAllOpenings": 0.1161,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "مُؤْمِن",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عالِم",
+    "inOpening": "أَعْلَم"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 95
+ },
+ {
+  "seam": "60-61",
+  "closeVerses": "60:11-13",
+  "openingVerses": "61:1-6",
+  "similarity": 0.118,
+  "reverse": 0.1041,
+  "percentileAmongAllOpenings": 0.8661,
+  "sharedRoots": 9,
+  "strongestSharedRoots": [
+   {
+    "root": "يدي",
+    "weight": 4.0376,
+    "inClose": "يَد",
+    "inOpening": "يَد"
+   },
+   {
+    "root": "قتل",
+    "weight": 3.9341,
+    "inClose": "قَتَلَ",
+    "inOpening": "قاتَلَ"
+   },
+   {
+    "root": "جيأ",
+    "weight": 3.1697,
+    "inClose": "جاءَ",
+    "inOpening": "جاءَ"
+   },
+   {
+    "root": "بين",
+    "weight": 2.62,
+    "inClose": "بَيْن",
+    "inOpening": "بَيْن"
+   },
+   {
+    "root": "أتي",
+    "weight": 2.5519,
+    "inClose": "آتَى",
+    "inOpening": "أَتَى"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "أَيّ"
+   }
+  ],
+  "rank": 28
+ },
+ {
+  "seam": "61-62",
+  "closeVerses": "61:12-14",
+  "openingVerses": "62:1-5",
+  "similarity": 0.0606,
+  "reverse": 0.079,
+  "percentileAmongAllOpenings": 0.6071,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "عظم",
+    "weight": 3.8939,
+    "inClose": "عَظِيم",
+    "inOpening": "عَظِيم"
+   },
+   {
+    "root": "أخر",
+    "weight": 3.2492,
+    "inClose": "آخَر",
+    "inOpening": "آخَر"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "آيَة"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 70
+ },
+ {
+  "seam": "62-63",
+  "closeVerses": "62:9-11",
+  "openingVerses": "63:1-4",
+  "similarity": 0.0466,
+  "reverse": 0.155,
+  "percentileAmongAllOpenings": 0.4554,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "رأي",
+    "weight": 3.0444,
+    "inClose": "رَأَى",
+    "inOpening": "رَأَى"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 79
+ },
+ {
+  "seam": "63-64",
+  "closeVerses": "63:8-11",
+  "openingVerses": "64:1-5",
+  "similarity": 0.0806,
+  "reverse": 0.1685,
+  "percentileAmongAllOpenings": 0.5,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قَبْل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمِلَ",
+    "inOpening": "عَمِلَ"
+   },
+   {
+    "root": "أتي",
+    "weight": 2.5519,
+    "inClose": "أَتَى",
+    "inOpening": "أَتَى"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "مُؤْمِن",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 52
+ },
+ {
+  "seam": "64-65",
+  "closeVerses": "64:14-18",
+  "openingVerses": "65:1-2",
+  "similarity": 0.1237,
+  "reverse": 0.279,
+  "percentileAmongAllOpenings": 0.8571,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "عدو",
+    "weight": 4.2163,
+    "inClose": "عَدُوّ",
+    "inOpening": "يَتَعَدَّ"
+   },
+   {
+    "root": "شهد",
+    "weight": 3.9259,
+    "inClose": "شَهادَة",
+    "inOpening": "أَشْهَدَ"
+   },
+   {
+    "root": "وقي",
+    "weight": 3.27,
+    "inClose": "اتَّقَى",
+    "inOpening": "اتَّقَى"
+   },
+   {
+    "root": "نفس",
+    "weight": 3.1397,
+    "inClose": "نَفْس",
+    "inOpening": "نَفْس"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "أَيّ",
+    "inOpening": "أَيّ"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "آمَنَ"
+   }
+  ],
+  "rank": 24
+ },
+ {
+  "seam": "65-66",
+  "closeVerses": "65:11-12",
+  "openingVerses": "66:1-4",
+  "similarity": 0.0863,
+  "reverse": 0.0735,
+  "percentileAmongAllOpenings": 0.4643,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "صلح",
+    "weight": 3.6023,
+    "inClose": "صالِحَة",
+    "inOpening": "صالِح"
+   },
+   {
+    "root": "أيي",
+    "weight": 2.4066,
+    "inClose": "آيَة",
+    "inOpening": "أَيّ"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِيم"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 44
+ },
+ {
+  "seam": "66-67",
+  "closeVerses": "66:10-12",
+  "openingVerses": "67:1-5",
+  "similarity": 0.0184,
+  "reverse": 0.0679,
+  "percentileAmongAllOpenings": 0.1161,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمَل",
+    "inOpening": "عَمَل"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شَىْء",
+    "inOpening": "شَىْء"
+   }
+  ],
+  "rank": 98
+ },
+ {
+  "seam": "67-68",
+  "closeVerses": "67:25-30",
+  "openingVerses": "68:1-14",
+  "similarity": 0.0368,
+  "reverse": 0.0385,
+  "percentileAmongAllOpenings": 0.2411,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "ضلل",
+    "weight": 3.6023,
+    "inClose": "ضَلال",
+    "inOpening": "ضَلَّ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عِلْم",
+    "inOpening": "أَعْلَم"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 86
+ },
+ {
+  "seam": "68-69",
+  "closeVerses": "68:44-52",
+  "openingVerses": "69:1-11",
+  "similarity": 0.0166,
+  "reverse": 0.0921,
+  "percentileAmongAllOpenings": 0.0804,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "كذب",
+    "weight": 3.189,
+    "inClose": "كَذَّبَ",
+    "inOpening": "كَذَّبَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 100
+ },
+ {
+  "seam": "69-70",
+  "closeVerses": "69:37-52",
+  "openingVerses": "70:1-11",
+  "similarity": 0.0444,
+  "reverse": 0.0255,
+  "percentileAmongAllOpenings": 0.2589,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "بصر",
+    "weight": 3.8036,
+    "inClose": "أَبْصَرَ",
+    "inOpening": "يُبَصَّرُ"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "اسْم",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كافِر",
+    "inOpening": "كافِر"
+   }
+  ],
+  "rank": 80
+ },
+ {
+  "seam": "70-71",
+  "closeVerses": "70:36-44",
+  "openingVerses": "71:1-7",
+  "similarity": 0.0331,
+  "reverse": 0.0467,
+  "percentileAmongAllOpenings": 0.3482,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "قبل",
+    "weight": 3.0962,
+    "inClose": "قِبَل",
+    "inOpening": "قَبْل"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلَّما"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 87
+ },
+ {
+  "seam": "71-72",
+  "closeVerses": "71:23-28",
+  "openingVerses": "72:1-6",
+  "similarity": 0.1237,
+  "reverse": 0.0817,
+  "percentileAmongAllOpenings": 0.9107,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "زيد",
+    "weight": 4.6606,
+    "inClose": "زادَ",
+    "inOpening": "زادَ"
+   },
+   {
+    "root": "ولد",
+    "weight": 4.3561,
+    "inClose": "وَلَدَ",
+    "inOpening": "وَلَد"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "مُؤْمِن",
+    "inOpening": "آمَنَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "إِلٰه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 25
+ },
+ {
+  "seam": "72-73",
+  "closeVerses": "72:23-28",
+  "openingVerses": "73:1-10",
+  "similarity": 0.049,
+  "reverse": 0.0662,
+  "percentileAmongAllOpenings": 0.3839,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "قلل",
+    "weight": 4.434,
+    "inClose": "أَقَلّ",
+    "inOpening": "قَلِيل"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قَوْل"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "إِلٰه"
+   }
+  ],
+  "rank": 78
+ },
+ {
+  "seam": "73-74",
+  "closeVerses": "73:20",
+  "openingVerses": "74:1-18",
+  "similarity": 0.0853,
+  "reverse": 0.0288,
+  "percentileAmongAllOpenings": 0.5536,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "يسر",
+    "weight": 5.0492,
+    "inClose": "تَيَسَّرَ",
+    "inOpening": "يَسِير"
+   },
+   {
+    "root": "قدر",
+    "weight": 3.9423,
+    "inClose": "قَدَّرَ",
+    "inOpening": "قَدَّرَ"
+   },
+   {
+    "root": "عند",
+    "weight": 3.4963,
+    "inClose": "عِند",
+    "inOpening": "عَنِيد"
+   },
+   {
+    "root": "قوم",
+    "weight": 2.3462,
+    "inClose": "قامَ",
+    "inOpening": "قامَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 45
+ },
+ {
+  "seam": "74-75",
+  "closeVerses": "74:43-56",
+  "openingVerses": "75:1-13",
+  "similarity": 0.1023,
+  "reverse": 0.0563,
+  "percentileAmongAllOpenings": 0.8571,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "فرر",
+    "weight": 6.4355,
+    "inClose": "فَرَّتْ",
+    "inOpening": "مَفَرّ"
+   },
+   {
+    "root": "رود",
+    "weight": 3.9506,
+    "inClose": "أَرادَ",
+    "inOpening": "أَرادَ"
+   },
+   {
+    "root": "أخر",
+    "weight": 3.2492,
+    "inClose": "آخِر",
+    "inOpening": "أَخَّرَ"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 35
+ },
+ {
+  "seam": "75-76",
+  "closeVerses": "75:27-40",
+  "openingVerses": "76:1-7",
+  "similarity": 0.0978,
+  "reverse": 0.0313,
+  "percentileAmongAllOpenings": 0.8929,
+  "sharedRoots": 7,
+  "strongestSharedRoots": [
+   {
+    "root": "نطف",
+    "weight": 6.2532,
+    "inClose": "نُطْفَة",
+    "inOpening": "نُطْفَة"
+   },
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذَكَر",
+    "inOpening": "مَذْكُور"
+   },
+   {
+    "root": "جعل",
+    "weight": 2.9983,
+    "inClose": "جَعَلَ",
+    "inOpening": "جَعَلَ"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "إِنسان"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 39
+ },
+ {
+  "seam": "76-77",
+  "closeVerses": "76:25-31",
+  "openingVerses": "77:1-19",
+  "similarity": 0.0506,
+  "reverse": 0.1052,
+  "percentileAmongAllOpenings": 0.3214,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "ذَكَرَ",
+    "inOpening": "ذِكْر"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "اسْم",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 75
+ },
+ {
+  "seam": "77-78",
+  "closeVerses": "77:37-50",
+  "openingVerses": "78:1-17",
+  "similarity": 0.0542,
+  "reverse": 0.096,
+  "percentileAmongAllOpenings": 0.5714,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "فصل",
+    "weight": 5.0004,
+    "inClose": "فَصْل",
+    "inOpening": "فَصْل"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 72
+ },
+ {
+  "seam": "78-79",
+  "closeVerses": "78:35-40",
+  "openingVerses": "79:1-17",
+  "similarity": 0.0405,
+  "reverse": 0.0636,
+  "percentileAmongAllOpenings": 0.1875,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 82
+ },
+ {
+  "seam": "79-80",
+  "closeVerses": "79:32-46",
+  "openingVerses": "80:1-21",
+  "similarity": 0.1222,
+  "reverse": 0.0195,
+  "percentileAmongAllOpenings": 0.9554,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "سعي",
+    "weight": 5.4059,
+    "inClose": "سَعَى",
+    "inOpening": "سَعَى"
+   },
+   {
+    "root": "خشي",
+    "weight": 5.0492,
+    "inClose": "خَشِيَ",
+    "inOpening": "خَشِيَ"
+   },
+   {
+    "root": "جيأ",
+    "weight": 3.1697,
+    "inClose": "جاءَ",
+    "inOpening": "جاءَ"
+   },
+   {
+    "root": "ذكر",
+    "weight": 3.1621,
+    "inClose": "تَذَكَّرَ",
+    "inOpening": "تَذَكَّرَ"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "إِنسان"
+   }
+  ],
+  "rank": 27
+ },
+ {
+  "seam": "80-81",
+  "closeVerses": "80:26-42",
+  "openingVerses": "81:1-19",
+  "similarity": 0,
+  "reverse": 0.0919,
+  "percentileAmongAllOpenings": 0.067,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 106
+ },
+ {
+  "seam": "81-82",
+  "closeVerses": "81:14-29",
+  "openingVerses": "82:1-17",
+  "similarity": 0.1161,
+  "reverse": 0.1097,
+  "percentileAmongAllOpenings": 0.9375,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "كرم",
+    "weight": 4.9095,
+    "inClose": "كَرِيم",
+    "inOpening": "كَرِيم"
+   },
+   {
+    "root": "غيب",
+    "weight": 4.6606,
+    "inClose": "غَيْب",
+    "inOpening": "غائِب"
+   },
+   {
+    "root": "نفس",
+    "weight": 3.1397,
+    "inClose": "نَفْس",
+    "inOpening": "نَفْس"
+   },
+   {
+    "root": "شيأ",
+    "weight": 2.6311,
+    "inClose": "شاءَ",
+    "inOpening": "شاءَ"
+   },
+   {
+    "root": "علم",
+    "weight": 2.1478,
+    "inClose": "عَلِمَ",
+    "inOpening": "عَلِمَ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 30
+ },
+ {
+  "seam": "82-83",
+  "closeVerses": "82:6-19",
+  "openingVerses": "83:1-14",
+  "similarity": 0.2745,
+  "reverse": 0.0798,
+  "percentileAmongAllOpenings": 1,
+  "sharedRoots": 10,
+  "strongestSharedRoots": [
+   {
+    "root": "فجر",
+    "weight": 5.6936,
+    "inClose": "فُجّار",
+    "inOpening": "فُجّار"
+   },
+   {
+    "root": "دري",
+    "weight": 5.4059,
+    "inClose": "أَدْرَى",
+    "inOpening": "أَدْرَى"
+   },
+   {
+    "root": "دين",
+    "weight": 4.2722,
+    "inClose": "دِين",
+    "inOpening": "دِين"
+   },
+   {
+    "root": "كذب",
+    "weight": 3.189,
+    "inClose": "كَذَّبَ",
+    "inOpening": "مُكَذِّب"
+   },
+   {
+    "root": "كتب",
+    "weight": 3.1069,
+    "inClose": "كاتِب",
+    "inOpening": "كِتاب"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "ناس"
+   }
+  ],
+  "rank": 2
+ },
+ {
+  "seam": "83-84",
+  "closeVerses": "83:24-36",
+  "openingVerses": "84:1-14",
+  "similarity": 0.05,
+  "reverse": 0.0709,
+  "percentileAmongAllOpenings": 0.6518,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "أهل",
+    "weight": 3.9506,
+    "inClose": "أَهْل",
+    "inOpening": "أَهْل"
+   },
+   {
+    "root": "قلب",
+    "weight": 3.6947,
+    "inClose": "انقَلَبَ",
+    "inOpening": "انقَلَبَ"
+   },
+   {
+    "root": "كون",
+    "weight": 1.6682,
+    "inClose": "كانَ",
+    "inOpening": "كانَ"
+   }
+  ],
+  "rank": 76
+ },
+ {
+  "seam": "84-85",
+  "closeVerses": "84:10-25",
+  "openingVerses": "85:1-11",
+  "similarity": 0.063,
+  "reverse": 0.0669,
+  "percentileAmongAllOpenings": 0.5,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "صلح",
+    "weight": 3.6023,
+    "inClose": "صالِحَة",
+    "inOpening": "صالِحَة"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمِلَ",
+    "inOpening": "عَمِلَ"
+   },
+   {
+    "root": "عذب",
+    "weight": 2.921,
+    "inClose": "عَذاب",
+    "inOpening": "عَذاب"
+   },
+   {
+    "root": "أمن",
+    "weight": 2.1547,
+    "inClose": "آمَنَ",
+    "inOpening": "مُؤْمِن"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 67
+ },
+ {
+  "seam": "85-86",
+  "closeVerses": "85:9-22",
+  "openingVerses": "86:1-17",
+  "similarity": 0.0732,
+  "reverse": 0.0458,
+  "percentileAmongAllOpenings": 0.5179,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "حفظ",
+    "weight": 5.0004,
+    "inClose": "مَحْفُوظ",
+    "inOpening": "حافِظ"
+   },
+   {
+    "root": "رود",
+    "weight": 3.9506,
+    "inClose": "أَرادَ",
+    "inOpening": "رُوَيْد"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "سَماء"
+   },
+   {
+    "root": "كلل",
+    "weight": 2.866,
+    "inClose": "كُلّ",
+    "inOpening": "كُلّ"
+   },
+   {
+    "root": "أرض",
+    "weight": 2.6513,
+    "inClose": "أَرْض",
+    "inOpening": "أَرْض"
+   },
+   {
+    "root": "كفر",
+    "weight": 2.5961,
+    "inClose": "كَفَرَ",
+    "inOpening": "كافِر"
+   }
+  ],
+  "rank": 60
+ },
+ {
+  "seam": "86-87",
+  "closeVerses": "86:1-17",
+  "openingVerses": "87:1-15",
+  "similarity": 0.0689,
+  "reverse": 0.0252,
+  "percentileAmongAllOpenings": 0.6964,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "قدر",
+    "weight": 3.9423,
+    "inClose": "قادِر",
+    "inOpening": "قَدَّرَ"
+   },
+   {
+    "root": "خرج",
+    "weight": 3.6818,
+    "inClose": "خَرَجَ",
+    "inOpening": "أَخْرَجَ"
+   },
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   },
+   {
+    "root": "سمو",
+    "weight": 2.8745,
+    "inClose": "سَماء",
+    "inOpening": "اسْم"
+   }
+  ],
+  "rank": 61
+ },
+ {
+  "seam": "87-88",
+  "closeVerses": "87:4-19",
+  "openingVerses": "88:1-17",
+  "similarity": 0.0389,
+  "reverse": 0.1008,
+  "percentileAmongAllOpenings": 0.375,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "صلي",
+    "weight": 5.5192,
+    "inClose": "يَصْلَى",
+    "inOpening": "يَصْلَى"
+   },
+   {
+    "root": "نور",
+    "weight": 3.579,
+    "inClose": "نار",
+    "inOpening": "نار"
+   }
+  ],
+  "rank": 84
+ },
+ {
+  "seam": "88-89",
+  "closeVerses": "88:9-26",
+  "openingVerses": "89:1-15",
+  "similarity": 0.0615,
+  "reverse": 0.1177,
+  "percentileAmongAllOpenings": 0.5893,
+  "sharedRoots": 3,
+  "strongestSharedRoots": [
+   {
+    "root": "كيف",
+    "weight": 4.3193,
+    "inClose": "كَيْف",
+    "inOpening": "كَيْف"
+   },
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   },
+   {
+    "root": "عذب",
+    "weight": 2.921,
+    "inClose": "عَذَّبَ",
+    "inOpening": "عَذاب"
+   }
+  ],
+  "rank": 69
+ },
+ {
+  "seam": "89-90",
+  "closeVerses": "89:20-30",
+  "openingVerses": "90:1-17",
+  "similarity": 0.0829,
+  "reverse": 0.0102,
+  "percentileAmongAllOpenings": 0.8304,
+  "sharedRoots": 5,
+  "strongestSharedRoots": [
+   {
+    "root": "مول",
+    "weight": 4.3561,
+    "inClose": "مال",
+    "inOpening": "مال"
+   },
+   {
+    "root": "أحد",
+    "weight": 4.3314,
+    "inClose": "أَحَد",
+    "inOpening": "أَحَد"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "إِنسان"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 50
+ },
+ {
+  "seam": "90-91",
+  "closeVerses": "90:6-20",
+  "openingVerses": "91:1-15",
+  "similarity": 0.0298,
+  "reverse": 0.0282,
+  "percentileAmongAllOpenings": 0.2768,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "عقب",
+    "weight": 4.434,
+    "inClose": "عَقَبَة",
+    "inOpening": "عُقْبَى"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 91
+ },
+ {
+  "seam": "91-92",
+  "closeVerses": "91:1-15",
+  "openingVerses": "92:1-19",
+  "similarity": 0.2053,
+  "reverse": 0.1045,
+  "percentileAmongAllOpenings": 1,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "جلو",
+    "weight": 7.1287,
+    "inClose": "جَلَّى",
+    "inOpening": "تَجَلَّى"
+   },
+   {
+    "root": "شقو",
+    "weight": 6.2532,
+    "inClose": "أَشْقَى",
+    "inOpening": "أَشْقَى"
+   },
+   {
+    "root": "غشو",
+    "weight": 5.48,
+    "inClose": "غَشِيَ",
+    "inOpening": "غَشِيَ"
+   },
+   {
+    "root": "زكو",
+    "weight": 4.7127,
+    "inClose": "زَكَّى",
+    "inOpening": "تَزَكَّى"
+   },
+   {
+    "root": "ليل",
+    "weight": 4.3436,
+    "inClose": "لَيْل",
+    "inOpening": "لَيْل"
+   },
+   {
+    "root": "نهر",
+    "weight": 4.1131,
+    "inClose": "نَهار",
+    "inOpening": "نَهار"
+   }
+  ],
+  "rank": 7
+ },
+ {
+  "seam": "92-93",
+  "closeVerses": "92:4-21",
+  "openingVerses": "93:1-11",
+  "similarity": 0.1734,
+  "reverse": 0.1741,
+  "percentileAmongAllOpenings": 0.9732,
+  "sharedRoots": 8,
+  "strongestSharedRoots": [
+   {
+    "root": "عطو",
+    "weight": 6.2532,
+    "inClose": "أَعْطَى",
+    "inOpening": "أَعْطَى"
+   },
+   {
+    "root": "رضو",
+    "weight": 4.5792,
+    "inClose": "رَضِيَ",
+    "inOpening": "رَضِيَ"
+   },
+   {
+    "root": "غني",
+    "weight": 4.4614,
+    "inClose": "اسْتَغْنَى",
+    "inOpening": "أَغْنَى"
+   },
+   {
+    "root": "أول",
+    "weight": 3.959,
+    "inClose": "أَوَّل",
+    "inOpening": "أَوَّل"
+   },
+   {
+    "root": "نعم",
+    "weight": 3.8861,
+    "inClose": "نِعْمَة",
+    "inOpening": "نِعْمَة"
+   },
+   {
+    "root": "أخر",
+    "weight": 3.2492,
+    "inClose": "آخِر",
+    "inOpening": "آخِر"
+   }
+  ],
+  "rank": 10
+ },
+ {
+  "seam": "93-94",
+  "closeVerses": "93:1-11",
+  "openingVerses": "94:1-8",
+  "similarity": 0.012,
+  "reverse": 0.012,
+  "percentileAmongAllOpenings": 0.2054,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 103
+ },
+ {
+  "seam": "94-95",
+  "closeVerses": "94:1-8",
+  "openingVerses": "95:1-8",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.1473,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 107
+ },
+ {
+  "seam": "95-96",
+  "closeVerses": "95:1-8",
+  "openingVerses": "96:1-16",
+  "similarity": 0.0793,
+  "reverse": 0.0458,
+  "percentileAmongAllOpenings": 0.7054,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "خلق",
+    "weight": 3.3536,
+    "inClose": "خَلَقَ",
+    "inOpening": "خَلَقَ"
+   },
+   {
+    "root": "كذب",
+    "weight": 3.189,
+    "inClose": "كَذَّبَ",
+    "inOpening": "كَذَّبَ"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "إِنسان"
+   },
+   {
+    "root": "أله",
+    "weight": 1.1996,
+    "inClose": "اللَّه",
+    "inOpening": "اللَّه"
+   }
+  ],
+  "rank": 56
+ },
+ {
+  "seam": "96-97",
+  "closeVerses": "96:3-19",
+  "openingVerses": "97:1-5",
+  "similarity": 0.0281,
+  "reverse": 0.0316,
+  "percentileAmongAllOpenings": 0.1518,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "أمر",
+    "weight": 3.3176,
+    "inClose": "أَمَرَ",
+    "inOpening": "أَمْر"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 92
+ },
+ {
+  "seam": "97-98",
+  "closeVerses": "97:1-5",
+  "openingVerses": "98:1-6",
+  "similarity": 0.0202,
+  "reverse": 0.0528,
+  "percentileAmongAllOpenings": 0.2946,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "أمر",
+    "weight": 3.3176,
+    "inClose": "أَمْر",
+    "inOpening": "أَمَرَ"
+   }
+  ],
+  "rank": 96
+ },
+ {
+  "seam": "98-99",
+  "closeVerses": "98:4-8",
+  "openingVerses": "99:1-8",
+  "similarity": 0.0935,
+  "reverse": 0.0423,
+  "percentileAmongAllOpenings": 0.6071,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "شرر",
+    "weight": 5.3369,
+    "inClose": "شَرّ",
+    "inOpening": "شَرّ"
+   },
+   {
+    "root": "خير",
+    "weight": 3.5563,
+    "inClose": "خَيْر",
+    "inOpening": "خَيْر"
+   },
+   {
+    "root": "عمل",
+    "weight": 2.9919,
+    "inClose": "عَمِلَ",
+    "inOpening": "عَمَل"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 40
+ },
+ {
+  "seam": "99-100",
+  "closeVerses": "99:1-8",
+  "openingVerses": "100:1-11",
+  "similarity": 0.1237,
+  "reverse": 0.1237,
+  "percentileAmongAllOpenings": 0.9464,
+  "sharedRoots": 6,
+  "strongestSharedRoots": [
+   {
+    "root": "صدر",
+    "weight": 4.9769,
+    "inClose": "يَصْدُرُ",
+    "inOpening": "صَدْر"
+   },
+   {
+    "root": "خبر",
+    "weight": 4.7869,
+    "inClose": "أَخْبار",
+    "inOpening": "خَبِير"
+   },
+   {
+    "root": "خير",
+    "weight": 3.5563,
+    "inClose": "خَيْر",
+    "inOpening": "خَيْر"
+   },
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "إِنسان"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 26
+ },
+ {
+  "seam": "100-101",
+  "closeVerses": "100:1-11",
+  "openingVerses": "101:1-11",
+  "similarity": 0.0188,
+  "reverse": 0.0188,
+  "percentileAmongAllOpenings": 0.3571,
+  "sharedRoots": 2,
+  "strongestSharedRoots": [
+   {
+    "root": "أنس",
+    "weight": 2.9792,
+    "inClose": "إِنسان",
+    "inOpening": "ناس"
+   },
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 97
+ },
+ {
+  "seam": "101-102",
+  "closeVerses": "101:1-11",
+  "openingVerses": "102:1-8",
+  "similarity": 0.0128,
+  "reverse": 0.0128,
+  "percentileAmongAllOpenings": 0.3125,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "يوم",
+    "weight": 2.6582,
+    "inClose": "يَوْم",
+    "inOpening": "يَوْم"
+   }
+  ],
+  "rank": 102
+ },
+ {
+  "seam": "102-103",
+  "closeVerses": "102:1-8",
+  "openingVerses": "103:1-3",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.1027,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 108
+ },
+ {
+  "seam": "103-104",
+  "closeVerses": "103:1-3",
+  "openingVerses": "104:1-9",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.1473,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 109
+ },
+ {
+  "seam": "104-105",
+  "closeVerses": "104:1-9",
+  "openingVerses": "105:1-5",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.0982,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 110
+ },
+ {
+  "seam": "105-106",
+  "closeVerses": "105:1-5",
+  "openingVerses": "106:1-4",
+  "similarity": 0.0077,
+  "reverse": 0.0077,
+  "percentileAmongAllOpenings": 0.3036,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   }
+  ],
+  "rank": 104
+ },
+ {
+  "seam": "106-107",
+  "closeVerses": "106:1-4",
+  "openingVerses": "107:1-7",
+  "similarity": 0.0539,
+  "reverse": 0.0539,
+  "percentileAmongAllOpenings": 0.9375,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "طعم",
+    "weight": 5.0245,
+    "inClose": "أَطْعَمَ",
+    "inOpening": "طَعام"
+   }
+  ],
+  "rank": 73
+ },
+ {
+  "seam": "107-108",
+  "closeVerses": "107:1-7",
+  "openingVerses": "108:1-3",
+  "similarity": 0.0806,
+  "reverse": 0.0806,
+  "percentileAmongAllOpenings": 0.9107,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "صلو",
+    "weight": 4.2383,
+    "inClose": "مُصَلّي",
+    "inOpening": "صَلَّى"
+   }
+  ],
+  "rank": 53
+ },
+ {
+  "seam": "108-109",
+  "closeVerses": "108:1-3",
+  "openingVerses": "109:1-6",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.2009,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 111
+ },
+ {
+  "seam": "109-110",
+  "closeVerses": "109:1-6",
+  "openingVerses": "110:1-3",
+  "similarity": 0.1466,
+  "reverse": 0.1466,
+  "percentileAmongAllOpenings": 0.9464,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "دين",
+    "weight": 4.2722,
+    "inClose": "دِين",
+    "inOpening": "دِين"
+   }
+  ],
+  "rank": 15
+ },
+ {
+  "seam": "110-111",
+  "closeVerses": "110:1-3",
+  "openingVerses": "111:1-5",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.0179,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 112
+ },
+ {
+  "seam": "111-112",
+  "closeVerses": "111:1-5",
+  "openingVerses": "112:1-4",
+  "similarity": 0,
+  "reverse": 0,
+  "percentileAmongAllOpenings": 0.3125,
+  "sharedRoots": 0,
+  "strongestSharedRoots": [],
+  "rank": 113
+ },
+ {
+  "seam": "112-113",
+  "closeVerses": "112:1-4",
+  "openingVerses": "113:1-5",
+  "similarity": 0.0056,
+  "reverse": 0.0056,
+  "percentileAmongAllOpenings": 0.2946,
+  "sharedRoots": 1,
+  "strongestSharedRoots": [
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 105
+ },
+ {
+  "seam": "113-114",
+  "closeVerses": "113:1-5",
+  "openingVerses": "114:1-6",
+  "similarity": 0.2183,
+  "reverse": 0.2183,
+  "percentileAmongAllOpenings": 1,
+  "sharedRoots": 4,
+  "strongestSharedRoots": [
+   {
+    "root": "عوذ",
+    "weight": 5.9049,
+    "inClose": "عُذْ",
+    "inOpening": "عُذْ"
+   },
+   {
+    "root": "شرر",
+    "weight": 5.3369,
+    "inClose": "شَرّ",
+    "inOpening": "شَرّ"
+   },
+   {
+    "root": "ربب",
+    "weight": 1.9685,
+    "inClose": "رَبّ",
+    "inOpening": "رَبّ"
+   },
+   {
+    "root": "قول",
+    "weight": 1.5061,
+    "inClose": "قالَ",
+    "inOpening": "قالَ"
+   }
+  ],
+  "rank": 4
+ }
+]

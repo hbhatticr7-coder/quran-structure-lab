@@ -1,0 +1,287 @@
+{
+  "preregistrationSha256": "4216b3e4e6b559b4940884cf785cd9d14b65f4399ac8d4ad2c9bd8a34cc52b63",
+  "S1_primary_40words_roots": {
+    "meanSeamSimilarity": 0.0826,
+    "meanReverseSimilarity": 0.0879,
+    "meanDifference": -0.0053,
+    "seamHigher": 41,
+    "reverseHigher": 55,
+    "equal": 17,
+    "p": 0.787
+  },
+  "secondary": {
+    "window20": {
+      "meanSeamSimilarity": 0.0585,
+      "meanReverseSimilarity": 0.0599,
+      "meanDifference": -0.0014,
+      "seamHigher": 48,
+      "reverseHigher": 52,
+      "equal": 13,
+      "p": 0.571
+    },
+    "window80": {
+      "meanSeamSimilarity": 0.122,
+      "meanReverseSimilarity": 0.1248,
+      "meanDifference": -0.0028,
+      "seamHigher": 38,
+      "reverseHigher": 46,
+      "equal": 29,
+      "p": 0.672
+    },
+    "threeVerses": {
+      "meanSeamSimilarity": 0.043,
+      "meanReverseSimilarity": 0.0474,
+      "meanDifference": -0.0044,
+      "seamHigher": 33,
+      "reverseHigher": 45,
+      "equal": 35,
+      "p": 0.74
+    },
+    "lemmas": {
+      "meanSeamSimilarity": 0.0473,
+      "meanReverseSimilarity": 0.0494,
+      "meanDifference": -0.002,
+      "seamHigher": 49,
+      "reverseHigher": 47,
+      "equal": 17,
+      "p": 0.676
+    }
+  },
+  "specificity": {
+    "chance": 0.5,
+    "meanPercentileOfNextSurasOpening": 0.5714,
+    "meanPercentileOfSuraAfterNext": 0.5962,
+    "seamsAbove90thPercentile": 23,
+    "seamsBelow50thPercentile": 45
+  },
+  "seamsWithNoSharedRoot": [
+    "80-81",
+    "94-95",
+    "102-103",
+    "103-104",
+    "104-105",
+    "108-109",
+    "110-111",
+    "111-112"
+  ],
+  "farrinsEightBoundaryClaims": [
+    {
+      "seam": "2-3",
+      "rank": "13 of 113",
+      "similarity": 0.1621,
+      "percentile": 0.9464
+    },
+    {
+      "seam": "4-5",
+      "rank": "77 of 113",
+      "similarity": 0.0492,
+      "percentile": 0.5
+    },
+    {
+      "seam": "12-13",
+      "rank": "59 of 113",
+      "similarity": 0.0736,
+      "percentile": 0.5179
+    },
+    {
+      "seam": "22-23",
+      "rank": "29 of 113",
+      "similarity": 0.1162,
+      "percentile": 0.7054
+    },
+    {
+      "seam": "27-28",
+      "rank": "63 of 113",
+      "similarity": 0.0664,
+      "percentile": 0.3482
+    },
+    {
+      "seam": "38-39",
+      "rank": "5 of 113",
+      "similarity": 0.2182,
+      "percentile": 1
+    },
+    {
+      "seam": "54-55",
+      "rank": "99 of 113",
+      "similarity": 0.018,
+      "percentile": 0.1786
+    },
+    {
+      "seam": "101-102",
+      "rank": "102 of 113",
+      "similarity": 0.0128,
+      "percentile": 0.3125
+    }
+  ],
+  "strongest12": [
+    {
+      "seam": "43-44",
+      "close": "43:83-89",
+      "opening": "44:1-10",
+      "similarity": 0.2877,
+      "reverse": 0.0764,
+      "percentile": 0.9821,
+      "shared": [
+        "يَلْعَبْ / يَلْعَبْ",
+        "تَبارَكَ / مُبارَكَة",
+        "حَكِيم / حَكِيم",
+        "عِند / عِند"
+      ]
+    },
+    {
+      "seam": "82-83",
+      "close": "82:6-19",
+      "opening": "83:1-14",
+      "similarity": 0.2745,
+      "reverse": 0.0798,
+      "percentile": 1,
+      "shared": [
+        "فُجّار / فُجّار",
+        "أَدْرَى / أَدْرَى",
+        "دِين / دِين",
+        "كَذَّبَ / مُكَذِّب"
+      ]
+    },
+    {
+      "seam": "11-12",
+      "close": "11:119-123",
+      "opening": "12:1-6",
+      "similarity": 0.2185,
+      "reverse": 0.0643,
+      "percentile": 0.9911,
+      "shared": [
+        "تَمَّ / أَتَمَّ",
+        "قَصَّ / قَصَّ",
+        "غافِل / غافِل",
+        "ناس / إِنسان"
+      ]
+    },
+    {
+      "seam": "113-114",
+      "close": "113:1-5",
+      "opening": "114:1-6",
+      "similarity": 0.2183,
+      "reverse": 0.2183,
+      "percentile": 1,
+      "shared": [
+        "عُذْ / عُذْ",
+        "شَرّ / شَرّ",
+        "رَبّ / رَبّ",
+        "قالَ / قالَ"
+      ]
+    },
+    {
+      "seam": "38-39",
+      "close": "38:76-88",
+      "opening": "39:1-4",
+      "similarity": 0.2182,
+      "reverse": 0.0444,
+      "percentile": 1,
+      "shared": [
+        "مُخْلَص / مُخْلِص",
+        "دِين / دِين",
+        "عِزَّة / عَزِيز",
+        "خَلَقَ / خَلَقَ"
+      ]
+    },
+    {
+      "seam": "42-43",
+      "close": "42:50-53",
+      "opening": "43:1-10",
+      "similarity": 0.2088,
+      "reverse": 0.1566,
+      "percentile": 0.9464,
+      "shared": [
+        "عَلِيّ / عَلِيّ",
+        "حَكِيم / حَكِيم",
+        "ذَكَر / ذِكْر",
+        "هَدَى / اهْتَدَى"
+      ]
+    },
+    {
+      "seam": "91-92",
+      "close": "91:1-15",
+      "opening": "92:1-19",
+      "similarity": 0.2053,
+      "reverse": 0.1045,
+      "percentile": 1,
+      "shared": [
+        "جَلَّى / تَجَلَّى",
+        "أَشْقَى / أَشْقَى",
+        "غَشِيَ / غَشِيَ",
+        "زَكَّى / تَزَكَّى"
+      ]
+    },
+    {
+      "seam": "28-29",
+      "close": "28:85-88",
+      "opening": "29:1-7",
+      "similarity": 0.1779,
+      "reverse": 0.0637,
+      "percentile": 0.8482,
+      "shared": [
+        "يَرْجُوا۟ / يَرْجُوا۟",
+        "أَلْقَى / لِقاء",
+        "حُكْم / حَكَمَ",
+        "كافِر / كَفَّرَ"
+      ]
+    },
+    {
+      "seam": "45-46",
+      "close": "45:32-37",
+      "opening": "46:1-5",
+      "similarity": 0.1752,
+      "reverse": 0.184,
+      "percentile": 0.9107,
+      "shared": [
+        "عَزِيز / عَزِيز",
+        "حَكِيم / حَكِيم",
+        "حَقّ / حَقّ",
+        "سَماء / سَماء"
+      ]
+    },
+    {
+      "seam": "92-93",
+      "close": "92:4-21",
+      "opening": "93:1-11",
+      "similarity": 0.1734,
+      "reverse": 0.1741,
+      "percentile": 0.9732,
+      "shared": [
+        "أَعْطَى / أَعْطَى",
+        "رَضِيَ / رَضِيَ",
+        "اسْتَغْنَى / أَغْنَى",
+        "أَوَّل / أَوَّل"
+      ]
+    },
+    {
+      "seam": "33-34",
+      "close": "33:70-73",
+      "opening": "34:1-4",
+      "similarity": 0.1655,
+      "reverse": 0.1014,
+      "percentile": 0.9286,
+      "shared": [
+        "أَصْلَحَ / صالِحَة",
+        "غَفَرَ / غَفُور",
+        "عَمَل / عَمِلَ",
+        "رَحِيم / رَحِيم"
+      ]
+    },
+    {
+      "seam": "37-38",
+      "close": "37:168-182",
+      "opening": "38:1-8",
+      "similarity": 0.164,
+      "reverse": 0.1358,
+      "percentile": 0.9107,
+      "shared": [
+        "حِين / حِين",
+        "مُنذَر / مُنذِر",
+        "عِزَّة / عِزَّة",
+        "نَزَلَ / أَنزَلَ"
+      ]
+    }
+  ]
+}

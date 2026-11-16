@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what thirteen pre-registered batches of tests found
+# Structure in the Quran's arrangement: what fourteen pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -8,7 +8,7 @@ The order of suras in the mushaf is more than a sort by length. Neighbouring sur
 
 This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
 
-Thirteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+Fourteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -45,6 +45,7 @@ Passed at the ordinary level but with a known weakness.
 |---|---|
 | Farrin's 19 groups of suras | Boundaries no better than random ones, p = 0.49 |
 | Rings in suras 2 and 3 | Pairings rank 4th and 7th of 15 |
+| The close of each sura links to the opening of the next, as a general rule | Seam no stronger than its reverse, p = 0.79; 23 individual seams are strong and are mapped in `SEAMS.md` (batch 14) |
 | Rings found without an outline, across all suras | 2 of 47 suras flagged, the detector's own error rate; 5 of 161 biblical chapters. The detector also missed sura 12, so this null is weak (batch 12) |
 | Suras with the same letters form families | No effect once neighbourhood and date are controlled, p = 0.80 |
 | A sura's letters are unusually frequent in it, as a general rule | Rests on sura 50; nothing for the ALM, ALR and HM suras |
@@ -88,7 +89,8 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the thirteen test plans.
+- `PREREGISTRATION*.md`: the fourteen test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
+- `SEAMS.md`: every boundary between neighbouring suras with the word-families shared across it.
 - `claims/registry.json`: the claims tested and their sources.
 - `README.md`: how to re-run everything.
