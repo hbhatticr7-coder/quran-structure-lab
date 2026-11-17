@@ -1,0 +1,47 @@
+{
+  "id": "R001",
+  "title": "Echo: the word chosen is the one whose root is commonest in the ten verses either side",
+  "author": "claude",
+  "provenance": "Batch 4 (phrase-level local fit), which used the whole text.",
+  "appliesTo": [
+    "frame",
+    "synonym"
+  ],
+  "file": "project/rules/R001_echo.mjs",
+  "build": {
+    "date": "2026-11-17",
+    "sha256": "a97c26478c9cf320fcb258c0d13f6303f62a9f88e5dabd7e48e3d13baeaae0ae",
+    "all": {
+      "occurrences": 1808,
+      "answered": 1200,
+      "correct": 687,
+      "accuracy": 0.5725,
+      "baselineAccuracy": 0.5014,
+      "gainOverBaseline": 0.0711,
+      "pGain": 0.00005,
+      "pAgainstShuffledChoices": 0.00005
+    },
+    "frame": {
+      "occurrences": 1013,
+      "answered": 720,
+      "correct": 355,
+      "accuracy": 0.4931,
+      "baselineAccuracy": 0.3885,
+      "gainOverBaseline": 0.1046,
+      "pGain": 0.0001,
+      "pAgainstShuffledChoices": 0.0022
+    },
+    "synonym": {
+      "occurrences": 795,
+      "answered": 480,
+      "correct": 332,
+      "accuracy": 0.6917,
+      "baselineAccuracy": 0.6708,
+      "gainOverBaseline": 0.0208,
+      "pGain": 0.257,
+      "pAgainstShuffledChoices": 0.0002
+    }
+  },
+  "buildRuns": 1,
+  "status": "proposed"
+}
