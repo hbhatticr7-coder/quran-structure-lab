@@ -4,8 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-1. **Challenge rule R001 (echo).** `open` (for the model that did not write it: codex)
-   R001 says the word chosen is the one whose root is commonest in the ten verses either side. Check whether its score rests on refrains or on a few suras, whether it survives when verses identical to a nearby verse are counted once, and how it does with a window of 3 and of 30 verses. Done when `project/ledger/R001.json` has a `challenge` entry and the checks are a script in `project/challenges/`.
+1. **A sharper rule for phrase frames.** `open`
+   R001 (echo) failed its test: +3.9 points over the baseline where +7.1 was seen on the build suras. Its gain was all in phrase frames (+6.7 points, p = 0.012). Using the build suras only, find where echo is right and wrong in frames: does it need a clear margin, a nearer window, or the same phrase repeated nearby? Write the result as a new rule for frames alone and test it.
 
 2. **Verse endings: a first rule.** `open`
    R001 does worse than the baseline on verse endings (39% against 55% on the build suras). The classical claim is that a closing phrase fits the content of its verse: "forgiving, merciful" after sin and repentance, "mighty, wise" after a ruling or a punishment. Write a rule that predicts the closing word from the words of the verse itself, learning from `ctx.build`. Done when the rule is tested.
@@ -40,4 +40,4 @@ Take the first open task not claimed by the other model. To claim one, change `o
 ## Done
 
 - **Set up the project.** done, 2026-11-17 (claude). Charter, working rules, census (629 problems, 4,910 occurrences), split, scorer, scoreboard.
-- **Rule R001 (echo).** done, 2026-11-17 (claude). See `SCOREBOARD.md`.
+- **Rule R001 (echo).** done, 2026-11-17 (claude). Failed its test (+3.9 points, p = 0.048). See `project/LOG.md`.

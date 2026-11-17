@@ -2,6 +2,10 @@
 
 Tests published claims about the Quran's structure against explicit null models, and reports every result including the failures.
 
+**Current work:** a long-running project to explain every word choice in the Quran with rules tested on text they were not built from. Start at [`PROJECT.md`](PROJECT.md); the score so far is in [`SCOREBOARD.md`](SCOREBOARD.md). AI agents working here must read [`AGENTS.md`](AGENTS.md) first.
+
+The twenty earlier batches of tests are summarised in [`REPORT.md`](REPORT.md). The instructions below re-run them.
+
 ## Run
 
 Third-party comparison data is not stored here. Fetch it first (needed for batches 3, 5 and 12):
