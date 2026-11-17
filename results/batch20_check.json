@@ -1,0 +1,80 @@
+{
+  "note": "Check of the scanner on shuffled and planted arrangements. The real order is never scanned here.",
+  "calibrationDraws": 200000,
+  "testDraws": 100000,
+  "free": {
+    "patternsThatSometimesHold": 172,
+    "meanScoreOfShuffles": 3.8366,
+    "score99thPercentile": 9.9112,
+    "falseAlarms": {
+      "fresh": 2000,
+      "shareBelow001": 0.0095,
+      "shareBelow005": 0.0445
+    }
+  },
+  "lengthMatched": {
+    "patternsThatSometimesHold": 148,
+    "meanScoreOfShuffles": 3.8379,
+    "score99thPercentile": 9.8719,
+    "falseAlarms": {
+      "fresh": 2000,
+      "shareBelow001": 0.014,
+      "shareBelow005": 0.055
+    }
+  },
+  "planted": {
+    "eligibleIdentities": 117,
+    "byNumberPlanted": {
+      "1": {
+        "arrangementsMade": 20,
+        "attempts": 22,
+        "meanSurpriseOfPlanted": 4.7158,
+        "detectedAtP001": 4,
+        "medianP": 0.027
+      },
+      "2": {
+        "arrangementsMade": 20,
+        "attempts": 36,
+        "meanSurpriseOfPlanted": 7.8692,
+        "detectedAtP001": 17,
+        "medianP": 0.00201
+      },
+      "3": {
+        "arrangementsMade": 20,
+        "attempts": 44,
+        "meanSurpriseOfPlanted": 12.1946,
+        "detectedAtP001": 20,
+        "medianP": 0.00001
+      },
+      "5": {
+        "arrangementsMade": 3,
+        "attempts": 80,
+        "meanSurpriseOfPlanted": 18.0322,
+        "detectedAtP001": 3,
+        "medianP": 0.00001
+      }
+    }
+  },
+  "examplesOfEligibleIdentities": [
+    {
+      "pattern": "[number divisible by 2] sum of verses: equal",
+      "frequency": 0.00144
+    },
+    {
+      "pattern": "[number divisible by 2] sum of letters: equal",
+      "frequency": 0.000005
+    },
+    {
+      "pattern": "[number divisible by 2] sum of number+verses: total",
+      "frequency": 0.002455
+    },
+    {
+      "pattern": "[number divisible by 2] sum of number+words: equal",
+      "frequency": 0.000085
+    },
+    {
+      "pattern": "[number divisible by 3] sum of number+letters: total",
+      "frequency": 0.000005
+    }
+  ]
+}
