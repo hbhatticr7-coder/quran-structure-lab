@@ -1,0 +1,277 @@
+{
+  "preregistrationSha256": "af0d1027439f0adb79321651295cf515909feef10ee51a9b71f5f881c3087903",
+  "patterns": 1408,
+  "patternsInMainTest": 1376,
+  "totals": {
+    "suras": 114,
+    "sumOfNumbers": 6555,
+    "verses": 6236,
+    "words": 77433,
+    "letters": 322604
+  },
+  "calibrationDraws": 200000,
+  "testDraws": 100000,
+  "shuffles": {
+    "free": {
+      "mainTest": {
+        "real": 2.3952,
+        "shuffleMean": 3.8357,
+        "shuffleSd": 2.2031,
+        "p": 0.738
+      },
+      "exactIdentities": {
+        "real": 0,
+        "shuffleMean": 0.2714,
+        "shuffleSd": 0.7158,
+        "p": 1
+      },
+      "divisibility": {
+        "real": 2.3952,
+        "shuffleMean": 3.5643,
+        "shuffleSd": 2.0276,
+        "p": 0.7
+      },
+      "withKnownRuleIncluded": {
+        "real": 7.0113,
+        "shuffleMean": 4.1554,
+        "shuffleSd": 2.3024,
+        "p": 0.114
+      },
+      "numberOfPatternsHolding": {
+        "real": 2,
+        "shuffleMean": 3.1486,
+        "shuffleSd": 1.7919,
+        "p": 0.818
+      },
+      "rarestSinglePattern": {
+        "real": 1.2823,
+        "shuffleMean": 1.288,
+        "shuffleSd": 0.4559,
+        "p": 0.416
+      }
+    },
+    "lengthMatched": {
+      "mainTest": {
+        "real": 2.3665,
+        "shuffleMean": 3.8165,
+        "shuffleSd": 2.1827,
+        "p": 0.775
+      },
+      "exactIdentities": {
+        "real": 0,
+        "shuffleMean": 0.2705,
+        "shuffleSd": 0.685,
+        "p": 1
+      },
+      "divisibility": {
+        "real": 2.3665,
+        "shuffleMean": 3.546,
+        "shuffleSd": 2.0251,
+        "p": 0.738
+      },
+      "withKnownRuleIncluded": {
+        "real": 6.9107,
+        "shuffleMean": 4.1385,
+        "shuffleSd": 2.2808,
+        "p": 0.112
+      },
+      "numberOfPatternsHolding": {
+        "real": 2,
+        "shuffleMean": 3.1384,
+        "shuffleSd": 1.7905,
+        "p": 0.817
+      },
+      "rarestSinglePattern": {
+        "real": 1.2839,
+        "shuffleMean": 1.2757,
+        "shuffleSd": 0.4313,
+        "p": 0.32
+      },
+      "lengthMatching": {
+        "noise": 0.404,
+        "pairsOutOfLengthOrder": 523,
+        "generated": 127886,
+        "kept": 100000
+      }
+    }
+  },
+  "patternsHoldingInRealOrder": 16,
+  "holding": [
+    {
+      "pattern": "[number+verses divisible by 2] sum of number+verses: total",
+      "rule": "number+verses divisible by 2",
+      "kind": "total",
+      "knownRule": true,
+      "surasInGroup": 57,
+      "valueInGroup": 6236,
+      "valueInRest": 6555,
+      "frequencyInFreeShuffles": 0.00109,
+      "frequencyInLengthMatchedShuffles": 0.00125
+    },
+    {
+      "pattern": "[letters prime] sum of numbers: both divisible by 19",
+      "rule": "letters prime",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 19,
+      "valueInGroup": 1045,
+      "valueInRest": 5510,
+      "frequencyInFreeShuffles": 0.0522,
+      "frequencyInLengthMatchedShuffles": 0.052
+    },
+    {
+      "pattern": "[number+words divisible by 7] how many suras: both divisible by 19",
+      "rule": "number+words divisible by 7",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 19,
+      "valueInGroup": 19,
+      "valueInRest": 95,
+      "frequencyInFreeShuffles": 0.0771,
+      "frequencyInLengthMatchedShuffles": 0.0827
+    },
+    {
+      "pattern": "[number+verses divisible by 2] how many suras: equal",
+      "rule": "number+verses divisible by 2",
+      "kind": "equal",
+      "knownRule": true,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 0.149,
+      "frequencyInLengthMatchedShuffles": 0.151
+    },
+    {
+      "pattern": "[number+verses divisible by 2] how many suras: both divisible by 19",
+      "rule": "number+verses divisible by 2",
+      "kind": "both divisible by 19",
+      "knownRule": true,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 0.149,
+      "frequencyInLengthMatchedShuffles": 0.151
+    },
+    {
+      "pattern": "[number divisible by 2] how many suras: equal",
+      "rule": "number divisible by 2",
+      "kind": "equal",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number divisible by 2] how many suras: both divisible by 19",
+      "rule": "number divisible by 2",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number divisible by 2] sum of numbers: both divisible by 19",
+      "rule": "number divisible by 2",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 3306,
+      "valueInRest": 3249,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number divisible by 3] how many suras: both divisible by 19",
+      "rule": "number divisible by 3",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 38,
+      "valueInGroup": 38,
+      "valueInRest": 76,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number divisible by 3] sum of numbers: both divisible by 19",
+      "rule": "number divisible by 3",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 38,
+      "valueInGroup": 2223,
+      "valueInRest": 4332,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number divisible by 19] sum of numbers: both divisible by 19",
+      "rule": "number divisible by 19",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 6,
+      "valueInGroup": 399,
+      "valueInRest": 6156,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[letters divisible by 7] how many suras: both divisible by 19",
+      "rule": "letters divisible by 7",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 19,
+      "valueInGroup": 19,
+      "valueInRest": 95,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[letters prime] how many suras: both divisible by 19",
+      "rule": "letters prime",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 19,
+      "valueInGroup": 19,
+      "valueInRest": 95,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number at most 57] how many suras: equal",
+      "rule": "number at most 57",
+      "kind": "equal",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number at most 57] how many suras: both divisible by 19",
+      "rule": "number at most 57",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 57,
+      "valueInRest": 57,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    },
+    {
+      "pattern": "[number at most 57] sum of numbers: both divisible by 19",
+      "rule": "number at most 57",
+      "kind": "both divisible by 19",
+      "knownRule": false,
+      "surasInGroup": 57,
+      "valueInGroup": 1653,
+      "valueInRest": 4902,
+      "frequencyInFreeShuffles": 1,
+      "frequencyInLengthMatchedShuffles": 1
+    }
+  ]
+}

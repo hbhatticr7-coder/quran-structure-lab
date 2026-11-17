@@ -132,6 +132,13 @@ Batch 19 (reading the seams for meaning) cannot be re-run by script alone: its g
 node scripts/29_batch19_score.mjs reading/key.json
 ```
 
+Batch 20 (a code scanner for the numbers; the check first, then the scan; each takes a few minutes):
+
+```bash
+node scripts/31_batch20_scanner_check.mjs
+node scripts/32_batch20_code_scan.mjs
+```
+
 Results are written to `results/`. Runs are seeded and reproducible.
 
 ## Layout

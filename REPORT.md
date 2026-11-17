@@ -1,4 +1,4 @@
-# Structure in the Quran's arrangement: what nineteen pre-registered batches of tests found
+# Structure in the Quran's arrangement: what twenty pre-registered batches of tests found
 
 14 November 2026. Working report. Full numbers and limits for every test are in `RESULTS.md`.
 
@@ -8,7 +8,7 @@ The order of suras in the mushaf is more than a sort by length. Neighbouring sur
 
 This is not particular to the Quran. The Mishnah, a collection arranged by length by its human editors, shows the same pattern at the same strength. The finding is evidence that the mushaf was arranged deliberately; it is not evidence of anything beyond what careful human arrangement produces.
 
-Nineteen batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
+Twenty batches of tests were run. Each had its measures, comparison and pass mark written down before the code was written, and each was run once. Several claims failed, including predictions of my own. The findings are sorted below by how well they held.
 
 ## Findings
 
@@ -49,6 +49,7 @@ Passed at the ordinary level but with a known weakness.
 | The close of each sura links to the opening of the next, as a general rule | Seam no stronger than its reverse, p = 0.79; 23 individual seams are strong and are mapped in `SEAMS.md` (batch 14) |
 | Warning verses sound harsh and mercy verses soft | With the marker words removed: hard consonants 15.4% against 14.5% (p = 0.063), soft consonants no difference, long vowels the opposite way to the prediction. Letter differences trace to common words (batch 17) |
 | A link of meaning between each close and the next opening, judged by blind readers | Untestable as designed: the readers named the sura for 40 of 40 summaries, so they were not blind. They ranked the true next opening first in 59% of seams against 20% by chance, which cannot be trusted. A judge-free ranking by wording is at chance (batch 19) |
+| The order of the suras carries more arithmetic patterns than a shuffled order (sura number, verse, word and letter counts) | A fixed family of 1,408 patterns was searched in the real order and in 100,000 shuffles. One known pattern holds: number + verses is even for 57 suras and odd for 57, with sums 6,236 (all verses) and 6,555 (1 to 114), about 1 in 3,000 shuffles. Beyond it the real order holds no exact identity and scores below the average shuffle, p = 0.74 (batch 20) |
 | Rings found without an outline, across all suras | 2 of 47 suras flagged, the detector's own error rate; 5 of 161 biblical chapters. The detector also missed sura 12, so this null is weak (batch 12) |
 | Suras with the same letters form families | No effect once neighbourhood and date are controlled, p = 0.80 |
 | A sura's letters are unusually frequent in it, as a general rule | Rests on sura 50; nothing for the ALM, ALR and HM suras |
@@ -118,7 +119,7 @@ Words are reduced to root and lemma with the Quranic Arabic Corpus morphology. V
 ## Files
 
 - `RESULTS.md`: every batch in full.
-- `PREREGISTRATION*.md`: the nineteen test plans.
+- `PREREGISTRATION*.md`: the twenty test plans.
 - `results/`: numbers for each batch; `results/exception_map.json` lists every sura's displacement from length order.
 - `SEAMS.md`: every boundary between neighbouring suras with the word-families shared across it.
 - `ATLAS.md`: ten pairs of near-synonyms and the company each word keeps.

@@ -995,3 +995,68 @@ Both are at chance. Paraphrasing into plain English does not bring out a link be
 - The judges saw 60-word gists, not the passages.
 - The alternatives offered were always the four nearest other suras. Nothing here compares the next sura with distant ones.
 - The post hoc analyses were chosen after seeing the result.
+
+---
+
+# Results, batch 20: a code scanner for the Quran's numbers (2026-11-16)
+
+Specified in `PREREGISTRATION_batch20.md`, committed to the public repository (commit 01f3343) before the scanner was run on the real order. Numbers are in `results/batch20.json`; the check of the scanner is in `results/batch20_check.json`.
+
+## What was done
+
+A family of 1,408 arithmetic patterns over sura number, verse count, word count and letter count was fixed in advance. The real order of the suras and 100,000 shuffled orders were searched for them in the same way. One pattern was already known to hold (number + verses is even for 57 suras and odd for 57, with sums 6,236 and 6,555), so its grouping rule was left out of the main test.
+
+## The check of the scanner
+
+Run before the real order was scanned.
+
+| Check | Result |
+|---|---|
+| Fresh shuffles scoring p < 0.01, free shuffles | 0.95% of 2,000 |
+| Fresh shuffles scoring p < 0.01, length-matched shuffles | 1.4% of 2,000 |
+| Arrangements with 1 planted identity detected | 4 of 20 |
+| With 2 planted identities | 17 of 20 |
+| With 3 planted identities | 20 of 20 |
+| With 5 planted identities | 3 of 3 (only 3 could be built in 80 attempts) |
+
+So the scanner sees two or more deliberate exact identities of this family, and usually misses a single one.
+
+## Main result
+
+| Test (known rule left out) | Real order | Shuffles, mean (sd) | p, free shuffles | p, length-matched |
+|---|---|---|---|---|
+| **Main test: total surprise over 1,376 patterns** | 2.40 | 3.84 (2.20) | **0.74** | **0.78** |
+| Exact identities ("equal" and "total") | 0 | 0.27 (0.72) | 1.0 | 1.0 |
+| Divisibility by 7 or 19 | 2.40 | 3.56 (2.03) | 0.70 | 0.74 |
+| Number of patterns holding | 2 | 3.15 (1.79) | 0.82 | 0.82 |
+| Rarest single pattern holding (surprise) | 1.28 | 1.29 (0.46) | 0.42 | 0.32 |
+
+**The main test is not significant under either kind of shuffle.** Beyond the known rule, the real order holds no exact identity at all, and two divisibility patterns where a shuffled order holds three on average.
+
+With the known rule included, the real order scores 7.01 against a shuffle mean of 4.16 (p = 0.11 under both kinds of shuffle).
+
+## Every non-trivial pattern that holds in the real order
+
+| Pattern | Values | Holds in this share of shuffles |
+|---|---|---|
+| Number + verses even or odd: the sums equal a grand total (known) | 57 suras; 6,236 and 6,555 | 0.11% |
+| Number + verses even or odd: 57 suras each (known) | 57 and 57 | 15% |
+| Suras whose letter count is prime: the sum of their numbers, and of the rest, are multiples of 19 | 19 suras; 1,045 and 5,510 | 5.2% |
+| Suras where number + words is a multiple of 7: there are 19, leaving 95 | 19 and 95 | 7.7% |
+
+Eleven further patterns hold in every possible order (for example, 57 suras have an even number) and carry no information.
+
+## What this means
+
+- **The parity pattern is real and stands alone.** In this family it has no companions. Its two parts together occur in about 1 in 3,000 shuffles.
+- **A lone pattern of that rarity is what a wide search finds.** This family alone has 1,408 patterns, and it is one family among many that people have tried over decades. The scanner cannot say whether the parity pattern was designed or found.
+- **The order of the suras is not saturated with arithmetic of this kind.** Had even two or three more identities like the known one been present, the scanner would have seen them.
+- The prediction recorded before the run held in full.
+
+## Limits
+
+- The family is one choice. Digit sums, products, letter values, verse-level counts and counts of particular words are outside it.
+- The shuffles test the order of the suras given their counts. They say nothing about how the text is divided into verses, or about the counts themselves.
+- Word and letter counts follow the rules in the plan. Other rules give other counts.
+- Verse counts follow the Kufan numbering. The parity pattern has not been checked on the other early numbering traditions.
+- Of the 1,376 patterns in the main test, only 172 hold in any free shuffle out of 200,000. The rest are impossible or rarer than that for these counts.
