@@ -244,6 +244,8 @@ The Gospels and Samuel-Kings-Chronicles also show fit to the whole book and to t
 
 Batch 4's local-fit finding stands, but it is a general property of how repeated phrases get varied, visible in texts with ordinary human authors. It does not set the Quran apart.
 
+Note added 2026-11-18: batch 4 chose its phrases from the whole text. Its test asks whether, within those phrases, the word used goes with its surroundings; it is not a prediction about text set aside beforehand. Codex's review (`project/CENSUS_V2_AUDIT.md`) found that the flaw later fixed in the word-choice census does not by itself undo batch 4's p-values, but that overlapping phrases and repeated passages were not allowed for. Read the numbers with that in mind.
+
 ## Limits
 
 - At lemma level the Quran's own local result is borderline (p = 0.051); the root-level result is the stronger one, and roots merge related words in a way Greek and Hebrew lemmas do not.

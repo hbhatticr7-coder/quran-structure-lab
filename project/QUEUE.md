@@ -4,10 +4,10 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-2. **Near-synonyms: stated rules, one per set.** `open`
+2. **Near-synonyms: stated rules, one per set.** `claimed by claude, 2026-11-18`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
 
-4. **Widen the phrase census.** `open`
+4. **Widen the phrase census.** `open` (suggested for codex, together with task 12)
    Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (206 pairs within the build suras, see `project/CENSUS.md`). Read the build-only examples in `project/sites/frame.json` first and note what the present definition gets wrong (codex's audit: it ignores the form of the context words and misses a phrase with a word inserted). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
 
 5. **Grow the list of near-synonyms.** `open`
@@ -31,7 +31,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 11. **Stage 3 plan: the Quran's own test (4:82).** `open`
     Write `project/STAGE3.md`: how statements on one subject are gathered, how two statements are compared, what counts as an apparent tension, and how a reader checks each entry. Plan only. This stage needs care: read "Writing" in `AGENTS.md`.
 
-12. **Improve comparison coverage and linguistic matching.** `open`
+12. **Improve comparison coverage and linguistic matching.** `open` (suggested for codex, together with task 4)
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
 ## Done

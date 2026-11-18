@@ -37,27 +37,78 @@
   "sha256": "36bbc98c0ccbddcf9155628e7a36742ce8e6ef64f773682f125036951948d47f",
   "test": {
     "date": "2026-11-18",
-    "censusVersion": 2,
+    "censusVersion": 3,
+    "commit": "b3681d400a3029085ffb9a4881ff05a120113fd6",
+    "inputs": {
+      "data/chronology.json": "32b952ca2467ba9d791df964c995cfcfd9255f9c86397eee66f53d724c303b34",
+      "data/quran-morphology.txt": "742bfac59941b2cb09736d5b7aae694af50792261fb8450cbf6afafcc340645f",
+      "project/rules/R002_content.mjs": "36bbc98c0ccbddcf9155628e7a36742ce8e6ef64f773682f125036951948d47f",
+      "project/split.json": "db0897cdbea358b0024551445d058cbede3c7d1ce0b810ca4c26d3bdd0cd0c58",
+      "project/synonyms.json": "250790a75b9bc6b9ec0803bd248bd2bfa4ff0b6d8e0f6e31472e7c8cbaa2ce08",
+      "project/tools/evaluate.mjs": "699eedf035d0c50bfe3ca7c408a34a0c9dfbb27faa33910b34e3027aff25670b",
+      "project/tools/lib.mjs": "149968f10ff53bcb76054002f030571806b205868f2fc6e0b087602835818224",
+      "project/tools/problems.mjs": "6380baf8610228279bbbf711dc234b049e92f5e6cb4912e5b91c42c02a5dcda3",
+      "src/corpus.mjs": "219b172909e7c55be968a00567b7660e7fb47ee9bc6e87e2d9ddf8d5f3d794e7",
+      "src/stats.mjs": "c0173cd6fe61c040707d7642ac4eca0faeb08b82b728613ed1f981f0dd823df9",
+      "src/words.mjs": "8eb095a92f448fcd3045ed0e97769a589233b22e4943183689e80d3218ad5b00"
+    },
     "all": {
-      "occurrences": 437,
-      "answered": 437,
-      "correct": 332,
-      "accuracy": 0.7597,
-      "baselineAccuracy": 0.7185,
-      "gainOverBaseline": 0.0412,
-      "pGain": 0.059,
-      "pAgainstShuffledChoices": 0.00005
+      "occurrences": 433,
+      "answered": 433,
+      "correct": 329,
+      "accuracy": 0.7598,
+      "baselineAccuracy": 0.7159,
+      "gainOverBaseline": 0.0439,
+      "pGain": 0.0527,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 23,
+      "pGainBySura": 0.0636,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7598,
+      "baselineAllPlaces": 0.7159
     },
     "synonym": {
-      "occurrences": 437,
-      "answered": 437,
-      "correct": 332,
-      "accuracy": 0.7597,
-      "baselineAccuracy": 0.7185,
-      "gainOverBaseline": 0.0412,
-      "pGain": 0.059,
-      "pAgainstShuffledChoices": 0.00005
+      "occurrences": 433,
+      "answered": 433,
+      "correct": 329,
+      "accuracy": 0.7598,
+      "baselineAccuracy": 0.7159,
+      "gainOverBaseline": 0.0439,
+      "pGain": 0.0527,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 23,
+      "pGainBySura": 0.0636,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7598,
+      "baselineAllPlaces": 0.7159
     }
   },
-  "challenge": null
+  "challenge": null,
+  "earlierTests": [
+    {
+      "date": "2026-11-18",
+      "censusVersion": 2,
+      "all": {
+        "occurrences": 437,
+        "answered": 437,
+        "correct": 332,
+        "accuracy": 0.7597,
+        "baselineAccuracy": 0.7185,
+        "gainOverBaseline": 0.0412,
+        "pGain": 0.059,
+        "pAgainstShuffledChoices": 0.00005
+      },
+      "synonym": {
+        "occurrences": 437,
+        "answered": 437,
+        "correct": 332,
+        "accuracy": 0.7597,
+        "baselineAccuracy": 0.7185,
+        "gainOverBaseline": 0.0412,
+        "pGain": 0.059,
+        "pAgainstShuffledChoices": 0.00005
+      },
+      "status": "failed"
+    }
+  ]
 }
