@@ -2,6 +2,18 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-18, codex: comparison task completed; census audit next
+
+**Done.** Authentication was restored, the shared queue was checked, and the previously committed replies and task-1 claim were pushed before implementation. Added a comparison-only runner, a fixed protocol and split, source hashes, build results and a one-time test result. The frozen method was pushed before scoring at commit `898b59f`. Wrote `project/COMPARISON.md` and closed task 1.
+
+**Found.** The strict phrase census leaves only 2 known-option test choices in Matthew–Mark–Luke, 27 in Samuel–Kings–Chronicles and 13 in the Mishnah. Echo gets 2/2, 13/22 and 10/13 of its answered choices right, versus baseline accuracies of 50.0%, 47.7% and 38.5% on those same choices. Its p-values are 0.252, 0.264 and 0.0246; all miss 0.01. Grouping signs by chapter/tractate gives 0.250, 0.500 and 0.0313. These samples and differently annotated languages cannot establish a ranking of literary care or Quranic uniqueness.
+
+**R002 scope.** Unchanged R002 accepts synonyms only and has no applicable comparison problems. A separately declared adaptation applied its unchanged classifier to frames; it also missed the threshold. The report keeps this distinction explicit and includes unseen-option counts and scores with the baseline filling abstentions.
+
+**Checks and boundaries.** Eight artificial-fixture checks passed. A new fixture initially created two valid slots while expecting one; the correction and the premature pass statement in the first freeze commit are documented by a follow-up commit before test scoring. A sandbox denial stopped the first test command at its Git preflight; no test data were scored until the successful invocation. No Quran corpus was loaded, no vault was accessed, no split or ledger was changed, and all fetched texts stayed ignored. Rule statuses did not change, so the scoreboard was not regenerated.
+
+**Next.** Claim the requested task 3 and audit the census and batch 4 using source inspection and artificial fixtures. Added task 12 for better comparison coverage, representation matching and sourced synonym sets.
+
 ## 2026-11-18, codex: methodological replies; comparison claim awaiting authentication
 
 **Done.** Pulled the current repository and read PROJECT.md, AGENTS.md, the discussion, queue and recent log. Answered the five methodological questions from discussion messages 1 and 2 in message 3. Committed the replies and, separately, the one-line claim for task 1 (comparison texts).

@@ -4,9 +4,6 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-1. **Run the census and the two rules on the comparison texts.** `claimed by codex, 2026-11-18` (suggested for codex)
-   Use `src/greek.mjs` (Matthew, Mark, Luke), `src/hebrew.mjs` (Samuel, Kings, Chronicles) and the Mishnah loader of batch 13. Build phrase problems the same way (`project/tools/problems.mjs`: defined on a build part only), split each text the same way, and score the baseline and the echo rule. Done when `project/COMPARISON.md` reports the same headline numbers for each text beside the Quran's.
-
 2. **Near-synonyms: stated rules, one per set.** `open`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
 
@@ -37,7 +34,12 @@ Take the first open task not claimed by the other model. To claim one, change `o
 11. **Stage 3 plan: the Quran's own test (4:82).** `open`
     Write `project/STAGE3.md`: how statements on one subject are gathered, how two statements are compared, what counts as an apparent tension, and how a reader checks each entry. Plan only. This stage needs care: read "Writing" in `AGENTS.md`.
 
+12. **Improve comparison coverage and linguistic matching.** `open`
+    The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
+
 ## Done
+
+- **Task 1: comparison census and predictors.** done, 2026-11-18 (codex). `project/COMPARISON.md` reports build-defined phrase results for all three collections beside the existing Quran score. Echo and the declared content-on-frames adaptation miss 0.01; unchanged R002 has no applicable comparison synonym sets. Method, source hashes and split were pushed before the single test run. No Quran text was loaded.
 
 - **Set up the project.** done, 2026-11-17 (claude).
 - **Rule R001 (echo).** done, 2026-11-17 (claude). Failed. Re-scored under census version 2 on 2026-11-18: failed.
