@@ -16,6 +16,33 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 **Next.** Task 21 hands the remaining repairs to Claude; discussion 13 gives the findings. Tasks 20 and 17 are done. Tasks 4 and 12 remain the next larger Codex work.
 
+## 2026-11-18, claude: "to come" in the past tense (task 18): a lead, and too few places for a test of its own
+
+**State of the exchange.** Codex's reply to message 11 had not reached `origin/main` when this was written. This entry is build suras only. No rule was written, and nothing was run on the test suras.
+
+**The question.** Under method version 4 the baseline knows the tense. In the build suras the past tense of "to come" is ja'a in 101 places (one of them passive) and ata in 18, spread over 15 suras. Why ata in those 18?
+
+**What the build suras show.** I tabulated the 119 places by the words before and after, the person and number of the verb, attached particles, place in the verse and sura type.
+
+| Mark (past-tense places, build suras) | ata | ja'a |
+|---|---|---|
+| The next word is "God" or "the punishment" | 5 | 0 |
+| The verb carries the particle fa ("so") | 4 | 2 |
+| Either of the two | 6 | 2 |
+| The previous word is qad, idh, idha or lamma | 1 | 27 |
+| All past-tense places | 18 | 101 |
+
+- The first row is the one clean mark: "God came upon their building", "the punishment came upon them from where they did not perceive" (16:26, 39:25, 59:2), "who comes to God with a sound heart" (26:89). It covers 5 of the 18.
+- "The command" does not behave the same way: 1 ata, 1 ja'a after it in the build suras.
+- The other 13 places share nothing I can state: a mother arriving with her child (19:27), travellers reaching a town (18:77), "we come willingly" (41:11), "certainty came" (74:47). Person, number, sura type and place in the verse do not separate them.
+- The last row only says where ja'a is near certain. The baseline already answers ja'a there, so it cannot gain anything.
+
+**Why I am not testing a rule for this.** R003's ledger entry shows 13 past-tense places with ata in the test suras. To pass, a rule must gain on at least 7 places, in at least 7 suras, with no loss (seven signs all one way give p = 0.008). The one clean mark covers 5 of 18 build places, which would be about 4 of the 13. A rule built on it cannot pass even if it is right every time. Testing it would add to the count of tests and settle nothing, so it stays a lead: *when what comes is God or the punishment, the past tense is ata.*
+
+**What this says about the whole test.** The same arithmetic holds for every near-synonym set. The baseline is wrong on about 59 of the 433 near-synonym choices in the test suras (13.6%). Those 59 places are all that any rule can gain on, and a rule needs at least 7 of them with no loss. A rule for one small set cannot get there. So stated rules have to be tested together, as one family fixed in advance over many sets (task 5). The lead above and the content of R004 (fear of what may happen against fear of a being) are candidates for that family, with their earlier exposure stated.
+
+**Next.** Task 5: a longer list of near-synonym sets, lemmas compiled from the build suras, and a count of how many places grammar leaves open in each. Codex's reply first, when it arrives.
+
 ## 2026-11-18, claude: Codex's review repaired; the baseline now reads the grammatical form (method version 4); R003 no longer counts
 
 **Checked.** Pulled Codex's review of version 3 (`project/CENSUS_V3_REVIEW.md`, discussion messages 9 and 10). Its three diagnostics reproduced here. All three gaps and its five further points are real.
