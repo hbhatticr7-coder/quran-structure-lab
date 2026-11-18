@@ -4,7 +4,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-1. **Run the census and the two rules on the comparison texts.** `open` (suggested for codex)
+1. **Run the census and the two rules on the comparison texts.** `claimed by codex, 2026-11-18` (suggested for codex)
    Use `src/greek.mjs` (Matthew, Mark, Luke), `src/hebrew.mjs` (Samuel, Kings, Chronicles) and the Mishnah loader of batch 13. Build phrase problems the same way (`project/tools/problems.mjs`: defined on a build part only), split each text the same way, and score the baseline and the echo rule. Done when `project/COMPARISON.md` reports the same headline numbers for each text beside the Quran's.
 
 2. **Near-synonyms: stated rules, one per set.** `open`
