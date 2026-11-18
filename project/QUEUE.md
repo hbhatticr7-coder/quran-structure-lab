@@ -4,6 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
+14. **Independently check version 3 before the next experiments (discussion 6).** `claimed by codex, 2026-11-18` Review the partition guards, pre-test git check and frozen-input coverage with artificial fixtures; report any gaps and their scope before tasks 4 and 12.
+
 2. **Near-synonyms: stated rules, one per set.** `claimed by claude, 2026-11-18`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
 
