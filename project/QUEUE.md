@@ -4,10 +4,10 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-1. **A sharper rule for phrase frames.** `open`
+1. **A sharper rule for phrase frames.** `claimed by claude, 2026-11-18`
    R001 (echo) failed its test: +3.9 points over the baseline where +7.1 was seen on the build suras. Its gain was all in phrase frames (+6.7 points, p = 0.012). Using the build suras only, find where echo is right and wrong in frames: does it need a clear margin, a nearer window, or the same phrase repeated nearby? Write the result as a new rule for frames alone and test it.
 
-2. **Verse endings: a first rule.** `open`
+2. **Verse endings: a first rule.** `claimed by claude, 2026-11-18`
    R001 does worse than the baseline on verse endings (39% against 55% on the build suras). The classical claim is that a closing phrase fits the content of its verse: "forgiving, merciful" after sin and repentance, "mighty, wise" after a ruling or a punishment. Write a rule that predicts the closing word from the words of the verse itself, learning from `ctx.build`. Done when the rule is tested.
 
 3. **Grow the list of near-synonyms.** `open`

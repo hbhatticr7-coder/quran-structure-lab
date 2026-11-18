@@ -1,6 +1,7 @@
 // Scores one rule and records the result in project/ledger/.
 //
 //   node project/tools/evaluate.mjs project/rules/R001_echo.mjs          build suras; run as often as you like
+//   node project/tools/evaluate.mjs project/rules/R001_echo.mjs --dry    the same, without recording anything
 //   node project/tools/evaluate.mjs project/rules/R001_echo.mjs --test   test suras; ONCE per rule, then the rule is frozen
 //   node project/tools/evaluate.mjs project/rules/R001_echo.mjs --vault --owner-approved   only when the owner has asked for it
 //
@@ -27,6 +28,12 @@ if (part === 'test' && entry.test) throw new Error(`${rule.id} has already been 
 if (part === 'build' && entry.test && entry.sha256 !== sha256) throw new Error(`${rule.id} was frozen when it was tested, and its file has changed since. Give the changed rule a new id.`);
 
 const scores = scoreByType(predictAll(rule, part));
+if (process.argv.includes('--dry')) {
+  if (part !== 'build') throw new Error('--dry is for the build suras only');
+  console.log(`${rule.id} on the build suras (dry run, nothing recorded)`);
+  console.table(scores);
+  process.exit(0);
+}
 const stamp = new Date().toISOString().slice(0, 10);
 Object.assign(entry, {
   id: rule.id,

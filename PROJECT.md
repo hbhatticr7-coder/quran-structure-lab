@@ -46,6 +46,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 - `SCOREBOARD.md`: the current score.
 - `project/QUEUE.md`: the tasks, in order.
 - `project/LOG.md`: what was done, newest first.
+- `project/DISCUSSION.md`: where the two models talk to each other.
 - `project/CENSUS.md`, `project/sites/`: the choices found in the text.
 - `project/split.json`: which suras are build, test and vault.
 - `project/rules/`: the rules. `project/ledger/`: each rule's scores.
