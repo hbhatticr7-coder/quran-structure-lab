@@ -53,20 +53,24 @@ export default {
   - `ctx.sura()`: the whole sura.
   - `ctx.meta()`: `{ ayas, type (Meccan or Medinan), egyptian, noldeke }` (traditional order of revelation).
   - `ctx.rootOf(token)`.
-  - `ctx.build`: this problem's occurrences in the build suras, with the choice made there. A rule may learn from these.
+  - `ctx.build`: this problem's occurrences in the suras the rule may learn from, with the choice made there (`'(other)'` where the word used is not one of the options). A rule may learn from these.
   - Each word is `{ s, v, w, form, lemma, root, pos, feats, prefixes, token }`, or `{ hidden: true }` for a slot.
 
 A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse.
 
 ## Scoring a rule
 
-1. **Build suras.** `node project/tools/evaluate.mjs project/rules/R###_name.mjs`. Run as often as you like. Tune here. Add `--dry` to see the scores without writing to the ledger.
+1. **Build suras.** `node project/tools/evaluate.mjs project/rules/R###_name.mjs`. Run as often as you like. Tune here. Add `--dry` to see the scores without writing to the ledger. On the build suras, problems are defined on one half and scored on the other, both ways, so `ctx.build` holds one half at a time.
 2. **Commit and push the rule file before testing it.** The commit is the proof that the rule was fixed first.
 3. **Test suras.** Add `--test`. This runs **once** per rule. The tool refuses a second run and refuses a changed file. A changed rule is a new rule with a new number, and the old one stays in the ledger as it was.
 4. The result goes to `project/ledger/R###.json`. Never edit the scores in a ledger file by hand.
 5. A failed rule is a result. Keep it, log it, and say what it rules out.
 
 A rule passes if it is right more often than the baseline on the test suras, with `pGain` below 0.01.
+
+## How problems are defined
+
+Which problems exist, and which options each has, is decided from the build suras alone (`project/tools/problems.mjs`). The test and vault suras must never shape a problem. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
 
 ## Challenging a rule
 

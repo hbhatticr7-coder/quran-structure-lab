@@ -1,0 +1,37 @@
+{
+  "id": "R002",
+  "title": "Content: among near-synonyms, the word chosen is the one that usually keeps company with the other words of the verse",
+  "author": "claude",
+  "provenance": "A standard classifier, learned from the build suras at prediction time. Before writing it the author had seen one thing from the test suras: the overall score of rule R001 on synonyms there (no gain over the baseline).",
+  "appliesTo": [
+    "synonym"
+  ],
+  "file": "project/rules/R002_content.mjs",
+  "build": {
+    "date": "2026-11-18",
+    "censusVersion": 2,
+    "sha256": "36bbc98c0ccbddcf9155628e7a36742ce8e6ef64f773682f125036951948d47f",
+    "all": {
+      "occurrences": 795,
+      "answered": 776,
+      "correct": 541,
+      "accuracy": 0.6972,
+      "baselineAccuracy": 0.643,
+      "gainOverBaseline": 0.0541,
+      "pGain": 0.001,
+      "pAgainstShuffledChoices": 0.00005
+    },
+    "synonym": {
+      "occurrences": 795,
+      "answered": 776,
+      "correct": 541,
+      "accuracy": 0.6972,
+      "baselineAccuracy": 0.643,
+      "gainOverBaseline": 0.0541,
+      "pGain": 0.001,
+      "pAgainstShuffledChoices": 0.00005
+    }
+  },
+  "buildRuns": 2,
+  "status": "proposed"
+}

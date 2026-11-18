@@ -12,7 +12,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 
 ## The method
 
-1. **Census.** Find every place where the text makes a choice of a defined kind. See `project/CENSUS.md`.
+1. **Census.** Find every place where the text makes a choice of a defined kind. What counts as a choice, and what its options are, is decided from the build suras alone. See `project/CENSUS.md`.
 2. **Split.** The 114 suras are divided once into three parts.
    - **Build** (58 suras): rules are written and tuned here.
    - **Test** (28 suras): each rule is scored here once, then frozen.
