@@ -5,48 +5,20 @@
 // build suras' occurrences only, so anyone may open them. The test suras
 // contribute counts to the summary and nothing else.
 //
-// Makes the split of the suras if it does not exist yet (it never changes after).
-//
 // Usage: node project/tools/census.mjs
 import fs from 'node:fs';
 import path from 'node:path';
-import { loadWords } from '../../src/words.mjs';
-import { rng } from '../../src/stats.mjs';
 import { lcsAlign } from '../../src/twins.mjs';
 import { loadSynonymSets, OTHER, CENSUS_VERSION } from './problems.mjs';
 import { PROJECT_DIR, SITES_DIR, TYPES, loadText, loadSplit, problemsDefinedOn } from './lib.mjs';
 
 fs.mkdirSync(SITES_DIR, { recursive: true });
 
-// ---------- the split (made once, then never changed) ----------
-// Making it needs the length of every sura, so this one step reads the whole
-// text. It runs only if project/split.json is missing.
-const splitFile = path.join(PROJECT_DIR, 'split.json');
-if (!fs.existsSync(splitFile)) {
-  const whole = loadWords();
-  const words = [];
-  for (const [s, vs] of whole.bySura) words[s] = vs.reduce((t, v) => t + v.words.length, 0);
-  const order = [...whole.bySura.keys()].sort((a, b) => words[b] - words[a]);
-  const rand = rng(20261117);
-  const split = { note: 'Suras sorted by length and dealt out in fours: two to build, one to test, one to vault, at random (seed 20261117). The last two go to build. Never regenerate.', build: [], test: [], vault: [] };
-  for (let i = 0; i < order.length; i += 4) {
-    const group = order.slice(i, i + 4);
-    if (group.length < 4) {
-      split.build.push(...group);
-      continue;
-    }
-    for (let k = 3; k > 0; k--) {
-      const j = Math.floor(rand() * (k + 1));
-      [group[k], group[j]] = [group[j], group[k]];
-    }
-    split.build.push(group[0], group[1]);
-    split.test.push(group[2]);
-    split.vault.push(group[3]);
-  }
-  for (const k of ['build', 'test', 'vault']) split[k].sort((a, b) => a - b);
-  split.words = Object.fromEntries(['build', 'test', 'vault'].map((k) => [k, split[k].reduce((t, s) => t + words[s], 0)]));
-  fs.writeFileSync(splitFile, JSON.stringify(split, null, 1));
-}
+// ---------- the split ----------
+// Made once, on 2026-11-17 (suras sorted by length and dealt in fours: two to
+// build, one to test, one to vault, seed 20261117). This tool never makes it
+// again: doing so would mean reading the whole text.
+if (!fs.existsSync(path.join(PROJECT_DIR, 'split.json'))) throw new Error('project/split.json is missing. It is never regenerated: restore it from the repository history.');
 const split = loadSplit();
 
 // ---------- the problems ----------
@@ -55,8 +27,9 @@ const problems = problemsDefinedOn('build', 'test'); // build and test suras in 
 const num = (x) => x.toLocaleString('en');
 const rows = [];
 for (const type of TYPES) {
-  const list = problems.filter((p) => p.type === type).sort((a, b) => b.occurrences.length - a.occurrences.length || (a.id < b.id ? -1 : 1));
-  const buildOnly = list.map((p) => ({ ...p, occurrences: p.occurrences.filter((o) => split.partOf(o.s) === 'build') }));
+  const list = problems.filter((p) => p.type === type);
+  // The site files are ordered by the number of places in the build suras, so that nothing about the test suras shows in the order.
+  const buildOnly = list.map((p) => ({ ...p, occurrences: p.occurrences.filter((o) => split.partOf(o.s) === 'build') })).sort((a, b) => b.occurrences.length - a.occurrences.length || (a.id < b.id ? -1 : 1));
   fs.writeFileSync(path.join(SITES_DIR, `${type}.json`), JSON.stringify({ censusVersion: CENSUS_VERSION, type, note: 'Occurrences in the build suras only.', problems: buildOnly }));
   const occ = list.flatMap((p) => p.occurrences);
   const n = (part, other) => occ.filter((o) => split.partOf(o.s) === part && (o.chosen === OTHER) === other).length;
@@ -152,6 +125,7 @@ const md = [
   '- **Version 1** defined problems from the whole text. A phrase frame counted only if its word varied somewhere, so a frame seen once in the build suras and once in the test suras was certain to differ there, and the baseline was certain to be wrong on it. That made any rule look better against the baseline than it was.',
   '- **Version 2** defined phrase, ending and order problems from the build suras alone. Codex then found (`project/CENSUS_V2_AUDIT.md`) that the near-synonym options were still picked out by scanning the whole text, that the root of an option word was looked up in the whole text, and that nothing stopped a rule from reading a test or vault sura.',
   '- **Version 3** closes those. Near-synonym options are explicit lists of dictionary forms compiled from the build suras (`project/synonyms.json`). Roots are looked up in the defining suras. A run loads only the suras it may see, and a rule may read only its own sura and the suras it learns from. Measured effect of the change on the test suras: 4 places (3 in "fear", 1 in "rain") that version 2 counted are no longer occurrences, because their dictionary form never occurs in the build suras.',
+  '- **Version 4** changed no problem. It changed the scoring: for near-synonym places the baseline is now the commonest option among build places of the same grammatical form (a verb\'s tense, a noun\'s definiteness), and a rule is told that form and nothing more about the hidden word. Codex\'s review (`project/CENSUS_V3_REVIEW.md`) showed why: rule R003 had passed by reading the tense, which a baseline that reads the tense does equally well. Version 4 also skips the lines of excluded suras unparsed and orders the site files by build counts.',
   '- Versions 1 and 2 loaded the vault suras, counted their choices and wrote them into `project/sites/`. No rule was ever scored on them, but both models could have opened those files. The vault is therefore sealed from version 3 on, not untouched from the start.',
   '',
 ];

@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR, MORPH_PATH } from '../../src/corpus.mjs';
 import { makeProblems, OTHER } from '../tools/problems.mjs';
-import { makeContext, loadSplit, loadText, openVault, majority, scoreRows, inflectionOf } from '../tools/lib.mjs';
+import { makeContext, loadSplit, loadText, openVault, majority, scoreRows, inflectionOf, formBaseline } from '../tools/lib.mjs';
 import { buildFrames } from '../../src/phrase.mjs';
 
 function verse(s, v, tokens, roots = {}) {
@@ -135,12 +135,28 @@ test('version 3: unseen words are counted, never scored; suras are counted once 
   assert.equal(r.baselineAllPlaces, 0);
 });
 
-test('the form given for a hidden synonym names its inflection and never the word', () => {
+test('the form given for a hidden synonym is its tense or definiteness and never the word', () => {
   const word = { s: 1, v: 1, w: 1, form: 'SECRET_FORM', lemma: 'SECRET_LEMMA', token: 'SECRET_LEMMA', root: 'SECRET_ROOT', pos: 'V', feats: ['IMPF', 'VF:4', '3MS', 'MOOD:JUS', 'ACT_PCPL', 'VN'], prefixes: ['ف', 'ال'] };
   const shown = inflectionOf(word);
-  assert.deepEqual(shown, { pos: 'V', feats: ['IMPF', '3MS', 'MOOD:JUS', 'DEF'], prefixes: ['ف', 'ال'] });
+  // Method version 4: part of speech, tense and definiteness only, the same as the baseline is given.
+  assert.deepEqual(shown, { pos: 'V', feats: ['IMPF', 'DEF'] });
   assert.equal(JSON.stringify(shown).includes('SECRET'), false);
   assert.equal(JSON.stringify(shown).includes('VF'), false, 'the derived verb form would name the word in some sets');
+});
+
+test('version 4: the near-synonym baseline is the commonest option in the same form, so reading the form gains nothing', () => {
+  const w = (s, token, tense) => ({ s, v: 1, words: [{ s, v: 1, w: 1, token, lemma: token, form: token, root: null, pos: 'V', feats: [tense], prefixes: [] }] });
+  // Past places use "came", present places use "arrives"; "came" is commoner overall.
+  const verses = [w(1, 'came', 'PERF'), w(2, 'came', 'PERF'), w(3, 'came', 'PERF'), w(4, 'came', 'PERF'), w(5, 'arrives', 'IMPF'), w(6, 'arrives', 'IMPF'), w(7, 'arrives', 'IMPF'), w(8, 'arrives', 'IMPF'), w(9, 'arrives', 'IMPV')];
+  const text = { at: (s) => verses.find((x) => x.s === s) };
+  const occ = (s) => ({ s, v: 1, slots: [1], chosen: verses.find((x) => x.s === s).words[0].token });
+  const known = [1, 2, 3, 4, 5, 6, 7].map(occ);
+  const plain = majority(known);
+  assert.equal(plain, 'came');
+  const baselineAt = formBaseline(known, text, plain);
+  assert.equal(baselineAt(occ(8)), 'arrives', 'a present-tense place gets the present-tense majority');
+  assert.equal(baselineAt(occ(1)), 'came');
+  assert.equal(baselineAt(occ(9)), 'came', 'a form with too few known places falls back on the plain baseline');
 });
 
 test('frame matching ignores the morphology of context words', () => {

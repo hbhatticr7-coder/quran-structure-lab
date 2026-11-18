@@ -2,7 +2,7 @@
 // view of the text that a rule is given, and scoring.
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT_DIR } from '../../src/corpus.mjs';
+import { ROOT_DIR, MORPH_PATH } from '../../src/corpus.mjs';
 import { loadWords } from '../../src/words.mjs';
 import { rng } from '../../src/stats.mjs';
 import { makeProblems, rootsIn, OTHER, CENSUS_VERSION } from './problems.mjs';
@@ -42,8 +42,9 @@ export function loadSplit() {
 //   loadText('build')  the build suras
 //   loadText('test')   the build and the test suras
 //   loadText('vault')  the build and the vault suras; refused unless openVault() was called
-// The morphology file holds the whole text, so it is read in full and the
-// other suras are dropped at once, before anything is computed from them.
+// The morphology file holds the whole text. The file is read, but the lines of
+// suras outside the run are skipped unparsed: only the sura number at the start
+// of each line is looked at (loadWords, keepSura).
 let vaultOpen = false;
 export function openVault() {
   vaultOpen = true;
@@ -55,9 +56,7 @@ export function loadText(part = 'build') {
   if (textCache.has(part)) return textCache.get(part);
   const split = readSplit();
   const allowed = new Set([...split.build, ...(part === 'build' ? [] : split[part])]);
-  const verses = loadWords()
-    .verses.filter((v) => allowed.has(v.s))
-    .map((v, idx) => ({ ...v, idx }));
+  const { verses } = loadWords(MORPH_PATH, (s) => allowed.has(s));
   const bySura = new Map();
   const index = new Map();
   const words = [];
@@ -91,17 +90,28 @@ export function problemsDefinedOn(setName, part = 'build') {
 //   scope: { part, defining, type } - the part being scored, the name of the defining set of suras, the problem type
 //
 // For near-synonym problems the rule is also told the grammatical form of the
-// hidden word (ctx.slot()): the question there is which of two words of the
-// same kind is used, given what is being said and in what form. Only inflection
-// is given: tense, mood, voice, person, number, gender, case, definiteness and
-// the particles attached. The word itself, its root, its spelling and its
-// derived verb form (which would name the word outright in some sets) are not.
-const INFLECTION = /^(PERF|IMPF|IMPV|PASS|MOOD:(IND|SUBJ|JUS)|NOM|ACC|GEN|INDEF|[123]?[MF]?[SDP]|[MF])$/;
+// hidden word (ctx.slot()): its part of speech and, for a verb, its tense
+// (PERF, IMPF or IMPV); for a noun, whether it is definite (DEF) or indefinite
+// (INDEF). Nothing else about the hidden word is given.
+//
+// The baseline is given exactly the same (method version 4): for a
+// near-synonym place it is the option used most often in the defining suras
+// in places of the same form. So a rule cannot beat the baseline by reading
+// the form; any gain has to come from the rest of the text. (Codex's review,
+// project/CENSUS_V3_REVIEW.md: a rule that reads the form must be compared
+// with a baseline that reads it too.)
+const FORM = /^(PERF|IMPF|IMPV|INDEF)$/;
 export function inflectionOf(word) {
-  const feats = word.feats.filter((f) => INFLECTION.test(f));
+  const feats = word.feats.filter((f) => FORM.test(f));
   if (word.prefixes.includes('ال')) feats.push('DEF');
-  return { pos: word.pos, feats, prefixes: word.prefixes.slice() };
+  return { pos: word.pos, feats };
 }
+export const formClass = (word) => {
+  const f = inflectionOf(word);
+  return `${f.pos}:${f.feats.join('+') || '-'}`;
+};
+// A form needs this many places in the defining suras before the baseline uses it.
+export const FORM_MIN = 3;
 const rootCache = new Map();
 export function makeContext(occ, known, { part = 'build', defining = 'build', type = null } = {}) {
   const { corpus, meta } = loadText(part);
@@ -151,7 +161,8 @@ export function makeContext(occ, known, { part = 'build', defining = 'build', ty
   };
 }
 
-// The simplest guess: the option used most in the suras the rule may learn from.
+// The simplest guess: the option used most in the suras the rule may learn from
+// (the "plain" baseline; for near-synonym places see formBaseline below).
 export function majority(known) {
   const tally = new Map();
   for (const o of known) if (o.chosen !== OTHER) tally.set(o.chosen, (tally.get(o.chosen) || 0) + 1);
@@ -160,10 +171,31 @@ export function majority(known) {
   return ranked[0][0];
 }
 
+// The baseline for near-synonym places: the option used most, in the defining
+// suras, in places of the same grammatical form. Falls back on the plain
+// baseline where that form has fewer than FORM_MIN places there or no single
+// commonest option. Returns a function of an occurrence.
+export function formBaseline(known, corpus, plain) {
+  const slotWord = (o) => corpus.at(o.s, o.v).words.find((x) => x.w === o.slots[0]);
+  const byForm = new Map();
+  for (const o of known) {
+    if (o.chosen === OTHER) continue;
+    const k = formClass(slotWord(o));
+    if (!byForm.has(k)) byForm.set(k, []);
+    byForm.get(k).push(o);
+  }
+  return (occ) => {
+    const same = byForm.get(formClass(slotWord(occ))) || [];
+    return (same.length >= FORM_MIN ? majority(same) : null) ?? plain;
+  };
+}
+
 // The (defining suras, scored suras) pairs for a part.
 export const runsFor = (part) => (part === 'build' ? [['foldA', 'foldB'], ['foldB', 'foldA']] : [['build', part]]);
 
-// A rule's predictions on one part: [{ problem, occ, prediction, baseline, unseen }].
+// A rule's predictions on one part: [{ problem, occ, prediction, baseline, plainBaseline, unseen }].
+// baseline: what a rule must beat. For near-synonym places it is matched to
+// the grammatical form; elsewhere it equals plainBaseline.
 // unseen: the word used there is not among the options (seen in the defining
 // suras), so the place cannot be answered; the rule is not asked.
 // test and vault: problems are defined on the build suras, which are also what the rule may learn from.
@@ -175,12 +207,13 @@ export function predictAll(rule, part) {
     for (const problem of problemsDefinedOn(defName, part)) {
       if (rule && rule.appliesTo && !rule.appliesTo.includes(problem.type)) continue;
       const known = problem.occurrences.filter((o) => sets[defName].has(o.s));
-      const baseline = majority(known);
+      const plainBaseline = majority(known);
+      const baselineAt = problem.type === 'synonym' ? formBaseline(known, loadText(part).corpus, plainBaseline) : () => plainBaseline;
       const shown = { id: problem.id, type: problem.type, options: problem.options, optionInfo: problem.optionInfo };
       for (const occ of problem.occurrences) {
         if (!sets[scoreName].has(occ.s)) continue;
         if (occ.chosen === OTHER) {
-          rows.push({ problem, occ, prediction: null, baseline, unseen: true });
+          rows.push({ problem, occ, prediction: null, baseline: plainBaseline, plainBaseline, unseen: true });
           continue;
         }
         let prediction = null;
@@ -188,7 +221,7 @@ export function predictAll(rule, part) {
           prediction = rule.predict({ s: occ.s, v: occ.v, slots: occ.slots }, shown, makeContext(occ, known, { part, defining: defName, type: problem.type })) ?? null;
           if (prediction !== null && !problem.options.includes(prediction)) throw new Error(`${rule.id} predicted "${prediction}", which is not an option of ${problem.id}`);
         }
-        rows.push({ problem, occ, prediction, baseline, unseen: false });
+        rows.push({ problem, occ, prediction, baseline: baselineAt(occ), plainBaseline, unseen: false });
       }
     }
   }
@@ -198,9 +231,13 @@ export function predictAll(rule, part) {
 // Scores for a set of prediction rows, with three p-values.
 // pGain: is the rule right more often than the baseline (sign-flip test, each
 // answered place counted as independent)?
-// pGainBySura: the same question with each sura counted once (its net gain over
-// the baseline keeps or flips its sign as a whole), because places within one
-// sura are not independent of each other.
+// pGainBySura: the same question with one sign per sura. Each sura's gains and
+// losses against the baseline are summed, and that sum keeps or flips its sign
+// as a whole, because places within one sura are not independent of each
+// other. A long sura can still weigh more than a short one: suras are not
+// given equal weight.
+// plainBaselineAccuracy is reported for description only: how often the plain
+// baseline (commonest option, form ignored) is right on the same places.
 // pAgainstShuffledChoices: within each problem, the choices actually made are
 // shuffled among the occurrences the rule answered; do the rule's predictions
 // match the real choices more often than the shuffled ones?
@@ -214,11 +251,17 @@ export function scoreRows(allRows, { draws = 20000, seed = 7 } = {}) {
   const unseen = allRows.length - rows.length;
   const covered = rows.filter((r) => r.prediction !== null);
   const baseScore = (r) => (r.baseline === null ? 1 / r.problem.options.length : r.baseline === r.occ.chosen ? 1 : 0);
+  const plainScore = (r) => {
+    const b = r.plainBaseline === undefined ? r.baseline : r.plainBaseline;
+    return b === null ? 1 / r.problem.options.length : b === r.occ.chosen ? 1 : 0;
+  };
   let correct = 0;
   let baseCorrect = 0;
+  let plainCorrect = 0;
   for (const r of covered) {
     if (r.prediction === r.occ.chosen) correct++;
     baseCorrect += baseScore(r);
+    plainCorrect += plainScore(r);
   }
   const groups = new Map();
   for (const r of covered) {
@@ -280,6 +323,7 @@ export function scoreRows(allRows, { draws = 20000, seed = 7 } = {}) {
     correct,
     accuracy: covered.length ? r4(correct / covered.length) : null,
     baselineAccuracy: covered.length ? r4(baseCorrect / covered.length) : null,
+    plainBaselineAccuracy: covered.length ? r4(plainCorrect / covered.length) : null,
     gainOverBaseline: covered.length ? r4((correct - baseCorrect) / covered.length) : null,
     pGain: covered.length ? +((geGain + 1) / (draws + 1)).toPrecision(3) : null,
     pAgainstShuffledChoices: covered.length ? +((ge + 1) / (draws + 1)).toPrecision(3) : null,

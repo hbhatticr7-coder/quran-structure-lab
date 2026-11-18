@@ -52,22 +52,24 @@ export default {
   - `ctx.window(k)`: the verses within `k` verses, same sura.
   - `ctx.sura()`: the whole sura.
   - `ctx.meta()`: `{ ayas, type (Meccan or Medinan), egyptian, noldeke }` (traditional order of revelation).
-  - `ctx.slot()`: near-synonym problems only. The grammatical form of the hidden word, `[{ pos, feats, prefixes }]`: tense, mood, voice, person, number, gender, case, definiteness (`DEF` / `INDEF`) and attached particles. Not the word, its root, its spelling or its derived verb form. `null` for other problem types.
+  - `ctx.slot()`: near-synonym problems only. The grammatical form of the hidden word, `[{ pos, feats }]`: its part of speech and, for a verb, its tense (`PERF`, `IMPF`, `IMPV`); for a noun, `DEF` or `INDEF`. Nothing else about the hidden word. The baseline is given the same, so reading the form cannot by itself beat it. `null` for other problem types.
   - `ctx.rootOf(token)`: the root of a word, as annotated in the suras the rule learns from (`null` if the word does not occur there).
   - `ctx.build`: this problem's occurrences in the suras the rule may learn from, with the choice made there (`'(other)'` where the word used is not one of the options). A rule may learn from these.
   - Each word is `{ s, v, w, form, lemma, root, pos, feats, prefixes, token }`, or `{ hidden: true }` for a slot.
 
-A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse. A rule may import other files of this repository; the evaluator follows those imports and freezes them with the rule.
+A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse. A rule file is named `R###_name.mjs`. It may import other `.mjs` files of this repository by a written-out relative path; the evaluator follows those imports and freezes them with the rule. It refuses anything else in a rule or its helpers: `require`, a computed `import()`, `import.meta`, a package, a Node module.
 
 ## Scoring a rule
 
 1. **Build suras.** `node project/tools/evaluate.mjs project/rules/R###_name.mjs`. Run as often as you like. Tune here. Add `--dry` to see the scores without writing to the ledger. On the build suras, problems are defined on one half and scored on the other, both ways, so `ctx.build` holds one half at a time.
-2. **Commit and push before testing.** The commit is the proof that the rule and the method were fixed first. The tool checks this: a test run is refused unless the rule, everything it imports, the tools, the synonym list, the split and the text are committed and the commit is on `origin/main`. The commit and the hash of each of those files go into the ledger.
+2. **Commit and push before testing.** The commit is the proof that the rule and the method were fixed first. The tool checks this before it loads the rule's code: a test run is refused unless the rule, everything it imports, the tools, the synonym list, the split and the text are each in the current commit byte for byte, and that commit is on `origin/main`. The commit and the hash of each of those files go into the ledger.
 3. **Test suras.** Add `--test`. This runs **once** per rule. The tool refuses a second run and refuses a changed file. A changed rule is a new rule with a new number, and the old one stays in the ledger as it was.
 4. The result goes to `project/ledger/R###.json`. Never edit the scores in a ledger file by hand.
 5. A failed rule is a result. Keep it, log it, and say what it rules out.
 
-A rule passes if it is right more often than the baseline on the test suras, with **both** `pGain` and `pGainBySura` below 0.01. `pGain` counts every place once. `pGainBySura` counts every sura once, because places within one sura are not independent (a refrain can supply many places). A pass is not the end: it must survive the other model's challenge, and with many rules tested a few will pass by luck (`SCOREBOARD.md` says how many to expect).
+A rule passes if it is right more often than the baseline on the test suras, with **both** `pGain` and `pGainBySura` below 0.01. `pGain` gives one sign to every place. `pGainBySura` gives one sign to every sura: the sura's gains and losses against the baseline are summed and that sum keeps or flips its sign as a whole, because places within one sura are not independent (a refrain can supply many places). Suras are not weighted equally; a long one can count for more. A pass is not the end: it counts toward the scoreboard only after the other model has challenged it, and with many rules tested a few will pass by luck.
+
+**The baseline** is the option used most often for the same choice in the build suras. For near-synonym places it is the option used most often there in the same grammatical form (see `ctx.slot()`), falling back on the plain commonest option where that form has fewer than three build places. The scores also give `plainBaselineAccuracy` (form ignored) for description. This is method version 4; rules R001 to R005 were tested under version 3 against the plain baseline, and their ledger entries stand as they are.
 
 The scores also report `unseen` (places where the word used was never seen there in the build suras, which nobody can answer) and `accuracyAllPlaces` / `baselineAllPlaces`, which count those places as misses and let the baseline stand in where the rule gives no answer. Quote these beside the main score when you describe how much of the text a rule accounts for.
 

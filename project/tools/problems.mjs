@@ -31,7 +31,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../../src/corpus.mjs';
 
-export const CENSUS_VERSION = 3;
+// Also the version of the scoring method. Version 4 changed no problem: it
+// changed the baseline for near-synonym places and what a rule is told about
+// the hidden word (see lib.mjs).
+export const CENSUS_VERSION = 4;
 export const OTHER = '(other)';
 const PAD = 3;
 const nominal = (w) => w.pos === 'N' && w.root;

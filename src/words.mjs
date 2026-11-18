@@ -7,13 +7,19 @@ import { MORPH_PATH } from './corpus.mjs';
 // -> { verses: [{ s, v, idx, words: [{ s, v, w, form, lemma, root, pos, feats, prefixes, token }] }], bySura: Map, at(s, v) }
 // token = the lemma, or the written form when the word has no lemma. It is what
 // two words are compared by.
-export function loadWords(file = MORPH_PATH) {
+//
+// keepSura (optional): a function of the sura number. Lines of other suras are
+// skipped before they are parsed: only the sura number at the start of the line
+// is read. The word-choice project uses this so that suras a run may not see
+// are never turned into words (see loadText in project/tools/lib.mjs).
+export function loadWords(file = MORPH_PATH, keepSura = null) {
   const verses = [];
   let verse = null;
   let word = null;
   let key = '';
   for (const line of fs.readFileSync(file, 'utf8').split(/\r?\n/)) {
     if (!line.trim()) continue;
+    if (keepSura && !keepSura(Number(line.slice(0, line.indexOf(':'))))) continue;
     const [loc, form, tag, featStr] = line.split('\t');
     const [s, v, w] = loc.split(':').map(Number);
     if (!verse || verse.s !== s || verse.v !== v) {

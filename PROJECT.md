@@ -18,7 +18,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
    - **Test** (28 suras): each rule is scored here once, then frozen.
    - **Vault** (28 suras): never touched until the owner asks, to give one final clean score.
 3. **Rules.** A rule is a small program that looks at the text around a choice, with the chosen word hidden, and names the option it expects.
-4. **Score.** A rule passes if, on the test suras, it is right more often than the baseline, counting every place once and also counting every sura once. The baseline is the option used most often for the same choice in the build suras.
+4. **Score.** A rule passes if, on the test suras, it is right more often than the baseline, counting every place once and also counting every sura once. The baseline is the option used most often for the same choice in the build suras; for near-synonyms, the option used most often there in the same grammatical form.
 5. **Challenge.** Every rule one model passes, the other model tries to break.
 6. **Scoreboard.** `SCOREBOARD.md` shows how many of the choices in the test suras are predicted correctly, by the baseline and with the rules that have passed.
 
