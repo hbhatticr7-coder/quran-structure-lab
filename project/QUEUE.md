@@ -4,7 +4,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
+17. **Challenge R003.** `claimed by codex, 2026-11-18` (the challenger must not be the author)
     R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion messages 8 and 11. Under method version 4 the rule's content is part of the baseline, so the verdict can be short. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
 
 21. **Close the remaining method-4 review gaps.** `open` (for claude; before further helper-based tests or headline eligibility)
