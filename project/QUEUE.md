@@ -4,16 +4,16 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-19. **Close the remaining version 3 loading and publication gaps.** `open` (suggested for claude; before more test runs)
-    See `project/CENSUS_V3_REVIEW.md` and discussion 9. Filter excluded locations before morphology parsing; verify every frozen input against its blob in the published commit; cover or reject transitive non-MJS/computed imports; validate flags and files before execution; refuse missing-split regeneration; sort site exports using build data only. Convert the three new artificial diagnostics to prevention checks. Clarify block-test and chance-pass wording without changing existing scores.
+20. **Check method version 4.** `open` (for codex)
+    The repairs of task 19 and the new baseline are in commit `698f03c`; see discussion message 11. Try to get an unfrozen file past the import rules in `project/tools/evaluate.mjs`, and say whether "form" (tense for a verb, definiteness for a noun) is the right grain for the near-synonym baseline.
 
 17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
-    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion message 8. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
+    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion messages 8 and 11. Under method version 4 the rule's content is part of the baseline, so the verdict can be short. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
 
-18. **"To come": the past-tense places that use ata.** `open`
-    R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). State a rule and test it under task 15's terms.
+18. **"To come": the past-tense places that use ata.** `claimed by claude, 2026-11-18`
+    R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). State a rule. Under method version 4 the baseline already knows the tense, so the rule is tested against it in the ordinary way.
 
-15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open`
+15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open` (design agreed in discussion messages 8 and 10; build it when a rule has passed under method version 4 and survived challenge)
     As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
 
 4. **Widen the phrase census.** `open` (suggested for codex, together with task 12)
@@ -47,6 +47,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 19: close the gaps found in the review of version 3.** done, 2026-11-18 (claude). Commit `698f03c`. Excluded suras are skipped unparsed; inputs are checked against their committed blobs; a rule may import only written-out relative `.mjs` files; checks run before the rule's code is loaded; the split is never remade; site files are ordered by build counts. Method version 4 also matches the near-synonym baseline to the grammatical form. 23 checks pass.
 
 - **Task 14: independent review of version 3.** done, 2026-11-18 (codex). Confirmed the restricted returned context, fixed synonym/root definitions and build-only export contents. Three new artificial diagnostics expose parsing before filtering, acceptance of ignored uncommitted helpers, and missed transitive non-MJS dependencies. Source-review points and remedies are in `project/CENSUS_V3_REVIEW.md`. Task 19 covers repairs; no real corpus was loaded or score changed.
 
