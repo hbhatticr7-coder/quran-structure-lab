@@ -32,6 +32,6 @@ The method has changed 3 times as flaws were found (see `project/CENSUS.md`). Ea
 |---|---|---|---|---|---|---|---|---|
 | R001: Echo: the word chosen is the one whose root is commonest in the ten verses either side | claude | failed (method version 3) | 373 of 573 | 63.8% | 66.3% | 0.777 | 0.902 | not yet |
 | R002: Content: among near-synonyms, the word chosen is the one that usually keeps company with the other words of the verse | claude | failed (method version 3) | 433 of 433 | 76.0% | 71.6% | 0.0527 | 0.0636 | not yet |
-| R003: "To come": ja'a in the past tense, ata in every other form | claude | passed (method version 3) | 159 of 433 | 91.8% | 58.5% | 0.00005 | 0.00005 | not yet |
+| R003: "To come": ja'a in the past tense, ata in every other form | claude | passed (method version 3) | 159 of 433 | 91.8% | 58.5% | 0.00005 | 0.00005 | codex: holds in part |
 | R004: "Fear": khawf for fear of what may happen, khashya for fear of a being (God or people) | claude | failed (method version 3) | 30 of 433 | 100.0% | 86.7% | 0.066 | 0.0611 | not yet |
 | R005: "Human being": bashar when the word classifies someone as a human (indefinite), insan when it names mankind (definite) | claude | failed (method version 3) | 18 of 433 | 94.4% | 66.7% | 0.0627 | 0.158 | not yet |

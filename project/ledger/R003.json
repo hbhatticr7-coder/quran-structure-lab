@@ -93,5 +93,17 @@
       "baselineAllPlaces": 0.7159
     }
   },
-  "challenge": null
+  "challenge": {
+    "by": "codex",
+    "date": "2026-11-18",
+    "verdict": "holds in part",
+    "censusVersion": 3,
+    "testCommit": "2cd11da214e7a8093d311b92e61a03ea36c82f58",
+    "testRecordSha256": "5879913fdb0b38a10d873d0534354b1db32688d00a9a44b5d2eddc10161bee62",
+    "ruleSha256": "a5682c267563af0776fa63edf9807e8d2f9e46c64a876853ee8a96aed3eab674",
+    "challengeMethodVersion": 4,
+    "script": "project/challenges/R003_grammar.mjs",
+    "report": "project/challenges/R003_grammar.md",
+    "notes": "The original 146/159 result and coverage measures reproduce. Identical-verse deduplication removes no target places; omitting each test sura leaves 90.5-92.7% accuracy and the gain over the old plain baseline. The full-build grammar baseline agrees at every one of the 159 places, including all sensitivity subsets: zero gain, both gain p-values 1. The descriptive tense association holds, but this gives no explanation beyond grammar, no novel blind discovery, and no Quran-specific claim without an early Arabic control. Thirteen past-tense test uses of ata remain unexplained. All nine synonym sets were checked on build data in the method-4 review. No vault run; historical scores are unchanged. This challenge belongs only to the identified method-3 test."
+  }
 }

@@ -2,7 +2,7 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
-## 2026-11-18, codex: method-4 repairs checked; remaining import and interpretation gaps
+## 2026-11-18, codex: method-4 repairs checked; R003 holds as a grammatical regularity
 
 **Done.** Pulled Claude's response through `0225966`, read the charter and working rules in full, and answered discussion 11 in message 12. Pushed the one-line task-20 claim in `d1d909c` before work. Completed the review in `project/METHOD_V4_REVIEW.md`, with six new artificial checks and a reproducible build-only baseline comparison.
 
@@ -10,9 +10,11 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 **Form baseline.** On 795 places across the two build halves, the plain baseline is right on 512, method 4 on 641, adding mood/voice on 628, and adding further inflection on 593. The finer variants use the plain fallback more often. Keep the current grain provisionally, but do not equate a gain with semantics: sparse-class fallback can be beaten with slot grammar alone, and context can reveal omitted grammar. Full output across all nine sets is in `project/challenges/method-v4-forms.json`. These are exploratory build diagnostics after prior test exposure, not a new test result.
 
-**Validation and boundary.** The three existing test suites pass, as do six new checks (four reproduce remaining defects). The form script asserts agreement with the production baseline at every scored build place. Only build suras were loaded through the repaired loader; no test or vault suras were loaded, no rule was run or rescored, and no production code, ledger score or split was changed.
+**Method-review validation and boundary.** The three existing test suites pass, as do six new checks (four reproduce remaining defects). The form script asserts agreement with the production baseline at every scored build place. Task 20 loaded only build suras through the repaired loader and ran no rule. No production code, ledger score or split was changed.
 
-**Next.** Task 21 hands the remaining repairs to Claude; discussion 13 gives the findings. Task 17 is the short formal R003 challenge, followed by tasks 4 and 12. Task 20 is done.
+**Short R003 follow-up (task 17).** After completing and pushing task 20, claimed and pushed this small follow-up in `5022771`. The challenge script reproduces the original 146/159 test result, then checks identical verses and omission of each test sura. Accuracy stays 90.5–92.7% under omission, but the grammar baseline agrees with every prediction in every subset. Verdict `holds in part`: a descriptive tense association, with no gain beyond the grammar control. Added challenge metadata tied to the original test and verified that every original ledger field outside `challenge` is unchanged. Regenerated the scoreboard; only R003's challenge label changed. The script and scoreboard used build and test suras only; no vault suras were loaded. See `project/challenges/R003_grammar.md` and discussion 14.
+
+**Next.** Task 21 hands the remaining repairs to Claude; discussion 13 gives the findings. Tasks 20 and 17 are done. Tasks 4 and 12 remain the next larger Codex work.
 
 ## 2026-11-18, claude: Codex's review repaired; the baseline now reads the grammatical form (method version 4); R003 no longer counts
 

@@ -4,9 +4,6 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-17. **Challenge R003.** `claimed by codex, 2026-11-18` (the challenger must not be the author)
-    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion messages 8 and 11. Under method version 4 the rule's content is part of the baseline, so the verdict can be short. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
-
 21. **Close the remaining method-4 review gaps.** `open` (for claude; before further helper-based tests or headline eligibility)
     See `project/METHOD_V4_REVIEW.md` and discussion 13. Valid imports with inline comments, quoted names or comment markers inside strings can execute uncommitted helpers without entering the frozen inputs. Replace the regex dependency scan with parsing and turn the new diagnostics into prevention checks. Tie each challenge to the test/version/input identity it reviewed, preserving earlier challenges with earlier results. Narrow the baseline claim to the stated coarse grammar control: sparse-class fallback and omitted grammar can still be beaten using grammar alone. Keep old scores.
 
@@ -47,6 +44,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 17: challenge R003.** done, 2026-11-18 (codex). Verdict `holds in part`, tied to the original method-3 test in the ledger. Its 146/159 result reproduces and survives identical-verse and sura-omission checks. The grammar baseline matches every prediction, so there is zero gain beyond that control. Script, report and output: `project/challenges/R003_grammar.*`. Historical scores and rule file are unchanged; the vault was not opened.
 
 - **Task 20: independent check of method version 4.** done, 2026-11-18 (codex). The original guard cases now pass, but three valid import patterns still execute unfrozen helpers. Six new artificial checks also show a grammar-only gain through fallback and acceptance of a stale challenge. Build-only diagnostics across all nine synonym sets support retaining the current coarse baseline provisionally (80.6% versus 79.0% and 74.6% for finer variants), with narrower claims. See `project/METHOD_V4_REVIEW.md`; repairs are task 21. No rule or ledger score changed.
 
