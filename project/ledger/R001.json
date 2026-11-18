@@ -47,26 +47,27 @@
   "status": "failed",
   "sha256": "a97c26478c9cf320fcb258c0d13f6303f62a9f88e5dabd7e48e3d13baeaae0ae",
   "test": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
+    "censusVersion": 2,
     "all": {
-      "occurrences": 996,
-      "answered": 678,
-      "correct": 392,
-      "accuracy": 0.5782,
-      "baselineAccuracy": 0.5397,
-      "gainOverBaseline": 0.0385,
-      "pGain": 0.0475,
-      "pAgainstShuffledChoices": 0.0127
+      "occurrences": 577,
+      "answered": 376,
+      "correct": 241,
+      "accuracy": 0.641,
+      "baselineAccuracy": 0.6652,
+      "gainOverBaseline": -0.0242,
+      "pGain": 0.783,
+      "pAgainstShuffledChoices": 0.027
     },
     "frame": {
-      "occurrences": 559,
-      "answered": 402,
-      "correct": 204,
-      "accuracy": 0.5075,
-      "baselineAccuracy": 0.4401,
-      "gainOverBaseline": 0.0673,
-      "pGain": 0.0124,
-      "pAgainstShuffledChoices": 0.48
+      "occurrences": 140,
+      "answered": 100,
+      "correct": 53,
+      "accuracy": 0.53,
+      "baselineAccuracy": 0.6111,
+      "gainOverBaseline": -0.0811,
+      "pGain": 0.899,
+      "pAgainstShuffledChoices": 0.995
     },
     "synonym": {
       "occurrences": 437,
@@ -76,8 +77,45 @@
       "baselineAccuracy": 0.6848,
       "gainOverBaseline": -0.0036,
       "pGain": 0.585,
-      "pAgainstShuffledChoices": 0.0047
+      "pAgainstShuffledChoices": 0.0038
     }
   },
-  "challenge": null
+  "challenge": null,
+  "earlierTests": [
+    {
+      "date": "2026-11-17",
+      "all": {
+        "occurrences": 996,
+        "answered": 678,
+        "correct": 392,
+        "accuracy": 0.5782,
+        "baselineAccuracy": 0.5397,
+        "gainOverBaseline": 0.0385,
+        "pGain": 0.0475,
+        "pAgainstShuffledChoices": 0.0127
+      },
+      "frame": {
+        "occurrences": 559,
+        "answered": 402,
+        "correct": 204,
+        "accuracy": 0.5075,
+        "baselineAccuracy": 0.4401,
+        "gainOverBaseline": 0.0673,
+        "pGain": 0.0124,
+        "pAgainstShuffledChoices": 0.48
+      },
+      "synonym": {
+        "occurrences": 437,
+        "answered": 276,
+        "correct": 188,
+        "accuracy": 0.6812,
+        "baselineAccuracy": 0.6848,
+        "gainOverBaseline": -0.0036,
+        "pGain": 0.585,
+        "pAgainstShuffledChoices": 0.0047
+      },
+      "censusVersion": 1,
+      "status": "failed"
+    }
+  ]
 }

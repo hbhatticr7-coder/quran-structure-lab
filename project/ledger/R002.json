@@ -33,5 +33,31 @@
     }
   },
   "buildRuns": 2,
-  "status": "proposed"
+  "status": "failed",
+  "sha256": "36bbc98c0ccbddcf9155628e7a36742ce8e6ef64f773682f125036951948d47f",
+  "test": {
+    "date": "2026-11-18",
+    "censusVersion": 2,
+    "all": {
+      "occurrences": 437,
+      "answered": 437,
+      "correct": 332,
+      "accuracy": 0.7597,
+      "baselineAccuracy": 0.7185,
+      "gainOverBaseline": 0.0412,
+      "pGain": 0.059,
+      "pAgainstShuffledChoices": 0.00005
+    },
+    "synonym": {
+      "occurrences": 437,
+      "answered": 437,
+      "correct": 332,
+      "accuracy": 0.7597,
+      "baselineAccuracy": 0.7185,
+      "gainOverBaseline": 0.0412,
+      "pGain": 0.059,
+      "pAgainstShuffledChoices": 0.00005
+    }
+  },
+  "challenge": null
 }
