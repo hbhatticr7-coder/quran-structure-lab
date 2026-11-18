@@ -10,7 +10,7 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 **Pass mark tightened.** A rule must beat the baseline at p < 0.01 counting every place once and counting every sura once. Scores also report places with an unseen word, and accuracy over all places with those counted as misses.
 
-**How much the leak mattered.** 4 of 712 test choices (3 in "fear", 1 in "rain") used a dictionary form that never occurs in the build suras. They are no longer occurrences. The test suras now hold 708 choices; the baseline is right on 68.3%. A further 124 places use a word never seen there in the build suras; counting those as misses the baseline is right on 58.1% of 832.
+**How much the leak mattered.** 4 of 712 test choices (3 in "fear", 1 in "rain") used a dictionary form that never occurs in the build suras. They are no longer occurrences. The test suras now hold 708 choices; the baseline is right on 68.3%. A further 124 places use a word never seen there in the build suras; counting those as misses the baseline is right on 58.2% of 832.
 
 **Re-scored once each under version 3.**
 
