@@ -1,14 +1,41 @@
 {
-  "note": "Sets of near-synonyms. Each option is picked out by its root and, where the root has several lemmas, by the lemma's unvowelled spelling (and its count when two lemmas share a spelling). Add sets with a source for the claim that the words are near-synonyms.",
+  "note": "Sets of near-synonyms. Each option is an explicit list of dictionary forms (lemmas, spelled as in data/quran-morphology.txt) with their root. The lists were compiled from the build suras only (census version 3): every lemma of the root, or of the named word, that occurs there. A word of the same root that never occurs in the build suras is not an occurrence of the option. Add sets with a source for the claim that the words are near-synonyms, and compile their lemmas from the build suras.",
   "sets": [
-    { "id": "rain", "gloss": "rain", "source": "batch 15", "options": [{ "label": "matar", "root": "مطر" }, { "label": "ghayth", "root": "غيث", "plain": "غيث" }] },
-    { "id": "send-down", "gloss": "to send down", "source": "batch 15", "options": [{ "label": "anzala", "root": "نزل", "plain": "أنزل" }, { "label": "nazzala", "root": "نزل", "plain": "نزل", "count": 62 }] },
-    { "id": "fear", "gloss": "fear", "source": "batch 15", "options": [{ "label": "khashya", "root": "خشي" }, { "label": "khawf", "root": "خوف" }] },
-    { "id": "heart", "gloss": "heart", "source": "batch 15", "options": [{ "label": "fuad", "root": "فأد", "plain": "فؤاد" }, { "label": "qalb", "root": "قلب", "plain": "قلب", "count": 132 }] },
-    { "id": "swear", "gloss": "to swear an oath", "source": "batch 15", "options": [{ "label": "halafa", "root": "حلف" }, { "label": "aqsama", "root": "قسم", "plain": "أقسم" }] },
-    { "id": "year", "gloss": "year", "source": "batch 15", "options": [{ "label": "sana", "root": "سنو" }, { "label": "am", "root": "عوم", "plain": "عام" }] },
-    { "id": "come", "gloss": "to come", "source": "batch 15", "options": [{ "label": "jaa", "root": "جيأ", "plain": "جاء" }, { "label": "ata", "root": "أتي", "plain": "أتى" }] },
-    { "id": "human", "gloss": "human being", "source": "batch 15", "options": [{ "label": "bashar", "root": "بشر", "plain": "بشر", "count": 37 }, { "label": "insan", "root": "أنس", "plain": "إنسان" }] },
-    { "id": "do", "gloss": "to do", "source": "batch 15", "options": [{ "label": "amila", "root": "عمل", "plain": "عمل", "count": 276 }, { "label": "faala", "root": "فعل", "plain": "فعل", "count": 88 }] }
+    { "id": "rain", "gloss": "rain", "source": "batch 15", "options": [
+      { "label": "matar", "root": "مطر", "lemmas": ["مَطَر","أُمْطِرَتْ"] },
+      { "label": "ghayth", "root": "غيث", "lemmas": ["غَيْث"] }
+    ] },
+    { "id": "send-down", "gloss": "to send down", "source": "batch 15", "options": [
+      { "label": "anzala", "root": "نزل", "lemmas": ["أَنزَلَ"] },
+      { "label": "nazzala", "root": "نزل", "lemmas": ["نَزَّلَ"] }
+    ] },
+    { "id": "fear", "gloss": "fear", "source": "batch 15", "options": [
+      { "label": "khashya", "root": "خشي", "lemmas": ["خَشِيَ","خَشْيَة"] },
+      { "label": "khawf", "root": "خوف", "lemmas": ["خَوْف","يُخَوِّفُ","خافَ","تَخَوُّف","تَخْوِيف","خِيفَة"] }
+    ] },
+    { "id": "heart", "gloss": "heart", "source": "batch 15", "options": [
+      { "label": "fuad", "root": "فأد", "lemmas": ["فُؤاد"] },
+      { "label": "qalb", "root": "قلب", "lemmas": ["قَلْب"] }
+    ] },
+    { "id": "swear", "gloss": "to swear an oath", "source": "batch 15", "options": [
+      { "label": "halafa", "root": "حلف", "lemmas": ["حَلَفْ","حَلّاف"] },
+      { "label": "aqsama", "root": "قسم", "lemmas": ["أَقْسَمُ"] }
+    ] },
+    { "id": "year", "gloss": "year", "source": "batch 15", "options": [
+      { "label": "sana", "root": "سنو", "lemmas": ["سَنَة","سِنِين"] },
+      { "label": "am", "root": "عوم", "lemmas": ["عام"] }
+    ] },
+    { "id": "come", "gloss": "to come", "source": "batch 15", "options": [
+      { "label": "jaa", "root": "جيأ", "lemmas": ["جاءَ"] },
+      { "label": "ata", "root": "أتي", "lemmas": ["أَتَى"] }
+    ] },
+    { "id": "human", "gloss": "human being", "source": "batch 15", "options": [
+      { "label": "bashar", "root": "بشر", "lemmas": ["بَشَر"] },
+      { "label": "insan", "root": "أنس", "lemmas": ["إِنسان"] }
+    ] },
+    { "id": "do", "gloss": "to do", "source": "batch 15", "options": [
+      { "label": "amila", "root": "عمل", "lemmas": ["عَمِلَ"] },
+      { "label": "faala", "root": "فعل", "lemmas": ["فَعَلَ"] }
+    ] }
   ]
 }

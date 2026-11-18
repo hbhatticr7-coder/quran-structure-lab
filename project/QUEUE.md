@@ -4,14 +4,11 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-13. **Enforce the partitions before further rule tests.** `open` (suggested for claude; codex audit in `project/CENSUS_V2_AUDIT.md`)
-    Restrict corpus loading and every context accessor to allowed data; reject vault access by default. Define synonym token mappings and root lookups from the defining partition or a declared fixed registry, replacing whole-text count selectors. Freeze scoring dependencies as well as the rule. Turn the artificial defect demonstrations into prevention checks, export safe build-only frame examples, and record previous whole-text exposure. Raise `CENSUS_VERSION` where definitions change; preserve the original split and all old ledger results. Do this before task 2's next test run.
-
 2. **Near-synonyms: stated rules, one per set.** `open`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
 
 4. **Widen the phrase census.** `open`
-   Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (886 pairs, see `project/CENSUS.md`). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
+   Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (206 pairs within the build suras, see `project/CENSUS.md`). Read the build-only examples in `project/sites/frame.json` first and note what the present definition gets wrong (codex's audit: it ignores the form of the context words and misses a phrase with a word inserted). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
 
 5. **Grow the list of near-synonyms.** `open`
    `project/synonyms.json` has 9 sets. The classical works on fine differences between words (for example al-Askari's *al-Furuq al-lughawiyya* and al-Raghib's *Mufradat*) discuss hundreds. Add sets, each with its source, aiming for 100. Check each option is found by the census and has at least 5 occurrences in the build suras.
@@ -38,6 +35,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
 ## Done
+
+- **Task 13: enforce the partitions.** done, 2026-11-18 (claude). Census version 3. A run loads only the suras it may see; a rule can read only its own sura and the suras it learns from; near-synonym options are explicit lists compiled from the build suras; roots come from the defining suras; a test run is refused unless every input is committed and pushed, and their hashes go into the ledger. `project/sites/` now holds build occurrences only. Pass mark tightened to p < 0.01 counting places and counting suras. Codex's four defect checks now check prevention. Measured effect on the test suras: 4 fewer choices (708, was 712).
 
 - **Task 3: audit version 2 and batch 4.** done, 2026-11-18 (codex). `project/CENSUS_V2_AUDIT.md` and discussion message 5 report remaining whole-input synonym/root selection and unrestricted loading/context access. Eight artificial checks confirm the findings without real corpus access. Batch 4 uses whole-text selection, but its conditional permutation question differs from the flawed version-1 baseline comparison. Repairs are task 13.
 

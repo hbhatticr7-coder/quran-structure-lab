@@ -1,9 +1,16 @@
 // Builds the choice problems.
 //
-// Census version 2. Which problems exist, and which options each has, is
-// decided from a *defining* set of suras only. Occurrences are then collected
-// from the whole text. An occurrence whose word is not one of the options gets
-// chosen = OTHER and is not scored.
+// Which problems exist, and which options each has, is decided from a
+// *defining* set of suras only. Occurrences are then collected from the text
+// this function is given (the caller hands over only the suras a run may see;
+// see loadText in lib.mjs). An occurrence whose word is not one of the options
+// gets chosen = OTHER and is not scored.
+//
+// Version 3 (after Codex's audit, project/CENSUS_V2_AUDIT.md): the near-synonym
+// options are picked out by an explicit list of dictionary forms in
+// project/synonyms.json, not by scanning the text given, and the root of an
+// option word is looked up in the defining suras only. Nothing outside the
+// defining suras now shapes a problem or its options.
 //
 // Version 1 defined problems from the whole text. That let the test suras
 // shape the problems: a phrase frame counted only if its word varied somewhere,
@@ -24,20 +31,18 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../../src/corpus.mjs';
 
-export const CENSUS_VERSION = 2;
+export const CENSUS_VERSION = 3;
 export const OTHER = '(other)';
 const PAD = 3;
-const bare = (s) => (s || '').replace(/[ً-ٰٕـ]/g, '');
 const nominal = (w) => w.pos === 'N' && w.root;
 export const loadSynonymSets = () => JSON.parse(fs.readFileSync(path.join(ROOT_DIR, 'project', 'synonyms.json'), 'utf8')).sets;
 
-// Things computed once per text, whatever the defining suras.
+// Places in the text, found once per text, whatever the defining suras. No
+// problem or option is decided here.
 const prepared = new WeakMap();
 function prepare(corpus) {
   if (prepared.has(corpus)) return prepared.get(corpus);
   const { verses } = corpus;
-  const rootOf = new Map();
-  for (const v of verses) for (const w of v.words) if (w.root && !rootOf.has(w.token)) rootOf.set(w.token, w.root);
   const frameMap = new Map();
   for (const v of verses) {
     const t = [...Array(PAD).fill('^'), ...v.words.map((w) => w.token), ...Array(PAD).fill('$')];
@@ -63,14 +68,22 @@ function prepare(corpus) {
       pairs.get(k).push({ s: v.s, v: v.v, slots: [a.w, b.w], first: a.token, second: b.token });
     }
   }
-  const out = { rootOf, frameMap, endings, pairs };
+  const out = { frameMap, endings, pairs };
   prepared.set(corpus, out);
   return out;
 }
 
+// The root of each word, as annotated in the given suras (first occurrence wins).
+export function rootsIn(corpus, suras) {
+  const rootOf = new Map();
+  for (const v of corpus.verses) if (suras.has(v.s)) for (const w of v.words) if (w.root && !rootOf.has(w.token)) rootOf.set(w.token, w.root);
+  return rootOf;
+}
+
 // defining: a Set of sura numbers.
 export function makeProblems(corpus, defining, sets = loadSynonymSets()) {
-  const { rootOf, frameMap, endings, pairs } = prepare(corpus);
+  const { frameMap, endings, pairs } = prepare(corpus);
+  const rootOf = rootsIn(corpus, defining);
   const info = (tokens) => Object.fromEntries(tokens.map((t) => [t, { tokens: [t], roots: rootOf.get(t) ? [rootOf.get(t)] : [] }]));
   const problems = [];
 
@@ -84,10 +97,9 @@ export function makeProblems(corpus, defining, sets = loadSynonymSets()) {
     const optionInfo = {};
     const occurrences = [];
     for (const opt of set.options) {
-      const tally = new Map();
-      for (const v of corpus.verses) for (const w of v.words) if (w.root === opt.root && (!opt.plain || bare(w.lemma) === opt.plain)) tally.set(w.token, (tally.get(w.token) || 0) + 1);
-      const tokens = [...tally].filter(([, n]) => opt.count === undefined || n === opt.count).map(([t]) => t);
-      if (!tokens.length) throw new Error(`synonym option not found: ${set.id} / ${opt.label}`);
+      // The option is the listed dictionary forms and nothing else: the text is not consulted.
+      if (!Array.isArray(opt.lemmas) || !opt.lemmas.length) throw new Error(`synonym option needs an explicit list of lemmas: ${set.id} / ${opt.label}`);
+      const tokens = opt.lemmas.slice();
       optionInfo[opt.label] = { tokens, roots: [opt.root] };
       for (const v of corpus.verses) for (const w of v.words) if (tokens.includes(w.token)) occurrences.push({ s: v.s, v: v.v, slots: [w.w], chosen: opt.label });
     }

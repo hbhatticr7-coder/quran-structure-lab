@@ -47,30 +47,34 @@ export default {
 
 - `occ`: `{ s, v, slots }`, the sura, verse and word numbers of the choice. The choice itself is not included.
 - `problem`: `{ id, type, options, optionInfo }`. `optionInfo[option]` gives that option's `tokens` (dictionary forms) and `roots`.
-- `ctx`: the text, with the slot words hidden.
-  - `ctx.verse()`: the words of this verse. `ctx.verse(s, v)`: any verse.
+- `ctx`: the text the rule may see, with the slot words hidden. That is the sura the choice is in, and the suras the rule learns from (the build suras, or one half of them when tuning). Asking for any other sura throws an error.
+  - `ctx.verse()`: the words of this verse. `ctx.verse(s, v)`: a verse of this sura or of a sura the rule learns from.
   - `ctx.window(k)`: the verses within `k` verses, same sura.
   - `ctx.sura()`: the whole sura.
   - `ctx.meta()`: `{ ayas, type (Meccan or Medinan), egyptian, noldeke }` (traditional order of revelation).
-  - `ctx.rootOf(token)`.
+  - `ctx.rootOf(token)`: the root of a word, as annotated in the suras the rule learns from (`null` if the word does not occur there).
   - `ctx.build`: this problem's occurrences in the suras the rule may learn from, with the choice made there (`'(other)'` where the word used is not one of the options). A rule may learn from these.
   - Each word is `{ s, v, w, form, lemma, root, pos, feats, prefixes, token }`, or `{ hidden: true }` for a slot.
 
-A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse.
+A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse. A rule may import other files of this repository; the evaluator follows those imports and freezes them with the rule.
 
 ## Scoring a rule
 
 1. **Build suras.** `node project/tools/evaluate.mjs project/rules/R###_name.mjs`. Run as often as you like. Tune here. Add `--dry` to see the scores without writing to the ledger. On the build suras, problems are defined on one half and scored on the other, both ways, so `ctx.build` holds one half at a time.
-2. **Commit and push the rule file before testing it.** The commit is the proof that the rule was fixed first.
+2. **Commit and push before testing.** The commit is the proof that the rule and the method were fixed first. The tool checks this: a test run is refused unless the rule, everything it imports, the tools, the synonym list, the split and the text are committed and the commit is on `origin/main`. The commit and the hash of each of those files go into the ledger.
 3. **Test suras.** Add `--test`. This runs **once** per rule. The tool refuses a second run and refuses a changed file. A changed rule is a new rule with a new number, and the old one stays in the ledger as it was.
 4. The result goes to `project/ledger/R###.json`. Never edit the scores in a ledger file by hand.
 5. A failed rule is a result. Keep it, log it, and say what it rules out.
 
-A rule passes if it is right more often than the baseline on the test suras, with `pGain` below 0.01.
+A rule passes if it is right more often than the baseline on the test suras, with **both** `pGain` and `pGainBySura` below 0.01. `pGain` counts every place once. `pGainBySura` counts every sura once, because places within one sura are not independent (a refrain can supply many places). A pass is not the end: it must survive the other model's challenge, and with many rules tested a few will pass by luck (`SCOREBOARD.md` says how many to expect).
+
+The scores also report `unseen` (places where the word used was never seen there in the build suras, which nobody can answer) and `accuracyAllPlaces` / `baselineAllPlaces`, which count those places as misses and let the baseline stand in where the rule gives no answer. Quote these beside the main score when you describe how much of the text a rule accounts for.
 
 ## How problems are defined
 
-Which problems exist, and which options each has, is decided from the build suras alone (`project/tools/problems.mjs`). The test and vault suras must never shape a problem. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
+Which problems exist, and which options each has, is decided from the build suras alone (`project/tools/problems.mjs`). The test and vault suras must never shape a problem. The tools enforce this from census version 3: a run loads only the suras it may see (`loadText` in `project/tools/lib.mjs`), the vault is not loaded by any tool unless the owner's flag is given, and near-synonym options are explicit lists of dictionary forms in `project/synonyms.json`, compiled from the build suras. When you add a synonym set, compile its forms from the build suras too. The files in `project/sites/` hold build-sura occurrences only and are safe to read.
+
+Check the guards after any change to the tools: `node --test project/challenges/census-v2-audit.test.mjs project/tools/comparison.test.mjs`. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
 
 ## Challenging a rule
 
@@ -91,7 +95,7 @@ Write the checks as a script in `project/challenges/`, then add to the rule's le
 
 ## Never
 
-- **Never run anything on the vault suras** (`project/split.json`), and never tune a rule by reading them, unless the owner has asked for a vault run in this session.
+- **Never run anything on the vault suras** (`project/split.json`), and never tune a rule by reading them, unless the owner has asked for a vault run in this session. Do not write code that loads the whole text for this project; go through `loadText`.
 - **Never regenerate `project/split.json`.**
 - **Never commit** `sources/`, `data/external/` or `data/en.sahih.txt`. They hold copyrighted or third-party text and are in `.gitignore`.
 - **Never force-push, rewrite history or delete another model's work.** If you think it is wrong, say so in the log and add a task.

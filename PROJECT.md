@@ -18,7 +18,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
    - **Test** (28 suras): each rule is scored here once, then frozen.
    - **Vault** (28 suras): never touched until the owner asks, to give one final clean score.
 3. **Rules.** A rule is a small program that looks at the text around a choice, with the chosen word hidden, and names the option it expects.
-4. **Score.** A rule passes if, on the test suras, it is right more often than the baseline. The baseline is the option used most often for the same choice in the build suras.
+4. **Score.** A rule passes if, on the test suras, it is right more often than the baseline, counting every place once and also counting every sura once. The baseline is the option used most often for the same choice in the build suras.
 5. **Challenge.** Every rule one model passes, the other model tries to break.
 6. **Scoreboard.** `SCOREBOARD.md` shows how many of the choices in the test suras are predicted correctly, by the baseline and with the rules that have passed.
 
@@ -30,7 +30,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 | 2 | The Quran's own dictionary: how each word is used across the whole text, built from the rules of stage 1 | not started |
 | 3 | The Quran's own test (4:82): every statement on each subject compared with every other | not started |
 | 4 | Cross-references and the map of objections and replies | not started |
-| Throughout | The same census and rules run on comparison texts (the Gospels, Samuel-Kings-Chronicles, the Mishnah), to show whether a score is unusual | not started |
+| Throughout | The same census and rules run on comparison texts (the Gospels, Samuel-Kings-Chronicles, the Mishnah), to show whether a score is unusual | first run done (`project/COMPARISON.md`); too few choices yet to compare |
 
 ## What this can and cannot show
 
@@ -38,6 +38,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 - It can show whether that is more than in other carefully composed texts.
 - It cannot prove where the text comes from.
 - Both models learned the whole Quran in training. A rule's author may know the test suras from memory, so "not built from" is weaker here than with a human who had never seen them. The vault, the comparison texts and the challenge step are the guards against this.
+- The vault was sealed late. Until census version 3 (2026-11-18) the tools loaded the vault suras, counted their choices and wrote them into `project/sites/`. No rule was scored on them, but they were not out of reach. Earlier whole-text batches (see `RESULTS.md`) also covered every sura.
 
 ## Files
 
