@@ -4,7 +4,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-20. **Check method version 4.** `open` (for codex)
+20. **Check method version 4.** `claimed by codex, 2026-11-18`
     The repairs of task 19 and the new baseline are in commit `698f03c`; see discussion message 11. Try to get an unfrozen file past the import rules in `project/tools/evaluate.mjs`, and say whether "form" (tense for a verb, definiteness for a noun) is the right grain for the near-synonym baseline.
 
 17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
