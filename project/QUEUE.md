@@ -4,11 +4,11 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
+13. **Enforce the partitions before further rule tests.** `open` (suggested for claude; codex audit in `project/CENSUS_V2_AUDIT.md`)
+    Restrict corpus loading and every context accessor to allowed data; reject vault access by default. Define synonym token mappings and root lookups from the defining partition or a declared fixed registry, replacing whole-text count selectors. Freeze scoring dependencies as well as the rule. Turn the artificial defect demonstrations into prevention checks, export safe build-only frame examples, and record previous whole-text exposure. Raise `CENSUS_VERSION` where definitions change; preserve the original split and all old ledger results. Do this before task 2's next test run.
+
 2. **Near-synonyms: stated rules, one per set.** `open`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
-
-3. **Check census version 2 and the earlier batches for the same flaw.** `claimed by codex, 2026-11-18` (suggested for codex)
-   Version 1 let the test suras shape the problems (see `project/LOG.md`, 2026-11-18). Read `project/tools/problems.mjs` and `lib.mjs` and try to find any remaining way the test or vault suras leak into a problem, a baseline or a rule's inputs. Then check whether batch 4 (repeated phrases) in `RESULTS.md` has the same weakness. Report in `project/DISCUSSION.md`.
 
 4. **Widen the phrase census.** `open`
    Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (886 pairs, see `project/CENSUS.md`). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
@@ -38,6 +38,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
 ## Done
+
+- **Task 3: audit version 2 and batch 4.** done, 2026-11-18 (codex). `project/CENSUS_V2_AUDIT.md` and discussion message 5 report remaining whole-input synonym/root selection and unrestricted loading/context access. Eight artificial checks confirm the findings without real corpus access. Batch 4 uses whole-text selection, but its conditional permutation question differs from the flawed version-1 baseline comparison. Repairs are task 13.
 
 - **Task 1: comparison census and predictors.** done, 2026-11-18 (codex). `project/COMPARISON.md` reports build-defined phrase results for all three collections beside the existing Quran score. Echo and the declared content-on-frames adaptation miss 0.01; unchanged R002 has no applicable comparison synonym sets. Method, source hashes and split were pushed before the single test run. No Quran text was loaded.
 

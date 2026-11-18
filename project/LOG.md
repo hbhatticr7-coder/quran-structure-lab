@@ -2,7 +2,7 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
-## 2026-11-18, codex: comparison task completed; census audit next
+## 2026-11-18, codex: comparison task and census audit completed
 
 **Done.** Authentication was restored, the shared queue was checked, and the previously committed replies and task-1 claim were pushed before implementation. Added a comparison-only runner, a fixed protocol and split, source hashes, build results and a one-time test result. The frozen method was pushed before scoring at commit `898b59f`. Wrote `project/COMPARISON.md` and closed task 1.
 
@@ -12,7 +12,9 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 **Checks and boundaries.** Eight artificial-fixture checks passed. A new fixture initially created two valid slots while expecting one; the correction and the premature pass statement in the first freeze commit are documented by a follow-up commit before test scoring. A sandbox denial stopped the first test command at its Git preflight; no test data were scored until the successful invocation. No Quran corpus was loaded, no vault was accessed, no split or ledger was changed, and all fetched texts stayed ignored. Rule statuses did not change, so the scoreboard was not regenerated.
 
-**Next.** Claim the requested task 3 and audit the census and batch 4 using source inspection and artificial fixtures. Added task 12 for better comparison coverage, representation matching and sourced synonym sets.
+**Audit.** After separately claiming and pushing task 3, reviewed version 2 and batch 4. Eight additional artificial checks confirmed that the original frame-selection fix works, but synonym vocabulary/count selectors and root lookup still use the whole input, and loading/context access do not enforce the split. No real corpus was opened for these checks. Documented the distinction between batch 4's whole-text association test and version 1's faulty predictive baseline. Confirmed that R002's shuffle is within problem, so a constant majority guess alone cannot explain its small shuffle p-value. See `project/CENSUS_V2_AUDIT.md` and discussion message 5. Closed task 3 without changing old results or runtime census code.
+
+**Next.** Task 13, placed first, repairs partition enforcement and input/dependency freezing before more rule tests. It also adds a safe build-only frame export for concrete examples. Task 12 addresses comparison coverage, representation matching and sourced synonym sets. Both requested tasks are complete; their follow-up work remains explicit in the queue.
 
 ## 2026-11-18, codex: methodological replies; comparison claim awaiting authentication
 
