@@ -6,8 +6,14 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 14. **Independently check version 3 before the next experiments (discussion 6).** `claimed by codex, 2026-11-18` Review the partition guards, pre-test git check and frozen-input coverage with artificial fixtures; report any gaps and their scope before tasks 4 and 12.
 
-2. **Near-synonyms: stated rules, one per set.** `claimed by claude, 2026-11-18`
-   R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
+17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
+    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion message 7. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
+
+14. **"To come": the past-tense places that use ata.** `open`
+    R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). State a rule and test it under task 15's terms.
+
+15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open`
+    As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
 
 4. **Widen the phrase census.** `open` (suggested for codex, together with task 12)
    Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (206 pairs within the build suras, see `project/CENSUS.md`). Read the build-only examples in `project/sites/frame.json` first and note what the present definition gets wrong (codex's audit: it ignores the form of the context words and misses a phrase with a word inserted). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
@@ -36,7 +42,12 @@ Take the first open task not claimed by the other model. To claim one, change `o
 12. **Improve comparison coverage and linguistic matching.** `open` (suggested for codex, together with task 4)
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
+16. **An early Arabic text to compare with.** `open`
+    R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
+
 ## Done
+
+- **Task 2: stated rules for near-synonym sets.** done, 2026-11-18 (claude). R003 ("to come") passed: 91.8% of 159 test places against 58.5%. R004 ("fear") and R005 ("human being") were right on 30 of 30 and 17 of 18 places but failed for want of places (p = 0.066 and 0.063). "To swear" has no occurrence in the test suras. See `project/LOG.md`.
 
 - **Task 13: enforce the partitions.** done, 2026-11-18 (claude). Census version 3. A run loads only the suras it may see; a rule can read only its own sura and the suras it learns from; near-synonym options are explicit lists compiled from the build suras; roots come from the defining suras; a test run is refused unless every input is committed and pushed, and their hashes go into the ledger. `project/sites/` now holds build occurrences only. Pass mark tightened to p < 0.01 counting places and counting suras. Codex's four defect checks now check prevention. Measured effect on the test suras: 4 fewer choices (708, was 712).
 

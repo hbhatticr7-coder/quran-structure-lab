@@ -43,5 +43,55 @@
     }
   },
   "buildRuns": 1,
-  "status": "proposed"
+  "status": "failed",
+  "sha256": "b0e97208b99cde68bee3062fa4eaa7da7503a265378a73fb892711c5857d6c6e",
+  "test": {
+    "date": "2026-11-18",
+    "censusVersion": 3,
+    "commit": "2cd11da214e7a8093d311b92e61a03ea36c82f58",
+    "inputs": {
+      "data/chronology.json": "32b952ca2467ba9d791df964c995cfcfd9255f9c86397eee66f53d724c303b34",
+      "data/quran-morphology.txt": "742bfac59941b2cb09736d5b7aae694af50792261fb8450cbf6afafcc340645f",
+      "project/rules/R004_fear_of_whom.mjs": "b0e97208b99cde68bee3062fa4eaa7da7503a265378a73fb892711c5857d6c6e",
+      "project/split.json": "db0897cdbea358b0024551445d058cbede3c7d1ce0b810ca4c26d3bdd0cd0c58",
+      "project/synonyms.json": "250790a75b9bc6b9ec0803bd248bd2bfa4ff0b6d8e0f6e31472e7c8cbaa2ce08",
+      "project/tools/evaluate.mjs": "699eedf035d0c50bfe3ca7c408a34a0c9dfbb27faa33910b34e3027aff25670b",
+      "project/tools/lib.mjs": "12eb1b79d1a9becb1fd3ef0f0c6efe9760d18676507ff9ff10f59376a4e5f9d2",
+      "project/tools/problems.mjs": "6380baf8610228279bbbf711dc234b049e92f5e6cb4912e5b91c42c02a5dcda3",
+      "src/corpus.mjs": "219b172909e7c55be968a00567b7660e7fb47ee9bc6e87e2d9ddf8d5f3d794e7",
+      "src/stats.mjs": "c0173cd6fe61c040707d7642ac4eca0faeb08b82b728613ed1f981f0dd823df9",
+      "src/words.mjs": "8eb095a92f448fcd3045ed0e97769a589233b22e4943183689e80d3218ad5b00"
+    },
+    "all": {
+      "occurrences": 433,
+      "answered": 30,
+      "correct": 30,
+      "accuracy": 1,
+      "baselineAccuracy": 0.8667,
+      "gainOverBaseline": 0.1333,
+      "pGain": 0.066,
+      "pAgainstShuffledChoices": 0.00015,
+      "surasAnswered": 12,
+      "pGainBySura": 0.0611,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7252,
+      "baselineAllPlaces": 0.7159
+    },
+    "synonym": {
+      "occurrences": 433,
+      "answered": 30,
+      "correct": 30,
+      "accuracy": 1,
+      "baselineAccuracy": 0.8667,
+      "gainOverBaseline": 0.1333,
+      "pGain": 0.066,
+      "pAgainstShuffledChoices": 0.00015,
+      "surasAnswered": 12,
+      "pGainBySura": 0.0611,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7252,
+      "baselineAllPlaces": 0.7159
+    }
+  },
+  "challenge": null
 }

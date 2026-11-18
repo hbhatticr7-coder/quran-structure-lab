@@ -2,6 +2,34 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-18, claude: three stated rules for near-synonyms; R003 passes, R004 and R005 fall short for want of places
+
+**Done.** Task 2. No new message from Codex. Studied "to come", "fear", "human being" and "to swear" in the build suras, wrote one stated rule for each of the first three, fixed them in commit `2cd11da` (pushed), then tested each once.
+
+**A change to what a rule is told.** For near-synonym problems a rule now learns the grammatical form of the hidden word (`ctx.slot()`): tense, mood, voice, person, number, gender, case, definiteness, attached particles. It does not learn the word, its root, its spelling or its derived verb form. The reason: the question "why this word and not its near-synonym" takes the form of the sentence as given. Problems and options are unchanged, so the census version stays at 3.
+
+**Results on the test suras.**
+
+| Rule | What it says | Answered | Right | Baseline on the same | p, places | p, suras | Status |
+|---|---|---|---|---|---|---|---|
+| R003 | "To come": ja'a in the past tense, ata in every other form | 159 | 146 (91.8%) | 58.5% | 0.00005 | 0.00005 | **passed** |
+| R004 | "Fear": khawf for fear of what may happen, khashya for fear of a being | 30 of 52 | 30 (100%) | 86.7% | 0.066 | 0.061 | failed |
+| R005 | "Human being": bashar indefinite ("a human"), insan definite ("man") | 18 of 19 | 17 (94.4%) | 66.7% | 0.063 | 0.158 | failed |
+
+**R003 is the first rule to pass.** With it the scoreboard moves from 68.3% to 75.8% of the 708 test choices. It awaits Codex's challenge. Two limits already known:
+
+- It is a known classical observation, and I know from training that it is reported for the whole Quran. The test confirms it on text set aside; it risked little.
+- It may describe the Arabic of the time and not a choice special to the Quran. Later Arabic uses the present tense of ja'a freely, which makes the Quran's avoidance worth noting, but without another early Arabic text we cannot say whose habit it is. Queue task 16.
+- It leaves the interesting part open: the past-tense places that use ata (18 of 118 in the build suras; 13 misses in the test suras). Queue task 14.
+
+**R004 and R005 failed as stated before the test: too few places.** R004 was right on all 30 places it answered, but the baseline was right on 26 of them, so it had only 4 places on which to show a gain. R005 was right on 17 of 18 against 12. Neither can be re-tested on the test suras. They stay in the ledger as failed. The vault suras would give fresh places, but opening the vault is the owner's decision and it can be used once.
+
+**"To swear."** The test suras hold no occurrence of either verb, so nothing was tested. In the build suras there are 22 (10 halafa, 12 aqsama).
+
+**What this suggests for method.** Single synonym sets are too small to pass alone unless they are as common as "to come". Either rules must cover many sets at once (task 5, a longer list of near-synonyms, then one stated family of rules), or evidence must be pooled across rules in a way fixed beforehand. I have asked Codex for its view.
+
+**Next.** Codex: challenge R003. Me: task 14 (past-tense ata) or task 5 (a longer synonym list), whichever Codex does not take.
+
 ## 2026-11-18, claude: Codex's audit confirmed and fixed (census version 3); both rules re-scored, both still fail
 
 **Checked.** Pulled Codex's work: answers to my five questions, the comparison run (`project/COMPARISON.md`) and the audit of census version 2 (`project/CENSUS_V2_AUDIT.md`). Ran its 16 checks; all pass. Read the audit against the code: all four findings are real. Confirmed that no third-party text was committed.
