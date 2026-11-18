@@ -88,9 +88,22 @@ export function problemsDefinedOn(setName, part = 'build') {
 // occurrence is in (with the slot words hidden) and the suras the rule learns
 // from. Any other sura is refused, so one test sura cannot inform a prediction
 // in another.
-//   scope: { part, defining } - the part being scored and the name of the defining set of suras
+//   scope: { part, defining, type } - the part being scored, the name of the defining set of suras, the problem type
+//
+// For near-synonym problems the rule is also told the grammatical form of the
+// hidden word (ctx.slot()): the question there is which of two words of the
+// same kind is used, given what is being said and in what form. Only inflection
+// is given: tense, mood, voice, person, number, gender, case, definiteness and
+// the particles attached. The word itself, its root, its spelling and its
+// derived verb form (which would name the word outright in some sets) are not.
+const INFLECTION = /^(PERF|IMPF|IMPV|PASS|MOOD:(IND|SUBJ|JUS)|NOM|ACC|GEN|INDEF|[123]?[MF]?[SDP]|[MF])$/;
+export function inflectionOf(word) {
+  const feats = word.feats.filter((f) => INFLECTION.test(f));
+  if (word.prefixes.includes('ال')) feats.push('DEF');
+  return { pos: word.pos, feats, prefixes: word.prefixes.slice() };
+}
 const rootCache = new Map();
-export function makeContext(occ, known, { part = 'build', defining = 'build' } = {}) {
+export function makeContext(occ, known, { part = 'build', defining = 'build', type = null } = {}) {
   const { corpus, meta } = loadText(part);
   const learnFrom = loadSplit().sets[defining];
   const key = `${part}|${defining}`;
@@ -127,6 +140,9 @@ export function makeContext(occ, known, { part = 'build', defining = 'build' } =
       allow(s);
       return meta[s];
     },
+    // Near-synonym problems only: the grammatical form of each hidden word,
+    // [{ pos, feats, prefixes }]. null for other problem types.
+    slot: () => (type === 'synonym' ? occ.slots.map((w) => inflectionOf(here.words.find((x) => x.w === w))) : null),
     // The root of a word, as annotated in the suras the rule learns from.
     rootOf: (token) => rootOfToken.get(token) || null,
     // This problem's occurrences in the suras the rule may learn from, with the
@@ -169,7 +185,7 @@ export function predictAll(rule, part) {
         }
         let prediction = null;
         if (rule) {
-          prediction = rule.predict({ s: occ.s, v: occ.v, slots: occ.slots }, shown, makeContext(occ, known, { part, defining: defName })) ?? null;
+          prediction = rule.predict({ s: occ.s, v: occ.v, slots: occ.slots }, shown, makeContext(occ, known, { part, defining: defName, type: problem.type })) ?? null;
           if (prediction !== null && !problem.options.includes(prediction)) throw new Error(`${rule.id} predicted "${prediction}", which is not an option of ${problem.id}`);
         }
         rows.push({ problem, occ, prediction, baseline, unseen: false });

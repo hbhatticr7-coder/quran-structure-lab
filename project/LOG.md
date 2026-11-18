@@ -4,15 +4,47 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 ## 2026-11-18, codex: replied to Claude and completed the independent version 3 review
 
-**Done.** Pulled through `d2ad926`, read the updated charter and working rules in full, and answered discussion 6 in messages 7 and 8. Claimed task 14 and pushed the claim before reviewing. Wrote `project/CENSUS_V3_REVIEW.md` and three executable diagnostic checks.
+**Done.** Pulled through `d2ad926`, read the updated charter and working rules in full, and answered discussion 6 in messages 7 and 9. Claimed task 14 and pushed the claim before reviewing. Wrote `project/CENSUS_V3_REVIEW.md` and three executable diagnostic checks.
 
 **Found.** Version 3 fixes returned context access and whole-input synonym/root selection. The exported site contents contain only build occurrences. However, the loader still parses all morphology before filtering; the git guard accepts an ignored uncommitted helper; and it misses transitive dependencies through non-MJS files. The three additional fixtures reproduce those gaps. The existing rules do not use the helper patterns, and this review does not measure an effect on their scores. Other source findings concern validation order, missing-split regeneration and test-dependent ordering of otherwise build-only exports.
 
 **Method reply.** Accepted the stricter prospective pass bar and Claude's point that a feature-free classifier uses the majority prior, with coverage/tie qualifications. Explained that sura blocks flip summed gains rather than give equal weight to sura accuracy, and that the chance-pass count needs qualification. Existing statuses and results stay unchanged.
 
-**Validation and boundary.** The required existing test command passed (17 checks), as did the three new diagnostics. Only artificial morphology and temporary Git repositories with local origins were used for the new checks. The actual corpus was not opened; no vault run, new rule test or rescoring occurred. The split and ledger were unchanged. The current build-only site exports were validated against the build IDs without calling the corpus loader.
+**Validation and boundary.** The required existing test command passed (initially 17 checks, then 18 after the concurrent slot addition), as did the three new diagnostics on the merged source. Only artificial morphology and temporary Git repositories with local origins were used for the new checks. This review did not open the actual corpus or run or rescore a Quran rule. The current build-only site exports were validated against the build IDs without calling the corpus loader.
 
-**Next.** Task 15, placed first, closes these gaps before more tests. Tasks 4 and 12 remain open for the wider phrase comparison after that repair. Task 14 is complete; this session's work is the requested independent review.
+**Concurrent update.** The final push encountered Claude's commits through `da95628`, including R003's pass and the new `ctx.slot()` API. Merged both histories and preserved Claude's text and results. Renumbered only my reply (9) and repair task (19) to avoid collisions, then answered message 8 in message 10. Reviewed the slot whitelist and noted that, from the recorded build counts, a tense-conditioned majority baseline makes the same choices as R003. No full challenge verdict is claimed yet. The three guard diagnostics still reproduce; the loader gap touches the shared pipeline, while the helper patterns are absent from R003–R005.
+
+**Next.** Task 19, placed first, closes these gaps before more tests. Then task 17 supplies the full R003 challenge, including slot features, repeated passages and sura sensitivity. Tasks 4 and 12 remain open for the wider phrase comparison. Task 14 is complete; this session's work is the requested independent review and replies.
+
+## 2026-11-18, claude: three stated rules for near-synonyms; R003 passes, R004 and R005 fall short for want of places
+
+**Done.** Task 2. No new message from Codex. Studied "to come", "fear", "human being" and "to swear" in the build suras, wrote one stated rule for each of the first three, fixed them in commit `2cd11da` (pushed), then tested each once.
+
+**A change to what a rule is told.** For near-synonym problems a rule now learns the grammatical form of the hidden word (`ctx.slot()`): tense, mood, voice, person, number, gender, case, definiteness, attached particles. It does not learn the word, its root, its spelling or its derived verb form. The reason: the question "why this word and not its near-synonym" takes the form of the sentence as given. Problems and options are unchanged, so the census version stays at 3.
+
+**Results on the test suras.**
+
+| Rule | What it says | Answered | Right | Baseline on the same | p, places | p, suras | Status |
+|---|---|---|---|---|---|---|---|
+| R003 | "To come": ja'a in the past tense, ata in every other form | 159 | 146 (91.8%) | 58.5% | 0.00005 | 0.00005 | **passed** |
+| R004 | "Fear": khawf for fear of what may happen, khashya for fear of a being | 30 of 52 | 30 (100%) | 86.7% | 0.066 | 0.061 | failed |
+| R005 | "Human being": bashar indefinite ("a human"), insan definite ("man") | 18 of 19 | 17 (94.4%) | 66.7% | 0.063 | 0.158 | failed |
+
+**R003 is the first rule to pass.** With it the scoreboard moves from 68.3% to 75.8% of the 708 test choices. It awaits Codex's challenge. Two limits already known:
+
+- It is a known classical observation, and I know from training that it is reported for the whole Quran. The test confirms it on text set aside; it risked little.
+- It may describe the Arabic of the time and not a choice special to the Quran. Later Arabic uses the present tense of ja'a freely, which makes the Quran's avoidance worth noting, but without another early Arabic text we cannot say whose habit it is. Queue task 16.
+- It leaves the interesting part open: the past-tense places that use ata (18 of 118 in the build suras; 13 misses in the test suras). Queue task 18.
+
+**R004 and R005 failed as stated before the test: too few places.** R004 was right on all 30 places it answered, but the baseline was right on 26 of them, so it had only 4 places on which to show a gain. R005 was right on 17 of 18 against 12. Neither can be re-tested on the test suras. They stay in the ledger as failed. The vault suras would give fresh places, but opening the vault is the owner's decision and it can be used once.
+
+**"To swear."** The test suras hold no occurrence of either verb, so nothing was tested. In the build suras there are 22 (10 halafa, 12 aqsama).
+
+**What this suggests for method.** Single synonym sets are too small to pass alone unless they are as common as "to come". Either rules must cover many sets at once (task 5, a longer list of near-synonyms, then one stated family of rules), or evidence must be pooled across rules in a way fixed beforehand. I have asked Codex for its view.
+
+**Timing.** Codex pushed its reply (discussion message 7) and its claim of a review of version 3 while this session was running. I read them after the three tests. The tests therefore ran before Codex's review of the version 3 guards was finished; if it finds a gap that touches them, they will be marked provisional.
+
+**Next.** Codex: review version 3, then challenge R003. Me: task 18 (past-tense ata) or task 5 (a longer synonym list), whichever Codex does not take.
 
 ## 2026-11-18, claude: Codex's audit confirmed and fixed (census version 3); both rules re-scored, both still fail
 

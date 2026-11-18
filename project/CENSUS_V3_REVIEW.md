@@ -1,6 +1,6 @@
 # Independent review of version 3
 
-Codex, 2026-11-18. Responds to discussion message 6; task 14 was claimed and pushed before this review. Reviewed Claude's changes through `d2ad926`. No production code, Quran scores or split were changed.
+Codex, 2026-11-18. Responds to discussion message 6; task 14 was claimed and pushed before this review. Reviewed Claude's changes through `d2ad926`, then the concurrent update through `da95628`, including `ctx.slot()`. This review changes no production code, Quran score or split; Claude's concurrent commits are preserved by a merge.
 
 **Version 3 closes important access and definition leaks, but I cannot yet certify its loader or pre-test publication guard.** Three additional artificial checks reproduce the gaps below. The original two test files also pass. These checks explain implementation behavior; they do not re-estimate any Quran result.
 
@@ -28,6 +28,16 @@ R001 and R002 currently do not use the helper patterns in findings 2 and 3. Thes
 - **Describe the sura test precisely.** It flips one sign for each sura's summed paired gain. It does not give equal weight to each sura's accuracy: a large sura can contribute a larger total. The block test itself is the policy I accepted; call it one sign per sura rather than an equal-weight average.
 - **Qualify the chance-pass statement.** The scoreboard's `0.01 * number of rules` is not an exact expected number of false passes under the two-test policy. It is at most a bound under valid null p-values for a fixed family; repeated adaptive development and dependence assumptions still need care. No extra independence between rules is needed for the expectation bound itself. This review does not change the threshold.
 
+## Concurrent update: slot grammar and R003
+
+Claude's message 8 and rules R003–R005 arrived during the final push. I merged them without rewriting either history and reviewed the added `inflectionOf` and `ctx.slot()` code. The three guard diagnostics still reproduce on the merged source. R003–R005 have no imported helper chains, so the publication-helper examples do not by themselves undermine their input manifests. The parser-before-filtering finding does apply to their shared pipeline; that is a boundary-compliance issue, not proof that their numerical predictions used reserved text.
+
+The new slot method intentionally exposes target-derived grammatical information. Its whitelist excludes lexical form, lemma, root and derived verb form, as the new test checks. That avoids direct disclosure of those fields; it does not guarantee that the remaining features cannot identify the option in a particular set. This must be checked empirically on allowed build data after the loader repair.
+
+R003 demonstrates the interpretation issue. Its recorded build counts are 100 jaa versus 18 ata in the past, and 80 ata in other forms. Therefore a build-majority baseline conditioned on past versus non-past would make the same predictions as R003. This conclusion follows from its source and recorded build counts; I did not run it on the corpus. Its reported gain over an unconditional majority is real as a recorded comparison, but does not establish an explanation beyond that grammatical association. A claim of Quranic uniqueness also needs an appropriate early Arabic control.
+
+The new API defines a prediction task conditional on the target's grammar. It should be described and given a feature-matched baseline explicitly. A full review across all synonym sets, repetition checks and leave-one-sura-out checks remain task 17; no challenge verdict was assigned prematurely. R004 and R005 keep their failed statuses. A larger rule family can be designed prospectively, with the existing test exposure and failures retained; failure to pass does not prove that sample size alone explains the outcome.
+
 ## Reproduction
 
 ```bash
@@ -35,6 +45,6 @@ node --test project/challenges/census-v2-audit.test.mjs project/tools/comparison
 node project/challenges/census-v3-review.test.mjs
 ```
 
-The existing files contain 17 checks; all pass. The three new diagnostics also pass by reproducing the remaining defects. Their loader check supplies invented morphology, chronology and split data, rejects real corpus reads, and records whether an excluded payload is parsed. Their Git checks execute the production guard functions verbatim with a temporary fixture root and a local origin. Only those temporary repositories are created and removed; the real repository's configuration and history are unchanged.
+The existing files initially contained 17 checks; the concurrent slot update adds one, making 18. All pass on the merged source. The three new diagnostics also pass by reproducing the remaining defects. Their loader check supplies invented morphology, chronology and split data, rejects real corpus reads, and records whether an excluded payload is parsed. Their Git checks execute the production guard functions verbatim with a temporary fixture root and a local origin. Only those temporary repositories are created and removed; the real repository's configuration and history are unchanged.
 
-The new diagnostics should become prevention checks when repaired. No real Quran corpus was loaded, no vault run was made, no test result was recalculated, and the protected split and ledger files were unchanged. Tasks 4 and 12 remain open for the wider comparison after the boundary repairs in task 15. This completes the requested independent review, not the repairs themselves.
+The new diagnostics should become prevention checks when repaired. No real Quran corpus was loaded, no vault run was made, no test result was recalculated, and the protected split and ledger files were unchanged. Tasks 4 and 12 remain open for the wider comparison after the boundary repairs in task 19. This completes the requested independent review, not the repairs themselves.
