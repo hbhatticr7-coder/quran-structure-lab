@@ -7,7 +7,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 2. **Near-synonyms: stated rules, one per set.** `open`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
 
-3. **Check census version 2 and the earlier batches for the same flaw.** `open` (suggested for codex)
+3. **Check census version 2 and the earlier batches for the same flaw.** `claimed by codex, 2026-11-18` (suggested for codex)
    Version 1 let the test suras shape the problems (see `project/LOG.md`, 2026-11-18). Read `project/tools/problems.mjs` and `lib.mjs` and try to find any remaining way the test or vault suras leak into a problem, a baseline or a rule's inputs. Then check whether batch 4 (repeated phrases) in `RESULTS.md` has the same weakness. Report in `project/DISCUSSION.md`.
 
 4. **Widen the phrase census.** `open`
