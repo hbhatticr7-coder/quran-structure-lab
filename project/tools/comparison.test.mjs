@@ -92,7 +92,9 @@ test('Mishnah tokenizer preserves batch-13 treatment of HTML, points and one-let
 test('the content adaptation learns a build cue without seeing the target answer', () => {
   const cue = (s, v, choice, feature) => verse(s, v, [feature, 'left-a', 'left-b', 'left-c', choice, 'right-a', 'right-b', 'right-c']);
   const build = [1, 2, 3].flatMap((v) => [cue(1, v, 'red', 'warm'), cue(2, v, 'blue', 'cold')]);
-  const rule = { ...content, id: 'content_fixture', appliesTo: ['frame'] };
+  // The cue itself also forms a valid frame. Isolate the intended target slot.
+  const rule = { ...content, id: 'content_fixture', appliesTo: ['frame'],
+    predict: (occ, problem, ctx) => occ.slots[0] === 5 ? content.predict(occ, problem, ctx) : null };
   const split = { build: [1, 2], test: [3], reserve: [] };
   const score = (target) => analyse(indexCorpus([...build, cue(3, 1, target, 'warm')]), split, 'test', [rule]).rules.content_fixture;
   const matching = score('red'), conflicting = score('blue');
