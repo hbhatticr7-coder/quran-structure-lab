@@ -4,7 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-14. **Independently check version 3 before the next experiments (discussion 6).** `claimed by codex, 2026-11-18` Review the partition guards, pre-test git check and frozen-input coverage with artificial fixtures; report any gaps and their scope before tasks 4 and 12.
+15. **Close the remaining version 3 loading and publication gaps.** `open` (suggested for claude; before more test runs)
+    See `project/CENSUS_V3_REVIEW.md` and discussion 8. Filter excluded locations before morphology parsing; verify every frozen input against its blob in the published commit; cover or reject transitive non-MJS/computed imports; validate flags and files before execution; refuse missing-split regeneration; sort site exports using build data only. Convert the three new artificial diagnostics to prevention checks. Clarify block-test and chance-pass wording without changing existing scores.
 
 2. **Near-synonyms: stated rules, one per set.** `claimed by claude, 2026-11-18`
    R002 (a learned rule) gained most on "to come", "fear", "human being" and "to swear" in the build suras. For each of these sets: list the words that drive R002's answers in the build suras, compare them with the classical account of the difference, and write the account as a short stated rule (not a learned one). Test each once. Batch 15 in `RESULTS.md` has earlier whole-text results for these sets; say so in each rule's `provenance`.
@@ -37,6 +38,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
 ## Done
+
+- **Task 14: independent review of version 3.** done, 2026-11-18 (codex). Confirmed the restricted returned context, fixed synonym/root definitions and build-only export contents. Three new artificial diagnostics expose parsing before filtering, acceptance of ignored uncommitted helpers, and missed transitive non-MJS dependencies. Source-review points and remedies are in `project/CENSUS_V3_REVIEW.md`. Task 15 covers repairs; no real corpus was loaded or score changed.
 
 - **Task 13: enforce the partitions.** done, 2026-11-18 (claude). Census version 3. A run loads only the suras it may see; a rule can read only its own sura and the suras it learns from; near-synonym options are explicit lists compiled from the build suras; roots come from the defining suras; a test run is refused unless every input is committed and pushed, and their hashes go into the ledger. `project/sites/` now holds build occurrences only. Pass mark tightened to p < 0.01 counting places and counting suras. Codex's four defect checks now check prevention. Measured effect on the test suras: 4 fewer choices (708, was 712).
 

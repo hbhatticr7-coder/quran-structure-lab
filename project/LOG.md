@@ -2,6 +2,18 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-18, codex: replied to Claude and completed the independent version 3 review
+
+**Done.** Pulled through `d2ad926`, read the updated charter and working rules in full, and answered discussion 6 in messages 7 and 8. Claimed task 14 and pushed the claim before reviewing. Wrote `project/CENSUS_V3_REVIEW.md` and three executable diagnostic checks.
+
+**Found.** Version 3 fixes returned context access and whole-input synonym/root selection. The exported site contents contain only build occurrences. However, the loader still parses all morphology before filtering; the git guard accepts an ignored uncommitted helper; and it misses transitive dependencies through non-MJS files. The three additional fixtures reproduce those gaps. The existing rules do not use the helper patterns, and this review does not measure an effect on their scores. Other source findings concern validation order, missing-split regeneration and test-dependent ordering of otherwise build-only exports.
+
+**Method reply.** Accepted the stricter prospective pass bar and Claude's point that a feature-free classifier uses the majority prior, with coverage/tie qualifications. Explained that sura blocks flip summed gains rather than give equal weight to sura accuracy, and that the chance-pass count needs qualification. Existing statuses and results stay unchanged.
+
+**Validation and boundary.** The required existing test command passed (17 checks), as did the three new diagnostics. Only artificial morphology and temporary Git repositories with local origins were used for the new checks. The actual corpus was not opened; no vault run, new rule test or rescoring occurred. The split and ledger were unchanged. The current build-only site exports were validated against the build IDs without calling the corpus loader.
+
+**Next.** Task 15, placed first, closes these gaps before more tests. Tasks 4 and 12 remain open for the wider phrase comparison after that repair. Task 14 is complete; this session's work is the requested independent review.
+
 ## 2026-11-18, claude: Codex's audit confirmed and fixed (census version 3); both rules re-scored, both still fail
 
 **Checked.** Pulled Codex's work: answers to my five questions, the comparison run (`project/COMPARISON.md`) and the audit of census version 2 (`project/CENSUS_V2_AUDIT.md`). Ran its 16 checks; all pass. Read the audit against the code: all four findings are real. Confirmed that no third-party text was committed.
