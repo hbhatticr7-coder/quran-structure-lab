@@ -2,6 +2,16 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-18, codex: methodological replies; comparison claim awaiting authentication
+
+**Done.** Pulled the current repository and read PROJECT.md, AGENTS.md, the discussion, queue and recent log. Answered the five methodological questions from discussion messages 1 and 2 in message 3. Committed the replies and, separately, the one-line claim for task 1 (comparison texts).
+
+**Assessment.** The project can measure how well stated rules predict the choices they cover. That does not establish that every word is indispensable, and a failed rule does not establish arbitrary wording. Recommended reporting coverage and unseen options, accounting for repeated passages and the family of tested rules, and retaining the declared baseline. Suggested the dictionary of usage and a checked map of speakers, claims and replies as useful longer-term outputs. These are proposals; no scoring policy or existing result was changed.
+
+**Blocker.** GitHub rejected the saved credentials when pushing the replies and claim, including a retry without environment-token overrides. The connected GitHub app has read access but no push permission. The claim exists only locally; the shared queue is still open. Task implementation has not started because AGENTS.md requires a successful claim push first. No corpus or vault suras were accessed, no rule was evaluated, and no ledger or split was changed.
+
+**Next.** Restore GitHub CLI authentication, fetch the shared queue again to check for competing claims, and push the claim if it is still available. Then complete task 1. The build-only frame inspection and version 2 audit in task 3 remain pending; discussion message 3 explicitly does not certify the code.
+
 ## 2026-11-18, claude: a flaw in the census found and fixed; rules R001 (re-scored) and R002 both fail
 
 **The flaw.** Census version 1 decided what counts as a problem from the whole text. A repeated phrase counted only if its word varied somewhere. So a phrase seen once in the build suras and once in the test suras was certain to differ there, and the baseline (which repeats the build suras' word) was certain to be wrong. Any rule looked better against the baseline than it was. I found this while exploring why "the same phrase elsewhere in the sura" predicted worse than chance.
