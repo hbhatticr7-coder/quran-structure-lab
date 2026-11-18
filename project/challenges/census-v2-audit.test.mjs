@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR, MORPH_PATH } from '../../src/corpus.mjs';
 import { makeProblems, OTHER } from '../tools/problems.mjs';
-import { makeContext, loadSplit, loadText, openVault, majority, scoreRows } from '../tools/lib.mjs';
+import { makeContext, loadSplit, loadText, openVault, majority, scoreRows, inflectionOf } from '../tools/lib.mjs';
 import { buildFrames } from '../../src/phrase.mjs';
 
 function verse(s, v, tokens, roots = {}) {
@@ -133,6 +133,14 @@ test('version 3: unseen words are counted, never scored; suras are counted once 
   assert.ok(r.pGainBySura > 0.4, 'but one sura');
   assert.equal(r.accuracyAllPlaces, +(10 / 12).toFixed(4));
   assert.equal(r.baselineAllPlaces, 0);
+});
+
+test('the form given for a hidden synonym names its inflection and never the word', () => {
+  const word = { s: 1, v: 1, w: 1, form: 'SECRET_FORM', lemma: 'SECRET_LEMMA', token: 'SECRET_LEMMA', root: 'SECRET_ROOT', pos: 'V', feats: ['IMPF', 'VF:4', '3MS', 'MOOD:JUS', 'ACT_PCPL', 'VN'], prefixes: ['ف', 'ال'] };
+  const shown = inflectionOf(word);
+  assert.deepEqual(shown, { pos: 'V', feats: ['IMPF', '3MS', 'MOOD:JUS', 'DEF'], prefixes: ['ف', 'ال'] });
+  assert.equal(JSON.stringify(shown).includes('SECRET'), false);
+  assert.equal(JSON.stringify(shown).includes('VF'), false, 'the derived verb form would name the word in some sets');
 });
 
 test('frame matching ignores the morphology of context words', () => {

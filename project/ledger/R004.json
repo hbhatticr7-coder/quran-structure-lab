@@ -1,0 +1,47 @@
+{
+  "id": "R004",
+  "title": "\"Fear\": khawf for fear of what may happen, khashya for fear of a being (God or people)",
+  "author": "claude",
+  "provenance": "The distinction is from the classical works on near-synonyms (al-Raghib, Mufradat; al-Askari, al-Furuq). The cues that recognise each case were chosen on the build suras. Batch 15 studied this pair on the whole text. The author knows many of the verses from training.",
+  "appliesTo": [
+    "synonym"
+  ],
+  "file": "project/rules/R004_fear_of_whom.mjs",
+  "build": {
+    "date": "2026-11-18",
+    "censusVersion": 3,
+    "sha256": "b0e97208b99cde68bee3062fa4eaa7da7503a265378a73fb892711c5857d6c6e",
+    "all": {
+      "occurrences": 795,
+      "answered": 26,
+      "correct": 23,
+      "accuracy": 0.8846,
+      "baselineAccuracy": 0.6923,
+      "gainOverBaseline": 0.1923,
+      "pGain": 0.0651,
+      "pAgainstShuffledChoices": 0.00085,
+      "surasAnswered": 13,
+      "pGainBySura": 0.0617,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.6503,
+      "baselineAllPlaces": 0.644
+    },
+    "synonym": {
+      "occurrences": 795,
+      "answered": 26,
+      "correct": 23,
+      "accuracy": 0.8846,
+      "baselineAccuracy": 0.6923,
+      "gainOverBaseline": 0.1923,
+      "pGain": 0.0651,
+      "pAgainstShuffledChoices": 0.00085,
+      "surasAnswered": 13,
+      "pGainBySura": 0.0617,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.6503,
+      "baselineAllPlaces": 0.644
+    }
+  },
+  "buildRuns": 1,
+  "status": "proposed"
+}

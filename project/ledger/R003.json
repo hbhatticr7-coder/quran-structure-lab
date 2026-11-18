@@ -1,0 +1,47 @@
+{
+  "id": "R003",
+  "title": "\"To come\": ja'a in the past tense, ata in every other form",
+  "author": "claude",
+  "provenance": "A known observation of the classical grammarians, stated as a rule and checked on the build suras. The author knows from training that it is reported to hold through the whole Quran, so this test confirms a known regularity on text set aside; it does not risk a new claim. Batch 15 studied this pair on the whole text, by context, without using tense.",
+  "appliesTo": [
+    "synonym"
+  ],
+  "file": "project/rules/R003_come_tense.mjs",
+  "build": {
+    "date": "2026-11-18",
+    "censusVersion": 3,
+    "sha256": "a5682c267563af0776fa63edf9807e8d2f9e46c64a876853ee8a96aed3eab674",
+    "all": {
+      "occurrences": 795,
+      "answered": 199,
+      "correct": 181,
+      "accuracy": 0.9095,
+      "baselineAccuracy": 0.407,
+      "gainOverBaseline": 0.5025,
+      "pGain": 0.00005,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 34,
+      "pGainBySura": 0.00005,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7698,
+      "baselineAllPlaces": 0.644
+    },
+    "synonym": {
+      "occurrences": 795,
+      "answered": 199,
+      "correct": 181,
+      "accuracy": 0.9095,
+      "baselineAccuracy": 0.407,
+      "gainOverBaseline": 0.5025,
+      "pGain": 0.00005,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 34,
+      "pGainBySura": 0.00005,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.7698,
+      "baselineAllPlaces": 0.644
+    }
+  },
+  "buildRuns": 1,
+  "status": "proposed"
+}

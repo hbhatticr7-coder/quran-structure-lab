@@ -52,6 +52,7 @@ export default {
   - `ctx.window(k)`: the verses within `k` verses, same sura.
   - `ctx.sura()`: the whole sura.
   - `ctx.meta()`: `{ ayas, type (Meccan or Medinan), egyptian, noldeke }` (traditional order of revelation).
+  - `ctx.slot()`: near-synonym problems only. The grammatical form of the hidden word, `[{ pos, feats, prefixes }]`: tense, mood, voice, person, number, gender, case, definiteness (`DEF` / `INDEF`) and attached particles. Not the word, its root, its spelling or its derived verb form. `null` for other problem types.
   - `ctx.rootOf(token)`: the root of a word, as annotated in the suras the rule learns from (`null` if the word does not occur there).
   - `ctx.build`: this problem's occurrences in the suras the rule may learn from, with the choice made there (`'(other)'` where the word used is not one of the options). A rule may learn from these.
   - Each word is `{ s, v, w, form, lemma, root, pos, feats, prefixes, token }`, or `{ hidden: true }` for a slot.

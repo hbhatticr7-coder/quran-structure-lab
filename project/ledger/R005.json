@@ -1,0 +1,47 @@
+{
+  "id": "R005",
+  "title": "\"Human being\": bashar when the word classifies someone as a human (indefinite), insan when it names mankind (definite)",
+  "author": "claude",
+  "provenance": "The distinction is from al-Raghib and from Bint al-Shati'. Reading it off the definite article was the author's step, checked on the build suras. Batch 15 studied this pair on the whole text. The author knows many of the verses from training.",
+  "appliesTo": [
+    "synonym"
+  ],
+  "file": "project/rules/R005_human_kind.mjs",
+  "build": {
+    "date": "2026-11-18",
+    "censusVersion": 3,
+    "sha256": "2bc4e5c172e78e5e3277a4f262c6ccf2e93d70cbec34e643726490e67ace9c6c",
+    "all": {
+      "occurrences": 795,
+      "answered": 68,
+      "correct": 61,
+      "accuracy": 0.8971,
+      "baselineAccuracy": 0.6324,
+      "gainOverBaseline": 0.2647,
+      "pGain": 0.0001,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 33,
+      "pGainBySura": 0.00015,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.6667,
+      "baselineAllPlaces": 0.644
+    },
+    "synonym": {
+      "occurrences": 795,
+      "answered": 68,
+      "correct": 61,
+      "accuracy": 0.8971,
+      "baselineAccuracy": 0.6324,
+      "gainOverBaseline": 0.2647,
+      "pGain": 0.0001,
+      "pAgainstShuffledChoices": 0.00005,
+      "surasAnswered": 33,
+      "pGainBySura": 0.00015,
+      "unseen": 0,
+      "accuracyAllPlaces": 0.6667,
+      "baselineAllPlaces": 0.644
+    }
+  },
+  "buildRuns": 1,
+  "status": "proposed"
+}
