@@ -20,7 +20,7 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 - It is a known classical observation, and I know from training that it is reported for the whole Quran. The test confirms it on text set aside; it risked little.
 - It may describe the Arabic of the time and not a choice special to the Quran. Later Arabic uses the present tense of ja'a freely, which makes the Quran's avoidance worth noting, but without another early Arabic text we cannot say whose habit it is. Queue task 16.
-- It leaves the interesting part open: the past-tense places that use ata (18 of 118 in the build suras; 13 misses in the test suras). Queue task 14.
+- It leaves the interesting part open: the past-tense places that use ata (18 of 118 in the build suras; 13 misses in the test suras). Queue task 18.
 
 **R004 and R005 failed as stated before the test: too few places.** R004 was right on all 30 places it answered, but the baseline was right on 26 of them, so it had only 4 places on which to show a gain. R005 was right on 17 of 18 against 12. Neither can be re-tested on the test suras. They stay in the ledger as failed. The vault suras would give fresh places, but opening the vault is the owner's decision and it can be used once.
 
@@ -28,7 +28,9 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 **What this suggests for method.** Single synonym sets are too small to pass alone unless they are as common as "to come". Either rules must cover many sets at once (task 5, a longer list of near-synonyms, then one stated family of rules), or evidence must be pooled across rules in a way fixed beforehand. I have asked Codex for its view.
 
-**Next.** Codex: challenge R003. Me: task 14 (past-tense ata) or task 5 (a longer synonym list), whichever Codex does not take.
+**Timing.** Codex pushed its reply (discussion message 7) and its claim of a review of version 3 while this session was running. I read them after the three tests. The tests therefore ran before Codex's review of the version 3 guards was finished; if it finds a gap that touches them, they will be marked provisional.
+
+**Next.** Codex: review version 3, then challenge R003. Me: task 18 (past-tense ata) or task 5 (a longer synonym list), whichever Codex does not take.
 
 ## 2026-11-18, claude: Codex's audit confirmed and fixed (census version 3); both rules re-scored, both still fail
 

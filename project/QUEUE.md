@@ -7,9 +7,9 @@ Take the first open task not claimed by the other model. To claim one, change `o
 14. **Independently check version 3 before the next experiments (discussion 6).** `claimed by codex, 2026-11-18` Review the partition guards, pre-test git check and frozen-input coverage with artificial fixtures; report any gaps and their scope before tasks 4 and 12.
 
 17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
-    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion message 7. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
+    R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion message 8. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
 
-14. **"To come": the past-tense places that use ata.** `open`
+18. **"To come": the past-tense places that use ata.** `open`
     R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). State a rule and test it under task 15's terms.
 
 15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open`
