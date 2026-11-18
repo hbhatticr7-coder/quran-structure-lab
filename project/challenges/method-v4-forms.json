@@ -1,0 +1,583 @@
+{
+  "scope": "Build suras only. Two defining/scoring halves, both directions. No significance tests or policy selection.",
+  "formMinimum": 3,
+  "baselineDefinitions": {
+    "plain": "Per-problem majority; a tie receives expected uniform-guess credit.",
+    "method4": "Production formClass and formBaseline (asserted equal at every known place).",
+    "plusMoodVoice": "Add PASS and MOOD:IND/SUBJ/JUS to method4.",
+    "plusMoodVoiceAgreementCase": "Also add person/number/gender tags and NOM/ACC/GEN. No lemma, root or derived verb-form tag."
+  },
+  "fullBuild": [
+    {
+      "problem": "synonym:rain",
+      "occurrences": 8,
+      "forms": [
+        {
+          "form": "N:-",
+          "count": 2,
+          "options": {
+            "matar": 2,
+            "ghayth": 0
+          },
+          "fallback": true
+        },
+        {
+          "form": "N:DEF",
+          "count": 1,
+          "options": {
+            "matar": 0,
+            "ghayth": 1
+          },
+          "fallback": true
+        },
+        {
+          "form": "N:INDEF",
+          "count": 2,
+          "options": {
+            "matar": 2,
+            "ghayth": 0
+          },
+          "fallback": true
+        },
+        {
+          "form": "V:PERF",
+          "count": 3,
+          "options": {
+            "matar": 3,
+            "ghayth": 0
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:send-down",
+      "occurrences": 128,
+      "forms": [
+        {
+          "form": "V:IMPF",
+          "count": 17,
+          "options": {
+            "anzala": 0,
+            "nazzala": 17
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:IMPV",
+          "count": 1,
+          "options": {
+            "anzala": 1,
+            "nazzala": 0
+          },
+          "fallback": true
+        },
+        {
+          "form": "V:PERF",
+          "count": 110,
+          "options": {
+            "anzala": 91,
+            "nazzala": 19
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:fear",
+      "occurrences": 75,
+      "forms": [
+        {
+          "form": "N:-",
+          "count": 6,
+          "options": {
+            "khashya": 5,
+            "khawf": 1
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:DEF",
+          "count": 4,
+          "options": {
+            "khashya": 0,
+            "khawf": 4
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:INDEF",
+          "count": 7,
+          "options": {
+            "khashya": 1,
+            "khawf": 6
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:IMPF",
+          "count": 41,
+          "options": {
+            "khashya": 17,
+            "khawf": 24
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:IMPV",
+          "count": 5,
+          "options": {
+            "khashya": 4,
+            "khawf": 1
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:PERF",
+          "count": 12,
+          "options": {
+            "khashya": 3,
+            "khawf": 9
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:heart",
+      "occurrences": 87,
+      "forms": [
+        {
+          "form": "N:-",
+          "count": 76,
+          "options": {
+            "fuad": 1,
+            "qalb": 75
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:DEF",
+          "count": 7,
+          "options": {
+            "fuad": 3,
+            "qalb": 4
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:INDEF",
+          "count": 4,
+          "options": {
+            "fuad": 0,
+            "qalb": 4
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:swear",
+      "occurrences": 22,
+      "forms": [
+        {
+          "form": "N:INDEF",
+          "count": 1,
+          "options": {
+            "halafa": 1,
+            "aqsama": 0
+          },
+          "fallback": true
+        },
+        {
+          "form": "V:IMPF",
+          "count": 17,
+          "options": {
+            "halafa": 8,
+            "aqsama": 9
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:PERF",
+          "count": 4,
+          "options": {
+            "halafa": 1,
+            "aqsama": 3
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:year",
+      "occurrences": 15,
+      "forms": [
+        {
+          "form": "N:-",
+          "count": 7,
+          "options": {
+            "sana": 5,
+            "am": 2
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:DEF",
+          "count": 1,
+          "options": {
+            "sana": 1,
+            "am": 0
+          },
+          "fallback": true
+        },
+        {
+          "form": "N:INDEF",
+          "count": 7,
+          "options": {
+            "sana": 4,
+            "am": 3
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:come",
+      "occurrences": 199,
+      "forms": [
+        {
+          "form": "V:IMPF",
+          "count": 72,
+          "options": {
+            "jaa": 0,
+            "ata": 72
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:IMPV",
+          "count": 8,
+          "options": {
+            "jaa": 0,
+            "ata": 8
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:PERF",
+          "count": 119,
+          "options": {
+            "jaa": 101,
+            "ata": 18
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:human",
+      "occurrences": 69,
+      "forms": [
+        {
+          "form": "N:-",
+          "count": 1,
+          "options": {
+            "bashar": 0,
+            "insan": 1
+          },
+          "fallback": true
+        },
+        {
+          "form": "N:DEF",
+          "count": 46,
+          "options": {
+            "bashar": 5,
+            "insan": 41
+          },
+          "fallback": false
+        },
+        {
+          "form": "N:INDEF",
+          "count": 22,
+          "options": {
+            "bashar": 20,
+            "insan": 2
+          },
+          "fallback": false
+        }
+      ]
+    },
+    {
+      "problem": "synonym:do",
+      "occurrences": 192,
+      "forms": [
+        {
+          "form": "V:IMPF",
+          "count": 113,
+          "options": {
+            "amila": 84,
+            "faala": 29
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:IMPV",
+          "count": 9,
+          "options": {
+            "amila": 7,
+            "faala": 2
+          },
+          "fallback": false
+        },
+        {
+          "form": "V:PERF",
+          "count": 70,
+          "options": {
+            "amila": 52,
+            "faala": 18
+          },
+          "fallback": false
+        }
+      ]
+    }
+  ],
+  "crossValidation": {
+    "plain": {
+      "knownPlaces": 795,
+      "unseenPlaces": 0,
+      "correct": 512,
+      "fallbackPlaces": 0,
+      "sparsePlaces": 0,
+      "tiedPlaces": 0,
+      "accuracy": 0.644
+    },
+    "method4": {
+      "knownPlaces": 795,
+      "unseenPlaces": 0,
+      "correct": 641,
+      "fallbackPlaces": 56,
+      "sparsePlaces": 55,
+      "tiedPlaces": 1,
+      "accuracy": 0.8063
+    },
+    "plusMoodVoice": {
+      "knownPlaces": 795,
+      "unseenPlaces": 0,
+      "correct": 628,
+      "fallbackPlaces": 86,
+      "sparsePlaces": 85,
+      "tiedPlaces": 1,
+      "accuracy": 0.7899
+    },
+    "plusMoodVoiceAgreementCase": {
+      "knownPlaces": 795,
+      "unseenPlaces": 0,
+      "correct": 593,
+      "fallbackPlaces": 250,
+      "sparsePlaces": 233,
+      "tiedPlaces": 17,
+      "accuracy": 0.7459
+    }
+  },
+  "perProblem": {
+    "synonym:rain": {
+      "plain": {
+        "knownPlaces": 8,
+        "correct": 7,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 8,
+        "correct": 7,
+        "fallbackPlaces": 8
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 8,
+        "correct": 7,
+        "fallbackPlaces": 8
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 8,
+        "correct": 7,
+        "fallbackPlaces": 8
+      }
+    },
+    "synonym:send-down": {
+      "plain": {
+        "knownPlaces": 128,
+        "correct": 92,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 128,
+        "correct": 109,
+        "fallbackPlaces": 1
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 128,
+        "correct": 99,
+        "fallbackPlaces": 11
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 128,
+        "correct": 93,
+        "fallbackPlaces": 23
+      }
+    },
+    "synonym:fear": {
+      "plain": {
+        "knownPlaces": 75,
+        "correct": 45,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 75,
+        "correct": 49,
+        "fallbackPlaces": 16
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 75,
+        "correct": 49,
+        "fallbackPlaces": 32
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 75,
+        "correct": 47,
+        "fallbackPlaces": 62
+      }
+    },
+    "synonym:heart": {
+      "plain": {
+        "knownPlaces": 87,
+        "correct": 83,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 87,
+        "correct": 81,
+        "fallbackPlaces": 3
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 87,
+        "correct": 81,
+        "fallbackPlaces": 3
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 87,
+        "correct": 83,
+        "fallbackPlaces": 17
+      }
+    },
+    "synonym:swear": {
+      "plain": {
+        "knownPlaces": 22,
+        "correct": 7,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 22,
+        "correct": 7,
+        "fallbackPlaces": 5
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 22,
+        "correct": 7,
+        "fallbackPlaces": 5
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 22,
+        "correct": 9,
+        "fallbackPlaces": 19
+      }
+    },
+    "synonym:year": {
+      "plain": {
+        "knownPlaces": 15,
+        "correct": 10,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 15,
+        "correct": 10,
+        "fallbackPlaces": 14
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 15,
+        "correct": 10,
+        "fallbackPlaces": 14
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 15,
+        "correct": 10,
+        "fallbackPlaces": 15
+      }
+    },
+    "synonym:come": {
+      "plain": {
+        "knownPlaces": 199,
+        "correct": 81,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 199,
+        "correct": 173,
+        "fallbackPlaces": 8
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 199,
+        "correct": 172,
+        "fallbackPlaces": 9
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 199,
+        "correct": 149,
+        "fallbackPlaces": 60
+      }
+    },
+    "synonym:human": {
+      "plain": {
+        "knownPlaces": 69,
+        "correct": 44,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 69,
+        "correct": 62,
+        "fallbackPlaces": 1
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 69,
+        "correct": 62,
+        "fallbackPlaces": 1
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 69,
+        "correct": 52,
+        "fallbackPlaces": 9
+      }
+    },
+    "synonym:do": {
+      "plain": {
+        "knownPlaces": 192,
+        "correct": 143,
+        "fallbackPlaces": 0
+      },
+      "method4": {
+        "knownPlaces": 192,
+        "correct": 143,
+        "fallbackPlaces": 0
+      },
+      "plusMoodVoice": {
+        "knownPlaces": 192,
+        "correct": 141,
+        "fallbackPlaces": 3
+      },
+      "plusMoodVoiceAgreementCase": {
+        "knownPlaces": 192,
+        "correct": 143,
+        "fallbackPlaces": 37
+      }
+    }
+  }
+}

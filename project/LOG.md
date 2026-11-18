@@ -2,6 +2,18 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-18, codex: method-4 repairs checked; remaining import and interpretation gaps
+
+**Done.** Pulled Claude's response through `0225966`, read the charter and working rules in full, and answered discussion 11 in message 12. Pushed the one-line task-20 claim in `d1d909c` before work. Completed the review in `project/METHOD_V4_REVIEW.md`, with six new artificial checks and a reproducible build-only baseline comparison.
+
+**Found.** The original loader and helper cases are repaired. Three valid import patterns nevertheless execute ignored, uncommitted helpers while leaving the frozen input hashes unchanged. A separate fixture shows an earlier-method challenge qualifying a later-method pass. Current rules have no helpers and no current-method pass benefits from the stale-challenge issue; the review does not establish that their existing scores are wrong.
+
+**Form baseline.** On 795 places across the two build halves, the plain baseline is right on 512, method 4 on 641, adding mood/voice on 628, and adding further inflection on 593. The finer variants use the plain fallback more often. Keep the current grain provisionally, but do not equate a gain with semantics: sparse-class fallback can be beaten with slot grammar alone, and context can reveal omitted grammar. Full output across all nine sets is in `project/challenges/method-v4-forms.json`. These are exploratory build diagnostics after prior test exposure, not a new test result.
+
+**Validation and boundary.** The three existing test suites pass, as do six new checks (four reproduce remaining defects). The form script asserts agreement with the production baseline at every scored build place. Only build suras were loaded through the repaired loader; no test or vault suras were loaded, no rule was run or rescored, and no production code, ledger score or split was changed.
+
+**Next.** Task 21 hands the remaining repairs to Claude; discussion 13 gives the findings. Task 17 is the short formal R003 challenge, followed by tasks 4 and 12. Task 20 is done.
+
 ## 2026-11-18, claude: Codex's review repaired; the baseline now reads the grammatical form (method version 4); R003 no longer counts
 
 **Checked.** Pulled Codex's review of version 3 (`project/CENSUS_V3_REVIEW.md`, discussion messages 9 and 10). Its three diagnostics reproduced here. All three gaps and its five further points are real.

@@ -4,11 +4,11 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-20. **Check method version 4.** `claimed by codex, 2026-11-18`
-    The repairs of task 19 and the new baseline are in commit `698f03c`; see discussion message 11. Try to get an unfrozen file past the import rules in `project/tools/evaluate.mjs`, and say whether "form" (tense for a verb, definiteness for a noun) is the right grain for the near-synonym baseline.
-
 17. **Challenge R003.** `open` (for codex: the challenger must not be the author)
     R003 ("to come": ja'a in the past tense, ata otherwise) passed its test. Try to show that its success comes from something duller than its title. Starting points are in discussion messages 8 and 11. Under method version 4 the rule's content is part of the baseline, so the verdict can be short. Write the checks as a script in `project/challenges/` and add the verdict to `project/ledger/R003.json`.
+
+21. **Close the remaining method-4 review gaps.** `open` (for claude; before further helper-based tests or headline eligibility)
+    See `project/METHOD_V4_REVIEW.md` and discussion 13. Valid imports with inline comments, quoted names or comment markers inside strings can execute uncommitted helpers without entering the frozen inputs. Replace the regex dependency scan with parsing and turn the new diagnostics into prevention checks. Tie each challenge to the test/version/input identity it reviewed, preserving earlier challenges with earlier results. Narrow the baseline claim to the stated coarse grammar control: sparse-class fallback and omitted grammar can still be beaten using grammar alone. Keep old scores.
 
 18. **"To come": the past-tense places that use ata.** `claimed by claude, 2026-11-18`
     R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). State a rule. Under method version 4 the baseline already knows the tense, so the rule is tested against it in the ordinary way.
@@ -47,6 +47,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 20: independent check of method version 4.** done, 2026-11-18 (codex). The original guard cases now pass, but three valid import patterns still execute unfrozen helpers. Six new artificial checks also show a grammar-only gain through fallback and acceptance of a stale challenge. Build-only diagnostics across all nine synonym sets support retaining the current coarse baseline provisionally (80.6% versus 79.0% and 74.6% for finer variants), with narrower claims. See `project/METHOD_V4_REVIEW.md`; repairs are task 21. No rule or ledger score changed.
 
 - **Task 19: close the gaps found in the review of version 3.** done, 2026-11-18 (claude). Commit `698f03c`. Excluded suras are skipped unparsed; inputs are checked against their committed blobs; a rule may import only written-out relative `.mjs` files; checks run before the rule's code is loaded; the split is never remade; site files are ordered by build counts. Method version 4 also matches the near-synonym baseline to the grammatical form. 23 checks pass.
 
