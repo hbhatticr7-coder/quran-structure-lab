@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-18",
+  "censusVersion": 2,
+  "commit": null,
+  "dependencyHashes": {
+    "project/COMPARISON_PROTOCOL.md": "9a42b2f7f654b1fa54a66d4284da36184d09af1feefb2a2bb64833926d28fe6f",
+    "project/comparison/split.json": "c8f72e59c526e87a64192bf192597b2ca85da376fe3b106c33f66484e447820d",
+    "project/tools/comparison.mjs": "a518c55e30b3d73eb45376271652e6008d9762ed5d82886a8735599048274e54",
+    "project/tools/problems.mjs": "a875c1de43b1687698d909e07031a821f37ede49c7a690afb956524cb0c0c5b9",
+    "project/tools/lib.mjs": "ac3bb59b4dc8f2058eba3db9bb0697ed1c6b5f3ed190a1d42d9253a752b21956",
+    "project/rules/R001_echo.mjs": "a97c26478c9cf320fcb258c0d13f6303f62a9f88e5dabd7e48e3d13baeaae0ae",
+    "project/rules/R002_content.mjs": "36bbc98c0ccbddcf9155628e7a36742ce8e6ef64f773682f125036951948d47f",
+    "src/corpus.mjs": "219b172909e7c55be968a00567b7660e7fb47ee9bc6e87e2d9ddf8d5f3d794e7",
+    "src/words.mjs": "8eb095a92f448fcd3045ed0e97769a589233b22e4943183689e80d3218ad5b00",
+    "src/stats.mjs": "c0173cd6fe61c040707d7642ac4eca0faeb08b82b728613ed1f981f0dd823df9",
+    "src/greek.mjs": "ab43f01849b0e5a56c21d949f2a039911bf3c31da333563c89ad6e9f27b15d16",
+    "src/hebrew.mjs": "3e11e5d5473042e856484515e02214bb8d8ea679cd51fac318809b84359ce47f"
+  },
+  "datasets": {
+    "gospels": {
+      "problems": 14,
+      "rules": {
+        "R001": {
+          "occurrences": 1,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 1,
+          "unseenOptions": 0,
+          "baselineAllScored": 0.5,
+          "baselineAllEligible": 0.5,
+          "answeredIncludingUnseen": 0,
+          "accuracyIncludingUnseen": null,
+          "withBaselineFallbackAllEligible": 0.5,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        },
+        "C002_frame": {
+          "occurrences": 1,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 1,
+          "unseenOptions": 0,
+          "baselineAllScored": 0.5,
+          "baselineAllEligible": 0.5,
+          "answeredIncludingUnseen": 0,
+          "accuracyIncludingUnseen": null,
+          "withBaselineFallbackAllEligible": 0.5,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        },
+        "R002": {
+          "occurrences": 0,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 0,
+          "unseenOptions": 0,
+          "baselineAllScored": null,
+          "baselineAllEligible": null,
+          "answeredIncludingUnseen": 0,
+          "accuracyIncludingUnseen": null,
+          "withBaselineFallbackAllEligible": null,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        }
+      }
+    },
+    "samuel_kings_chronicles": {
+      "problems": 71,
+      "rules": {
+        "R001": {
+          "occurrences": 3,
+          "answered": 2,
+          "correct": 2,
+          "accuracy": 1,
+          "baselineAccuracy": 0.75,
+          "gainOverBaseline": 0.25,
+          "pGain": 0.502,
+          "pAgainstShuffledChoices": 1,
+          "eligibleSites": 7,
+          "unseenOptions": 4,
+          "baselineAllScored": 0.5,
+          "baselineAllEligible": 0.2143,
+          "answeredIncludingUnseen": 4,
+          "accuracyIncludingUnseen": 0.5,
+          "withBaselineFallbackAllEligible": 0.2857,
+          "byUnit": {
+            "units": 2,
+            "nonzeroUnits": 1,
+            "pGain": 0.5,
+            "exact": true
+          }
+        },
+        "C002_frame": {
+          "occurrences": 3,
+          "answered": 1,
+          "correct": 0,
+          "accuracy": 0,
+          "baselineAccuracy": 0,
+          "gainOverBaseline": 0,
+          "pGain": 1,
+          "pAgainstShuffledChoices": 1,
+          "eligibleSites": 7,
+          "unseenOptions": 4,
+          "baselineAllScored": 0.5,
+          "baselineAllEligible": 0.2143,
+          "answeredIncludingUnseen": 1,
+          "accuracyIncludingUnseen": 0,
+          "withBaselineFallbackAllEligible": 0.2143,
+          "byUnit": {
+            "units": 1,
+            "nonzeroUnits": 0,
+            "pGain": 1,
+            "exact": true
+          }
+        },
+        "R002": {
+          "occurrences": 0,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 0,
+          "unseenOptions": 0,
+          "baselineAllScored": null,
+          "baselineAllEligible": null,
+          "answeredIncludingUnseen": 0,
+          "accuracyIncludingUnseen": null,
+          "withBaselineFallbackAllEligible": null,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        }
+      }
+    },
+    "mishnah": {
+      "problems": 342,
+      "rules": {
+        "R001": {
+          "occurrences": 6,
+          "answered": 5,
+          "correct": 1,
+          "accuracy": 0.2,
+          "baselineAccuracy": 0.4,
+          "gainOverBaseline": -0.2,
+          "pGain": 0.843,
+          "pAgainstShuffledChoices": 1,
+          "eligibleSites": 28,
+          "unseenOptions": 22,
+          "baselineAllScored": 0.4167,
+          "baselineAllEligible": 0.0893,
+          "answeredIncludingUnseen": 13,
+          "accuracyIncludingUnseen": 0.0769,
+          "withBaselineFallbackAllEligible": 0.0536,
+          "byUnit": {
+            "units": 3,
+            "nonzeroUnits": 3,
+            "pGain": 0.875,
+            "exact": true
+          }
+        },
+        "C002_frame": {
+          "occurrences": 6,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 28,
+          "unseenOptions": 22,
+          "baselineAllScored": 0.4167,
+          "baselineAllEligible": 0.0893,
+          "answeredIncludingUnseen": 3,
+          "accuracyIncludingUnseen": 0,
+          "withBaselineFallbackAllEligible": 0.0893,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        },
+        "R002": {
+          "occurrences": 0,
+          "answered": 0,
+          "correct": 0,
+          "accuracy": null,
+          "baselineAccuracy": null,
+          "gainOverBaseline": null,
+          "pGain": null,
+          "pAgainstShuffledChoices": null,
+          "eligibleSites": 0,
+          "unseenOptions": 0,
+          "baselineAllScored": null,
+          "baselineAllEligible": null,
+          "answeredIncludingUnseen": 0,
+          "accuracyIncludingUnseen": null,
+          "withBaselineFallbackAllEligible": null,
+          "byUnit": {
+            "units": 0,
+            "nonzeroUnits": 0,
+            "pGain": null,
+            "exact": true
+          }
+        }
+      }
+    }
+  }
+}

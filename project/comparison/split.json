@@ -1,0 +1,2137 @@
+{
+  "seed": 20261117,
+  "datasets": {
+    "gospels": {
+      "sourceHashes": {
+        "data/external/morphgnt/61-Mt-morphgnt.txt": "95b360228bedd1c2d06655469111d3f028a4ce1d46939d440ed549feee8b73ec",
+        "data/external/morphgnt/62-Mk-morphgnt.txt": "4a2d2365cfe3e8d6c20b7c130c2c46363fa4459c3a6004992eba0a18231b183e",
+        "data/external/morphgnt/63-Lk-morphgnt.txt": "a6f10ccf27a905f21ecbec96c3c01f220c39dd37aae118022113a52dfeb7528e"
+      },
+      "units": [
+        {
+          "s": 1,
+          "name": "Mt:1",
+          "words": 239,
+          "verses": 25
+        },
+        {
+          "s": 2,
+          "name": "Mt:2",
+          "words": 229,
+          "verses": 23
+        },
+        {
+          "s": 3,
+          "name": "Mt:3",
+          "words": 160,
+          "verses": 17
+        },
+        {
+          "s": 4,
+          "name": "Mt:4",
+          "words": 217,
+          "verses": 25
+        },
+        {
+          "s": 5,
+          "name": "Mt:5",
+          "words": 364,
+          "verses": 48
+        },
+        {
+          "s": 6,
+          "name": "Mt:6",
+          "words": 268,
+          "verses": 34
+        },
+        {
+          "s": 7,
+          "name": "Mt:7",
+          "words": 244,
+          "verses": 29
+        },
+        {
+          "s": 8,
+          "name": "Mt:8",
+          "words": 287,
+          "verses": 34
+        },
+        {
+          "s": 9,
+          "name": "Mt:9",
+          "words": 322,
+          "verses": 38
+        },
+        {
+          "s": 10,
+          "name": "Mt:10",
+          "words": 323,
+          "verses": 42
+        },
+        {
+          "s": 11,
+          "name": "Mt:11",
+          "words": 240,
+          "verses": 30
+        },
+        {
+          "s": 12,
+          "name": "Mt:12",
+          "words": 416,
+          "verses": 50
+        },
+        {
+          "s": 13,
+          "name": "Mt:13",
+          "words": 523,
+          "verses": 58
+        },
+        {
+          "s": 14,
+          "name": "Mt:14",
+          "words": 277,
+          "verses": 36
+        },
+        {
+          "s": 15,
+          "name": "Mt:15",
+          "words": 303,
+          "verses": 39
+        },
+        {
+          "s": 16,
+          "name": "Mt:16",
+          "words": 244,
+          "verses": 28
+        },
+        {
+          "s": 17,
+          "name": "Mt:17",
+          "words": 228,
+          "verses": 26
+        },
+        {
+          "s": 18,
+          "name": "Mt:18",
+          "words": 293,
+          "verses": 34
+        },
+        {
+          "s": 19,
+          "name": "Mt:19",
+          "words": 263,
+          "verses": 30
+        },
+        {
+          "s": 20,
+          "name": "Mt:20",
+          "words": 264,
+          "verses": 34
+        },
+        {
+          "s": 21,
+          "name": "Mt:21",
+          "words": 402,
+          "verses": 46
+        },
+        {
+          "s": 22,
+          "name": "Mt:22",
+          "words": 320,
+          "verses": 46
+        },
+        {
+          "s": 23,
+          "name": "Mt:23",
+          "words": 291,
+          "verses": 38
+        },
+        {
+          "s": 24,
+          "name": "Mt:24",
+          "words": 367,
+          "verses": 51
+        },
+        {
+          "s": 25,
+          "name": "Mt:25",
+          "words": 361,
+          "verses": 46
+        },
+        {
+          "s": 26,
+          "name": "Mt:26",
+          "words": 582,
+          "verses": 75
+        },
+        {
+          "s": 27,
+          "name": "Mt:27",
+          "words": 514,
+          "verses": 66
+        },
+        {
+          "s": 28,
+          "name": "Mt:28",
+          "words": 158,
+          "verses": 20
+        },
+        {
+          "s": 29,
+          "name": "Mk:1",
+          "words": 344,
+          "verses": 45
+        },
+        {
+          "s": 30,
+          "name": "Mk:2",
+          "words": 256,
+          "verses": 28
+        },
+        {
+          "s": 31,
+          "name": "Mk:3",
+          "words": 243,
+          "verses": 35
+        },
+        {
+          "s": 32,
+          "name": "Mk:4",
+          "words": 328,
+          "verses": 41
+        },
+        {
+          "s": 33,
+          "name": "Mk:5",
+          "words": 326,
+          "verses": 43
+        },
+        {
+          "s": 34,
+          "name": "Mk:6",
+          "words": 465,
+          "verses": 56
+        },
+        {
+          "s": 35,
+          "name": "Mk:7",
+          "words": 290,
+          "verses": 36
+        },
+        {
+          "s": 36,
+          "name": "Mk:8",
+          "words": 291,
+          "verses": 38
+        },
+        {
+          "s": 37,
+          "name": "Mk:9",
+          "words": 394,
+          "verses": 48
+        },
+        {
+          "s": 38,
+          "name": "Mk:10",
+          "words": 422,
+          "verses": 52
+        },
+        {
+          "s": 39,
+          "name": "Mk:11",
+          "words": 250,
+          "verses": 32
+        },
+        {
+          "s": 40,
+          "name": "Mk:12",
+          "words": 388,
+          "verses": 44
+        },
+        {
+          "s": 41,
+          "name": "Mk:13",
+          "words": 265,
+          "verses": 37
+        },
+        {
+          "s": 42,
+          "name": "Mk:14",
+          "words": 551,
+          "verses": 72
+        },
+        {
+          "s": 43,
+          "name": "Mk:15",
+          "words": 337,
+          "verses": 46
+        },
+        {
+          "s": 44,
+          "name": "Mk:16",
+          "words": 166,
+          "verses": 20
+        },
+        {
+          "s": 45,
+          "name": "Lk:1",
+          "words": 580,
+          "verses": 80
+        },
+        {
+          "s": 46,
+          "name": "Lk:2",
+          "words": 409,
+          "verses": 52
+        },
+        {
+          "s": 47,
+          "name": "Lk:3",
+          "words": 308,
+          "verses": 38
+        },
+        {
+          "s": 48,
+          "name": "Lk:4",
+          "words": 368,
+          "verses": 44
+        },
+        {
+          "s": 49,
+          "name": "Lk:5",
+          "words": 378,
+          "verses": 39
+        },
+        {
+          "s": 50,
+          "name": "Lk:6",
+          "words": 439,
+          "verses": 49
+        },
+        {
+          "s": 51,
+          "name": "Lk:7",
+          "words": 443,
+          "verses": 50
+        },
+        {
+          "s": 52,
+          "name": "Lk:8",
+          "words": 509,
+          "verses": 56
+        },
+        {
+          "s": 53,
+          "name": "Lk:9",
+          "words": 537,
+          "verses": 62
+        },
+        {
+          "s": 54,
+          "name": "Lk:10",
+          "words": 349,
+          "verses": 42
+        },
+        {
+          "s": 55,
+          "name": "Lk:11",
+          "words": 443,
+          "verses": 54
+        },
+        {
+          "s": 56,
+          "name": "Lk:12",
+          "words": 471,
+          "verses": 59
+        },
+        {
+          "s": 57,
+          "name": "Lk:13",
+          "words": 316,
+          "verses": 35
+        },
+        {
+          "s": 58,
+          "name": "Lk:14",
+          "words": 293,
+          "verses": 35
+        },
+        {
+          "s": 59,
+          "name": "Lk:15",
+          "words": 273,
+          "verses": 32
+        },
+        {
+          "s": 60,
+          "name": "Lk:16",
+          "words": 277,
+          "verses": 31
+        },
+        {
+          "s": 61,
+          "name": "Lk:17",
+          "words": 269,
+          "verses": 36
+        },
+        {
+          "s": 62,
+          "name": "Lk:18",
+          "words": 319,
+          "verses": 43
+        },
+        {
+          "s": 63,
+          "name": "Lk:19",
+          "words": 362,
+          "verses": 48
+        },
+        {
+          "s": 64,
+          "name": "Lk:20",
+          "words": 345,
+          "verses": 47
+        },
+        {
+          "s": 65,
+          "name": "Lk:21",
+          "words": 276,
+          "verses": 38
+        },
+        {
+          "s": 66,
+          "name": "Lk:22",
+          "words": 474,
+          "verses": 71
+        },
+        {
+          "s": 67,
+          "name": "Lk:23",
+          "words": 407,
+          "verses": 55
+        },
+        {
+          "s": 68,
+          "name": "Lk:24",
+          "words": 349,
+          "verses": 53
+        }
+      ],
+      "build": [
+        2,
+        4,
+        7,
+        9,
+        11,
+        15,
+        19,
+        21,
+        22,
+        23,
+        24,
+        27,
+        29,
+        30,
+        31,
+        35,
+        36,
+        37,
+        42,
+        44,
+        45,
+        46,
+        47,
+        48,
+        50,
+        52,
+        54,
+        55,
+        56,
+        60,
+        61,
+        64,
+        65,
+        68
+      ],
+      "test": [
+        1,
+        8,
+        10,
+        18,
+        26,
+        28,
+        32,
+        34,
+        38,
+        39,
+        40,
+        41,
+        49,
+        57,
+        59,
+        63,
+        66
+      ],
+      "reserve": [
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        16,
+        17,
+        20,
+        25,
+        33,
+        43,
+        51,
+        53,
+        58,
+        62,
+        67
+      ]
+    },
+    "samuel_kings_chronicles": {
+      "sourceHashes": {
+        "data/external/oshb/1Sam.xml": "960432732c22286b82d80b6b25af8d10dc5f2e82a4e5e48b2e3a1b1eea17f3cb",
+        "data/external/oshb/2Sam.xml": "e7793e141ed94eadbd2dfb23936abbb4062e81a7dcd41114a6e36644f50b8333",
+        "data/external/oshb/1Kgs.xml": "832ba10f605dce34c4888ee0a795d91edc2b293391d6ae9c36c36c6350761a3e",
+        "data/external/oshb/2Kgs.xml": "056db5393beaef0a1159d9bcaac7dfd865df9bab2eb240ea90e9fa3f0c0e7449",
+        "data/external/oshb/1Chr.xml": "8b59992b6607c6ca0fc423813be8cc244f011c1da32bc8485c0c0f581a897ed4",
+        "data/external/oshb/2Chr.xml": "507294e8ca0fcf31ec25fe62fa24a7f2581f53116519bf08cfe96ff85e9c99fb"
+      },
+      "units": [
+        {
+          "s": 1,
+          "name": "1Sam:1",
+          "words": 316,
+          "verses": 28
+        },
+        {
+          "s": 2,
+          "name": "1Sam:2",
+          "words": 422,
+          "verses": 36
+        },
+        {
+          "s": 3,
+          "name": "1Sam:3",
+          "words": 218,
+          "verses": 21
+        },
+        {
+          "s": 4,
+          "name": "1Sam:4",
+          "words": 299,
+          "verses": 22
+        },
+        {
+          "s": 5,
+          "name": "1Sam:5",
+          "words": 165,
+          "verses": 12
+        },
+        {
+          "s": 6,
+          "name": "1Sam:6",
+          "words": 292,
+          "verses": 21
+        },
+        {
+          "s": 7,
+          "name": "1Sam:7",
+          "words": 229,
+          "verses": 17
+        },
+        {
+          "s": 8,
+          "name": "1Sam:8",
+          "words": 198,
+          "verses": 22
+        },
+        {
+          "s": 9,
+          "name": "1Sam:9",
+          "words": 360,
+          "verses": 27
+        },
+        {
+          "s": 10,
+          "name": "1Sam:10",
+          "words": 319,
+          "verses": 27
+        },
+        {
+          "s": 11,
+          "name": "1Sam:11",
+          "words": 202,
+          "verses": 15
+        },
+        {
+          "s": 12,
+          "name": "1Sam:12",
+          "words": 269,
+          "verses": 25
+        },
+        {
+          "s": 13,
+          "name": "1Sam:13",
+          "words": 286,
+          "verses": 23
+        },
+        {
+          "s": 14,
+          "name": "1Sam:14",
+          "words": 644,
+          "verses": 52
+        },
+        {
+          "s": 15,
+          "name": "1Sam:15",
+          "words": 391,
+          "verses": 35
+        },
+        {
+          "s": 16,
+          "name": "1Sam:16",
+          "words": 280,
+          "verses": 23
+        },
+        {
+          "s": 17,
+          "name": "1Sam:17",
+          "words": 691,
+          "verses": 58
+        },
+        {
+          "s": 18,
+          "name": "1Sam:18",
+          "words": 347,
+          "verses": 30
+        },
+        {
+          "s": 19,
+          "name": "1Sam:19",
+          "words": 292,
+          "verses": 24
+        },
+        {
+          "s": 20,
+          "name": "1Sam:20",
+          "words": 463,
+          "verses": 42
+        },
+        {
+          "s": 21,
+          "name": "1Sam:21",
+          "words": 186,
+          "verses": 16
+        },
+        {
+          "s": 22,
+          "name": "1Sam:22",
+          "words": 308,
+          "verses": 23
+        },
+        {
+          "s": 23,
+          "name": "1Sam:23",
+          "words": 344,
+          "verses": 28
+        },
+        {
+          "s": 24,
+          "name": "1Sam:24",
+          "words": 254,
+          "verses": 23
+        },
+        {
+          "s": 25,
+          "name": "1Sam:25",
+          "words": 553,
+          "verses": 44
+        },
+        {
+          "s": 26,
+          "name": "1Sam:26",
+          "words": 340,
+          "verses": 25
+        },
+        {
+          "s": 27,
+          "name": "1Sam:27",
+          "words": 159,
+          "verses": 12
+        },
+        {
+          "s": 28,
+          "name": "1Sam:28",
+          "words": 303,
+          "verses": 25
+        },
+        {
+          "s": 29,
+          "name": "1Sam:29",
+          "words": 146,
+          "verses": 11
+        },
+        {
+          "s": 30,
+          "name": "1Sam:30",
+          "words": 338,
+          "verses": 31
+        },
+        {
+          "s": 31,
+          "name": "1Sam:31",
+          "words": 155,
+          "verses": 13
+        },
+        {
+          "s": 32,
+          "name": "2Sam:1",
+          "words": 254,
+          "verses": 27
+        },
+        {
+          "s": 33,
+          "name": "2Sam:2",
+          "words": 387,
+          "verses": 32
+        },
+        {
+          "s": 34,
+          "name": "2Sam:3",
+          "words": 498,
+          "verses": 39
+        },
+        {
+          "s": 35,
+          "name": "2Sam:4",
+          "words": 187,
+          "verses": 12
+        },
+        {
+          "s": 36,
+          "name": "2Sam:5",
+          "words": 273,
+          "verses": 25
+        },
+        {
+          "s": 37,
+          "name": "2Sam:6",
+          "words": 306,
+          "verses": 23
+        },
+        {
+          "s": 38,
+          "name": "2Sam:7",
+          "words": 314,
+          "verses": 29
+        },
+        {
+          "s": 39,
+          "name": "2Sam:8",
+          "words": 227,
+          "verses": 18
+        },
+        {
+          "s": 40,
+          "name": "2Sam:9",
+          "words": 171,
+          "verses": 13
+        },
+        {
+          "s": 41,
+          "name": "2Sam:10",
+          "words": 259,
+          "verses": 19
+        },
+        {
+          "s": 42,
+          "name": "2Sam:11",
+          "words": 330,
+          "verses": 27
+        },
+        {
+          "s": 43,
+          "name": "2Sam:12",
+          "words": 382,
+          "verses": 31
+        },
+        {
+          "s": 44,
+          "name": "2Sam:13",
+          "words": 470,
+          "verses": 39
+        },
+        {
+          "s": 45,
+          "name": "2Sam:14",
+          "words": 423,
+          "verses": 33
+        },
+        {
+          "s": 46,
+          "name": "2Sam:15",
+          "words": 453,
+          "verses": 37
+        },
+        {
+          "s": 47,
+          "name": "2Sam:16",
+          "words": 286,
+          "verses": 23
+        },
+        {
+          "s": 48,
+          "name": "2Sam:17",
+          "words": 377,
+          "verses": 29
+        },
+        {
+          "s": 49,
+          "name": "2Sam:18",
+          "words": 438,
+          "verses": 32
+        },
+        {
+          "s": 50,
+          "name": "2Sam:19",
+          "words": 584,
+          "verses": 44
+        },
+        {
+          "s": 51,
+          "name": "2Sam:20",
+          "words": 333,
+          "verses": 26
+        },
+        {
+          "s": 52,
+          "name": "2Sam:21",
+          "words": 313,
+          "verses": 22
+        },
+        {
+          "s": 53,
+          "name": "2Sam:22",
+          "words": 312,
+          "verses": 51
+        },
+        {
+          "s": 54,
+          "name": "2Sam:23",
+          "words": 369,
+          "verses": 39
+        },
+        {
+          "s": 55,
+          "name": "2Sam:24",
+          "words": 352,
+          "verses": 25
+        },
+        {
+          "s": 56,
+          "name": "1Kgs:1",
+          "words": 616,
+          "verses": 53
+        },
+        {
+          "s": 57,
+          "name": "1Kgs:2",
+          "words": 600,
+          "verses": 46
+        },
+        {
+          "s": 58,
+          "name": "1Kgs:3",
+          "words": 325,
+          "verses": 28
+        },
+        {
+          "s": 59,
+          "name": "1Kgs:4",
+          "words": 170,
+          "verses": 20
+        },
+        {
+          "s": 60,
+          "name": "1Kgs:5",
+          "words": 403,
+          "verses": 32
+        },
+        {
+          "s": 61,
+          "name": "1Kgs:6",
+          "words": 436,
+          "verses": 38
+        },
+        {
+          "s": 62,
+          "name": "1Kgs:7",
+          "words": 648,
+          "verses": 51
+        },
+        {
+          "s": 63,
+          "name": "1Kgs:8",
+          "words": 836,
+          "verses": 66
+        },
+        {
+          "s": 64,
+          "name": "1Kgs:9",
+          "words": 341,
+          "verses": 28
+        },
+        {
+          "s": 65,
+          "name": "1Kgs:10",
+          "words": 375,
+          "verses": 29
+        },
+        {
+          "s": 66,
+          "name": "1Kgs:11",
+          "words": 521,
+          "verses": 43
+        },
+        {
+          "s": 67,
+          "name": "1Kgs:12",
+          "words": 431,
+          "verses": 33
+        },
+        {
+          "s": 68,
+          "name": "1Kgs:13",
+          "words": 425,
+          "verses": 34
+        },
+        {
+          "s": 69,
+          "name": "1Kgs:14",
+          "words": 390,
+          "verses": 31
+        },
+        {
+          "s": 70,
+          "name": "1Kgs:15",
+          "words": 413,
+          "verses": 34
+        },
+        {
+          "s": 71,
+          "name": "1Kgs:16",
+          "words": 438,
+          "verses": 34
+        },
+        {
+          "s": 72,
+          "name": "1Kgs:17",
+          "words": 256,
+          "verses": 24
+        },
+        {
+          "s": 73,
+          "name": "1Kgs:18",
+          "words": 557,
+          "verses": 46
+        },
+        {
+          "s": 74,
+          "name": "1Kgs:19",
+          "words": 278,
+          "verses": 21
+        },
+        {
+          "s": 75,
+          "name": "1Kgs:20",
+          "words": 556,
+          "verses": 43
+        },
+        {
+          "s": 76,
+          "name": "1Kgs:21",
+          "words": 350,
+          "verses": 29
+        },
+        {
+          "s": 77,
+          "name": "1Kgs:22",
+          "words": 611,
+          "verses": 54
+        },
+        {
+          "s": 78,
+          "name": "2Kgs:1",
+          "words": 250,
+          "verses": 18
+        },
+        {
+          "s": 79,
+          "name": "2Kgs:2",
+          "words": 301,
+          "verses": 25
+        },
+        {
+          "s": 80,
+          "name": "2Kgs:3",
+          "words": 340,
+          "verses": 27
+        },
+        {
+          "s": 81,
+          "name": "2Kgs:4",
+          "words": 487,
+          "verses": 44
+        },
+        {
+          "s": 82,
+          "name": "2Kgs:5",
+          "words": 373,
+          "verses": 27
+        },
+        {
+          "s": 83,
+          "name": "2Kgs:6",
+          "words": 371,
+          "verses": 33
+        },
+        {
+          "s": 84,
+          "name": "2Kgs:7",
+          "words": 299,
+          "verses": 20
+        },
+        {
+          "s": 85,
+          "name": "2Kgs:8",
+          "words": 406,
+          "verses": 29
+        },
+        {
+          "s": 86,
+          "name": "2Kgs:9",
+          "words": 476,
+          "verses": 37
+        },
+        {
+          "s": 87,
+          "name": "2Kgs:10",
+          "words": 466,
+          "verses": 36
+        },
+        {
+          "s": 88,
+          "name": "2Kgs:11",
+          "words": 282,
+          "verses": 20
+        },
+        {
+          "s": 89,
+          "name": "2Kgs:12",
+          "words": 293,
+          "verses": 22
+        },
+        {
+          "s": 90,
+          "name": "2Kgs:13",
+          "words": 333,
+          "verses": 25
+        },
+        {
+          "s": 91,
+          "name": "2Kgs:14",
+          "words": 380,
+          "verses": 29
+        },
+        {
+          "s": 92,
+          "name": "2Kgs:15",
+          "words": 480,
+          "verses": 38
+        },
+        {
+          "s": 93,
+          "name": "2Kgs:16",
+          "words": 284,
+          "verses": 20
+        },
+        {
+          "s": 94,
+          "name": "2Kgs:17",
+          "words": 507,
+          "verses": 41
+        },
+        {
+          "s": 95,
+          "name": "2Kgs:18",
+          "words": 490,
+          "verses": 37
+        },
+        {
+          "s": 96,
+          "name": "2Kgs:19",
+          "words": 436,
+          "verses": 37
+        },
+        {
+          "s": 97,
+          "name": "2Kgs:20",
+          "words": 264,
+          "verses": 21
+        },
+        {
+          "s": 98,
+          "name": "2Kgs:21",
+          "words": 307,
+          "verses": 26
+        },
+        {
+          "s": 99,
+          "name": "2Kgs:22",
+          "words": 279,
+          "verses": 20
+        },
+        {
+          "s": 100,
+          "name": "2Kgs:23",
+          "words": 582,
+          "verses": 37
+        },
+        {
+          "s": 101,
+          "name": "2Kgs:24",
+          "words": 252,
+          "verses": 20
+        },
+        {
+          "s": 102,
+          "name": "2Kgs:25",
+          "words": 408,
+          "verses": 30
+        },
+        {
+          "s": 103,
+          "name": "1Chr:1",
+          "words": 365,
+          "verses": 54
+        },
+        {
+          "s": 104,
+          "name": "1Chr:2",
+          "words": 453,
+          "verses": 55
+        },
+        {
+          "s": 105,
+          "name": "1Chr:3",
+          "words": 188,
+          "verses": 24
+        },
+        {
+          "s": 106,
+          "name": "1Chr:4",
+          "words": 402,
+          "verses": 43
+        },
+        {
+          "s": 107,
+          "name": "1Chr:5",
+          "words": 387,
+          "verses": 41
+        },
+        {
+          "s": 108,
+          "name": "1Chr:6",
+          "words": 512,
+          "verses": 66
+        },
+        {
+          "s": 109,
+          "name": "1Chr:7",
+          "words": 398,
+          "verses": 40
+        },
+        {
+          "s": 110,
+          "name": "1Chr:8",
+          "words": 250,
+          "verses": 40
+        },
+        {
+          "s": 111,
+          "name": "1Chr:9",
+          "words": 414,
+          "verses": 44
+        },
+        {
+          "s": 112,
+          "name": "1Chr:10",
+          "words": 156,
+          "verses": 14
+        },
+        {
+          "s": 113,
+          "name": "1Chr:11",
+          "words": 426,
+          "verses": 47
+        },
+        {
+          "s": 114,
+          "name": "1Chr:12",
+          "words": 417,
+          "verses": 41
+        },
+        {
+          "s": 115,
+          "name": "1Chr:13",
+          "words": 160,
+          "verses": 14
+        },
+        {
+          "s": 116,
+          "name": "1Chr:14",
+          "words": 154,
+          "verses": 17
+        },
+        {
+          "s": 117,
+          "name": "1Chr:15",
+          "words": 310,
+          "verses": 29
+        },
+        {
+          "s": 118,
+          "name": "1Chr:16",
+          "words": 355,
+          "verses": 43
+        },
+        {
+          "s": 119,
+          "name": "1Chr:17",
+          "words": 276,
+          "verses": 27
+        },
+        {
+          "s": 120,
+          "name": "1Chr:18",
+          "words": 207,
+          "verses": 17
+        },
+        {
+          "s": 121,
+          "name": "1Chr:19",
+          "words": 258,
+          "verses": 19
+        },
+        {
+          "s": 122,
+          "name": "1Chr:20",
+          "words": 117,
+          "verses": 8
+        },
+        {
+          "s": 123,
+          "name": "1Chr:21",
+          "words": 379,
+          "verses": 30
+        },
+        {
+          "s": 124,
+          "name": "1Chr:22",
+          "words": 246,
+          "verses": 19
+        },
+        {
+          "s": 125,
+          "name": "1Chr:23",
+          "words": 294,
+          "verses": 32
+        },
+        {
+          "s": 126,
+          "name": "1Chr:24",
+          "words": 253,
+          "verses": 31
+        },
+        {
+          "s": 127,
+          "name": "1Chr:25",
+          "words": 276,
+          "verses": 31
+        },
+        {
+          "s": 128,
+          "name": "1Chr:26",
+          "words": 330,
+          "verses": 32
+        },
+        {
+          "s": 129,
+          "name": "1Chr:27",
+          "words": 357,
+          "verses": 34
+        },
+        {
+          "s": 130,
+          "name": "1Chr:28",
+          "words": 320,
+          "verses": 21
+        },
+        {
+          "s": 131,
+          "name": "1Chr:29",
+          "words": 399,
+          "verses": 30
+        },
+        {
+          "s": 132,
+          "name": "2Chr:1",
+          "words": 216,
+          "verses": 18
+        },
+        {
+          "s": 133,
+          "name": "2Chr:2",
+          "words": 259,
+          "verses": 17
+        },
+        {
+          "s": 134,
+          "name": "2Chr:3",
+          "words": 211,
+          "verses": 17
+        },
+        {
+          "s": 135,
+          "name": "2Chr:4",
+          "words": 257,
+          "verses": 22
+        },
+        {
+          "s": 136,
+          "name": "2Chr:5",
+          "words": 193,
+          "verses": 14
+        },
+        {
+          "s": 137,
+          "name": "2Chr:6",
+          "words": 534,
+          "verses": 42
+        },
+        {
+          "s": 138,
+          "name": "2Chr:7",
+          "words": 297,
+          "verses": 22
+        },
+        {
+          "s": 139,
+          "name": "2Chr:8",
+          "words": 223,
+          "verses": 18
+        },
+        {
+          "s": 140,
+          "name": "2Chr:9",
+          "words": 398,
+          "verses": 31
+        },
+        {
+          "s": 141,
+          "name": "2Chr:10",
+          "words": 223,
+          "verses": 19
+        },
+        {
+          "s": 142,
+          "name": "2Chr:11",
+          "words": 227,
+          "verses": 23
+        },
+        {
+          "s": 143,
+          "name": "2Chr:12",
+          "words": 202,
+          "verses": 16
+        },
+        {
+          "s": 144,
+          "name": "2Chr:13",
+          "words": 297,
+          "verses": 23
+        },
+        {
+          "s": 145,
+          "name": "2Chr:14",
+          "words": 169,
+          "verses": 14
+        },
+        {
+          "s": 146,
+          "name": "2Chr:15",
+          "words": 198,
+          "verses": 19
+        },
+        {
+          "s": 147,
+          "name": "2Chr:16",
+          "words": 187,
+          "verses": 14
+        },
+        {
+          "s": 148,
+          "name": "2Chr:17",
+          "words": 200,
+          "verses": 19
+        },
+        {
+          "s": 149,
+          "name": "2Chr:18",
+          "words": 415,
+          "verses": 34
+        },
+        {
+          "s": 150,
+          "name": "2Chr:19",
+          "words": 142,
+          "verses": 11
+        },
+        {
+          "s": 151,
+          "name": "2Chr:20",
+          "words": 449,
+          "verses": 37
+        },
+        {
+          "s": 152,
+          "name": "2Chr:21",
+          "words": 247,
+          "verses": 20
+        },
+        {
+          "s": 153,
+          "name": "2Chr:22",
+          "words": 196,
+          "verses": 12
+        },
+        {
+          "s": 154,
+          "name": "2Chr:23",
+          "words": 308,
+          "verses": 21
+        },
+        {
+          "s": 155,
+          "name": "2Chr:24",
+          "words": 372,
+          "verses": 27
+        },
+        {
+          "s": 156,
+          "name": "2Chr:25",
+          "words": 389,
+          "verses": 28
+        },
+        {
+          "s": 157,
+          "name": "2Chr:26",
+          "words": 299,
+          "verses": 23
+        },
+        {
+          "s": 158,
+          "name": "2Chr:27",
+          "words": 109,
+          "verses": 9
+        },
+        {
+          "s": 159,
+          "name": "2Chr:28",
+          "words": 352,
+          "verses": 27
+        },
+        {
+          "s": 160,
+          "name": "2Chr:29",
+          "words": 459,
+          "verses": 36
+        },
+        {
+          "s": 161,
+          "name": "2Chr:30",
+          "words": 363,
+          "verses": 27
+        },
+        {
+          "s": 162,
+          "name": "2Chr:31",
+          "words": 300,
+          "verses": 21
+        },
+        {
+          "s": 163,
+          "name": "2Chr:32",
+          "words": 423,
+          "verses": 33
+        },
+        {
+          "s": 164,
+          "name": "2Chr:33",
+          "words": 307,
+          "verses": 25
+        },
+        {
+          "s": 165,
+          "name": "2Chr:34",
+          "words": 480,
+          "verses": 33
+        },
+        {
+          "s": 166,
+          "name": "2Chr:35",
+          "words": 359,
+          "verses": 27
+        },
+        {
+          "s": 167,
+          "name": "2Chr:36",
+          "words": 311,
+          "verses": 23
+        }
+      ],
+      "build": [
+        1,
+        2,
+        5,
+        6,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19,
+        25,
+        26,
+        27,
+        28,
+        30,
+        32,
+        35,
+        36,
+        37,
+        38,
+        39,
+        43,
+        44,
+        46,
+        49,
+        52,
+        55,
+        57,
+        59,
+        62,
+        64,
+        65,
+        68,
+        70,
+        72,
+        74,
+        76,
+        77,
+        78,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        90,
+        94,
+        95,
+        97,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        107,
+        109,
+        112,
+        113,
+        114,
+        116,
+        117,
+        118,
+        122,
+        123,
+        125,
+        128,
+        131,
+        132,
+        133,
+        134,
+        137,
+        138,
+        139,
+        142,
+        143,
+        146,
+        147,
+        150,
+        151,
+        152,
+        153,
+        158,
+        161,
+        164
+      ],
+      "test": [
+        7,
+        11,
+        20,
+        23,
+        24,
+        29,
+        40,
+        41,
+        42,
+        47,
+        50,
+        51,
+        60,
+        61,
+        63,
+        66,
+        67,
+        73,
+        89,
+        91,
+        92,
+        99,
+        105,
+        110,
+        115,
+        119,
+        130,
+        140,
+        141,
+        148,
+        149,
+        154,
+        155,
+        156,
+        157,
+        159,
+        162,
+        163,
+        165,
+        166,
+        167
+      ],
+      "reserve": [
+        3,
+        4,
+        8,
+        9,
+        10,
+        14,
+        18,
+        21,
+        22,
+        31,
+        33,
+        34,
+        45,
+        48,
+        53,
+        54,
+        56,
+        58,
+        69,
+        71,
+        75,
+        79,
+        80,
+        87,
+        88,
+        93,
+        96,
+        106,
+        108,
+        111,
+        120,
+        121,
+        124,
+        126,
+        127,
+        129,
+        135,
+        136,
+        144,
+        145,
+        160
+      ]
+    },
+    "mishnah": {
+      "sourceHashes": {
+        "data/external/sefaria/mishnah.json": "30087d43124211511e314625c7b924659672c4c60789fcb695ddec35262598b9"
+      },
+      "units": [
+        {
+          "s": 1,
+          "name": "Mishnah Berakhot",
+          "words": 2169,
+          "verses": 57
+        },
+        {
+          "s": 2,
+          "name": "Mishnah Peah",
+          "words": 2485,
+          "verses": 69
+        },
+        {
+          "s": 3,
+          "name": "Mishnah Demai",
+          "words": 1878,
+          "verses": 53
+        },
+        {
+          "s": 4,
+          "name": "Mishnah Kilayim",
+          "words": 2934,
+          "verses": 77
+        },
+        {
+          "s": 5,
+          "name": "Mishnah Sheviit",
+          "words": 3211,
+          "verses": 89
+        },
+        {
+          "s": 6,
+          "name": "Mishnah Terumot",
+          "words": 3571,
+          "verses": 101
+        },
+        {
+          "s": 7,
+          "name": "Mishnah Maasrot",
+          "words": 1509,
+          "verses": 40
+        },
+        {
+          "s": 8,
+          "name": "Mishnah Maaser Sheni",
+          "words": 2254,
+          "verses": 57
+        },
+        {
+          "s": 9,
+          "name": "Mishnah Challah",
+          "words": 1240,
+          "verses": 38
+        },
+        {
+          "s": 10,
+          "name": "Mishnah Orlah",
+          "words": 1001,
+          "verses": 35
+        },
+        {
+          "s": 11,
+          "name": "Mishnah Bikkurim",
+          "words": 197,
+          "verses": 5
+        },
+        {
+          "s": 12,
+          "name": "Mishnah Shabbat",
+          "words": 5392,
+          "verses": 139
+        },
+        {
+          "s": 13,
+          "name": "Mishnah Eruvin",
+          "words": 3797,
+          "verses": 96
+        },
+        {
+          "s": 14,
+          "name": "Mishnah Pesachim",
+          "words": 3759,
+          "verses": 89
+        },
+        {
+          "s": 15,
+          "name": "Mishnah Shekalim",
+          "words": 2397,
+          "verses": 52
+        },
+        {
+          "s": 16,
+          "name": "Mishnah Yoma",
+          "words": 2968,
+          "verses": 61
+        },
+        {
+          "s": 17,
+          "name": "Mishnah Sukkah",
+          "words": 2156,
+          "verses": 53
+        },
+        {
+          "s": 18,
+          "name": "Mishnah Beitzah",
+          "words": 1493,
+          "verses": 42
+        },
+        {
+          "s": 19,
+          "name": "Mishnah Rosh Hashanah",
+          "words": 1574,
+          "verses": 35
+        },
+        {
+          "s": 20,
+          "name": "Mishnah Ta'anit",
+          "words": 1796,
+          "verses": 34
+        },
+        {
+          "s": 21,
+          "name": "Mishnah Megillah",
+          "words": 1326,
+          "verses": 33
+        },
+        {
+          "s": 22,
+          "name": "Mishnah Moed Katan",
+          "words": 764,
+          "verses": 24
+        },
+        {
+          "s": 23,
+          "name": "Mishnah Chagigah",
+          "words": 862,
+          "verses": 23
+        },
+        {
+          "s": 24,
+          "name": "Mishnah Yevamot",
+          "words": 6634,
+          "verses": 128
+        },
+        {
+          "s": 25,
+          "name": "Mishnah Ketubot",
+          "words": 5071,
+          "verses": 111
+        },
+        {
+          "s": 26,
+          "name": "Mishnah Nedarim",
+          "words": 4364,
+          "verses": 90
+        },
+        {
+          "s": 27,
+          "name": "Mishnah Nazir",
+          "words": 3112,
+          "verses": 60
+        },
+        {
+          "s": 28,
+          "name": "Mishnah Sotah",
+          "words": 3914,
+          "verses": 67
+        },
+        {
+          "s": 29,
+          "name": "Mishnah Gittin",
+          "words": 3755,
+          "verses": 75
+        },
+        {
+          "s": 30,
+          "name": "Mishnah Kiddushin",
+          "words": 2217,
+          "verses": 47
+        },
+        {
+          "s": 31,
+          "name": "Mishnah Bava Kamma",
+          "words": 4241,
+          "verses": 79
+        },
+        {
+          "s": 32,
+          "name": "Mishnah Bava Metzia",
+          "words": 4836,
+          "verses": 101
+        },
+        {
+          "s": 33,
+          "name": "Mishnah Bava Batra",
+          "words": 4702,
+          "verses": 86
+        },
+        {
+          "s": 34,
+          "name": "Mishnah Sanhedrin",
+          "words": 5249,
+          "verses": 71
+        },
+        {
+          "s": 35,
+          "name": "Mishnah Makkot",
+          "words": 2123,
+          "verses": 34
+        },
+        {
+          "s": 36,
+          "name": "Mishnah Shevuot",
+          "words": 3409,
+          "verses": 62
+        },
+        {
+          "s": 37,
+          "name": "Mishnah Eduyot",
+          "words": 3882,
+          "verses": 74
+        },
+        {
+          "s": 38,
+          "name": "Mishnah Avodah Zarah",
+          "words": 2312,
+          "verses": 50
+        },
+        {
+          "s": 39,
+          "name": "Pirkei Avot",
+          "words": 4660,
+          "verses": 108
+        },
+        {
+          "s": 40,
+          "name": "Mishnah Horayot",
+          "words": 1005,
+          "verses": 20
+        },
+        {
+          "s": 41,
+          "name": "Mishnah Zevachim",
+          "words": 5016,
+          "verses": 101
+        },
+        {
+          "s": 42,
+          "name": "Mishnah Menachot",
+          "words": 5286,
+          "verses": 93
+        },
+        {
+          "s": 43,
+          "name": "Mishnah Chullin",
+          "words": 3728,
+          "verses": 74
+        },
+        {
+          "s": 44,
+          "name": "Mishnah Bekhorot",
+          "words": 3723,
+          "verses": 73
+        },
+        {
+          "s": 45,
+          "name": "Mishnah Arakhin",
+          "words": 2599,
+          "verses": 50
+        },
+        {
+          "s": 46,
+          "name": "Mishnah Temurah",
+          "words": 1853,
+          "verses": 35
+        },
+        {
+          "s": 47,
+          "name": "Mishnah Keritot",
+          "words": 2757,
+          "verses": 43
+        },
+        {
+          "s": 48,
+          "name": "Mishnah Meilah",
+          "words": 1774,
+          "verses": 38
+        },
+        {
+          "s": 49,
+          "name": "Mishnah Tamid",
+          "words": 2140,
+          "verses": 34
+        },
+        {
+          "s": 50,
+          "name": "Mishnah Middot",
+          "words": 2312,
+          "verses": 34
+        },
+        {
+          "s": 51,
+          "name": "Mishnah Kinnim",
+          "words": 918,
+          "verses": 15
+        },
+        {
+          "s": 52,
+          "name": "Mishnah Kelim",
+          "words": 10022,
+          "verses": 254
+        },
+        {
+          "s": 53,
+          "name": "Mishnah Oholot",
+          "words": 6046,
+          "verses": 134
+        },
+        {
+          "s": 54,
+          "name": "Mishnah Negaim",
+          "words": 5467,
+          "verses": 115
+        },
+        {
+          "s": 55,
+          "name": "Mishnah Parah",
+          "words": 3844,
+          "verses": 96
+        },
+        {
+          "s": 56,
+          "name": "Mishnah Tahorot",
+          "words": 3761,
+          "verses": 92
+        },
+        {
+          "s": 57,
+          "name": "Mishnah Mikvaot",
+          "words": 3144,
+          "verses": 71
+        },
+        {
+          "s": 58,
+          "name": "Mishnah Niddah",
+          "words": 3073,
+          "verses": 79
+        },
+        {
+          "s": 59,
+          "name": "Mishnah Makhshirin",
+          "words": 2170,
+          "verses": 54
+        },
+        {
+          "s": 60,
+          "name": "Mishnah Zavim",
+          "words": 1573,
+          "verses": 32
+        },
+        {
+          "s": 61,
+          "name": "Mishnah Tevul Yom",
+          "words": 1113,
+          "verses": 26
+        },
+        {
+          "s": 62,
+          "name": "Mishnah Yadayim",
+          "words": 1588,
+          "verses": 22
+        },
+        {
+          "s": 63,
+          "name": "Mishnah Oktzin",
+          "words": 1019,
+          "verses": 28
+        }
+      ],
+      "build": [
+        3,
+        9,
+        11,
+        13,
+        15,
+        16,
+        22,
+        23,
+        24,
+        26,
+        27,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        48,
+        49,
+        51,
+        53,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "test": [
+        1,
+        2,
+        8,
+        14,
+        18,
+        19,
+        25,
+        29,
+        31,
+        32,
+        36,
+        46,
+        47,
+        52,
+        63
+      ],
+      "reserve": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        17,
+        20,
+        21,
+        28,
+        33,
+        45,
+        50,
+        54,
+        55
+      ]
+    }
+  }
+}
