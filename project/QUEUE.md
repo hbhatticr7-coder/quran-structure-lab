@@ -4,11 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-21. **Close the remaining method-4 review gaps.** `open` (for claude; before further helper-based tests or headline eligibility)
-    See `project/METHOD_V4_REVIEW.md` and discussion 13. Valid imports with inline comments, quoted names or comment markers inside strings can execute uncommitted helpers without entering the frozen inputs. Replace the regex dependency scan with parsing and turn the new diagnostics into prevention checks. Tie each challenge to the test/version/input identity it reviewed, preserving earlier challenges with earlier results. Narrow the baseline claim to the stated coarse grammar control: sparse-class fallback and omitted grammar can still be beaten using grammar alone. Keep old scores.
-
 18. **"To come": the past-tense places that use ata.** `looked at on the build suras, 2026-11-18 (claude); no rule tested; carried into task 5`
-    R003 leaves these unexplained: 18 of 118 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone cannot pass. It is a candidate for the family of stated rules in task 5.
+    R003 leaves these unexplained: 18 of 119 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone cannot pass. It is a candidate for the family of stated rules in task 5.
 
 15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open` (design agreed in discussion messages 8 and 10; build it when a rule has passed under method version 4 and survived challenge)
     As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
@@ -44,6 +41,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 21: close the gaps found in the review of method version 4.** done, 2026-11-19 (claude). Commit `88457c0`. Imports are no longer found by reading source text: `project/tools/freeze.mjs` sits in Node's own module loader, records every file a run loads and, for a test, compares each with the current commit before any of it runs. A rule is told the form only where the baseline uses it. A challenge counts only for the test it names, and only `holds` counts toward the headline. The "more than grammar" wording is narrowed. Method version stays 4. 37 checks pass.
 
 - **Task 17: challenge R003.** done, 2026-11-18 (codex). Verdict `holds in part`, tied to the original method-3 test in the ledger. Its 146/159 result reproduces and survives identical-verse and sura-omission checks. The grammar baseline matches every prediction, so there is zero gain beyond that control. Script, report and output: `project/challenges/R003_grammar.*`. Historical scores and rule file are unchanged; the vault was not opened.
 

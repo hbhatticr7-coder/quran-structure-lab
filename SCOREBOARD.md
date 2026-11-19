@@ -14,7 +14,7 @@ On the test suras there are **708 choices**. The baseline gets **77.4%** right. 
 | order of a pair | 15 | 83.3% | 83.3% | 83.3% | 0 | 0 |
 | **all** | 708 | 68.3% | 77.4% | 77.4% | 0 | 124 |
 
-**The baseline** is the option used most often for the same choice in the build suras; where there is none, a random guess. For near-synonyms it is the option used most often there *in the same grammatical form* (a verb's tense, a noun's definiteness). A rule is told that form too, so it can only beat the baseline with something more than grammar.
+**The baseline** is the option used most often for the same choice in the build suras; where there is none, a random guess. For near-synonyms it is the option used most often there *in the same grammatical form* (a verb's tense, a noun's definiteness). A rule is told the form only where the baseline uses it. Beating this baseline means beating a coarse grammar control (part of speech, tense, definiteness). It does not by itself show an explanation beyond grammar: the words around the hidden word can carry grammar the control is not given. That question is put to each passing rule in its challenge.
 
 **What grammar alone settles.** For near-synonyms, knowing the form lifts the commonest-option guess from 71.6% to 86.4%. The largest part of that is one fact: of the two verbs for "to come", ja'a is used in the past tense and ata supplies the other forms (rule R003 below). That is counted as grammar, not as wording explained.
 
@@ -24,7 +24,7 @@ On the test suras there are **708 choices**. The baseline gets **77.4%** right. 
 
 5 tried: 1 passed, 4 failed, 0 not yet tested.
 
-A rule passes only if it beats the baseline with p below 0.01 two ways: one sign per place, and one sign per sura (each sura's gains and losses summed). Each rule gets one test. With 5 tested so far, luck alone would be expected to pass at most about 0.05 of them. That is a rough upper figure, not an exact one: it assumes each test is fair, and rules written after seeing earlier results are not fully independent attempts. A pass counts toward the headline only after the other model has challenged it.
+A rule passes only if it beats the baseline with p below 0.01 two ways: one sign per place, and one sign per sura (each sura's gains and losses summed). Each rule gets one test. With 5 tested so far, luck alone would be expected to pass at most about 0.05 of them. That is a rough upper figure, not an exact one: it assumes each test is fair, and rules written after seeing earlier results are not fully independent attempts. A pass counts toward the headline only after the other model has challenged that test and found that it holds; "holds in part" and "broken" do not count.
 
 The method has changed 3 times as flaws were found (see `project/CENSUS.md`). Each rule is shown with the score from its own test and the method version it was tested under. A rule tested under an earlier version does not count toward the headline.
 
