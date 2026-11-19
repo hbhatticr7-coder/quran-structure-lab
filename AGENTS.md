@@ -18,7 +18,7 @@ The owner does not want to be asked what to do next. Choose from the queue. Ask 
 
 ## Setup
 
-Node 20 or later. No dependencies, no install step. Python is not needed.
+Use Node 24 (`nvm install` once, then `nvm use`, using `.nvmrc`). The evaluator needs `module.registerHooks`, which Node 20 does not provide; Node 22.15 or later with that API also works. No package dependencies or package install step. Python is not needed.
 
 ```bash
 node project/tools/census.mjs
@@ -69,7 +69,7 @@ A rule must reach the text only through `ctx`. It must not import the corpus, re
 
 A rule passes if it is right more often than the baseline on the test suras, with **both** `pGain` and `pGainBySura` below 0.01. `pGain` gives one sign to every place. `pGainBySura` gives one sign to every sura: the sura's gains and losses against the baseline are summed and that sum keeps or flips its sign as a whole, because places within one sura are not independent (a refrain can supply many places). Suras are not weighted equally; a long one can count for more. A pass is not the end: it counts toward the scoreboard only after the other model has challenged it, and with many rules tested a few will pass by luck.
 
-**The baseline** is the option used most often for the same choice in the build suras. For near-synonym places it is the option used most often there in the same grammatical form (see `ctx.slot()`), falling back on the plain commonest option where that form has fewer than three build places. The scores also give `plainBaselineAccuracy` (form ignored) for description. This is method version 4; rules R001 to R005 were tested under version 3 against the plain baseline, and their ledger entries stand as they are.
+**The baseline** is the option used most often for the same choice in the build suras. For near-synonym places it is the option used most often there in the same grammatical form (see `ctx.slot()`), falling back on the plain commonest option where that form has fewer than three build places. The scores also give `plainBaselineAccuracy` (form ignored) for description. This control was introduced in method version 4 and is retained in version 5, which changes phrase definitions. Rules R001 to R005 were tested under version 3 against the plain baseline, and their ledger entries stand as they are.
 
 **What beating the baseline shows.** It shows a gain over a coarse grammar control: part of speech, tense, definiteness. It does not by itself show an explanation beyond grammar, because the words around the hidden word can carry grammar the control is not given (person, number, mood, case). Do not write "explains the wording" of a rule on the strength of a pass alone; the challenge has to ask what a grammar-only version of the same rule would score.
 
@@ -79,7 +79,7 @@ The scores also report `unseen` (places where the word used was never seen there
 
 Which problems exist, and which options each has, is decided from the build suras alone (`project/tools/problems.mjs`). The test and vault suras must never shape a problem. The tools enforce this from census version 3: a run loads only the suras it may see (`loadText` in `project/tools/lib.mjs`), the vault is not loaded by any tool unless the owner's flag is given, and near-synonym options are explicit lists of dictionary forms in `project/synonyms.json`, compiled from the build suras. When you add a synonym set, compile its forms from the build suras too. The files in `project/sites/` hold build-sura occurrences only and are safe to read.
 
-Check the guards after any change to the tools: `node --test project/challenges/census-v2-audit.test.mjs project/challenges/census-v3-review.test.mjs project/challenges/method-v4-review.test.mjs project/tools/comparison.test.mjs`. `project/tools/evaluate.mjs` must import nothing but Node's own modules and `./freeze.mjs`; put new code in `evaluate-run.mjs`, which is loaded through the guard. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
+Check the guards after any change to the tools: `node --test project/challenges/census-v2-audit.test.mjs project/challenges/census-v3-review.test.mjs project/challenges/method-v4-review.test.mjs project/tools/comparison.test.mjs project/tools/phrases.test.mjs project/tools/comparison-corpus.test.mjs project/tools/comparison-v2.test.mjs`. `project/tools/evaluate.mjs` must import nothing but Node's own modules and `./freeze.mjs`; put new code in `evaluate-run.mjs`, which is loaded through the guard. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged. The first comparison's saved files are historical; use `comparison-v2.mjs` for the new declared experiment and read `project/PHRASE_COMPARISON_V2_PROTOCOL.md` first.
 
 ## Challenging a rule
 

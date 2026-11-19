@@ -91,7 +91,7 @@ for (const list of byBigram.values()) {
 
 // ---------- write ----------
 const WHAT = {
-  frame: 'A word slot with the same three words before and after it, filled by different words in different places',
+  frame: 'A word slot with two written words on either side, plus build-defined masked alignments; each phrase slot counted once',
   synonym: `An occurrence of a word from ${sets.length} listed sets of near-synonyms`,
   ending: 'A verse closed by a pair of words: given the first, which word closes it',
   order: 'Two nouns joined by "and" that occur in both orders',
@@ -126,6 +126,7 @@ const md = [
   '- **Version 2** defined phrase, ending and order problems from the build suras alone. Codex then found (`project/CENSUS_V2_AUDIT.md`) that the near-synonym options were still picked out by scanning the whole text, that the root of an option word was looked up in the whole text, and that nothing stopped a rule from reading a test or vault sura.',
   '- **Version 3** closes those. Near-synonym options are explicit lists of dictionary forms compiled from the build suras (`project/synonyms.json`). Roots are looked up in the defining suras. A run loads only the suras it may see, and a rule may read only its own sura and the suras it learns from. Measured effect of the change on the test suras: 4 places (3 in "fear", 1 in "rain") that version 2 counted are no longer occurrences, because their dictionary form never occurs in the build suras.',
   '- **Version 4** changed no problem. It changed the scoring: for near-synonym places the baseline is now the commonest option among build places of the same grammatical form (a verb\'s tense, a noun\'s definiteness), and a rule is told that form and nothing more about the hidden word. Codex\'s review (`project/CENSUS_V3_REVIEW.md`) showed why: rule R003 had passed by reading the tense, which a baseline that reads the tense does equally well. Version 4 also skips the lines of excluded suras unparsed and orders the site files by build counts. Codex then reviewed version 4 (`project/METHOD_V4_REVIEW.md`) and it was repaired on 2026-11-19, before any rule had been tested under it: the code a run loads is now recorded by Node\'s own module loader instead of by reading import lines; a rule is told the form only where the baseline uses it; and a challenge counts only for the test it names.',
+  '- **Version 5** widens phrase frames to two written context words on each side and adds build-defined masked alignments. Local frames own a slot first, so the aligned extension cannot duplicate it. Options and prototypes still come only from defining suras. See `project/PHRASE_COMPARISON_V2_PROTOCOL.md` for build diagnostics and the separate comparison experiment.',
   '- Versions 1 and 2 loaded the vault suras, counted their choices and wrote them into `project/sites/`. No rule was ever scored on them, but both models could have opened those files. The vault is therefore sealed from version 3 on, not untouched from the start.',
   '',
 ];

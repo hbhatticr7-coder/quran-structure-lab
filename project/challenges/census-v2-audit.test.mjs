@@ -5,7 +5,9 @@
 // Written by codex for its audit of census version 2 (project/CENSUS_V2_AUDIT.md),
 // where four of these checks demonstrated defects. Changed by claude on
 // 2026-11-18 for census version 3: those four now check that the defect is
-// gone, as the audit asked. The other four are as codex wrote them.
+// gone, as the audit asked. Codex updated the context-form diagnostic for
+// version 5 on 2026-11-19: a word inside the new two-word window now separates
+// forms that the old lemma-only definition collapsed.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -159,15 +161,13 @@ test('version 4: the near-synonym baseline is the commonest option in the same f
   assert.equal(baselineAt(occ(9)), 'came', 'a form with too few known places falls back on the plain baseline');
 });
 
-test('frame matching ignores the morphology of context words', () => {
+test('version 5: local frame matching retains written context forms', () => {
   const a = frame(1, 'red'), b = frame(2, 'blue');
-  a.words[0].feats = ['SINGULAR'];
-  b.words[0].feats = ['PLURAL'];
-  a.words[0].form = 'one_form';
-  b.words[0].form = 'another_form';
-  const [p] = frames(corpus(a, b));
-  assert.deepEqual(p.options, ['red', 'blue']);
-  assert.equal(p.occurrences.length, 2);
+  a.words[1].feats = ['SINGULAR'];
+  b.words[1].feats = ['PLURAL'];
+  a.words[1].form = 'one_form';
+  b.words[1].form = 'another_form';
+  assert.equal(makeProblems(corpus(a, b), new Set([1, 2]), [], { aligned: false }).filter((p) => p.type === 'frame').length, 0);
 });
 
 test('within-problem shuffling gives no association evidence for a constant majority guess', () => {

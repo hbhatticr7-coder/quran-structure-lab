@@ -1,0 +1,470 @@
+{
+  "version": 2,
+  "scope": "Explicit tokens compiled from build units only. No sense disambiguation. Five examples per option in the defining units.",
+  "datasets": {
+    "quran": [
+      {
+        "id": "rain",
+        "gloss": "rain",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "rain"
+        ],
+        "minBuild": 5,
+        "eligible": false,
+        "options": [
+          {
+            "label": "matar",
+            "lemmas": [
+              "أُمْطِرَتْ",
+              "مَطَر"
+            ],
+            "buildCount": 7
+          },
+          {
+            "label": "ghayth",
+            "lemmas": [
+              "غَيْث"
+            ],
+            "buildCount": 1
+          }
+        ]
+      },
+      {
+        "id": "send-down",
+        "gloss": "to send down",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "send-down"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "anzala",
+            "lemmas": [
+              "أَنزَلَ"
+            ],
+            "buildCount": 92
+          },
+          {
+            "label": "nazzala",
+            "lemmas": [
+              "نَزَّلَ"
+            ],
+            "buildCount": 36
+          }
+        ]
+      },
+      {
+        "id": "fear",
+        "gloss": "fear",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "fear"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "khashya",
+            "lemmas": [
+              "خَشِيَ",
+              "خَشْيَة"
+            ],
+            "buildCount": 30
+          },
+          {
+            "label": "khawf",
+            "lemmas": [
+              "تَخَوُّف",
+              "تَخْوِيف",
+              "خافَ",
+              "خَوْف",
+              "خِيفَة",
+              "يُخَوِّفُ"
+            ],
+            "buildCount": 45
+          }
+        ]
+      },
+      {
+        "id": "heart",
+        "gloss": "heart",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "heart"
+        ],
+        "minBuild": 5,
+        "eligible": false,
+        "options": [
+          {
+            "label": "fuad",
+            "lemmas": [
+              "فُؤاد"
+            ],
+            "buildCount": 4
+          },
+          {
+            "label": "qalb",
+            "lemmas": [
+              "قَلْب"
+            ],
+            "buildCount": 83
+          }
+        ]
+      },
+      {
+        "id": "swear",
+        "gloss": "to swear an oath",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "swear"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "halafa",
+            "lemmas": [
+              "حَلَفْ",
+              "حَلّاف"
+            ],
+            "buildCount": 10
+          },
+          {
+            "label": "aqsama",
+            "lemmas": [
+              "أَقْسَمُ"
+            ],
+            "buildCount": 12
+          }
+        ]
+      },
+      {
+        "id": "year",
+        "gloss": "year",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "year"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "sana",
+            "lemmas": [
+              "سَنَة",
+              "سِنِين"
+            ],
+            "buildCount": 10
+          },
+          {
+            "label": "am",
+            "lemmas": [
+              "عام"
+            ],
+            "buildCount": 5
+          }
+        ]
+      },
+      {
+        "id": "come",
+        "gloss": "to come",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "come"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "jaa",
+            "lemmas": [
+              "جاءَ"
+            ],
+            "buildCount": 101
+          },
+          {
+            "label": "ata",
+            "lemmas": [
+              "أَتَى"
+            ],
+            "buildCount": 98
+          }
+        ]
+      },
+      {
+        "id": "human",
+        "gloss": "human being",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "human"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "bashar",
+            "lemmas": [
+              "بَشَر"
+            ],
+            "buildCount": 25
+          },
+          {
+            "label": "insan",
+            "lemmas": [
+              "إِنسان"
+            ],
+            "buildCount": 44
+          }
+        ]
+      },
+      {
+        "id": "do",
+        "gloss": "to do",
+        "sources": [
+          "project/synonyms.json"
+        ],
+        "entries": [
+          "do"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "amila",
+            "lemmas": [
+              "عَمِلَ"
+            ],
+            "buildCount": 143
+          },
+          {
+            "label": "faala",
+            "lemmas": [
+              "فَعَلَ"
+            ],
+            "buildCount": 49
+          }
+        ]
+      }
+    ],
+    "gospels": [
+      {
+        "id": "greek-ask",
+        "gloss": "ask or request",
+        "sources": [
+          "https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js",
+          "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%90%CF%81%CF%89%CF%84%CE%AC%CF%89"
+        ],
+        "entries": [
+          "G2065",
+          "G154"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "erotao",
+            "lemmas": [
+              "ἐρωτάω"
+            ],
+            "buildCount": 10
+          },
+          {
+            "label": "aiteo",
+            "lemmas": [
+              "αἰτέω"
+            ],
+            "buildCount": 16
+          }
+        ]
+      },
+      {
+        "id": "greek-speak",
+        "gloss": "say or speak",
+        "sources": [
+          "https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js"
+        ],
+        "entries": [
+          "G3004",
+          "G2980"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "lego",
+            "lemmas": [
+              "λέγω"
+            ],
+            "buildCount": 622
+          },
+          {
+            "label": "laleo",
+            "lemmas": [
+              "λαλέω"
+            ],
+            "buildCount": 40
+          }
+        ]
+      },
+      {
+        "id": "greek-love",
+        "gloss": "love or be fond of",
+        "sources": [
+          "https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js"
+        ],
+        "entries": [
+          "G25",
+          "G5368"
+        ],
+        "minBuild": 5,
+        "eligible": false,
+        "options": [
+          {
+            "label": "agapao",
+            "lemmas": [
+              "ἀγαπάω"
+            ],
+            "buildCount": 12
+          },
+          {
+            "label": "phileo",
+            "lemmas": [
+              "φιλέω"
+            ],
+            "buildCount": 3
+          }
+        ]
+      }
+    ],
+    "samuel_kings_chronicles": [
+      {
+        "id": "hebrew-speak",
+        "gloss": "say or speak",
+        "sources": [
+          "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml"
+        ],
+        "entries": [
+          "H559",
+          "H1696"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "amar",
+            "lemmas": [
+              "559"
+            ],
+            "buildCount": 858
+          },
+          {
+            "label": "dabar",
+            "lemmas": [
+              "1696"
+            ],
+            "buildCount": 127
+          }
+        ]
+      },
+      {
+        "id": "hebrew-heart",
+        "gloss": "heart, including the shorter and longer lexical forms",
+        "sources": [
+          "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml"
+        ],
+        "entries": [
+          "H3820",
+          "H3824"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "leb",
+            "lemmas": [
+              "3820 a"
+            ],
+            "buildCount": 45
+          },
+          {
+            "label": "lebab",
+            "lemmas": [
+              "3824"
+            ],
+            "buildCount": 42
+          }
+        ]
+      }
+    ],
+    "mishnah": [
+      {
+        "id": "mishnaic-tree",
+        "gloss": "tree; etz also has wood/pole senses, so this is a broad lexical contrast",
+        "sources": [
+          "https://www.sefaria.org/Jastrow%2C_%D7%90%D6%B4%D7%99%D7%9C%D6%B8%D6%BC%D7%9F.1",
+          "https://daf-yomi.com/Dictionary.aspx?id=8&wordId=72253"
+        ],
+        "entries": [
+          "Jastrow: illan",
+          "Jastrow: etz"
+        ],
+        "minBuild": 5,
+        "eligible": true,
+        "options": [
+          {
+            "label": "illan",
+            "lemmas": [
+              "אילן",
+              "אילנות",
+              "באילן",
+              "האילן",
+              "השאילני",
+              "ואילן",
+              "ולאילנות",
+              "לאילן",
+              "מאילן"
+            ],
+            "buildCount": 36
+          },
+          {
+            "label": "etz",
+            "lemmas": [
+              "בעצים",
+              "העץ",
+              "העצים",
+              "והעץ",
+              "והעצים",
+              "ועץ",
+              "כעץ",
+              "כעצים",
+              "לעצים",
+              "עץ",
+              "עצי",
+              "עצים"
+            ],
+            "buildCount": 48
+          }
+        ]
+      }
+    ]
+  }
+}

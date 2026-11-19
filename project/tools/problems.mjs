@@ -18,9 +18,9 @@
 // certain to differ there, and the baseline was certain to be wrong. Defining
 // problems from the build suras alone removes this.
 //
-//   frame    a word slot with the same three words before it and after it
-//            (a verse edge counts as a word; at least three of the six must be
-//            real words), filled by two or more different words in the defining suras
+//   frame    a word slot with two written words on each side, plus build-only
+//            masked alignments for substitutions with nearby insertions;
+//            see phrases.mjs. Every physical phrase slot is counted once.
 //   synonym  an occurrence of a word from a listed set of near-synonyms
 //   ending   a verse closed by two nouns/adjectives: given the first, which
 //            word closes it. Options: closing words seen three times or more
@@ -30,13 +30,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT_DIR } from '../../src/corpus.mjs';
+import { makePhraseProblems } from './phrases.mjs';
 
-// Also the version of the scoring method. Version 4 changed no problem: it
-// changed the baseline for near-synonym places and what a rule is told about
-// the hidden word (see lib.mjs).
-export const CENSUS_VERSION = 4;
+// Also the scoring-method version. Version 5 widens phrase contexts while
+// retaining their written forms; the version-4 synonym baseline is unchanged.
+export const CENSUS_VERSION = 5;
 export const OTHER = '(other)';
-const PAD = 3;
 const nominal = (w) => w.pos === 'N' && w.root;
 export const loadSynonymSets = () => JSON.parse(fs.readFileSync(path.join(ROOT_DIR, 'project', 'synonyms.json'), 'utf8')).sets;
 
@@ -46,17 +45,6 @@ const prepared = new WeakMap();
 function prepare(corpus) {
   if (prepared.has(corpus)) return prepared.get(corpus);
   const { verses } = corpus;
-  const frameMap = new Map();
-  for (const v of verses) {
-    const t = [...Array(PAD).fill('^'), ...v.words.map((w) => w.token), ...Array(PAD).fill('$')];
-    for (let i = PAD; i < t.length - PAD; i++) {
-      const ctx = [...t.slice(i - PAD, i), ...t.slice(i + 1, i + 1 + PAD)];
-      if (ctx.filter((x) => x !== '^' && x !== '$').length < 3) continue;
-      const key = `${ctx.slice(0, PAD).join(' ')} _ ${ctx.slice(PAD).join(' ')}`;
-      if (!frameMap.has(key)) frameMap.set(key, []);
-      frameMap.get(key).push({ s: v.s, v: v.v, slots: [i - PAD + 1], word: t[i] });
-    }
-  }
   const endings = []; // { s, v, slots, head, word }
   const pairs = new Map(); // "x\ty" (sorted) -> [{ s, v, slots, first, second }]
   for (const v of verses) {
@@ -71,7 +59,7 @@ function prepare(corpus) {
       pairs.get(k).push({ s: v.s, v: v.v, slots: [a.w, b.w], first: a.token, second: b.token });
     }
   }
-  const out = { frameMap, endings, pairs };
+  const out = { endings, pairs };
   prepared.set(corpus, out);
   return out;
 }
@@ -84,17 +72,11 @@ export function rootsIn(corpus, suras) {
 }
 
 // defining: a Set of sura numbers.
-export function makeProblems(corpus, defining, sets = loadSynonymSets()) {
-  const { frameMap, endings, pairs } = prepare(corpus);
+export function makeProblems(corpus, defining, sets = loadSynonymSets(), phraseSettings = {}) {
+  const { endings, pairs } = prepare(corpus);
   const rootOf = rootsIn(corpus, defining);
   const info = (tokens) => Object.fromEntries(tokens.map((t) => [t, { tokens: [t], roots: rootOf.get(t) ? [rootOf.get(t)] : [] }]));
-  const problems = [];
-
-  for (const [key, occ] of frameMap) {
-    const options = [...new Set(occ.filter((o) => defining.has(o.s)).map((o) => o.word))];
-    if (options.length < 2) continue;
-    problems.push({ id: `frame:${key}`, type: 'frame', options, optionInfo: info(options), occurrences: occ.map((o) => ({ s: o.s, v: o.v, slots: o.slots, chosen: options.includes(o.word) ? o.word : OTHER })) });
-  }
+  const problems = makePhraseProblems(corpus, defining, info, OTHER, phraseSettings);
 
   for (const set of sets) {
     const optionInfo = {};
@@ -103,10 +85,13 @@ export function makeProblems(corpus, defining, sets = loadSynonymSets()) {
       // The option is the listed dictionary forms and nothing else: the text is not consulted.
       if (!Array.isArray(opt.lemmas) || !opt.lemmas.length) throw new Error(`synonym option needs an explicit list of lemmas: ${set.id} / ${opt.label}`);
       const tokens = opt.lemmas.slice();
-      optionInfo[opt.label] = { tokens, roots: [opt.root] };
+      optionInfo[opt.label] = { tokens, roots: opt.root ? [opt.root] : [] };
       for (const v of corpus.verses) for (const w of v.words) if (tokens.includes(w.token)) occurrences.push({ s: v.s, v: v.v, slots: [w.w], chosen: opt.label });
     }
     occurrences.sort((a, b) => a.s - b.s || a.v - b.v || a.slots[0] - b.slots[0]);
+    // An optional, prospectively declared comparison-catalogue threshold.
+    // The Quran's existing sets have no such field and remain unchanged.
+    if (set.minBuild && set.options.some((opt) => occurrences.filter((o) => defining.has(o.s) && o.chosen === opt.label).length < set.minBuild)) continue;
     problems.push({ id: `synonym:${set.id}`, type: 'synonym', gloss: set.gloss, options: set.options.map((o) => o.label), optionInfo, occurrences });
   }
 

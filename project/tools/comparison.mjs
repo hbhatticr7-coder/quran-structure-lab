@@ -204,6 +204,7 @@ function requirePublished() {
 
 function main(mode) {
   if (!['--prepare', '--build', '--test'].includes(mode)) throw new Error('usage: node project/tools/comparison.mjs --prepare | --build | --test');
+  if (CENSUS_VERSION !== 2) throw new Error('The first comparison belongs to census 2. Reproduce it from its recorded commit, or use comparison-v2.mjs. Its saved files must not be overwritten.');
   fs.mkdirSync(DIR, { recursive: true });
   const resultFile = path.join(DIR, 'test.json');
   if (mode === '--test' && fs.existsSync(resultFile)) throw new Error('comparison test already recorded; do not retest');

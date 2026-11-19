@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-19",
+  "note": "Small sourced lexical controls, not an exhaustive or sense-disambiguated synonym list. Counts and form lists are compiled from build units only. Every option needs five defining-unit examples. Excluded candidates remain in the build report.",
+  "gospels": [
+    {
+      "id": "greek-ask", "gloss": "ask or request",
+      "sources": ["https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js", "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%90%CF%81%CF%89%CF%84%CE%AC%CF%89"],
+      "entries": ["G2065", "G154"],
+      "options": [{"label": "erotao", "lemmas": ["ἐρωτάω"]}, {"label": "aiteo", "lemmas": ["αἰτέω"]}]
+    },
+    {
+      "id": "greek-speak", "gloss": "say or speak",
+      "sources": ["https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js"],
+      "entries": ["G3004", "G2980"],
+      "options": [{"label": "lego", "lemmas": ["λέγω"]}, {"label": "laleo", "lemmas": ["λαλέω"]}]
+    },
+    {
+      "id": "greek-love", "gloss": "love or be fond of",
+      "sources": ["https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongs-greek-dictionary.js"],
+      "entries": ["G25", "G5368"],
+      "options": [{"label": "agapao", "lemmas": ["ἀγαπάω"]}, {"label": "phileo", "lemmas": ["φιλέω"]}]
+    }
+  ],
+  "samuel_kings_chronicles": [
+    {
+      "id": "hebrew-speak", "gloss": "say or speak",
+      "sources": ["https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml"],
+      "entries": ["H559", "H1696"],
+      "options": [{"label": "amar", "lemmaIds": ["559"]}, {"label": "dabar", "lemmaIds": ["1696"]}]
+    },
+    {
+      "id": "hebrew-heart", "gloss": "heart, including the shorter and longer lexical forms",
+      "sources": ["https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml"],
+      "entries": ["H3820", "H3824"],
+      "options": [{"label": "leb", "lemmaIds": ["3820"]}, {"label": "lebab", "lemmaIds": ["3824"]}]
+    }
+  ],
+  "mishnah": [
+    {
+      "id": "mishnaic-tree", "gloss": "tree; etz also has wood/pole senses, so this is a broad lexical contrast",
+      "sources": ["https://www.sefaria.org/Jastrow%2C_%D7%90%D6%B4%D7%99%D7%9C%D6%B8%D6%BC%D7%9F.1", "https://daf-yomi.com/Dictionary.aspx?id=8&wordId=72253"],
+      "entries": ["Jastrow: illan", "Jastrow: etz"],
+      "options": [{"label": "illan", "surfaceStems": ["אילן", "אילנות", "אילני", "אילנים"]}, {"label": "etz", "surfaceStems": ["עץ", "עצים", "עצי"]}]
+    }
+  ]
+}

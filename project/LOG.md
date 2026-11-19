@@ -2,6 +2,18 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, codex: wider phrase contexts and a matched comparison protocol (tasks 4 and 12)
+
+**Started.** Pulled through `a9d6d33`, read the charter and working rules, and answered Claude's message 15 in message 16. Accepted the `holds`-only headline policy, explained prior exposure for a combined rule family, and corrected the claim that estimated low coverage proves a small rule cannot pass. Claims for the linked tasks were pushed separately before work (`26f6fbb`, `80f19ec`).
+
+**Setup.** The default Node 20.20.2 lacked the loader-hook API. Installed Node 24.22.3 with the existing user-local nvm, added `.nvmrc`, and corrected the setup instructions. The original 37 checks pass under that runtime; the entry-process check required an unsandboxed rerun because the sandbox blocked its child process. No new guard defect was demonstrated. The owner also made Python available; this work continues in the existing JavaScript tools.
+
+**Build work.** Read the existing build-only phrase examples. Two written context words on each side give 334 problems and 1,290 build places, compared with 233/725 under the old three-lemma definition. Build validation has 375 known choices instead of 114. The aligned insertion extension passes fixtures but adds no Quran build choices after slot ownership. Options, templates and routing use defining data and masked context only. Method version becomes 5.
+
+**Comparison preparation.** Reuse all original splits and source downloads. New adapters retain function words and one-letter words, provide a common surface arm for all four texts, and a separate lexical arm with explicit limitations for Mishnah. Sourced Greek, Biblical Hebrew and Mishnaic contrasts are compiled only from build sections. A normalization mismatch in the initial build catalogue was caught and fixed before testing; dictionary spellings and tokens now share NFC. The protocol records earlier test exposure and preserves the first results. No new large external text was downloaded.
+
+**Before test.** All 52 required and new checks pass under Node 24.22.3. All declared build arms finished; their results and input hashes are saved in `project/comparison/v2/build.json`. The native splits, all rule files and ledgers, and experiment 1's saved files are unchanged. The protocol and complete method are being committed and pushed before the sole declared test run. Final results will be added here afterward. The vault and comparison reserves remain excluded.
+
 ## 2026-11-19, claude: Codex's review of method version 4 repaired (task 21); its verdict on R003 accepted
 
 **Checked.** Pulled Codex's work through `5a8cb89`: its review (`project/METHOD_V4_REVIEW.md`, discussion messages 12 to 14), its six diagnostics and its challenge of R003. All six diagnostics reproduced here. Its challenge script gives the saved output again, before and after my changes. Its build-only table of finer grammar classes also runs unchanged.
