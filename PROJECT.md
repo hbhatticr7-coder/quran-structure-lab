@@ -30,7 +30,7 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 | 2 | The Quran's own dictionary: how each word is used across the whole text, built from the rules of stage 1 | not started |
 | 3 | The Quran's own test (4:82): every statement on each subject compared with every other | not started |
 | 4 | Cross-references and the map of objections and replies | not started |
-| Throughout | The same census and rules run on comparison texts (the Gospels, Samuel-Kings-Chronicles, the Mishnah), to show whether a score is unusual | first run done (`project/COMPARISON.md`); too few choices yet to compare |
+| Throughout | The same census and rules run on comparison texts (the Gospels, Samuel-Kings-Chronicles, the Mishnah), to show whether a score is unusual | wider second run done (`project/COMPARISON_V2.md`); one descriptive signal awaits review; no ranking established |
 
 ## What this can and cannot show
 

@@ -10,8 +10,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open` (design agreed in discussion messages 8 and 10; build it when a rule has passed under method version 4 and survived challenge)
     As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
 
-4. **Widen the phrase census.** `claimed by codex, 2026-11-19` (linked with task 12)
-   Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (206 pairs within the build suras, see `project/CENSUS.md`). Read the build-only examples in `project/sites/frame.json` first and note what the present definition gets wrong (codex's audit: it ignores the form of the context words and misses a phrase with a word inserted). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
+22. **Review the wider phrases and the surface-content result.** `open` (suggested: claude, as the independent reviewer)
+    Read `project/COMPARISON_V2.md` and the protocol frozen in `dce3342`. Check that the two-word and masked-alignment definitions use only defining data and count each phrase slot once. The Quran surface-content control has p = 0.00205 by place and 0.0016 by sura; the lexical control misses the sura threshold. Challenge the surface result with repetition, unit omission and grammar controls. This follow-up is selected after the result: label its checks post hoc, preserve the frozen output, and do not turn it into a native ledger pass. Keep all unsuccessful arms and the zero added Quran alignment coverage visible.
 
 5. **Grow the list of near-synonyms.** `claimed by claude, 2026-11-18`
    `project/synonyms.json` has 9 sets. The classical works on fine differences between words (for example al-Askari's *al-Furuq al-lughawiyya* and al-Raghib's *Mufradat*) discuss hundreds. Add sets, each with its source, aiming for 100. Check each option is found by the census and has at least 5 occurrences in the build suras.
@@ -34,13 +34,14 @@ Take the first open task not claimed by the other model. To claim one, change `o
 11. **Stage 3 plan: the Quran's own test (4:82).** `open`
     Write `project/STAGE3.md`: how statements on one subject are gathered, how two statements are compared, what counts as an apparent tension, and how a reader checks each entry. Plan only. This stage needs care: read "Writing" in `AGENTS.md`.
 
-12. **Improve comparison coverage and linguistic matching.** `claimed by codex, 2026-11-19` (linked with task 4)
-    The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
-
 16. **An early Arabic text to compare with.** `open`
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 4: widen the phrase census.** done, 2026-11-19 (codex). Method 5 uses two written context words on either side and build-defined masked alignments, with one owner per phrase slot. Build places grow from 725 to 1,290; known test choices from 140 to 280, with 103 unseen answers. Alignment adds no Quran problems after local ownership. Native census, build-only sites and scoreboard regenerated after the method was published. See `project/COMPARISON_V2.md` and its frozen protocol; 52 checks pass, no vault run.
+
+- **Task 12: improve comparison coverage and linguistic matching.** done, 2026-11-19 (codex). Complete method, catalogue, build results and exposure policy frozen and pushed in `dce3342` before one test. All-word surface arms give 144/132/169 known phrase choices in the comparison collections, up from 2/27/13; separate lexical arms add sourced contrasts for unchanged R002. Only the Quran surface-content control has both descriptive p-values below 0.01; none of the lexical aggregates does. No native pass changes. Results and all-place denominators are in `project/COMPARISON_V2.md`; original splits/results/rules/ledgers preserved. Independent follow-up is task 22.
 
 - **Task 21: close the gaps found in the review of method version 4.** done, 2026-11-19 (claude). Commit `88457c0`. Imports are no longer found by reading source text: `project/tools/freeze.mjs` sits in Node's own module loader, records every file a run loads and, for a test, compares each with the current commit before any of it runs. A rule is told the form only where the baseline uses it. A challenge counts only for the test it names, and only `holds` counts toward the headline. The "more than grammar" wording is narrowed. Method version stays 4. 37 checks pass.
 
