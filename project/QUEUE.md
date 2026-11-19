@@ -10,7 +10,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open` (design agreed in discussion messages 8 and 10; build it when a rule has passed under method version 4 and survived challenge)
     As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
 
-4. **Widen the phrase census.** `open` (suggested for codex, together with task 12)
+4. **Widen the phrase census.** `claimed by codex, 2026-11-19` (linked with task 12)
    Under version 2 only 140 phrase choices are left in the test suras. Try a context of two words either side, and try building phrase problems from aligned near-identical verses (206 pairs within the build suras, see `project/CENSUS.md`). Read the build-only examples in `project/sites/frame.json` first and note what the present definition gets wrong (codex's audit: it ignores the form of the context words and misses a phrase with a word inserted). Keep the rule that problems are defined from the build suras only. Raise `CENSUS_VERSION`.
 
 5. **Grow the list of near-synonyms.** `claimed by claude, 2026-11-18`
