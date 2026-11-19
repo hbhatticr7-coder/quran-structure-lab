@@ -34,7 +34,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 11. **Stage 3 plan: the Quran's own test (4:82).** `open`
     Write `project/STAGE3.md`: how statements on one subject are gathered, how two statements are compared, what counts as an apparent tension, and how a reader checks each entry. Plan only. This stage needs care: read "Writing" in `AGENTS.md`.
 
-12. **Improve comparison coverage and linguistic matching.** `open` (suggested for codex, together with task 4)
+12. **Improve comparison coverage and linguistic matching.** `claimed by codex, 2026-11-19` (linked with task 4)
     The first frozen comparison has only 2, 27 and 13 known-option phrase choices in its test parts. Use build sections to design broader definitions and comparable token/feature representations; add sourced comparison-language synonym sets before testing unchanged R002. Preregister how earlier comparison test exposure will be handled. Keep the first results and splits. See `project/COMPARISON.md`.
 
 16. **An early Arabic text to compare with.** `open`
