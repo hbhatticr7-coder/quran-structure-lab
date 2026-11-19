@@ -22,12 +22,49 @@ If the choices are deliberate, each has a reason, and a reason found in one half
 5. **Challenge.** Every rule one model passes, the other model tries to break.
 6. **Scoreboard.** `SCOREBOARD.md` shows how many of the choices in the test suras are predicted correctly, by the baseline and with the rules that have passed.
 
+## Where the work stands, and the angle from 2026-11-19
+
+The owner asked for the goals to be looked at again. This section is the answer. The question above stands. The way of going after it changes.
+
+**What has been learned so far.**
+
+- How often each option is used, together with the coarse grammar of the place, predicts 73.7% of the 848 choices in the test suras. Five rules have been tried. None adds to that.
+- Two rules that read the surroundings without a stated reason both lost to that baseline: "the word's root recurs nearby" (R001) and "the word keeps its usual company" (R002).
+- The classical accounts that were tested one at a time hold as tendencies on small numbers (`REPORT.md`, batch 15). None has passed here.
+- The method is now strict enough for a result to be believed. Getting there took four rounds of repair.
+
+**What was wrong with the angle.**
+
+- The choices were too few and too mechanical: nine hand-picked sets of near-synonyms, repeated phrases, verse endings and paired words. After the baseline, about 60 places of each kind are left open in the test suras. No single rule can show much on that.
+- Rule by rule, the work drifted into grammar. The classical claim is not about grammar. It is about meaning: that two words which translate alike are not the same word, and each is used where its own sense fits.
+- A pass would have meant little. "Something in the surroundings predicts the word" is true of any careful text.
+
+**The angle now: the root.** Arabic builds its words on roots, mostly of three consonants. The classical dictionaries hold that a root carries one core sense, sometimes two or three, which every word built on it shares (Ibn Faris, *Maqayis al-lugha*). The works on fine differences between near-synonyms argue the same way: two words that translate alike come from different roots, and each keeps the sense of its root. If that is right, the reason for a choice between two words lies in their roots, and the root is the right unit for this project. The owner's own example is of this kind: *'azim* ("great") and *'azm* ("bone") share a root.
+
+**A first measurement** (build suras only; exploration, no rule tested; `project/tools/root-families.mjs`, log of 2026-11-19). Take two different words built on one root. Record the company the first keeps in one half of the build suras and the company the second keeps in the other half, leaving the root itself out. Compare with 40 words of other roots of the same kind and frequency. Chance is a rank of 0.50. A word compared with itself across the halves ranks 0.82. Two words of one root rank 0.68, and 72 of 94 roots are above chance. So words of one root keep related company even in different suras, a little over half as closely as a word resembles itself.
+
+This is what Arabic as a language would lead one to expect. It is not a finding about the Quran. It shows that the root is a real unit of use in this text and that the tools here can see it.
+
+Two cautions from the same run. Where two words of a root have drifted far apart in sense, the picture is mixed: "garden" and "jinn" rank 0.18, "peace" and "to submit" 0.18, "a human" and "to give good news" 0.57, "behind" and "to differ" 0.93. And words cannot be picked as rivals by their company alone: the closest pairs from different roots are words that go together ("gardens", "rivers", "beneath", "abiding"), not words that could replace each other.
+
+**Three lines of work follow.**
+
+1. **Rival roots.** A list of near-synonyms from different roots, each pair with a classical source for the claim that they are near in sense, and for each word the core sense its root is given in the classical dictionaries. Many pairs, fixed before any test (task 5, rewritten).
+2. **One test of the root idea.** At each place where one of two rivals is used, hide it. Can the right one be named from the company kept by the *other* words of its root, never by its own? If the bones help say where "great" is *'azim* and not *kabir*, the root is at work in the choice. All pairs are tested together, once, as one family (task 23).
+3. **Far senses of one root.** Where the words of a root have senses that look unrelated, do they still keep related company? This needs a meaning for each word from outside the text (task 24).
+
+Stated rules from the root's core sense ("the punishment is called *humiliating* where the people were arrogant") belong to line 1 and are tested in line 2's family.
+
+**What a strong result would be.** That the root sense of a word, written down a thousand years ago, predicts where the Quran uses that word and not its rival, on text the prediction was not built from. That would be a measured confirmation of the oldest claim about Quranic wording, and the list of pairs with their checked differences would be useful to any reader.
+
+**What it would not be.** It would not show where the text comes from. And until the same measurement is made on another early Arabic text, it would not show that the Quran does this more than other Arabic does (task 16).
+
 ## Stages
 
 | Stage | What | State |
 |---|---|---|
-| 1 | Word choice: rules for the choices in the census | started |
-| 2 | The Quran's own dictionary: how each word is used across the whole text, built from the rules of stage 1 | not started |
+| 1 | Word choice: rules for the choices in the census | five rules tried, none counts; from 2026-11-19 rules are tested as families, not one by one |
+| 2 | The Quran's own dictionary, root by root: the words of each root, the company they keep, the root's rivals and what separates them | started 2026-11-19 with a first measurement of root families |
 | 3 | The Quran's own test (4:82): every statement on each subject compared with every other | not started |
 | 4 | Cross-references and the map of objections and replies | not started |
 | Throughout | The same census and rules run on comparison texts (the Gospels, Samuel-Kings-Chronicles, the Mishnah), to show whether a score is unusual | wider second run done (`project/COMPARISON_V2.md`); one descriptive signal awaits review; no ranking established |

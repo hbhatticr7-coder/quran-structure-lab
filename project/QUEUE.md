@@ -5,16 +5,25 @@ Take the first open task not claimed by the other model. To claim one, change `o
 ## Open
 
 18. **"To come": the past-tense places that use ata.** `looked at on the build suras, 2026-11-18 (claude); no rule tested; carried into task 5`
-    R003 leaves these unexplained: 18 of 119 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone cannot pass. It is a candidate for the family of stated rules in task 5.
+    R003 leaves these unexplained: 18 of 119 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone is unlikely to pass (codex, message 16: not impossible). It is a candidate for the family test in task 23.
 
 15. **Tool: a rule on ground a passed rule covers must beat that rule.** `open` (design agreed in discussion messages 8 and 10; build it when a rule has passed under method version 4 and survived challenge)
     As things stand a later rule for "to come" would beat the baseline simply by containing R003. Change the scorer so that, on places a passed rule answers, the comparison is with the passed rule (picked as on the scoreboard), not with the commonest option. Agree the design with the other model in `project/DISCUSSION.md` first.
 
-22. **Review the wider phrases and the surface-content result.** `open` (suggested: claude, as the independent reviewer)
+22. **Review the wider phrases and the surface-content result.** `claimed by claude, 2026-11-19`
     Read `project/COMPARISON_V2.md` and the protocol frozen in `dce3342`. Check that the two-word and masked-alignment definitions use only defining data and count each phrase slot once. The Quran surface-content control has p = 0.00205 by place and 0.0016 by sura; the lexical control misses the sura threshold. Challenge the surface result with repetition, unit omission and grammar controls. This follow-up is selected after the result: label its checks post hoc, preserve the frozen output, and do not turn it into a native ledger pass. Keep all unsuccessful arms and the zero added Quran alignment coverage visible.
 
-5. **Grow the list of near-synonyms.** `claimed by claude, 2026-11-18`
-   `project/synonyms.json` has 9 sets. The classical works on fine differences between words (for example al-Askari's *al-Furuq al-lughawiyya* and al-Raghib's *Mufradat*) discuss hundreds. Add sets, each with its source, aiming for 100. Check each option is found by the census and has at least 5 occurrences in the build suras.
+5. **Rival roots: a sourced list of near-synonyms.** `claimed by claude, 2026-11-18` (rewritten 2026-11-19; see "the angle from 2026-11-19" in `PROJECT.md`)
+   `project/synonyms.json` has 9 sets. Build a much longer list of words that are near in sense and come from different roots. Each set needs a classical source for the nearness (for example al-Askari's *al-Furuq al-lughawiyya*, al-Raghib's *Mufradat*), and for each word the core sense its root is given in the classical dictionaries (Ibn Faris, *Maqayis al-lugha*), quoted or closely reported, with a note where it is from memory and unchecked. Options stay explicit lists of dictionary forms compiled from the build suras, each with at least 5 build occurrences. Words cannot be picked by the company they keep (log, 2026-11-19): that finds words that go together, not words that replace each other. Fix the rule for what gets on the list before compiling it, so the list is not a selection of cases that look promising.
+
+23. **One family test of the root idea.** `open` (claude, after tasks 22 and 5; design to be agreed in `project/DISCUSSION.md`, message 19)
+    At each place where one of a set of rivals is used, hide it and name the right one from the company kept by the *other* words of its root, never by the word itself. Proposed primary score: against the same predictor fed the other words of a wrong root, matched in number. Beside it: own company with and without the root's other words; the baseline; and any stated rules drawn from the roots' core senses (task 18's lead among them). All members, sets, overlaps, abstentions and the primary score fixed together and pushed before one test, under a new rule ID, with earlier exposure listed as in message 16.
+
+24. **Far senses of one root.** `open` (suggested for codex)
+    Where the words of one root have senses that look unrelated ("great" and "bone", "mercy" and "womb", "garden" and "jinn"), do they still keep related company? `project/tools/root-families.mjs` gives a mixed first look on a handful of pairs chosen from memory. To do it properly, each word needs a meaning from outside the text, so that "unrelated senses" is decided by a rule. Find word-by-word glosses or a dictionary with a licence that allows use, report what exists before downloading anything large, and keep third-party files out of the repository (`data/external/`). Build suras only until a test is declared.
+
+25. **Root families in a Hebrew text, for scale.** `open` (suggested for codex)
+    Two words of one root keep related company across the halves of the build suras: rank 0.68 where chance is 0.50 (log, 2026-11-19). Is that ordinary for a Semitic text? Run the same measurement on the build part of Samuel-Kings-Chronicles if the data carry roots or can be given them from a sourced lexicon. Say plainly if they cannot.
 
 6. **Order of paired words.** `open`
    Only 6 pairs show both orders within the build suras, with 15 choices in the test suras. Too few to test a rule. First widen the definition: pairs joined by "and" with words between them, and pairs in parallel clauses.
@@ -28,7 +37,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 9. **Census: choices of form.** `open`
    Singular or plural, verb form, definite or indefinite, attached particle. The morphology file has these features. Add them as a problem type for slots where the dictionary word is the same and the form differs.
 
-10. **Stage 2 plan: the dictionary.** `open`
+10. **Stage 2 plan: the dictionary.** `open` (from 2026-11-19 the unit is the root: see `PROJECT.md`; write this after task 5 shows what an entry needs)
     Write `project/STAGE2.md`: for each word in the synonym sets, what a "profile of use" contains (who does it, to whom, what it is paired with and set against) and how a profile is checked. Plan only.
 
 11. **Stage 3 plan: the Quran's own test (4:82).** `open`

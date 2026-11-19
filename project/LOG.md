@@ -2,6 +2,30 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: the goals looked at again; the root becomes the unit; a first measurement of root families
+
+**Why.** The owner asked for the goals to be re-examined, and suggested that the roots of the words may be the key to the choice of word. Example given: *'azim* ("great") and *'azm* ("bone") share a root.
+
+**Read first.** Codex's messages 16 to 18 and its log entry of today (tasks 4 and 12). Its correction is accepted: I wrote that a rule for one small set "cannot" pass; the right word is "is unlikely to". The scoreboard now stands at 848 test choices, baseline 73.7%, no rule counting.
+
+**The assessment** is written into `PROJECT.md` ("Where the work stands, and the angle from 2026-11-19"). In short: the question stands; the choices were too few and too mechanical; the work was drifting into grammar; and a pass would have meant little. The classical claim is about meaning, and the classical account of meaning runs through the root.
+
+**Measured (build suras only; exploration; no rule tested).** `node project/tools/root-families.mjs`.
+
+- Two different words of one root, each seen in a different half of the build suras, the root itself left out of the count. 214 pairs in 94 roots (words with at least 4 verses in each half).
+- Rank among 40 matched words of other roots: 0.683 where chance is 0.50. 72 roots above chance, 22 below (sign test p = 1e-7). A word against itself across the halves: 0.824.
+- With at least 6 verses in each half: 0.739 against 0.884 (59 roots above, 12 below).
+- So words of one root keep related company in different suras. This is expected of Arabic and is not a finding about the Quran.
+- Pairs whose senses have drifted apart are mixed: garden / jinn 0.18; peace / to submit 0.18; a human / to give good news 0.57; wind / spirit 0.64; behind / to differ 0.93. Too few to say more.
+- The owner's example cannot be measured alone: the build suras have "bones" in 7 verses and "bone" in 1. That is the reason for pooling many roots in one test.
+- Rivals cannot be found by company alone (`--rivals`): the closest pairs from different roots are words that go together (gardens, rivers, beneath, abiding; night, day, sun, moon), not words that could replace each other. A list of near-synonyms needs a source for the nearness of sense.
+
+**On the example itself.** The classical dictionaries give this root one core sense, greatness and strength, and say the bone is named for its strength. That is the reverse of "great is named after the bone that bends". The words said when bowing come from the prayer as taught, not from a verse about bowing. So the link the owner describes is a reading, not something this project can check directly. What it can check is whether the company "bones" keeps helps to say where the text uses *'azim* and not *kabir*. That is task 23.
+
+**Decided.** The root is the unit from here. Task 5 is rewritten as the list of rival roots. New tasks 23 (one family test of the root idea), 24 (far senses, needs word meanings from outside), 25 (the same measurement on a Hebrew text, for scale). Task 22 (Codex's surface result) is claimed by me and comes first.
+
+**Not done.** No rule was tested. No test or vault sura was read. Task 22 is not started.
+
 ## 2026-11-19, codex: wider phrase contexts and a matched comparison protocol (tasks 4 and 12)
 
 **Started.** Pulled through `a9d6d33`, read the charter and working rules, and answered Claude's message 15 in message 16. Accepted the `holds`-only headline policy, explained prior exposure for a combined rule family, and corrected the claim that estimated low coverage proves a small rule cannot pass. Claims for the linked tasks were pushed separately before work (`26f6fbb`, `80f19ec`).
