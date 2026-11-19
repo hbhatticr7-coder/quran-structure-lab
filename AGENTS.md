@@ -52,17 +52,17 @@ export default {
   - `ctx.window(k)`: the verses within `k` verses, same sura.
   - `ctx.sura()`: the whole sura.
   - `ctx.meta()`: `{ ayas, type (Meccan or Medinan), egyptian, noldeke }` (traditional order of revelation).
-  - `ctx.slot()`: near-synonym problems only. The grammatical form of the hidden word, `[{ pos, feats }]`: its part of speech and, for a verb, its tense (`PERF`, `IMPF`, `IMPV`); for a noun, `DEF` or `INDEF`. Nothing else about the hidden word. The baseline is given the same, so reading the form cannot by itself beat it. `null` for other problem types.
+  - `ctx.slot()`: near-synonym problems only. The grammatical form of the hidden word, `[{ pos, feats }]`: its part of speech and, for a verb, its tense (`PERF`, `IMPF`, `IMPV`); for a noun, `DEF` or `INDEF`. Nothing else about the hidden word. The baseline is given the same. Where the baseline cannot use the form (fewer than three build places of that form, or no single commonest option among them) the rule is not told it either and gets `[{ pos: null, feats: [] }]`. `null` for other problem types.
   - `ctx.rootOf(token)`: the root of a word, as annotated in the suras the rule learns from (`null` if the word does not occur there).
   - `ctx.build`: this problem's occurrences in the suras the rule may learn from, with the choice made there (`'(other)'` where the word used is not one of the options). A rule may learn from these.
   - Each word is `{ s, v, w, form, lemma, root, pos, feats, prefixes, token }`, or `{ hidden: true }` for a slot.
 
-A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse. A rule file is named `R###_name.mjs`. It may import other `.mjs` files of this repository by a written-out relative path; the evaluator follows those imports and freezes them with the rule. It refuses anything else in a rule or its helpers: `require`, a computed `import()`, `import.meta`, a package, a Node module.
+A rule must reach the text only through `ctx`. It must not import the corpus, read the data files, or contain a table of answers keyed by sura and verse. A rule file is named `R###_name.mjs`. It may import other `.mjs` files of this repository by a written-out relative path. The evaluator does not read import lines to find them: it sits in Node's own module loader (`project/tools/freeze.mjs`), which reports every file it is about to load, so each one is recorded and frozen with the rule however the import was written. Anything else loaded for a rule is refused: a package, a Node module, a file outside the repository, a file that is not `.mjs`, and any loading of code after the rule has been loaded. A rule or helper whose text uses `require`, `import()`, `import.meta`, `process`, `globalThis`, `eval` or `Function(` is refused as well. That last list is a tripwire, not a sandbox: a rule file is ordinary JavaScript, and keeping to `ctx` remains the author's duty and one of the things a challenger checks.
 
 ## Scoring a rule
 
 1. **Build suras.** `node project/tools/evaluate.mjs project/rules/R###_name.mjs`. Run as often as you like. Tune here. Add `--dry` to see the scores without writing to the ledger. On the build suras, problems are defined on one half and scored on the other, both ways, so `ctx.build` holds one half at a time.
-2. **Commit and push before testing.** The commit is the proof that the rule and the method were fixed first. The tool checks this before it loads the rule's code: a test run is refused unless the rule, everything it imports, the tools, the synonym list, the split and the text are each in the current commit byte for byte, and that commit is on `origin/main`. The commit and the hash of each of those files go into the ledger.
+2. **Commit and push before testing.** The commit is the proof that the rule and the method were fixed first. The tool checks this before any of the rule's code runs: a test run is refused unless the rule, every file Node loads for it, the tools, the synonym list, the split and the text are each in the current commit byte for byte, and that commit is on `origin/main`. The commit and the hash of each of those files go into the ledger.
 3. **Test suras.** Add `--test`. This runs **once** per rule. The tool refuses a second run and refuses a changed file. A changed rule is a new rule with a new number, and the old one stays in the ledger as it was.
 4. The result goes to `project/ledger/R###.json`. Never edit the scores in a ledger file by hand.
 5. A failed rule is a result. Keep it, log it, and say what it rules out.
@@ -71,13 +71,15 @@ A rule passes if it is right more often than the baseline on the test suras, wit
 
 **The baseline** is the option used most often for the same choice in the build suras. For near-synonym places it is the option used most often there in the same grammatical form (see `ctx.slot()`), falling back on the plain commonest option where that form has fewer than three build places. The scores also give `plainBaselineAccuracy` (form ignored) for description. This is method version 4; rules R001 to R005 were tested under version 3 against the plain baseline, and their ledger entries stand as they are.
 
+**What beating the baseline shows.** It shows a gain over a coarse grammar control: part of speech, tense, definiteness. It does not by itself show an explanation beyond grammar, because the words around the hidden word can carry grammar the control is not given (person, number, mood, case). Do not write "explains the wording" of a rule on the strength of a pass alone; the challenge has to ask what a grammar-only version of the same rule would score.
+
 The scores also report `unseen` (places where the word used was never seen there in the build suras, which nobody can answer) and `accuracyAllPlaces` / `baselineAllPlaces`, which count those places as misses and let the baseline stand in where the rule gives no answer. Quote these beside the main score when you describe how much of the text a rule accounts for.
 
 ## How problems are defined
 
 Which problems exist, and which options each has, is decided from the build suras alone (`project/tools/problems.mjs`). The test and vault suras must never shape a problem. The tools enforce this from census version 3: a run loads only the suras it may see (`loadText` in `project/tools/lib.mjs`), the vault is not loaded by any tool unless the owner's flag is given, and near-synonym options are explicit lists of dictionary forms in `project/synonyms.json`, compiled from the build suras. When you add a synonym set, compile its forms from the build suras too. The files in `project/sites/` hold build-sura occurrences only and are safe to read.
 
-Check the guards after any change to the tools: `node --test project/challenges/census-v2-audit.test.mjs project/tools/comparison.test.mjs`. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
+Check the guards after any change to the tools: `node --test project/challenges/census-v2-audit.test.mjs project/challenges/census-v3-review.test.mjs project/challenges/method-v4-review.test.mjs project/tools/comparison.test.mjs`. `project/tools/evaluate.mjs` must import nothing but Node's own modules and `./freeze.mjs`; put new code in `evaluate-run.mjs`, which is loaded through the guard. If you add a problem type, follow the same rule, and raise `CENSUS_VERSION` when a change alters existing problems. Rules tested under an older census keep their old score in the ledger and may be re-scored once with `--test --rescore` if their file is unchanged.
 
 ## Challenging a rule
 
@@ -86,15 +88,20 @@ Any rule that passes must be challenged by the model that did not write it. The 
 - **Repetition.** Does the score rest on a refrain or on one sura? Rescore with identical verses counted once and with each sura left out in turn.
 - **Proximity.** Does the rule only work because the same phrase is repeated nearby?
 - **Comparison texts.** Does the same rule do as well on the Gospels, Samuel-Kings-Chronicles or the Mishnah? If so the rule describes careful writing in general.
-- **Leak.** Does the rule file hold anything that could only come from the test suras?
+- **Leak.** Does the rule file hold anything that could only come from the test suras? Does it reach the text by any route other than `ctx`?
+- **Grammar.** Would a version of the rule that reads only grammar (the form, or grammatical marks on the neighbouring words) score as well? If so the rule has found grammar, not a choice of wording.
 
 Write the checks as a script in `project/challenges/`, then add to the rule's ledger file:
 
 ```json
-"challenge": { "by": "codex", "date": "2026-11-20", "verdict": "holds", "notes": "what was checked and what was found" }
+"challenge": {
+  "by": "codex", "date": "2026-11-20", "verdict": "holds",
+  "censusVersion": 4, "testCommit": "the commit in the ledger's test entry", "ruleSha256": "the ledger's sha256",
+  "script": "project/challenges/R00X_name.mjs", "notes": "what was checked and what was found"
+}
 ```
 
-`verdict` is `holds`, `holds in part` or `broken`. Do not change the rule's test scores.
+`verdict` is `holds`, `holds in part` or `broken`. A challenge belongs to one test: `censusVersion`, `testCommit` and `ruleSha256` must name the test it reviewed, and `by` must not be the rule's author. If the rule is later re-scored, the old challenge moves aside with the old score and the new score needs a challenge of its own. Only `holds` counts toward the scoreboard's headline. Do not change the rule's test scores.
 
 ## Never
 

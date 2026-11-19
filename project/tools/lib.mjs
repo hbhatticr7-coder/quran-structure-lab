@@ -94,18 +94,32 @@ export function problemsDefinedOn(setName, part = 'build') {
 // (PERF, IMPF or IMPV); for a noun, whether it is definite (DEF) or indefinite
 // (INDEF). Nothing else about the hidden word is given.
 //
-// The baseline is given exactly the same (method version 4): for a
-// near-synonym place it is the option used most often in the defining suras
-// in places of the same form. So a rule cannot beat the baseline by reading
-// the form; any gain has to come from the rest of the text. (Codex's review,
-// project/CENSUS_V3_REVIEW.md: a rule that reads the form must be compared
-// with a baseline that reads it too.)
+// The baseline is given the same (method version 4): for a near-synonym
+// place it is the option used most often in the defining suras in places of
+// the same form. (Codex's review, project/CENSUS_V3_REVIEW.md: a rule that
+// reads the form must be compared with a baseline that reads it too.)
+//
+// Where the baseline cannot use the form (too few places of that form in the
+// defining suras, or no single commonest option among them) it falls back on
+// the plain commonest option, and there the rule is not told the form either:
+// ctx.slot() gives [{ pos: null, feats: [] }]. Otherwise a rule could win on
+// the form alone in exactly those places (Codex's review,
+// project/METHOD_V4_REVIEW.md).
+//
+// What this control does and does not show. A rule that beats this baseline
+// has beaten a coarse grammar control: part of speech, tense, definiteness.
+// It has not thereby been shown to explain anything beyond grammar. The words
+// around the hidden word can carry grammar the control is not given (person,
+// number, mood, case). Saying more about a particular rule needs a comparison
+// made for that rule; that is part of its challenge.
 const FORM = /^(PERF|IMPF|IMPV|INDEF)$/;
 export function inflectionOf(word) {
   const feats = word.feats.filter((f) => FORM.test(f));
   if (word.prefixes.includes('ال')) feats.push('DEF');
   return { pos: word.pos, feats };
 }
+// What ctx.slot() shows for one hidden word. given: whether the baseline uses the form at this place.
+export const shownForm = (word, given) => (given ? inflectionOf(word) : { pos: null, feats: [] });
 export const formClass = (word) => {
   const f = inflectionOf(word);
   return `${f.pos}:${f.feats.join('+') || '-'}`;
@@ -113,7 +127,7 @@ export const formClass = (word) => {
 // A form needs this many places in the defining suras before the baseline uses it.
 export const FORM_MIN = 3;
 const rootCache = new Map();
-export function makeContext(occ, known, { part = 'build', defining = 'build', type = null } = {}) {
+export function makeContext(occ, known, { part = 'build', defining = 'build', type = null, formGiven = true } = {}) {
   const { corpus, meta } = loadText(part);
   const learnFrom = loadSplit().sets[defining];
   const key = `${part}|${defining}`;
@@ -151,8 +165,9 @@ export function makeContext(occ, known, { part = 'build', defining = 'build', ty
       return meta[s];
     },
     // Near-synonym problems only: the grammatical form of each hidden word,
-    // [{ pos, feats, prefixes }]. null for other problem types.
-    slot: () => (type === 'synonym' ? occ.slots.map((w) => inflectionOf(here.words.find((x) => x.w === w))) : null),
+    // [{ pos, feats }], or [{ pos: null, feats: [] }] where the baseline does
+    // not use the form either. null for other problem types.
+    slot: () => (type === 'synonym' ? occ.slots.map((w) => shownForm(here.words.find((x) => x.w === w), formGiven)) : null),
     // The root of a word, as annotated in the suras the rule learns from.
     rootOf: (token) => rootOfToken.get(token) || null,
     // This problem's occurrences in the suras the rule may learn from, with the
@@ -174,7 +189,8 @@ export function majority(known) {
 // The baseline for near-synonym places: the option used most, in the defining
 // suras, in places of the same grammatical form. Falls back on the plain
 // baseline where that form has fewer than FORM_MIN places there or no single
-// commonest option. Returns a function of an occurrence.
+// commonest option. Returns a function of an occurrence; its property
+// `matched` says, for an occurrence, whether the form was used.
 export function formBaseline(known, corpus, plain) {
   const slotWord = (o) => corpus.at(o.s, o.v).words.find((x) => x.w === o.slots[0]);
   const byForm = new Map();
@@ -184,10 +200,13 @@ export function formBaseline(known, corpus, plain) {
     if (!byForm.has(k)) byForm.set(k, []);
     byForm.get(k).push(o);
   }
-  return (occ) => {
+  const byFormAt = (occ) => {
     const same = byForm.get(formClass(slotWord(occ))) || [];
-    return (same.length >= FORM_MIN ? majority(same) : null) ?? plain;
+    return same.length >= FORM_MIN ? majority(same) : null;
   };
+  const at = (occ) => byFormAt(occ) ?? plain;
+  at.matched = (occ) => byFormAt(occ) !== null;
+  return at;
 }
 
 // The (defining suras, scored suras) pairs for a part.
@@ -208,7 +227,7 @@ export function predictAll(rule, part) {
       if (rule && rule.appliesTo && !rule.appliesTo.includes(problem.type)) continue;
       const known = problem.occurrences.filter((o) => sets[defName].has(o.s));
       const plainBaseline = majority(known);
-      const baselineAt = problem.type === 'synonym' ? formBaseline(known, loadText(part).corpus, plainBaseline) : () => plainBaseline;
+      const baselineAt = problem.type === 'synonym' ? formBaseline(known, loadText(part).corpus, plainBaseline) : Object.assign(() => plainBaseline, { matched: () => false });
       const shown = { id: problem.id, type: problem.type, options: problem.options, optionInfo: problem.optionInfo };
       for (const occ of problem.occurrences) {
         if (!sets[scoreName].has(occ.s)) continue;
@@ -218,7 +237,7 @@ export function predictAll(rule, part) {
         }
         let prediction = null;
         if (rule) {
-          prediction = rule.predict({ s: occ.s, v: occ.v, slots: occ.slots }, shown, makeContext(occ, known, { part, defining: defName, type: problem.type })) ?? null;
+          prediction = rule.predict({ s: occ.s, v: occ.v, slots: occ.slots }, shown, makeContext(occ, known, { part, defining: defName, type: problem.type, formGiven: baselineAt.matched(occ) })) ?? null;
           if (prediction !== null && !problem.options.includes(prediction)) throw new Error(`${rule.id} predicted "${prediction}", which is not an option of ${problem.id}`);
         }
         rows.push({ problem, occ, prediction, baseline: baselineAt(occ), plainBaseline, unseen: false });

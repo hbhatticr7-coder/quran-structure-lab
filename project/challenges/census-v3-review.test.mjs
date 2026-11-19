@@ -5,7 +5,10 @@
 // Written by codex for its review of version 3 (project/CENSUS_V3_REVIEW.md),
 // where the three checks reproduced gaps. Changed by claude on 2026-11-18 for
 // method version 4: each now checks that its gap is closed, as the review
-// asked. The fixture builder is as codex wrote it.
+// asked. The fixture builder is as codex wrote it. Changed again on 2026-11-19
+// (task 21): the guard is now project/tools/freeze.mjs, which asks Node's own
+// loader what a rule loads, so these checks call it instead of cutting two
+// functions out of evaluate.mjs.
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -16,13 +19,7 @@ import vm from 'node:vm';
 import { execFileSync } from 'node:child_process';
 import { ROOT_DIR, MORPH_PATH } from '../../src/corpus.mjs';
 
-const source = fs.readFileSync(path.join(ROOT_DIR, 'project/tools/evaluate.mjs'), 'utf8');
-const inputStart = source.indexOf('function inputsOf(');
-const gitStart = source.indexOf('function committedAndPushed(');
-const mainStart = source.indexOf('const rule =');
-assert.ok(inputStart >= 0 && gitStart > inputStart && mainStart > gitStart, 'update the diagnostic harness if evaluator structure changes');
-const guardFunctions = source.slice(inputStart, mainStart);
-const hashOf = (f) => crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+import { startFreeze } from '../tools/freeze.mjs';
 
 test('closed in version 4: the lines of an excluded sura are skipped unparsed', async () => {
   const { loadText } = await import('../tools/lib.mjs?v3-loader-diagnostic');
@@ -83,54 +80,66 @@ function fixture(t, ruleSource, extraFiles, ignored = []) {
   git(['commit', '--quiet', '-m', 'Synthetic fixture']);
   git(['remote', 'add', 'origin', remote]);
   git(['push', '--quiet', '-u', 'origin', 'main']);
-  // Execute the production functions verbatim, supplying only the fixture root.
-  const guard = vm.runInNewContext(guardFunctions + '\n({inputsOf, committedAndPushed})', {
-    fs, path, ROOT_DIR: root, execFileSync: execute, hashOf,
-    rel: (f) => path.relative(root, path.resolve(f)).replace(/\\/g, '/'),
-  });
-  return { root, git, guard, rule: path.join(root, 'project/rules/R900_fixture.mjs') };
+  return { root, git, execute, rule: path.join(root, 'project/rules/R900_fixture.mjs') };
 }
 
-test('closed in version 4: an imported helper that git ignores and nobody committed is refused', (t) => {
+// Loads the fixture's rule through the production guard. check: as for a test run.
+async function frozen(f, check = true) {
+  const freeze = startFreeze({ root: f.root, check, exec: f.execute });
+  try {
+    await freeze.rule(f.rule);
+  } finally {
+    freeze.stop();
+  }
+  return freeze;
+}
+
+test('closed in version 4: an imported helper that git ignores and nobody committed is refused', async (t) => {
   const helper = 'project/rules/private.mjs';
   const f = fixture(t, "import './private.mjs';\nexport default {};\n", { [helper]: 'export const choice = 1;\n' }, [helper]);
-  const inputs = f.guard.inputsOf(f.rule);
-  assert.ok(Object.hasOwn(inputs, helper), 'helper is hashed');
   assert.throws(() => f.git(['cat-file', '-e', `HEAD:${helper}`]), 'helper has no committed blob');
   assert.equal(f.git(['status', '--porcelain', '--', helper]), '', 'git status does not list it');
-  assert.throws(() => f.guard.committedAndPushed(Object.keys(inputs)), /private\.mjs: not in the current commit/);
+  await assert.rejects(frozen(f), /private\.mjs: not in the current commit/);
 });
 
-test('version 4: published inputs pass; an edited or unpushed one is refused', (t) => {
+test('version 4: published inputs pass; an edited or unpushed one is refused', async (t) => {
   const child = 'project/rules/child.mjs', leaf = 'project/rules/leaf.mjs';
   const f = fixture(t, "import './child.mjs';\nexport default {};\n", {
     [child]: "export { value } from './leaf.mjs';\n", [leaf]: 'export const value = 1;\n',
   });
-  const inputs = f.guard.inputsOf(f.rule);
+  const freeze = await frozen(f);
+  const inputs = freeze.inputs();
   assert.ok(Object.hasOwn(inputs, child) && Object.hasOwn(inputs, leaf), 'the helper and the helper it imports are both frozen');
-  assert.equal(f.guard.committedAndPushed(Object.keys(inputs)), f.git(['rev-parse', 'HEAD']), 'everything committed and pushed: accepted');
+  assert.equal(freeze.published(), f.git(['rev-parse', 'HEAD']), 'everything committed and pushed: accepted');
   // A change two imports away from the rule is caught.
   fs.writeFileSync(path.join(f.root, leaf), 'export const value = 2;\n');
-  assert.throws(() => f.guard.committedAndPushed(Object.keys(inputs)), /leaf\.mjs: differs from the committed file/);
+  assert.throws(() => freeze.verify(), /leaf\.mjs: differs from the committed file/);
   // Committed but not pushed is caught too.
   f.git(['add', '.']);
   f.git(['commit', '--quiet', '-m', 'Synthetic change, not pushed']);
-  assert.throws(() => f.guard.committedAndPushed(Object.keys(inputs)), /not on origin\/main/);
+  const later = startFreeze({ root: f.root, check: true, exec: f.execute });
+  later.stop();
+  assert.throws(() => later.published(), /not on origin\/main/);
 });
 
-test('closed in version 4: a rule may import only written-out .mjs files of the repository', (t) => {
-  const refused = (ruleSource, extra, pattern) => {
+test('closed in version 4: a rule may import only written-out .mjs files of the repository', async (t) => {
+  const refused = async (ruleSource, extra, pattern) => {
     const f = fixture(t, ruleSource, extra);
-    assert.throws(() => f.guard.inputsOf(f.rule), pattern);
+    fs.writeFileSync(path.join(f.root, '..', 'outside.mjs'), 'export default 1;\n');
+    await assert.rejects(frozen(f, false), pattern);
   };
   // A CommonJS helper (the review's case): refused outright, so nothing behind it can go unfrozen.
-  refused("import value from './bridge.cjs';\nexport default value;\n", { 'project/rules/bridge.cjs': "module.exports = require('./leaf.cjs');\n", 'project/rules/leaf.cjs': 'module.exports = { value: 1 };\n' }, /may import only other \.mjs files/);
+  await refused("import value from './bridge.cjs';\nexport default value;\n", { 'project/rules/bridge.cjs': "module.exports = require('./leaf.cjs');\n", 'project/rules/leaf.cjs': 'module.exports = { value: 1 };\n' }, /may import only other \.mjs files/);
   // The same reached through an .mjs helper.
-  refused("import './helper.mjs';\nexport default {};\n", { 'project/rules/helper.mjs': "import { createRequire } from 'node:module';\nexport const r = createRequire(import.meta.url);\n" }, /may not use require, a computed import or import\.meta/);
+  await refused("import './helper.mjs';\nexport default {};\n", { 'project/rules/helper.mjs': "import { createRequire } from 'node:module';\nexport const r = createRequire(import.meta.url);\n" }, /helper\.mjs: uses require/);
   // A computed import.
-  refused("const name = './x.mjs';\nexport default { load: () => import(name) };\n", {}, /may not use require, a computed import or import\.meta/);
+  await refused("const name = './x.mjs';\nexport default { load: () => import(name) };\n", {}, /uses a computed import/);
   // A Node module (a rule has no business reading files).
-  refused("import fs from 'node:fs';\nexport default { fs };\n", {}, /imports "node:fs"/);
+  await refused("import fs from 'node:fs';\nexport default { fs };\n", {}, /imports "node:fs"/);
+  // The same reached by another route.
+  await refused("export default { fs: () => process.getBuiltinModule('fs') };\n", {}, /uses the process or the global object/);
   // A file outside the repository.
-  refused("import '../../../outside.mjs';\nexport default {};\n", {}, /may import only other \.mjs files/);
+  await refused("import '../../../outside.mjs';\nexport default {};\n", {}, /may import only other \.mjs files/);
+  // A file addressed with a query string.
+  await refused("import './child.mjs?copy';\nexport default {};\n", { 'project/rules/child.mjs': 'export default 1;\n' }, /may import only other \.mjs files/);
 });
