@@ -2,6 +2,41 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: is the root-family test the best use of the time? Research and two more measurements say no; a better test proposed
+
+**Why.** Before going ahead with this morning's plan the owner asked for research into whether it is the best test available.
+
+**Measured (build suras only; exploration; no rule tested).**
+
+- *Letters below the root* (`node project/tools/root-letters.mjs`). The old claim that roots sharing two letters share a sense. 713 pairs of roots sharing two letters in place: rank 0.499 where chance is 0.50 (341 above, 362 below). Pairs sharing no letter, drawn the same way: 0.505. The same three letters in another order: 0.456 on 39 pairs. Nothing there. Whole roots gave 0.68 with the same instrument this morning, so the instrument can see an effect when there is one.
+- *Was the pass mark hiding a real effect?* (`node project/tools/choice-information.mjs`). Being right more often than the commonest option is a hard mark when one option is much commoner. So the same question was asked in information: how many bits do the words of the verse give about which near-synonym is used, beyond how common each is in that form? On the nine sets, training on one half of the build suras and scoring the other: at best 0.02 of 0.66 bits per place (3%), and not distinguishable from nothing (29 suras helped, 23 hurt; p = 0.72 at the middle setting). Stronger settings make it worse.
+- So the words that stand around a near-synonym say almost nothing about which one is used. This morning's task 23 would have used an even thinner signal: the company kept by the *other* words of the root. It would most likely have shown nothing.
+- The one thing that has done visibly better than the baseline on the build suras is a rule that reads *meaning*: who is feared (R004: 23 of 26 against 18). The difference between near-synonyms, where there is one, lies in who does what to whom and in what kind of situation. Counting neighbouring words does not see that.
+
+**Research** (three searches of the published literature by sub-agents; mostly from abstracts, so treat as a map and not as proof of absence).
+
+- *Near-synonyms in the Quran.* Published corpus studies treat one to four pairs each and are descriptive. None found uses text held back for testing. No one has published an overall figure for how many of the claimed differences hold.
+- *A list not chosen by us exists.* Al-Askari's *al-Furuq al-lughawiyya* (about 1000 CE) is in the OpenITI collection as plain text, with at least 2,251 numbered entries of the form "the difference between X and Y" (licence CC BY-NC-SA 4.0). It covers the whole language; how many entries have both words in the Quran is not yet known.
+- *Roots.* No lexicon-wide measurement of "one sense per root" was found for Arabic, so this morning's 0.68 may be new, though it is what linguists would expect. For the two-letter claim, a 2023 study of the Hebrew Bible reports a small effect with a weak control (escholarship.org/uc/item/4vp172mp); the claim is contested among linguists. Our null is on the Quran's build suras only.
+- *Earlier Arabic.* No openly available early poetry with dictionary forms marked was found. Comparing the Quran's usage with earlier Arabic (task 16) would mean building that first.
+- *The field at large.* No pre-registered or held-out study of any claim about the Quran's wording or structure was found in the peer-reviewed literature. Nicolai Sinai (2017) wrote that the field "would be very well served" by an impartial assessment of how far the Quran uses ring composition. Nothing quantitative was found on Islahi's sura pairs or on the near-identical verses as a whole.
+
+**Conclusion.** The root idea was worth measuring and the measurement stands. As a predictor of word choice it is too weak to carry the project. The better test is of the classical differences themselves, all of them, taken from a book and not picked by us:
+
+- every entry in al-Askari whose two words both occur often enough in the build suras;
+- each stated difference put as a plain question about the place ("is the one feared God?"), answerable without knowing which word stands there;
+- the direction fixed by the book, a thousand years ago;
+- the answers taken from existing annotation by code where possible, otherwise read by both models independently;
+- one score: of all the checkable differences, how many point the book's way on suras held back.
+
+The root comes in as the reason: for each pair the core sense the classical dictionaries give its root is recorded, and predictions drawn from the roots are scored beside al-Askari's.
+
+**Weaknesses, stated now.** Both models know the text, so their reading is not blind; plain questions, a code-only tier and agreement between the two models limit this and do not remove it. Al-Askari knew the Quran too: the test shows whether his differences are real regularities across the text or stories built on one or two proof verses. It cannot show the Quran does this more than other Arabic.
+
+**Second candidate, not started.** The impartial ring assessment Sinai asked for. Batches 1, 3 and 12 already hold part of it (sura 12 passes, suras 2 and 3 do not).
+
+**Standing.** Proposal put to the owner and to Codex (message 20). Tasks 23 to 25 are on hold until the owner decides. No rule tested; no test or vault sura read; nothing downloaded.
+
 ## 2026-11-19, claude: the goals looked at again; the root becomes the unit; a first measurement of root families
 
 **Why.** The owner asked for the goals to be re-examined, and suggested that the roots of the words may be the key to the choice of word. Example given: *'azim* ("great") and *'azm* ("bone") share a root.
