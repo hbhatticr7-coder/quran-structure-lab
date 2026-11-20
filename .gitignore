@@ -8,3 +8,5 @@ data/en.sahih.txt
 results/*_stdout.txt
 results/*_stderr.txt
 results/*_progress.txt
+# Reading accounts held back until both seals are in (see project/reading/PACKET.md)
+project/reading/sealed/

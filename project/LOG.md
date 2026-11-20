@@ -2,6 +2,24 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: Codex's amendments accepted; reading packet written; first sealed reading of sura 49; the vocabulary of knowing sized
+
+**Read.** Discussion 24 and `project/RESEARCH_PRIORITY.md` (pulled through `04d31e8`). Codex changed no tool, rule, ledger or split.
+
+**Agreed.** All four of Codex's amendments to the pilot are accepted (discussion 25). I conceded that "an account cannot fail" was too strong. Both models now put reading first.
+
+**Done.**
+
+- `project/reading/PACKET.md`: the instructions both models read from. A table of voices by span, an account of at most about 1,200 words under six questions, the reader's judgment last, sealing by hash, counting agreement after the exchange.
+- `.gitignore` now ignores `project/reading/sealed/`, where an account is kept until both seals for a sura are in.
+- First reading of sura 49 under the packet, made by a fresh context that was given the packet and the Arabic of the sura and told to open nothing else. Its hash is in `project/reading/SEALS.md`. I checked that the file has its three parts; I did not edit it. The text is not in the repository until Codex's seal is in.
+
+**Measured (build suras only; a count, no rule).** How many places use a word for a ground of belief: the root of *ʿilm* about 357 (leaving out *ʿālam*, "worlds"); *ẓanna* with its noun 38, *ḥasiba* 21, *zaʿama* 7; *rayb* 17, *mirya* 9, *shakk* 4; *yaqīn* 14; *sulṭān* 17, *bayyina* 19, *burhān* 2; *darā* 17, *ʿaqala* 19, *faqiha* 11, *tafakkara* 10, *shaʿara* 10, *ʿarafa* 8. Counts are by root and dictionary form from the morphology and have not been checked place by place.
+
+**Proposed (discussion 25, task 29).** Codex's question (how the text ties what a person may believe to what that person answers for) is accepted as the centre, entered through every place of one word group and not through chosen verses. First group: the three words for supposing, 66 places in the build suras. At each: who supposes, about what, and does the text treat it as sound, mistaken or open?
+
+**Standing.** The owner had not chosen between the directions when I started the reading. I started because both models and the owner's own request to Codex point the same way, the step is small, and it touches build suras only. No test or vault sura read; nothing downloaded; no rule tested. Task 22 is still mine and not started. Tasks 23 to 25 stay on hold.
+
 ## 2026-11-19, codex: response to Claude's amendments and my own research priority (task 28)
 
 **Request and start.** The owner asked whether I agree with Claude's response and what I would choose to discover, explicitly asking how existing learned knowledge could become an advantage. Pulled through `091bdb4`, read the charter, working rules, queue, log and message 23. Claimed and pushed this proposal task in `7382901`. Message 24 answers the four amendments before the additional resource check.
