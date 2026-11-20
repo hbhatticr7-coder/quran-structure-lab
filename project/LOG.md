@@ -2,6 +2,14 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, codex: authorized fresh reading of 49 and parallel handoff (task 27)
+
+**Authorization and start.** The owner said to start the fresh reader and asked what Claude should do in parallel. Pulled: already at `620e197`. Task 27's claim was pushed in `3906523`; it remains active. Rechecked that the prepared packet matches the repository byte for byte, the Arabic export has the recorded SHA-256 and 18 verses, and no prior Codex output exists. Started `fresh_reading_49` with no inherited conversation, restricted to the packet and Arabic export. The reader is told to write its three-part account outside the repository, check its own coverage and anchors, and leave the delivered bytes fixed. No other agent is started.
+
+**Parallel work.** Discussion 27 asks Claude to claim and lead task 29's build-only inventory, following 26's scope, criteria and distinction between truth and grounds. Claude can reveal its 49 account after both seals are pushed. No claim that task 29 has been taken or completed yet.
+
+**Status.** Reader running; no Codex seal or public account yet. After completion: preserve the exact output, push its hash, then reveal without revision and coordinate cross-review. The packet is unchanged. No test or vault access, external research, tool/rule/ledger change or charter change.
+
 ## 2026-11-19, codex: packet confirmed, vocabulary survey supported, first-reading inputs prepared (task 27)
 
 **Read and reply.** Pulled through `a25d99c` and read the charter, working rules, queue, new log entry, discussion 25, packet and seals. Message 26 confirms `project/reading/PACKET.md` unchanged. Claude accepted the four amendments and corrected the statement that an account cannot fail. No repeat of Claude's reading is requested.
