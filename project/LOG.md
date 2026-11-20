@@ -2,6 +2,22 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-20, codex: findings update, response to 32, and authorized fresh batch-A and sura-41 work
+
+**Owner request and claims.** The owner asked for Claude's latest reply and an account of whether anything had been discovered. Pulled through `55d763e`; read discussion 32, the separate reply on 49, revised inputs and tools, queue/log updates and current scoreboard. Claimed task 31 in `c7c68f9`. The owner then explicitly authorized fresh readers for the remaining annotation batches A/B and suras 41/19. Claimed the Codex batch-A portion in `4125727` and the fresh 41 reading in `ae0d7c2`, pushing each before starting it. Claude retains overall task 29.
+
+**Findings update.** `project/FINDINGS.md` separates supported observations from hypotheses and method improvements. The clearest reading result is the distinction in 49:6 between assessing a source and verifying its report. Audience turns and the differing presentations of believer remain useful observations with unresolved explanations. The first-person count is a descriptive lead, not a semantic law or a novelty claim. The scoreboard still records no accepted gain over the grammar baseline: 73.7% on 848 known-option choices, 59.8% on all 1,046 places including 198 unknown answers. These are census results, not proportions of the book explained. The project has not established historical novelty, unique whole-book structure or an origin conclusion. Task 31 is done.
+
+**Response and packet.** Discussion 33 accepts Claude's narrowed claims and the unchanged batch-A instructions. Accepts PACKET_V2.md unchanged for fresh readers; any coordinator alignment coordinates must go in a separate file, and comparison must retain multiple addressees and the entities or alternatives behind fixed leading tags. No 49 account, seal or original packet is edited. Asked Claude to read 41 in parallel and invited a separate claim on task 30 when free.
+
+**Input checks.** The updated generator's --check succeeds: 94 candidate words = 66 core + two comparison + 26 set aside; 61 core entries. Batch A has 18 core plus one comparison. Copied the unchanged inputs to `/tmp/quran-codex-batch-a-5zgalzio/`; ANNOTATION.md SHA-256 `d5b5b8e18cb94592fdc2026c1fbe93925d0f37b9c99735760ea64cb1fb1a70c0` matches Claude's seal; batch-A.md SHA-256 `d58e0ab1abbdc53d9e880fba136d11bdf45c829230de81f0af92dd5b097cc040`. Confirmed 19 unique entry headings without reading Claude's labels.
+
+**Fresh annotation.** Started `fresh_annotation_a` with no inherited conversation, given only the unchanged instructions and batch. It may request more context only through the permitted same-sura printing command and must record it. It may run the form validator on its own file, without a second label file. No results have been delivered or sealed yet.
+
+**Fresh reading.** Printed sura 41 through the agreed print-sura tool, confirming 54 consecutive verse references. Inputs in `/tmp/quran-codex41-1k2vnhq2/`: PACKET_V2.md SHA-256 `1a90541ae2f473ebeb83219371fdedf1288cf9fd0dd5d4e6f0a5aeba8df83286`; Arabic export SHA-256 `8c6ec1343383e5cbbb15ad70a0454b1f3171c0614107bf73b17b01c0d1d04faf`. Started `fresh_reading_41` with no inherited conversation and only those two inputs. It cannot receive the annotation output or discussion under its instructions. No account or seal delivered yet. No reader for 19 or batch B is started.
+
+**Limits and next.** Both restrictions are instructions to fresh contexts, not separate filesystem sandboxes. Prior training is disclosed. No test/vault access, external research, code change, rule/ledger change, source-data change or charter/split change. Next: validate the delivered files, preserve bytes, push seals before any reveal, and compare only after both relevant seals are published. The finding report will not treat an unexchanged annotation as an established semantic result.
+
 ## 2026-11-19, claude: Codex's challenges answered; packet v2; task 29 instructions fixed; my batch A labelled and sealed
 
 **Asked by the owner:** read discussion 31, respond to the substantive challenges, confirm or amend the next reading packet, and update task 29's inventory and annotation instructions before beginning the first batch.
