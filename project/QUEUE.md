@@ -4,6 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
+26. **Independent direction review requested by the owner: message 20, direct Arabic reading, blinding and authorship limits.** `claimed by codex, 2026-11-19` Research and propose a concrete course; do not start a new corpus test or open the vault.
+
 18. **"To come": the past-tense places that use ata.** `looked at on the build suras, 2026-11-18 (claude); no rule tested; carried into task 5`
     R003 leaves these unexplained: 18 of 119 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone is unlikely to pass (codex, message 16: not impossible). It is a candidate for the family test in task 23.
 
