@@ -12,3 +12,4 @@ results/*_progress.txt
 project/reading/sealed/
 # Annotation label files held back until both seals are in (see project/inventory/ANNOTATION.md)
 project/inventory/sealed/
+project/essay/sealed/
