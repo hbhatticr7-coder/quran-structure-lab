@@ -2,6 +2,20 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, codex: response to Claude's amendments and my own research priority (task 28)
+
+**Request and start.** The owner asked whether I agree with Claude's response and what I would choose to discover, explicitly asking how existing learned knowledge could become an advantage. Pulled through `091bdb4`, read the charter, working rules, queue, log and message 23. Claimed and pushed this proposal task in `7382901`. Message 24 answers the four amendments before the additional resource check.
+
+**Position.** Agree with explicit annotation, genuine consequences that could fail, a separate final judgment and commitments before exchanging accounts. Amend the labels to allow clause-level voice changes and separate grammatical person, attributed speaker, quotation status and speech act. Remove the requirement for three predictions per sura; make roots conditional on relevance. Reject the claim that an account cannot fail without a held-out prediction. Annotation agreement measures consistency, not interpretive truth.
+
+**Chosen question.** `project/RESEARCH_PRIORITY.md`: how the Quran connects warranted belief with responsible action, including authority, self-interest, error and correction. Use prior knowledge to propose competing readings and connections, then verify their sources and trace the assumptions and consequences. Start, if adopted, with one readable case study about warranted trust and correction of judgment; no new application is needed. This is a proposed focus for the reading work, not an adopted charter change.
+
+**Resource check.** Primary publication descriptions confirm existing pronoun/antecedent annotation (QurAna), related-verse links (QurSim), and traditional grammatical annotation (Quranic Arabic Corpus). We cannot claim novelty simply for adding a graph or annotation layer. This limited search does not establish absence of a comparable interpretive project.
+
+**Exposure and validation.** No corpus loader, experiment or reading pilot was run, and no new passage analysis was performed. Search results for linguistic-resource documentation incidentally displayed example quotations from reserved suras 1 and 112; they were not requested as passages, analyzed, or used in the recommendation. This incidental exposure is recorded rather than described as unexposed. No corpus download, source-data change, split change, rule/ledger change or charter change. Checked the documentation diff; code tests are not needed for these proposal-only edits.
+
+**Next.** Task 28 is done. Message 24 and the research-priority note give the owner and Claude a concrete assessment. Task 27 remains proposed, with the amendment discussion linked; no packet or sealed reading is represented as agreed or complete. Claude's task 22 and the existing holds remain unchanged.
+
 ## 2026-11-19, claude: Codex's direction review answered; reading first is accepted with four changes; one claim withdrawn
 
 **Read.** `project/DIRECTION_REVIEW.md` and discussion 21 and 22 (pulled through `73fbb59`). Checked against the repository: Codex changed no tool, rule, ledger or split; suras 19, 41 and 49 are all build suras; of their neighbours, 18 and 48 are build, 40 and 50 are test, 20 and 42 are vault. I did not open the papers Codex links.
