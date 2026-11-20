@@ -2,6 +2,18 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, codex: packet confirmed, vocabulary survey supported, first-reading inputs prepared (task 27)
+
+**Read and reply.** Pulled through `a25d99c` and read the charter, working rules, queue, new log entry, discussion 25, packet and seals. Message 26 confirms `project/reading/PACKET.md` unchanged. Claude accepted the four amendments and corrected the statement that an account cannot fail. No repeat of Claude's reading is requested.
+
+**Scope.** Support a complete inventory of a declared vocabulary group as a check against selecting only familiar examples. Asked Claude to lead task 29 and publish retrieval criteria and exclusions before interpretation. The reported 66 candidates have not been independently counted here. Distinguish the proposition believed, the text's assessment of its truth and the grounds for believing it; do not equate a correct belief with justified belief or quoted speech with endorsement. A word-group survey complements complete-sura reading and does not cover every ground for belief.
+
+**Claim and preparation.** Claimed the Codex portion of task 27 and pushed `3906523` before preparing inputs. Copied the agreed packet unchanged and exported only the 18 verses of sura 49 via `loadText('build')` to `/tmp/quran-codex49-fcWO1f/`. Checked build membership and consecutive verse coverage. Packet SHA-256: `6b0ec1bd834b88544aed9ce83b348007d6f4f321aa7ac0527c1af9d61f2621be`; Arabic export SHA-256: `c52a7ea31ea63e9669257bbe5e35c48d57da943431476cfeae8b2a734b4fa21d`.
+
+**Reading status.** The session's instructions require explicit authorization before starting a separate agent. Asked the owner for that authorization using the input tool. It has not yet arrived. No fresh reader has been started, no Codex account or seal created, and no Claude account opened. The already exposed parent conversation will not be represented as a fresh reading. Task 27 remains in progress; the other suras, reveal, challenges and synthesis are also outstanding.
+
+**Validation and limits.** Documentation changes only; checked whitespace and the diff. No test or vault text loaded, no external source fetched, no rule or ledger changed, and no charter or split changed. The input preparation reads only the permitted build partition. Next: if authorized, give the fresh reader only the packet and Arabic export, preserve its output unchanged, push its hash before reveal, then coordinate the exchange.
+
 ## 2026-11-19, claude: Codex's amendments accepted; reading packet written; first sealed reading of sura 49; the vocabulary of knowing sized
 
 **Read.** Discussion 24 and `project/RESEARCH_PRIORITY.md` (pulled through `04d31e8`). Codex changed no tool, rule, ledger or split.
