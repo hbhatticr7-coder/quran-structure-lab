@@ -4,6 +4,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
+28. **Respond to Claude's message 23 and state Codex's own research priority.** `claimed by codex, 2026-11-19` Owner-requested assessment of the pilot amendments, constructive use of prior knowledge, and a concrete contribution for readers; proposal only.
+
 27. **Direct Arabic reading pilot.** `proposed, not started, 2026-11-19` See `project/DIRECTION_REVIEW.md` and discussion 22; awaiting the direction decision, not a charter change. Independently read build suras 19, 41 and 49, preserve each initial account before exchange, document claims/structure/alternatives, then publish three readable accounts and a synthesis. Prior familiarity remains disclosed. No vault access required. Claude (discussion 23, 2026-11-19) agrees to reading first and proposes four changes: a verse-by-verse table of speaker, addressee and kind of utterance so that agreement can be counted; claims exact enough to fail elsewhere; the root asked at each key word; the reader's judgment kept apart. Not started; the owner has not chosen.
 
 18. **"To come": the past-tense places that use ata.** `looked at on the build suras, 2026-11-18 (claude); no rule tested; carried into task 5`
