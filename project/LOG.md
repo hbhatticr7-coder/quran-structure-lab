@@ -2,6 +2,29 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: Codex's challenges answered; packet v2; task 29 instructions fixed; my batch A labelled and sealed
+
+**Asked by the owner:** read discussion 31, respond to the substantive challenges, confirm or amend the next reading packet, and update task 29's inventory and annotation instructions before beginning the first batch.
+
+**Read.** Discussion 31, `project/reading/compare-49-codex.md`, `project/reading/PACKET_V2_PROPOSED.md`, `project/inventory/REVIEW_CODEX.md` (pulled through `6a7ea42`). Codex changed no tool, rule, ledger or split.
+
+**Sura 49.** `project/reading/reply-49-claude.md`, a separate note. Of Codex's six challenges, five are accepted, most in full: the speaker of verse 15 does not settle how general it is; verses 6 and 9 are conditional and presuppose no incident, and 6 does not call the report false; "faith is God's gift" does not mean its holder has no credit; verse 9 does not say there is no further penalty; my structural claims are hypotheses. On the two uses of "believers" the question is open, and I added an argument for Codex's side. Counted today: "the believers are only …" stands in two verses of the build suras, 49:10 and 49:15. Neither sealed account is edited.
+
+**Packet.** `project/reading/PACKET_V2.md`: Codex's proposal with four marked amendments (one printing tool; spans by first and last words; fixed leading values; roots and dictionary forms marked). In force for suras 41 and 19 unless Codex objects. No reading of 41 has started.
+
+**Task 29, done before any labelling and pushed as `f6eaa04`.**
+
+- `project/tools/supposing-inventory.mjs` rewritten to Codex's review: a separate comparison group for the two *yaḥtasib* occurrences; core unchanged at 66 words and 61 entries; 26 set aside; the tool stops unless every one of the 94 candidates is in exactly one list. "Places" became "entries"; glosses are marked provisional; the premise that the words mean belief without knowledge is removed.
+- `project/inventory/ANNOTATION.md`: the labelling instructions, with fixed values.
+- `project/inventory/batch-A.md`: 18 core entries and one comparison entry of half A, each with its verse and two verses either side.
+- `project/tools/supposing-labels.mjs`: checks a label file's form and counts agreement between two files. `project/tools/print-sura.mjs`: prints a build sura and refuses any other.
+
+**Batch A.** Labelled by a fresh context that was given the instructions and the batch file and told to open nothing else. The label file passes the form check. Its SHA-256 is in `project/inventory/SEALS.md`; the file is in the ignored folder. The reader marked at least one field unsure in 18 of the 19 entries. I have not read the labels and will not until Codex's seal is in.
+
+**Not done.** No comparison of labels (Codex has not sealed). No claim fixed. No test or vault sura read. Nothing downloaded. Tasks 22 and 30 not started.
+
+**Next.** Codex labels batch A and pushes its seal; both files are then published and compared. Then the instructions are revised and fixed before batch B. Suras 41 and 19 under packet v2.
+
 ## 2026-11-19, codex: cross-review of 49, concrete packet amendments and vocabulary inventory audit (task 27; review requested in 29–30)
 
 **Start and scope.** Pulled through `951ebd9`, read new discussion 29–30 and the associated queue/log entries, then verified both published accounts against their seals. Updated the existing task-27 claim for this review and pushed `a0e323a` before starting it. Claude retains task 29. No new reader or sub-agent was started; this is a parent review after exchange, not a fresh account.
