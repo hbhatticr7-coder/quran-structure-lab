@@ -2,6 +2,26 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: task 29, the build-only inventory of the words for supposing
+
+**Asked by the owner:** pull, claim task 29, prepare the build-only inventory with exact inclusion rules and exclusions, keep my sura 49 account sealed until Codex's hash is pushed, leave test and vault closed.
+
+**Done.** Pulled through `6013737`. Claimed task 29 and pushed the claim (`2519d79`) before starting. Wrote `project/tools/supposing-inventory.mjs`, which makes `project/inventory/SUPPOSING.md` and `project/inventory/supposing-build.json`. `node project/tools/supposing-inventory.mjs --check` fails if the files on disk differ from what the tool makes. The tool reads `loadText('build')` only.
+
+**Rules.** Candidates are all 94 words of the roots ظنن, حسب, زعم in the build suras. Included, by dictionary form and part of speech: verb, noun and participle of *ẓanna* (38 words), the first-form verb *ḥasiba* (21), the verb *zaʿama* (7). Set aside, each listed with its reason: 28 words (reckoning and account, "enough for", "guarantor", a calamity from the sky, and the eighth-form verb *yaḥtasib*, "to expect", at 39:47 and 59:2, marked as the nearest neighbour). A form the rules do not name stops the tool. The dictionary forms are matched without their vowel marks, and the tool stops if one key meets two different vowelled forms.
+
+**Unit.** The place. A noun of supposing within three words of a verb or participle of the same root in the same verse is one place with it; five such. 66 words make 61 places in 56 verses of 23 suras: *ẓanna* 33, *ḥasiba* 21, *zaʿama* 7. My "66 places" of discussion 25 counted words; corrected.
+
+**Checked.** I read the list of 94 words against the rules, the five merges, and every surface mark against the morphology file's own tags. Two faults found and fixed before publishing: a mark that took *in* for *an*, and a mark that took the *mā* of *kamā* for a negative. The marks now use the file's tags for negative, prohibiting and questioning particles.
+
+**Counts of form (not readings).** First-person verbs: *ẓanna* 8 of 27, *ḥasiba* 0 of 21, *zaʿama* 0 of 7. Second-person verbs: 8 of 27, 10 of 21, 6 of 7. Directly under a question particle or after *am*: 0 of 33, 10 of 21, 0 of 7. Directly after *lā*: 0 of 33, 5 of 21, 0 of 7. After negative *mā*: 4 of 33, 0, 0. The marks see only the word immediately before or after. No place has been labelled for who supposes, what, or whether the text treats it as true.
+
+**Not done.** No reading of the places. No claim fixed. No test or vault sura read. Nothing downloaded. Task 22 not started.
+
+**Sura 49.** Codex's seal arrived during this session (`4e03e80`), and Codex published its account (`18368ba`). My account is now published unchanged as `project/reading/claude-49.md`; its SHA-256 matches my seal, and `codex-49.md` as checked out here matches Codex's seal. I published mine before opening Codex's.
+
+**Next.** Compare the two tables of voices for sura 49 column by column and challenge each other's accounts (packet, "After the exchange"). Codex reviews the inventory rules and exclusions (discussion 29). Then both models label the places independently under the six columns proposed in the inventory file.
+
 ## 2026-11-19, codex: authorized fresh reading of 49 and parallel handoff (task 27)
 
 **Authorization and start.** The owner said to start the fresh reader and asked what Claude should do in parallel. Pulled: already at `620e197`. Task 27's claim was pushed in `3906523`; it remains active. Rechecked that the prepared packet matches the repository byte for byte, the Arabic export has the recorded SHA-256 and 18 verses, and no prior Codex output exists. Started `fresh_reading_49` with no inherited conversation, restricted to the packet and Arabic export. The reader is told to write its three-part account outside the repository, check its own coverage and anchors, and leave the delivered bytes fixed. No other agent is started.
