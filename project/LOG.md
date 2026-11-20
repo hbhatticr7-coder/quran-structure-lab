@@ -2,6 +2,24 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-20, claude: batch A revealed and compared; sura 41 read, sealed and published; essay terms proposed
+
+**Asked by the owner:** Codex recommends that each model writes a readable essay after the three-sura pilot, on what kind of person these passages seek to form and how their language and organization serve that, with a substantive argument, the strongest difficult passage and an alternative explanation, and conclusions limited to the passages examined; then the essays are exchanged and challenged. Put that deliverable first; add annotation or tooling only where a specific unresolved question needs it.
+
+**Read.** Discussion 33 to 36, `project/FINDINGS.md`, `project/reading/second-pass-49-6.md` (by title and Codex's summary only), Codex's log entry of today. Pulled through `e297e64`.
+
+**Batch A.** Codex's seal was in, so `project/inventory/labels/claude-A.json` is published unchanged and matches its seal. `project/inventory/compare-A-claude.md` gives the counts and what each difference turns on: reporter, holder kind, attitude and grouping 19 of 19; scope 18; truth 14; grounds 16. Both files find the holder's grounds unreported in 15 of 18 core entries, and the text's own verdict given in 9. Five changes to the instructions are proposed and not applied. Batch B is held unless an essay question needs it.
+
+**Sura 41.** A fresh context was given `PACKET_V2.md` (SHA-256 `1a90541ae2f473ebeb83219371fdedf1288cf9fd0dd5d4e6f0a5aeba8df83286`) and the printed text (`8c6ec1343383e5cbbb15ad70a0454b1f3171c0614107bf73b17b01c0d1d04faf`), the same bytes as Codex's reader. Its file, 38,699 bytes, was copied unchanged to the ignored folder; SHA-256 `c693a547cf0166c3d84762683a8d87380c6113988bbc185e888f1d14b67b23ab`; seal pushed as `614c573`, then published unchanged as `project/reading/claude-41.md` in `cd0faf9`. The reader reports 90 spans, an account of 1,174 words, and its own check with no fault left. It opened only the two inputs. It reports that its environment showed it the one-line index of this project's stored notes (not the notes). It first wrote the Arabic from the displayed text and replaced all quotations with the file's characters by script before delivery. `reading-check.mjs 41`: 233 of 235 Arabic strings exact, the other two being the marked root and form; 204 of 204 table quotations stand in a verse their row names.
+
+**Sura 19.** A second fresh context is reading it from the same packet and the printed text (`4b680e01f879729b523c3d858d61c6e7d3ba61a342d136be043888fbfd37a309`). Not delivered at the time of this entry.
+
+**Essay.** Terms proposed in discussion 37. I read the Arabic of 41 and 19 myself in this context and began a private draft in the ignored folder `project/essay/sealed/`. It is not sealed and will be revised after the 41 and 19 exchange. `project/tools/quote.mjs` fills Arabic into a text from the project's copy by verse and word number, build suras only, so an essay retypes nothing.
+
+**Not done.** No comparison of 41 (Codex's account is not yet published). No reading of Codex's 41. No change to `ANNOTATION.md`. No batch B. No test or vault sura read. Nothing downloaded; no commentary or dictionary opened. Tasks 22 and 30 not started.
+
+**Next.** Seal 19 when delivered. Compare 41 when Codex publishes. Finish and seal the essay after both first accounts of 19 are published.
+
 ## 2026-11-20, codex: remaining first reading and independent pilot essay
 
 **Scope and claim.** The owner asked Codex to proceed while Claude works in parallel on a readable pilot essay. Read PROJECT.md and AGENTS.md fully, pulled through `753c9c1`, and read the queue, latest log and discussion. Claude's batch-A reveal/comparison arrived; their semantic content has not yet been opened here. Task-27 claim `6ec6e8e` was pushed before starting the remaining 19 reading or essay. Discussion 38 accepts Claude's essay terms in 37 and coordinates independently written essays on what kind of person these passages seek to form, with knowledge and responsibility as one focus. The source scope remains build suras 19, 41 and 49; no charter change.
