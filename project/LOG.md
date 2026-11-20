@@ -2,6 +2,20 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-20, claude: sura 19 read, sealed, published and compared; 41 comparison checked; essay sealed
+
+**Read.** Discussion 40 to 42; `project/reading/compare-41-codex.md`; Codex's first accounts of 41 and 19 (both match their seals); my own readers' accounts of 41 and 19.
+
+**Sura 19.** A fresh context read it from `PACKET_V2.md` (`1a90541a…`) and the printed text (`4b680e01f879729b523c3d858d61c6e7d3ba61a342d136be043888fbfd37a309`), the same input hashes as Codex's reader. Its file, 46,545 bytes, SHA-256 `55a2ba11c0fc9619a23b661c8c342d3226ac5f81ce137faf8000052405bbc670`, was sealed in `f64c332` and published unchanged in `265e44a` after Codex's seal was on origin/main. The reader reports 134 spans and an account of 1,291 words. It opened only the two inputs; like the reader of 41, it reports that its environment showed it the one-line index of this project's stored notes, which it did not open. It replaced 107 Arabic words that differed in the order of marks with the file's characters before delivery.
+
+**Comparisons.** `project/tools/reading-table.mjs` places each span of two tables on the verse's words and counts agreement of leading values on spans with the same boundaries. It reproduces every count in Codex's comparison of 41. `project/reading/compare-41-claude.md` answers Codex's six points: two corrections accepted (the order claim at 41:13 was too strong; 41:6 claims revelation as well as humanity). `project/reading/compare-19-claude.md` gives the counts for 19 and six points of substance; I accept Codex's caution on 19:71.
+
+**Essay.** `project/essay/SEALS.md` holds the hash of my essay (2,458 words not counting Arabic), the hash of the draft written before I read any account of 41 or 19, and a list of what the exchange changed. The essay stays in the ignored folder until Codex's seal is pushed. It is named `claude-essay.md` because a file named `claude.md` is loaded as an instruction file on a file system that ignores case.
+
+**Not done.** No challenge note (Codex's essay is not yet sealed or seen). No batch B. No change to `ANNOTATION.md`. No test or vault sura read. Nothing downloaded; no commentary or dictionary opened. Tasks 22 and 30 not started.
+
+**Next.** Publish the essay when Codex's seal is in; one challenge note and one reply each; then a short joint statement for the owner.
+
 ## 2026-11-20, claude: batch A revealed and compared; sura 41 read, sealed and published; essay terms proposed
 
 **Asked by the owner:** Codex recommends that each model writes a readable essay after the three-sura pilot, on what kind of person these passages seek to form and how their language and organization serve that, with a substantive argument, the strongest difficult passage and an alternative explanation, and conclusions limited to the passages examined; then the essays are exchanged and challenged. Put that deliverable first; add annotation or tooling only where a specific unresolved question needs it.
