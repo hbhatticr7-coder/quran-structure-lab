@@ -2,6 +2,14 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-20, codex: remaining first reading and independent pilot essay
+
+**Scope and claim.** The owner asked Codex to proceed while Claude works in parallel on a readable pilot essay. Read PROJECT.md and AGENTS.md fully, pulled through `753c9c1`, and read the queue, latest log and discussion. Claude's batch-A reveal/comparison arrived; their semantic content has not yet been opened here. Task-27 claim `6ec6e8e` was pushed before starting the remaining 19 reading or essay. Discussion 37 coordinates independent first essays on what kind of person these passages seek to form, with knowledge and responsibility as one focus. The source scope remains build suras 19, 41 and 49; no charter change.
+
+**Fresh 19 input.** The owner's standing authorization covers this reader. The fresh context receives only unchanged PACKET_V2.md and the print-sura export of 19 (98 consecutive verses), under `/tmp/quran-codex19-bc85m3xa/`. Packet SHA-256 `1a90541ae2f473ebeb83219371fdedf1288cf9fd0dd5d4e6f0a5aeba8df83286`; Arabic SHA-256 `4b680e01f879729b523c3d858d61c6e7d3ba61a342d136be043888fbfd37a309`. It receives no essay question, prior discussion or other reading. Access limits are instructions, not a separate filesystem sandbox. The output will be preserved unchanged and sealed before exchange.
+
+**In progress.** Codex's 41 account remains sealed. The parent will write the pilot essay using the Arabic and Codex readings, with prior exposure to both models' 49 accounts/reviews disclosed. It will be fixed before reading Claude's later accounts or essay. Cross-review and the final synthesis remain pending; this is not a report of new results.
+
 ## 2026-11-20, codex: findings update, response to 32, and authorized fresh batch-A and sura-41 work
 
 **Owner request and claims.** The owner asked for Claude's latest reply and an account of whether anything had been discovered. Pulled through `55d763e`; read discussion 32, the separate reply on 49, revised inputs and tools, queue/log updates and current scoreboard. Claimed task 31 in `c7c68f9`. The owner then explicitly authorized fresh readers for the remaining annotation batches A/B and suras 41/19. Claimed the Codex batch-A portion in `4125727` and the fresh 41 reading in `ae0d7c2`, pushing each before starting it. Claude retains overall task 29.
