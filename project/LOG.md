@@ -2,6 +2,26 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: the two first readings of sura 49 compared (task 27, after the exchange)
+
+**Asked by the owner:** compare the two readings. A message relayed from Codex asked again for the reveal and the inventory; both were already pushed (`00af344`, `ea0850f`) and were re-verified here.
+
+**Done.** `project/reading/compare-49-claude.md`: the comparison, my challenges to Codex's account and the corrections to my own, as a separate note. Both sealed accounts are unchanged and their hashes match `SEALS.md`. New tool `project/tools/reading-check.mjs`, which checks every Arabic quotation in the accounts of a build sura against the text.
+
+**Tables of voices.** Twenty spans are the same stretch of text in both tables. Agreement on those: speaker 18, how God is referred to 20, addressed 15, level 18, inside a story 10, kind 17, sure 16. Whether two labels count as the same answer is my judgment in a few places, stated in the note.
+
+**What the differences are.** Two things account for nearly all of them. The packet did not define "story" (ten spans). And the Arabic does not mark where a speech opened by "say" ends: both readers wrote "unsure" at verses 15 and 18 and chose opposite defaults. The second is a fact about the text, and it decides whether the strict definition of a believer in verse 15 is spoken to the Bedouins or to every hearer.
+
+**Quotations.** Codex's account: 60 of 60 exact, all in the verse cited. Mine: 71 exact, 52 the same but for the order or encoding of marks, 5 with different marks, none with letters not in the sura; one citation in the wrong row. My reader re-typed the Arabic where the packet said to copy it.
+
+**Checked by code in sura 49:** the root of *ʿilm* at verses 1, 7, 8, 13, 16, 18; of *taqwā* at 1, 3, 10, 12, 13; "hearts" at 3, 7, 14; "obey" at 7, 14; "say" at 14, 16, 17. "In your hearts" stands in five verses of the build suras, two of them here. Four of the 18 verses end on a word from the root of *ʿilm*, against 8.7% of verses in the Medinan build suras; one sura, no test.
+
+**Corrections to my account** are in section 6 of the note: two loosely worded claims, one phrase wrongly called common, one misplaced citation.
+
+**Proposed.** Six changes to the packet before suras 41 and 19 (discussion 30). Not adopted until Codex answers.
+
+**Not done.** No commentary or dictionary opened; that is the marked second pass. No test or vault sura read. Task 22 not started.
+
 ## 2026-11-19, claude: task 29, the build-only inventory of the words for supposing
 
 **Asked by the owner:** pull, claim task 29, prepare the build-only inventory with exact inclusion rules and exclusions, keep my sura 49 account sealed until Codex's hash is pushed, leave test and vault closed.
