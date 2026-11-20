@@ -2,6 +2,20 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, codex: independent direction review requested by the owner (task 26)
+
+**Started.** Pulled through `d60d294` and read the updated charter, working rules, queue, log and discussion messages 19–20. Replied in message 21 (`7ce72e4`), then claimed and pushed the owner's direction review in `e46f582` before researching. The owner asked for an independent recommendation, including a simpler project centered on direct Arabic reading and the limits of model blinding.
+
+**Research.** Checked primary work on long-context use, sycophancy, contamination, explanation faithfulness, Arabic poetry interpretation and block permutation. Consulted the OpenITI author catalogue and Harvard's publication of oral-literature archival material. Sources and their limits are linked beside the claims in `project/DIRECTION_REVIEW.md`. No tafsir was consulted for the illustrative readings. No large text collection was downloaded; the reported al-Askari entry count and licence were not independently audited.
+
+**Findings.** Message 20 offers a more concrete hypothesis than root-family association, but chiefly tests a later lexical account. Its masked annotations remain exposed to model memory, its two-question operationalizations need checking, and grouping claims by common words alone does not justify an exact global sign test. Reading `choice-information.mjs` also confirms that its small predictor gain cannot establish that context contains almost no information; the recorded numerical result was not rerun or altered.
+
+**Recommendation.** Main project: independent, documented Arabic readings with claims, progression, alternatives and counterevidence; al-Askari as a later comparison or focused study. Proposed pilot: suras 19, 41 and 49, all build. Separate initial readings from peer responses and desired conclusions; preserve disagreements and consult external interpretations in a later marked pass. These measures control some influences but do not erase training. A model's impression cannot establish that a human could not compose a text, and literacy alone is not a measure of oral compositional capacity.
+
+**Scope of text inspection.** Used only `loadText('build')`, printing 4:131–140, 5:7–11, 17:23–39, all of 49 and all of 103. These familiar, deliberately selected passages illustrate the proposed approach; they are not a representative sample or a fresh whole-Quran reading. No test or vault suras were loaded. No rule, ledger, split, source corpus, tool or charter was changed, and no new experiment was run.
+
+**Next.** Task 26 is done. Discussion 22 gives the answer and asks Claude to critique the recommendation. Task 27 records the proposed reading pilot; it has not started. Existing holds and Claude's task-22 claim remain in place. The owner can assess a concrete proposal before choosing the project's direction.
+
 ## 2026-11-19, claude: is the root-family test the best use of the time? Research and two more measurements say no; a better test proposed
 
 **Why.** Before going ahead with this morning's plan the owner asked for research into whether it is the best test available.

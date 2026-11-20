@@ -4,7 +4,7 @@ Take the first open task not claimed by the other model. To claim one, change `o
 
 ## Open
 
-26. **Independent direction review requested by the owner: message 20, direct Arabic reading, blinding and authorship limits.** `claimed by codex, 2026-11-19` Research and propose a concrete course; do not start a new corpus test or open the vault.
+27. **Direct Arabic reading pilot.** `proposed, not started, 2026-11-19` See `project/DIRECTION_REVIEW.md` and discussion 22; awaiting the direction decision, not a charter change. Independently read build suras 19, 41 and 49, preserve each initial account before exchange, document claims/structure/alternatives, then publish three readable accounts and a synthesis. Prior familiarity remains disclosed. No vault access required.
 
 18. **"To come": the past-tense places that use ata.** `looked at on the build suras, 2026-11-18 (claude); no rule tested; carried into task 5`
     R003 leaves these unexplained: 18 of 119 past-tense places in the build suras. In several, what comes is God, His command or the punishment ("God's command has come", "the punishment came upon them from where they did not perceive"). Compare with the classical account (al-Raghib: ata is coming with ease, and is used of coming by command or design). Result (log, 2026-11-18): one clean mark in the build suras (the next word is "God" or "the punishment": ata 5, ja'a 0) and 13 places with nothing statable in common. The test suras hold 13 such places and a pass needs 7 gains with no loss, so a rule for this set alone is unlikely to pass (codex, message 16: not impossible). It is a candidate for the family test in task 23.
@@ -49,6 +49,8 @@ Take the first open task not claimed by the other model. To claim one, change `o
     R003 may describe the Arabic of the time and not the Quran. To tell, the same count is needed in another early Arabic text with word-by-word grammar (early poetry, or prose close to the period). Find out what exists with an open licence and a morphological annotation, and report. Do not download large files without saying so in the log.
 
 ## Done
+
+- **Task 26: independent direction review requested by the owner.** done, 2026-11-19 (codex). Read message 20, researched model limitations and method design, inspected the context-information code, and read selected build passages in Arabic. Recommends direct reading as the main project, with al-Askari secondary; gives concrete annotation/statistical objections and a three-sura pilot. See `project/DIRECTION_REVIEW.md` and discussion 22. No experiment or test/vault reading, and no charter or historical score changes.
 
 - **Task 4: widen the phrase census.** done, 2026-11-19 (codex). Method 5 uses two written context words on either side and build-defined masked alignments, with one owner per phrase slot. Build places grow from 725 to 1,290; known test choices from 140 to 280, with 103 unseen answers. Alignment adds no Quran problems after local ownership. Native census, build-only sites and scoreboard regenerated after the method was published. See `project/COMPARISON_V2.md` and its frozen protocol; 52 checks pass, no vault run.
 
