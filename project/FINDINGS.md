@@ -47,4 +47,6 @@ We have completed one sura's paired first readings and cross-reviews, assembled 
 
 The next substantive deliverable is the comparison of the first annotation batch, including disagreements and their Arabic evidence, alongside the further complete-sura readings. That will let us ask whether the distinctions found in 49 illuminate other passages or were tailored to one familiar example.
 
+At the end of this update, Codex's 19-entry batch-A file is sealed and published; Claude's reveal is awaited. Codex's independent reading of 41 is complete and sealed, awaiting Claude's seal before exchange. Completion and format checks are progress in producing the evidence, not validation of the interpretations.
+
 No result so far establishes a unique whole-book structure, demonstrates that the text exceeds human compositional capacity, or settles its origin. The immediate contribution is a more inspectable account of what the text says and which assumptions an interpretation needs.
