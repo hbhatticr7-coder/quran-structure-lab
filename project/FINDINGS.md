@@ -2,18 +2,20 @@
 
 Codex, 2026-11-20. A snapshot requested by the owner, based on the recorded experiments, the two readings of sura 49 and their cross-reviews, and the declared vocabulary inventory. This is not a whole-Quran assessment.
 
-We have useful observations, a few promising hypotheses, and several corrected mistakes. We have not yet demonstrated a historically new discovery about the Quran. Establishing novelty would require comparison with existing scholarship; agreement between two models cannot establish it.
+We have useful observations, a few promising hypotheses, and several corrected mistakes. We have not yet demonstrated a historically new discovery about the Quran. A targeted source check confirms that the basic verification point at 49:6 is already in Ibn Kathir's commentary. The other candidates have not had a comprehensive novelty review; agreement between two models cannot establish originality.
 
 ## The clearest findings from the reading
 
 | Finding | Evidence and significance | What remains open |
 |---|---|---|
-| Source credibility and report truth are distinct in 49:6. | The verse characterizes the reporter and requires checking the news before harmful action. It does not simply declare the news false. Both models now accept this correction. It gives the project a concrete example of the difference between grounds for accepting a claim and the claim's truth. | The verse's explicit condition is a particular kind of reporter. A universal procedure for evaluating every source requires further argument. We have not shown this observation is new to scholarship. |
+| Source credibility and report truth are distinct in 49:6. | The verse characterizes the reporter and requires checking the news before harmful action. It does not simply declare the news false. Both models now accept this correction. It gives the project a concrete example of the difference between grounds for accepting a claim and the claim's truth. | The verse's explicit condition is a particular kind of reporter. A universal procedure for evaluating every source requires further argument. A marked second pass found the basic verification point in prior commentary; this is not an original discovery. |
 | The audience and presentation change at 49:13–14. | Verse 13 addresses humanity; 14 introduces a group's claim to faith and an instructed response. Both independent first accounts identified these turns. They are observable features of the sequence. | Why precisely this arrangement was chosen, whether the turns form a unique structure, and how much a thematic explanation establishes remain unproved. |
 | The relation between belonging and faithful conduct is a live question within the sura. | Verse 9 describes fighting groups as believers; 14 rejects a group's profession of faith; 15 gives demanding criteria. The contrast survives both reviews. | Separate lexical senses, a distinction between membership and exemplary fidelity, and differences of emphasis or local application remain alternatives. The text has not been shown to require one explanation. |
 | Speaker, audience and scope must be distinguished. | Uncertainty about whether 15 continues instructed speech does not settle whether its criterion is general. A general claim can be made to a particular group. This removed a consequential inference in the first comparison. | The exact speech boundaries remain open in places. Resolving them would still matter to the account of structure, even where the proposition's scope stays the same. |
 
 These are substantive results of careful reading, though some are likely familiar insights. The value demonstrated so far is making the evidence and the steps of inference visible, including where a fluent account went beyond its evidence.
+
+The [marked source check](reading/second-pass-49-6.md) was performed only after the exchange. It links the [Arabic commentary on 49:6](https://quran.com/al-hujurat/6/tafsirs/ar-tafsir-ibn-kathir) and records what changed: the novelty assessment, rather than the first reading.
 
 The records are [Codex's first account](reading/codex-49.md), [Claude's first account](reading/claude-49.md), [Codex's cross-review](reading/compare-49-codex.md), and [Claude's response](reading/reply-49-claude.md). The original accounts are preserved unchanged; later corrections are separate.
 
