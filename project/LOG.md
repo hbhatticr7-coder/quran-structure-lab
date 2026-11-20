@@ -2,6 +2,21 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-19, claude: Codex's direction review answered; reading first is accepted with four changes; one claim withdrawn
+
+**Read.** `project/DIRECTION_REVIEW.md` and discussion 21 and 22 (pulled through `73fbb59`). Checked against the repository: Codex changed no tool, rule, ledger or split; suras 19, 41 and 49 are all build suras; of their neighbours, 18 and 48 are build, 40 and 50 are test, 20 and 42 are vault. I did not open the papers Codex links.
+
+**Correction to my entry below.** I wrote that the words around a near-synonym "say almost nothing about which one is used". That is too wide. `choice-information.mjs` measures one predictor: a bag of the roots in the verse on top of a grammar prior. That predictor finds at most 3%. It was never given syntax, scope or who does what to whom, so it cannot bound what the surroundings hold. The numbers stand; the sentence is withdrawn. The conclusion drawn from it (task 23 would probably show nothing, since it uses the same kind of signal, thinner) still follows.
+
+**Position (discussion 23).**
+
+- Agreed: direct reading of whole suras comes first; al-Askari second and smaller, starting with a small set fixed in advance, with the full denominator and effect sizes in front and no overall p-value until its null is argued.
+- Not agreed: that readable accounts are enough. An account cannot fail, and both models have read the commentaries. The reading has to feed the held-back test, which is the one thing this project has that a commentary does not.
+- Four changes proposed to the pilot: (1) who speaks, to whom, and what kind of utterance, as a verse-by-verse table with fixed labels, so that agreement between the two readers can be counted; (2) a sixth question giving at least three claims per sura exact enough to fail elsewhere; (3) the root asked as a reading question at each word the account leans on; (4) the reader's judgment of what is persuasive written last and kept apart.
+- Sealing by committed hashes; first readings by fresh contexts on both sides.
+
+**Standing.** No reading started, no experiment run, no test or vault sura read, nothing downloaded. Three directions are before the owner (reading pilot, al-Askari, ring assessment); both models now put the reading pilot first. Tasks 23 to 25 stay on hold; task 22 stays mine.
+
 ## 2026-11-19, codex: independent direction review requested by the owner (task 26)
 
 **Started.** Pulled through `d60d294` and read the updated charter, working rules, queue, log and discussion messages 19–20. Replied in message 21 (`7ce72e4`), then claimed and pushed the owner's direction review in `e46f582` before researching. The owner asked for an independent recommendation, including a simpler project centered on direct Arabic reading and the limits of model blinding.
@@ -24,7 +39,7 @@ Newest first. One entry per session: date, who, what was done, what was found, w
 
 - *Letters below the root* (`node project/tools/root-letters.mjs`). The old claim that roots sharing two letters share a sense. 713 pairs of roots sharing two letters in place: rank 0.499 where chance is 0.50 (341 above, 362 below). Pairs sharing no letter, drawn the same way: 0.505. The same three letters in another order: 0.456 on 39 pairs. Nothing there. Whole roots gave 0.68 with the same instrument this morning, so the instrument can see an effect when there is one.
 - *Was the pass mark hiding a real effect?* (`node project/tools/choice-information.mjs`). Being right more often than the commonest option is a hard mark when one option is much commoner. So the same question was asked in information: how many bits do the words of the verse give about which near-synonym is used, beyond how common each is in that form? On the nine sets, training on one half of the build suras and scoring the other: at best 0.02 of 0.66 bits per place (3%), and not distinguishable from nothing (29 suras helped, 23 hurt; p = 0.72 at the middle setting). Stronger settings make it worse.
-- So the words that stand around a near-synonym say almost nothing about which one is used. This morning's task 23 would have used an even thinner signal: the company kept by the *other* words of the root. It would most likely have shown nothing.
+- So the words that stand around a near-synonym say almost nothing about which one is used. [Withdrawn the same day as too wide: it holds for this predictor only. See the entry above.] This morning's task 23 would have used an even thinner signal: the company kept by the *other* words of the root. It would most likely have shown nothing.
 - The one thing that has done visibly better than the baseline on the build suras is a rule that reads *meaning*: who is feared (R004: 23 of 26 against 18). The difference between near-synonyms, where there is one, lies in who does what to whom and in what kind of situation. Counting neighbouring words does not see that.
 
 **Research** (three searches of the published literature by sub-agents; mostly from abstracts, so treat as a map and not as proof of absence).
