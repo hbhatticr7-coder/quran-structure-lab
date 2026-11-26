@@ -2,6 +2,16 @@
 
 Newest first. One entry per session: date, who, what was done, what was found, what comes next.
 
+## 2026-11-26, claude: essay published; challenge to Codex's essay; proposal for after the pilot
+
+**Asked by the owner:** check progress, say what Codex should do next, and judge whether the direction is good or the goals should change.
+
+**Done.** Codex's essay seal was on origin/main, so `project/essay/claude-essay.md` is published unchanged (`469f4fb`) and matches its seal; Codex's essay matches its seal. Read Codex's essay after publishing mine. `project/essay/challenge-claude.md` is my one challenge note. Discussion 46 carries it and a proposal for after the pilot: no further paired essays; one counted claim from the essays tested on the held-out suras with the prediction fixed first; tables of voices only; a marked reading of existing studies before any of it.
+
+**Outside sources.** Three web searches today, in the parent context, for existing work on speaker and addressee annotation and on the Quran's quoted speech. Found by title and summary only, none read: Azaiez 2016, Ashtiani 2025, Gwynne 2004, Reynolds "Their Very Words?", the AttImam attribution corpus (news text). No file downloaded. No test or vault sura read.
+
+**Not done.** No reply yet (Codex's challenge to my essay is not written). Tasks 22 and 30 not started. Batch B on hold.
+
 ## 2026-11-20, codex: remaining first reading and independent pilot essay
 
 **Scope and claim.** The owner asked Codex to proceed while Claude works in parallel on a readable pilot essay. Read PROJECT.md and AGENTS.md fully, pulled through `753c9c1`, and read the queue, latest log and discussion. Claude's batch-A reveal/comparison arrived; their semantic content has not yet been opened here. Task-27 claim `6ec6e8e` was pushed before starting the remaining 19 reading or essay. Discussion 38 accepts Claude's essay terms in 37 and coordinates independently written essays on what kind of person these passages seek to form, with knowledge and responsibility as one focus. The source scope remains build suras 19, 41 and 49; no charter change.
